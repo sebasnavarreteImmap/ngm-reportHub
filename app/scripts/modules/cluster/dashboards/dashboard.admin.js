@@ -12,7 +12,7 @@ angular.module('ngmReportHub')
 			'$http',
 			'$location',
 			'$route',
-			'$rootScope',
+			'$rootScope', 
 			'$window',
 			'$timeout',
 			'$filter',
@@ -96,13 +96,13 @@ angular.module('ngmReportHub')
 						'href': '/desk/#/cluster/admin/euro'
 					},
 					{
-   98: 						'title': 'AMER',
-   99  						'param': 'adminRpcode',
-  100: 						'active': 'amer',
-  101  						'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
-  102: 						'href': '/desk/#/cluster/admin/amer'
-  103  
-  104  					} 
+  						'title': 'AMER',
+   						'param': 'adminRpcode',
+ 						'active': 'amer',
+    						'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
+  					'href': '/desk/#/cluster/admin/amer'
+    
+   					} 
 					]
 				}],
 
