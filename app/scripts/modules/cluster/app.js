@@ -327,7 +327,7 @@ angular
 			})
 
 			//AMER
-			.when('/cluster/admin/amer/',{
+			.when('/cluster/admin/amer',{
 				redirectTo:'/cluster/admin/amer/all/all/all/all/activity' + this.page.start_date() + '/' + this.page.end_date()
 			})
 			.when('/cluster/admin/amer/col',{
