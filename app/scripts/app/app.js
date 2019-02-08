@@ -9,6 +9,7 @@
 angular
 	.module('ngmReportHub', [
 		// vendor
+		'pascalprecht.translate',
 		'ngAnimate',
 		'ngCookies',
 		'ngResource',
@@ -54,7 +55,19 @@ angular
 		'ngm.widget.stats',
 		'ngm.widget.table'
 	])
-	.config([ '$routeProvider', '$locationProvider', '$compileProvider', function ( $routeProvider, $locationProvider, $compileProvider ) {
+	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
+
+		 $translateProvider.translations('en', {
+		    'LOGIN': 'LOGIN',
+		    'REGISTER': 'REGISTER'
+		  });
+
+		  $translateProvider.translations('es', {
+		    'LOGIN': 'INGRESAR',
+		    'REGISTER': 'REGISTRARSE'
+		  });
+
+		  $translateProvider.preferredLanguage('es');
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
 		// $locationProvider.html5Mode(true);
