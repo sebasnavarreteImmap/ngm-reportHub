@@ -114,14 +114,14 @@
 									<li align="right" class="teal z-depth-2"
 											ng-show="ngm.getUserName() === 'welcome' && ngm.style.home === '#/immap'">
 										<a class="white-text right" href="#/immap/login" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">lock_outline</i>{{LOGIN | translate}}</a>
+										<i class="material-icons smedium right">lock_outline</i>LOGIN</a>
 									</li>
 
 									<!-- user login -->
 									<li align="right" class="teal z-depth-2"
 											ng-show="ngm.getUserName() === 'welcome' && ngm.style.home !== '#/immap'">
 										<a class="white-text right" href="#/cluster/login" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">lock_outline</i>{{LOGIN | translate}}</a>
+										<i class="material-icons smedium right">lock_outline</i>LOGIN | translate</a>
 									</li>
 
 									<!-- user logout -->
@@ -545,7 +545,7 @@
 		<!--i18-->
 		<!--<scripts src="https://code.angularjs.org/1.4.8/i18n/angular-locale_es-co.js">-->
 
-				    <scripts src="../node_modules/angular/angular.min.js"></scripts>
+		<scripts src="../node_modules/angular/angular.min.js"></scripts>
 
 
 	    <scripts src="../node_modules/angular-translate/dist/angular-translate.min.js"></scripts>
