@@ -34,7 +34,7 @@ angular.module('ngm.widget.form.authentication', ['ngm.provider'])
 
         err: false,
 
-        date : new Date();
+        date : new Date(),
 
         user: ngmUser.get(),
 
