@@ -7,25 +7,12 @@
  * Main module of the application.
  */
 angular
-	.module('ngmCluster', ['pascalprecht.translate'])
-	.config([ '$routeProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $compileProvider, $translateProvider ) {
+	.module('ngmCluster', [])
+	.config([ '$routeProvider', '$compileProvider', function ( $routeProvider, $compileProvider) {
 
 		// https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.ufea9sjt1
 		$compileProvider.debugInfoEnabled( false );
 
-		  $translateProvider.translations('en', {
-    'LOGIN': 'LOGIN',
-    'REGISTER': 'REGISTER',
-    'PASSWORD': 'PASSWORD'
-  });
- 
-  $translateProvider.translations('es', {
-    'LOGIN': 'LOGIN',
-    'REGISTER': 'REGISTRO',
-    'PASSWORD': 'CONTRASEÑA'
-  });
- 
-  $translateProvider.preferredLanguage('en');
 
 		this.page = {
 			start_date: function() {
