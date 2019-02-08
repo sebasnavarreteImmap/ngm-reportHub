@@ -55,7 +55,7 @@ angular
 		'ngm.widget.stats',
 		'ngm.widget.table'
 	])
-	.config([ '$routeProvider', '$locationProvider', '$compileProvider' function ( $routeProvider, $locationProvider, $compileProvider ) {
+	.config([ '$routeProvider', '$locationProvider', '$compileProvider', function ( $routeProvider, $locationProvider, $compileProvider ) {
 
     /* $translateProvider.translations('en',{
      	"PASSWORD" : "PASSWORD",
