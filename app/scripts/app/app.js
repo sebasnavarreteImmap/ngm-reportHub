@@ -9,7 +9,7 @@
 angular
 	.module('ngmReportHub', [
 		// vendor
-		
+		'pascalprecht.translate',
 		'ngAnimate',
 		'ngCookies',
 		'ngResource',
@@ -55,9 +55,17 @@ angular
 		'ngm.widget.stats',
 		'ngm.widget.table'
 	])
-	.config([ '$routeProvider', '$locationProvider', '$compileProvider', function ( $routeProvider, $locationProvider, $compileProvider ) {
+	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
 
-
+      var en_translations = {
+    "language" : "Selected Language English",
+    "greeting" : "Welcome Dinesh" 
+  }
+  
+  var sp_translations = {
+    "language" : "Selected Language Spanish",
+    "greeting" : "Bienvenida Dinesh"  
+  }
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
 		// $locationProvider.html5Mode(true);
@@ -201,8 +209,10 @@ angular
 		});
 
 	}])
-	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser) {
+	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate) {
 
+
+     $translate.use('sp');
 		// ngm object
 		$scope.ngm = {
 

@@ -5,7 +5,7 @@
  * # LoginCtrl
  * Controller of the ngmReportHub
  */
-angular.module('ngmReportHub',)
+angular.module('ngmReportHub')
 	.controller('DashboardLoginCtrl', ['$scope', function ($scope) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
