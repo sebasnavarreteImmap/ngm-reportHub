@@ -19,7 +19,7 @@ angular
     'PASSWORD': 'PASSWORD'
   });
  
-  $translateProvider.translations('de', {
+  $translateProvider.translations('es', {
     'LOGIN': 'LOGIN',
     'REGISTER': 'REGISTRO',
     'PASSWORD': 'CONTRASEÑA'
