@@ -5,14 +5,29 @@
  * # LoginCtrl
  * Controller of the ngmReportHub
  */
-angular.module('ngmReportHub')
-	.controller('DashboardLoginCtrl', ['$scope', function ($scope,$translate) {
+angular.module('ngmReportHub',['pascalprecht.translate'])
+	.controller('DashboardLoginCtrl', ['$scope','$translate', function ($scope,$translate) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
 			'Karma'
 		];
 
+
+
+		  $translate.translations('en', {
+    'LOGIN': 'LOGIN',
+    'REGISTER': 'REGISTER',
+    'PASSWORD': 'PASSWORD'
+  });
+ 
+  $translate.translations('es', {
+    'LOGIN': 'LOGIN',
+    'REGISTER': 'REGISTRO',
+    'PASSWORD': 'CONTRASEÑA'
+  });
+ 
+  $translate.preferredLanguage('es');
 
 
 		// login object
