@@ -6,14 +6,14 @@
  * Controller of the ngmReportHub
  */
 angular.module('ngmReportHub',['pascalprecht.translate'])
-	.controller('DashboardLoginCtrl','$translateProvider', ['$scope', function ($scope,$translateProvider ) {
+	.controller('DashboardLoginCtrl', ['$scope','$translateProvider' function ($scope,$translateProvider ) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
 			'Karma'
 		];
 
-		
+
 		  $translateProvider.translations('en', {
     'LOGIN': 'LOGIN',
     'REGISTER': 'REGISTER',
