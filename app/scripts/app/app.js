@@ -57,15 +57,17 @@ angular
 	])
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
 
-      var en_translations = {
-    "PASSWORD" : "PASSWORD",
-    "REGISTER" : "REGISTER" 
-  }
+     $translateProvider.translations('en',{
+     	"PASSWORD" : "PASSWORD",
+       "REGISTER" : "REGISTER"  
+     });
   
-  var sp_translations = {
+  $translateProvider.translations('es',{
     "PASSWORD" : "CONTRASEÑA",
     "REGISTER" : "REGISTRO"  
-  }
+  });
+
+  $translateProvider.preferredLanguage('es');
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
 		// $locationProvider.html5Mode(true);
