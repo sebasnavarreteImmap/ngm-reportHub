@@ -58,13 +58,13 @@ angular
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
 
       var en_translations = {
-    "language" : "Selected Language English",
-    "greeting" : "Welcome Dinesh" 
+    "PASSWORD" : "PASSWORD",
+    "REGISTER" : "REGISTER" 
   }
   
   var sp_translations = {
-    "language" : "Selected Language Spanish",
-    "greeting" : "Bienvenida Dinesh"  
+    "PASSWORD" : "CONTRASEÑA",
+    "REGISTER" : "REGISTRO"  
   }
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
