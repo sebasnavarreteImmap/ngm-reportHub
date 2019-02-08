@@ -9,7 +9,7 @@
 angular
 	.module('ngmReportHub', [
 		// vendor
-	    
+	    'pascalprecht.translate',
 		'ngAnimate',
 		'ngCookies',
 		'ngResource',
@@ -55,9 +55,9 @@ angular
 		'ngm.widget.stats',
 		'ngm.widget.table'
 	])
-	.config([ '$routeProvider', '$locationProvider', '$compileProvider', function ( $routeProvider, $locationProvider, $compileProvider) {
+	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
 
-    /* $translateProvider.translations('en',{
+     $translateProvider.translations('en',{
      	"PASSWORD" : "PASSWORD",
        "REGISTER" : "REGISTER"  
      });
@@ -67,7 +67,7 @@ angular
     "REGISTER" : "REGISTRO"  
   });
 
-  $translateProvider.preferredLanguage('es');*/
+  $translateProvider.preferredLanguage('es');
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
 		// $locationProvider.html5Mode(true);
@@ -211,7 +211,7 @@ angular
 		});
 
 	}])
-	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser) {
+	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser) {
 
 
 		// ngm object
