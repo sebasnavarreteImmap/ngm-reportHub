@@ -7,7 +7,7 @@
  * Main module of the application.
  */
 angular
-	.module('ngmCluster')
+	.module('ngmCluster',[])
 	.config([ '$routeProvider', '$compileProvider', function ( $routeProvider, $compileProvider) {
 
 		// https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.ufea9sjt1
