@@ -304,7 +304,7 @@ angular
 		});
 
 	}])
-	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate) {
+	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate) {
    
 
 
@@ -343,6 +343,11 @@ angular
 
 			// dashboard footer
 			footer: false,
+
+			changeFunction : function ($key) {
+			  	console.log($key);
+			   $translate.preferredLanguage(key);
+			  },
 
 			// paint application
 			setApplication: function( app ) {
