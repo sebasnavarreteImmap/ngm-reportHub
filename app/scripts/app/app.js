@@ -57,8 +57,11 @@ angular
 	])
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
       
-   
+
      $translateProvider.translations('en',{
+     	"Welcome":"Welcome",
+     	"Welcome to ReportHub":"Welcome to ReportHub",
+     	"please LOGIN or REGISTER to continue":"please LOGIN or REGISTER to continue",
      	"LOGIN" : "LOGIN",
      	"USERNAME" : "USERNAME",
      	"PASSWORD" : "PASSWORD",
@@ -67,7 +70,6 @@ angular
        "Sign in" : "Sign in",
        "ORGANIZATION" : "ORGANIZATION",
        "Organization" : "Organization",
-
        "Country" : "Country",
        "Select Country" : "Select Country",
        "Select Organization" : "Select Organization",
@@ -79,7 +81,6 @@ angular
        "Nutrition" : "Nutrition",
        "Protection" : "Protection",
        "WASH" : "WASH",
-
        "Multi-Purpose Cash" : "Multi-Purpose Cash",
        "Next" : "Next",
        "CONTACT" : "CONTACT",
@@ -104,6 +105,9 @@ angular
      });
   
   $translateProvider.translations('es',{
+  	"Welcome":"Bienvenido",
+  	"Welcome to ReportHub": "Bienvenido a ReportHub",
+  	"please LOGIN or REGISTER to continue":"por favor INICIE SESIÓN o REGISTRESE para continuar",
   	"LOGIN" : "INICIO DE SESIÓN",
   	"USERNAME" : "NOMBRE DE USUARIO",
     "PASSWORD" : "CONTRASEÑA",
