@@ -455,6 +455,12 @@ angular
 
 			},
 
+
+			  changeLanguage : function ($key) {
+			  	console.log($key);
+			   // $translate.use(key);
+			  },
+
 			// user
 			getUser: function() {
 				// ngmUser
@@ -462,10 +468,6 @@ angular
 			},
 
 
-			  changeLanguage : function (key) {
-			  	console.log(key);
-			    $translate.use(key);
-			  },
 			// username
 			getUserName: function() {
 				// ngmUser
