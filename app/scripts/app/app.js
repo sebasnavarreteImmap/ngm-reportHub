@@ -346,7 +346,7 @@ angular
 
 			changeFunction : function ($key) {
 			  	console.log($key);
-			   $translate.preferredLanguage($key);
+			   $translate.use($key);
 			  },
 
 			// paint application
