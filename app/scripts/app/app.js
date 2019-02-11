@@ -310,10 +310,6 @@ angular
 		// ngm object
 		$scope.ngm = {
 
-			  changeLanguage : function (key) {
-			  	console.log(key);
-			    $translate.use(key);
-			  },
 
 			// app name
 			title: 'Welcome',
@@ -465,6 +461,11 @@ angular
 				return ngmUser.get();
 			},
 
+
+			  changeLanguage : function (key) {
+			  	console.log(key);
+			    $translate.use(key);
+			  },
 			// username
 			getUserName: function() {
 				// ngmUser
