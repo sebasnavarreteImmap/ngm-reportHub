@@ -36,12 +36,12 @@ angular.module('ngmReportHub')
 				title: {
 					'class': 'col s12 m12 l12 report-title',
 					style: 'color: ' + $scope.dashboard.ngm.style.defaultPrimaryColor,
-					title: 'Welcome'
+					title: '{{"Welcome" | translate}}'
 				},
 				subtitle: {
 					'class': 'col s12 m12 l12 report-subtitle',
 					html: true,
-					title: 'Welcome to ReportHub<span class="hide-on-med-and-down">, please LOGIN or REGISTER to continue</span>',
+					title: '{{"Welcome to ReportHub" | translate}}<span class="hide-on-med-and-down">, {{"please LOGIN or REGISTER to continue" | translate}}</span>',
 				}
 			},
 			rows: [{
