@@ -163,8 +163,6 @@ angular
   translateFunction = function($lang){
   	console.log($lang);
 
-  	$translateProvider.use($lang);
-
   }
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
@@ -309,11 +307,15 @@ angular
 		});
 
 	}])
-	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser) {
+	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate) {
 
-
+        
 		// ngm object
 		$scope.ngm = {
+
+			  changeLanguage : function (key) {
+			    $translate.use(key);
+			  },
 
 			// app name
 			title: 'Welcome',
