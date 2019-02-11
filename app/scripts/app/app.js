@@ -61,6 +61,7 @@ angular
      $translateProvider.translations('en',{
      	"Welcome":"Welcome",
      	"Welcome to ReportHub":"Welcome to ReportHub",
+     	"Register":"Register",
      	"please LOGIN or REGISTER to continue":"please LOGIN or REGISTER to continue",
      	"please register to continue":"please register to continue",
      	"LOGIN" : "LOGIN",
@@ -108,6 +109,7 @@ angular
   $translateProvider.translations('es',{
   	"Welcome":"Bienvenido",
   	"Welcome to ReportHub": "Bienvenido a ReportHub",
+  	"Register":"Registro",
   	"please LOGIN or REGISTER to continue":"por favor INICIE SESIÓN o REGISTRESE para continuar",
   	"please register to continue":"por favor registrese para continuar",
   	"LOGIN" : "INICIO DE SESIÓN",
