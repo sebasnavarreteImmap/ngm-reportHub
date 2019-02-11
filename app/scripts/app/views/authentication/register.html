@@ -81,8 +81,8 @@ li {
 	        	<i class="material-icons prefix country">person_pin</i>
 	        	<select id="ngm-country" 
 	        					ng-options="location.admin0pcode as location.admin0name for location in panel.adminRegion"
-	        					ng-model="panel.user.admin0pcode">{{'Select Country' | tranlate }}
-	        					<option value="">{{Select Country | translate}}</option>
+	        					ng-model="panel.user.admin0pcode">{{'Select Country' | translate }}
+	        					<option value="">{{'Select Country' | translate}}</option>
 	        					</select>
 					    <label for="ngm-country">{{'Country' | translate}}</label>
 	        </div>
@@ -97,18 +97,18 @@ li {
 					    	ng-select="panel.onOrganizationSelected()"
 					    	required>
 					      <option value="" disabled selected>{{'Select Sector' | translate}}</option>
-								<option value="cvwg">Multi-Purpose Cash</option>
-								<option value="agriculture">Agriculture</option>
+								<option value="cvwg">{{'Multi-Purpose Cash' | translate}}</option>
+								<option value="agriculture">{{'Agriculture' | translate</option>
 								<option value="cccm_esnfi">CCCM - Shelter</option>
-								<option value="education">Education</option>
+								<option value="education">{{'Education' | translate</option>
 					      <option value="eiewg">EiEWG</option>
 					      <option value="esnfi">ESNFI</option>
 					      <option value="fsac">FSAC</option>
-					      <option value="health">Health</option>
-					      <option value="nutrition">Nutrition</option>
-					      <option value="protection">Protection</option>
+					      <option value="health">{{'Health' | translate}}</option>
+					      <option value="nutrition">{{'Nutrition' | translate}}</option>
+					      <option value="protection">{{'Protection' | translate}}</option>
 					      <option value="rnr_chapter">R&R Chapter</option>
-					      <option value="wash">WASH</option>
+					      <option value="wash">{{'WASH' | translate}}</option>
 					    </select>
 					    <label for="ngm-cluster">Sector</label>
 	        </div>
@@ -127,12 +127,12 @@ li {
  				-->
 
 				<typeahead
-					label="Organization"
+					label="{{'Organization' | translate}} "
 					items="panel.organizations" 
 					prompt="" 
 					title="organization" 
 					subtitle="organization_name" 
-					model="panel.user.organization" on-select="panel.onOrganizationSelected()">Select Organization</typeahead>
+					model="panel.user.organization" on-select="panel.onOrganizationSelected()">{{'Select Organization' | translate}}</typeahead>
 
  				<div class="action center">
 					<button
