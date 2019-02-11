@@ -305,7 +305,13 @@ angular
 
 	}])
 	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate) {
+   
 
+
+       changeFunction = function ($key) {
+			  	//console.log($key);
+			   $translate.preferredLanguage(key);
+			  };
         
 		// ngm object
 		$scope.ngm = {
@@ -456,10 +462,7 @@ angular
 			},
 
 
-			  changeFunction : function ($key) {
-			  	//console.log($key);
-			   $translate.preferredLanguage(key);
-			  },
+			  
 
 			// user
 			getUser: function() {
