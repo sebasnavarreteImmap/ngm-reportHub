@@ -229,7 +229,7 @@ li {
 				<div class="card">
 					<img title="ReportHub Login Details" src="images/registration.png"/>
 				</div>
-				<h5 class="title">{{LOGIN DETAILS | translate}}</h5>
+				<h5 class="title">{{'LOGIN DETAILS' | translate}}</h5>
 			</div>
 
 			<form name="ngmLoginForm" class="col s12" novalidate>
@@ -241,7 +241,7 @@ li {
 							autofocus=""
 							ng-model="panel.user.username"
 							required>
-	          <label for="ngm-username">{{Username | translate}}</label>
+	          <label for="ngm-username">{{'Username' | translate}}</label>
 	        </div>
 	      </div>
 	      
@@ -251,7 +251,7 @@ li {
 	          <input id="ngm-password" type="password" class="validate"
 							ng-model="panel.user.password"
 							required>
-	          <label for="ngm-password">{{Password | translate}}</label>
+	          <label for="ngm-password">{{'Password' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -260,7 +260,7 @@ li {
 						id="login-back"
 						class="btn btn-large waves-effect waves-teal">
 							<i class="material-icons left">keyboard_arrow_left</i>
-							{{Back | translate}}
+							{{'Back' | translate}}
 					</div>
 					<div
 						id="login-next"
@@ -269,7 +269,7 @@ li {
 						class="btn btn-large waves-effect waves-teal"
 						ng-disabled="ngmLoginForm.$invalid">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{Next | translate}}
+							{{'Next' | translate}}
 					</div>
 					<div
 						id="login-register"
@@ -278,7 +278,7 @@ li {
 						ng-disabled="ngmLoginForm.$invalid"
 						ng-click="panel.register()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{Register | translate}}!
+							{{'Register' | translate}}!
 					</div>
 					<div class="action center">
 						<button
@@ -290,7 +290,7 @@ li {
 								ng-disabled="ngmLoginForm.$invalid"
 								ng-click="panel.register()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{Register | translate}}!
+							{{'Register' | translate}}!
 						</button>
 					</div>
 				</div>
@@ -307,7 +307,7 @@ li {
 				<div class="card">
 					<img title="iMMAP Programme" src="images/registration.png"/>
 				</div>
-				<h5 class="title">{{iMMAP PROGRAMME | translate}}</h5>
+				<h5 class="title">{{'iMMAP PROGRAMME' | translate}}</h5>
 			</div>
 
 			<form name="ngmProgrammeForm" class="col s12" novalidate>
@@ -318,10 +318,10 @@ li {
 	        	<i class="material-icons prefix cluster">recent_actors</i>
 					    <select id="ngm-programme"
         					ng-options="list.programme_id as list.programme_name for list in panel.programme"
-        					ng-model="panel.user.programme_id">{{Select Programme | translate}}
-        					<option value="" disabled selected>{{Select Programme | translate}}</option>
+        					ng-model="panel.user.programme_id">{{Select 'Programme' | translate}}
+        					<option value="" disabled selected>{{Select 'Programme' | translate}}</option>
         					</select>
-					    <label for="ngm-programme">{{Programme | translate}}</label>
+					    <label for="ngm-programme">{{'Programme' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -337,7 +337,7 @@ li {
 								    format="dd mmm, yyyy"
 								    select-years="15"
 								    max="{{ panel.user.contract_end_date }}"/>
-								<label for="ngm-contract-start-date">{{Contract Start Date | translate }}</label>
+								<label for="ngm-contract-start-date">{{'Contract Start Date' | translate }}</label>
 					</div>
 				</div>
 
@@ -353,7 +353,7 @@ li {
 								    format="dd mmm, yyyy"
 								    select-years="15"
 								    min="{{ panel.user.contract_start_date }}"/>
-								<label for="ngm-contract-end-date">{{Contract End Date | translate}}</label>
+								<label for="ngm-contract-end-date">{{'Contract End Date' | translate}}</label>
 					</div>
 				</div>
 
@@ -363,10 +363,10 @@ li {
 	        	<i class="material-icons prefix cluster">person_pin</i>
 					    <select id="ngm-duty-station"
         							ng-options="list.site_name as list.site_name for list in panel.dutyStations | filter: { admin0pcode: panel.user.admin0pcode } | orderBy:'site_name'"
-        							ng-model="panel.user.site_name">{{Select Duty Station | translate}}
+        							ng-model="panel.user.site_name">{{'Select Duty Station' | translate}}
         					<option value="" disabled selected>Select Station</option>
         					</select>
-					    <label for="ngm-duty-station">{{Duty Station | translate}}</label>
+					    <label for="ngm-duty-station">{{'Duty Station' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -378,7 +378,7 @@ li {
 	          				type="text"
 	          				class="validate"
 										ng-model="panel.user.profile">
-	          <label for="ngm-profile">{{Profile | translate}}</label>
+	          <label for="ngm-profile">{{'Profile' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -399,7 +399,7 @@ li {
 							id="programme-back"
 							class="btn btn-large waves-effect waves-teal">
 							<i class="material-icons left">keyboard_arrow_left</i>
-							{{Back | translate}}
+							{{'Back' | translate}}
 					</div>
 					<div
 							id="programme-register"
@@ -407,7 +407,7 @@ li {
 							ng-disabled="ngmProgrammeForm.$invalid"
 							ng-click="panel.register()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{Register | translate}}!
+							{{'Register' | translate}}!
 					</div>
 				</div>
 
