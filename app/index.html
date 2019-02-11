@@ -262,11 +262,18 @@
 										
 										<i class="material-icons smedium right">perm_phone_msg</i>{{'LANGUAGE'|translate}}
 										<ul>
-											<li ><a ng-click="ngm.changeFunction('en');">EN</a></li>
-											<li><a ng-click="ngm.changeFunction('es');">ES</li>
+											<li><a class="white-text right" ng-click="ngm.changeFunction('en');">EN</a></li>
+											<li><a class="white-text right" ng-click="ngm.changeFunction('es');">ES</li>
 										</ul>
 
 									</a>
+									</li>
+
+									<li  align="center" class="teal z-depth-2" 
+										ng-if="ngm.getUser().admin0pcode === 'AF'"
+										ng-show="ngm.getUser().organization.toLowerCase() === 'immap' || ngm.getUser().organization.toLowerCase() === 'who' || ngm.getUser().organization.toLowerCase() === 'dews'">
+										<a class="white-text right" href="#/who/" ng-click="ngm.toggleNavigationMenu();">
+										<i class="material-icons smedium right">bubble_chart</i>DEWS DASHBOARD</a>
 									</li>
 
 							</ul>
