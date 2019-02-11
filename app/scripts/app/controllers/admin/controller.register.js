@@ -35,7 +35,8 @@ angular.module('ngmReportHub')
 				title: {
 					'class': 'col s12 m12 l12 report-title truncate',
 					style: 'color: ' + $scope.dashboard.ngm.style.defaultPrimaryColor,
-					title: '{{"Register" | translate}}'
+					//title: '{{"Register" | translate}}'
+					title: $translate('Register')
 				},
 				subtitle: {
 					'class': 'col s12 m12 l12 report-subtitle',
