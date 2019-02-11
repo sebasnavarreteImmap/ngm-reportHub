@@ -59,6 +59,7 @@ angular
       
 
      $translateProvider.translations('en',{
+     	"LANGUAGE":"LANGUAGE",
      	"Welcome":"Welcome",
      	"Welcome to ReportHub":"Welcome to ReportHub",
      	"Register":"Register",
@@ -107,6 +108,7 @@ angular
      });
   
   $translateProvider.translations('es',{
+  	"LANGUAGE":"IDIOMA",
   	"Welcome":"Bienvenido",
   	"Welcome to ReportHub": "Bienvenido a ReportHub",
   	"Register":"Registro",
@@ -131,7 +133,7 @@ angular
     "Health" : "Salud",
     "Nutrition" : "Nutrición",
     "Protection" : "Protección",
-    "WASH" : "AGUA",
+    "WASH" : "WASH - Agua, Saneamiento e Higiene",
 
     "Next" : "Siguiente",
     "CONTACT" : "CONTACTO",
@@ -157,6 +159,13 @@ angular
   });
 
   $translateProvider.preferredLanguage('es');
+
+  translateFunction = function($lang){
+  	console.log($lang);
+
+  	$translateProvider.use($lang);
+
+  }
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
 		// $locationProvider.html5Mode(true);
