@@ -318,8 +318,8 @@ li {
 	        	<i class="material-icons prefix cluster">recent_actors</i>
 					    <select id="ngm-programme"
         					ng-options="list.programme_id as list.programme_name for list in panel.programme"
-        					ng-model="panel.user.programme_id">{{Select 'Programme' | translate}}
-        					<option value="" disabled selected>{{Select 'Programme' | translate}}</option>
+        					ng-model="panel.user.programme_id">{{'Select Programme' | translate}}
+        					<option value="" disabled selected>{{'Select Programme' | translate}}</option>
         					</select>
 					    <label for="ngm-programme">{{'Programme' | translate}}</label>
 	        </div>
