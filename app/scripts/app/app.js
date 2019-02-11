@@ -56,7 +56,8 @@ angular
 		'ngm.widget.table'
 	])
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
-
+      
+   
      $translateProvider.translations('en',{
      	"LOGIN" : "LOGIN",
      	"USERNAME" : "USERNAME",
@@ -65,6 +66,8 @@ angular
        "FORGOT PASSWORD" : "FORGOT PASSWORD",
        "Sign in" : "Sign in",
        "ORGANIZATION" : "ORGANIZATION",
+       "Organization" : "Organization",
+
        "Country" : "Country",
        "Select Country" : "Select Country",
        "Select Organization" : "Select Organization",
@@ -108,6 +111,7 @@ angular
     "FORGOT PASSWORD" : "OLVIDASTE LA CONTRASEÑA"  ,
     "Sign in" : "Inicar sesión",
     "ORGANIZATION" : "ORGANIZACIÓN",
+    "Organization" : "Organización",
     "Country" : "País",
     "Select Country" : "Seleccionar País",
     "Select Organization" : "Seleccionar Organización",
