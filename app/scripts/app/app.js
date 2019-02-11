@@ -58,8 +58,7 @@ angular
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
 
      $translateProvider.translations('en',{
-     	"USERNAME" : "USERNAME",
-     	"PASSWORD" : "PASSWORD",
+     	"LOGIN" : "LOGIN",
        "REGISTER" : "REGISTER",
        "FORGOT PASSWORD" : "FORGOT PASSWORD",
        "Sign in" : "Sign in",
@@ -91,8 +90,7 @@ angular
      });
   
   $translateProvider.translations('es',{
-  	"USERNAME" : "NOMBRE DE USUARIO",
-    "PASSWORD" : "CONTRASEÑA",
+  	"LOGIN" : "INICIO DE SESIÓN",
     "REGISTER" : "REGISTRO",
     "FORGOT PASSWORD" : "OLVIDASTE LA CONTRASEÑA"  ,
     "Sign in" : "Inicar sesión",
