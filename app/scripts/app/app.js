@@ -458,7 +458,7 @@ angular
 
 			  changeFunction : function ($key) {
 			  	//console.log($key);
-			   $translate.use(key);
+			   $translate.preferredLanguage(key);
 			  },
 
 			// user
