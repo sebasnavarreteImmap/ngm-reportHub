@@ -58,13 +58,70 @@ angular
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
 
      $translateProvider.translations('en',{
+     	"USERNAME" : "USERNAME",
      	"PASSWORD" : "PASSWORD",
-       "REGISTER" : "REGISTER"  
+       "REGISTER" : "REGISTER",
+       "FORGOT PASSWORD" : "FORGOT PASSWORD",
+       "Sign in" : "Sign in",
+       "ORGANIZATION" : "ORGANIZATION",
+       "Country" : "Country",
+       "Select Country" : "Select Country",
+       "Sector" : "Sector",
+       "Select Sector" : "Select Sector",
+       "Next" : "Next",
+       "CONTACT" : "CONTACT",
+       "Full Name" : "Full Name",
+       "Position" : "Position",
+       "Phone" : "Phone",
+       "Email" : "Email",
+       "Back" : "Back",
+       "LOGIN DETAILS" : "LOGIN DETAILS",
+       "Username" : "Username",
+       "Password" : "Password",
+       "Register" : "Register",
+       "iMMAP PROGRAMME" : "iMMAP PROGRAMME",
+       "Select Programme" : "Select Programme",
+       "Programme" : "Programme",
+       "Contract Start Date" : "Contract Start Date",
+       "Contract End Date" : "Contract End Date",
+       "Select Duty Station" : "Select Duty Station",
+       "Duty Station" : "Estación de Servicio",
+       "Profile" : "Profile"
+
      });
   
   $translateProvider.translations('es',{
+  	"USERNAME" : "NOMBRE DE USUARIO",
     "PASSWORD" : "CONTRASEÑA",
-    "REGISTER" : "REGISTRO"  
+    "REGISTER" : "REGISTRO",
+    "FORGOT PASSWORD" : "OLVIDASTE LA CONTRASEÑA"  ,
+    "Sign in" : "Inicar sesión",
+    "ORGANIZATION" : "ORGANIZACIÓN",
+    "Country" : "País",
+    "Select Country" : "Seleccionar País",
+    "Sector" : "Sector",
+    "Select Sector" : "Seleccionar Sector",
+    "Next" : "Siguiente",
+    "CONTACT" : "CONTACTO",
+       "Full Name" : "Nombre Completo",
+       "Position" : "Cargo",
+       "Phone" : "Teléfono",
+       "Email" : "Email",
+       "Back" : "Atrás",
+       "LOGIN DETAILS" : "DETALLES DE INICIO DE SESIÓN",
+       "Username" : "Nombre de Usuario",
+       "Password" : "Contraseña",
+       "Register" : "Registro",
+       "iMMAP PROGRAMME" : "PROGRAMA iMMAP",
+       "Select Programme" : "Seleccionar Programa",
+       "Programme" : "Programa",
+       "Contract Start Date" : "Fecha Inicio del Contrato",
+       "Contract End Date" : "Fecha Finalización del Contrato",
+       "Select Duty Station" : "Seleccionar Estación de Servicio",
+       "Duty Station" : "Estación de servicio",
+       "Profile" : "Perfil"
+
+
   });
 
   $translateProvider.preferredLanguage('es');

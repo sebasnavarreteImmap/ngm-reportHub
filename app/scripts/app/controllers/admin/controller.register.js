@@ -6,7 +6,7 @@
  * Controller of the ngmReportHub
  */
 angular.module('ngmReportHub')
-	.controller('DashboardRegisterCtrl', ['$scope', function ($scope) {
+	.controller('DashboardRegisterCtrl', ['$scope', '$translate', function ($scope, $translate) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
