@@ -160,10 +160,7 @@ angular
 
   $translateProvider.preferredLanguage('es');
 
-  translateFunction = function($lang){
-  	console.log($lang);
-
-  }
+  
 
 		// from http://mysite.com/#/notes/1 to http://mysite.com/notes/1
 		// $locationProvider.html5Mode(true);
@@ -314,6 +311,7 @@ angular
 		$scope.ngm = {
 
 			  changeLanguage : function (key) {
+			  	console.log(key);
 			    $translate.use(key);
 			  },
 
