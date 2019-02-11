@@ -59,6 +59,8 @@ angular
 
      $translateProvider.translations('en',{
      	"LOGIN" : "LOGIN",
+     	"USERNAME" : "USERNAME",
+     	"PASSWORD" : "PASSWORD",
        "REGISTER" : "REGISTER",
        "FORGOT PASSWORD" : "FORGOT PASSWORD",
        "Sign in" : "Sign in",
@@ -91,6 +93,8 @@ angular
   
   $translateProvider.translations('es',{
   	"LOGIN" : "INICIO DE SESIÓN",
+  	"USERNAME" : "NOMBRE DE USUARIO",
+    "PASSWORD" : "CONTRASEÑA",
     "REGISTER" : "REGISTRO",
     "FORGOT PASSWORD" : "OLVIDASTE LA CONTRASEÑA"  ,
     "Sign in" : "Inicar sesión",
