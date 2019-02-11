@@ -456,7 +456,7 @@ angular
 			},
 
 
-			  changeLanguage : function ($key) {
+			  changeFunction : function ($key) {
 			  	console.log($key);
 			   // $translate.use(key);
 			  },
