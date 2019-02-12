@@ -166,7 +166,8 @@ angular
         "Girls":"Girls",
         "Men":"Men",
         "Women":"Women",
-        "Treatment Same Province":"reatment Same Province"
+        "Treatment Same Province":"reatment Same Province",
+        "Edit":"Edit"
 
 
 
@@ -284,6 +285,19 @@ angular
         "Men":"Hombre",
         "Women":"Mujer",
         "Treatment Same Province":"Tratamiento en la Misma Provincia",
+        "Edit":"Editar",
+
+        //LOCATION
+        "Enter the TARGET LOCATIONS of your PROJECT in the form below":"Ingrese la LOCACIÓN OBJETIVO de su PROYECTO en el siguiente formulario",
+        "Reporter":"Reportero",
+        "Implementation":"Implementación",
+        "Type":"Tipo",
+        "From List":"Lista de Origenes",
+        "Site Name":"Nombre del Sitio",
+        "save":"Guardar",
+        "delete":"Eliminar",
+        "Add Row":"Agregar fila"
+
 
   });
 
