@@ -120,6 +120,8 @@ angular
        "Go to" : "Go to",
        "Team" : "Team",
        "View Team" : "View Team",
+       "Projects":"Proyectos",
+       "Project":"Proyecto",
 
        // NEW PROYECT
         "Project Details":"Project Details",
@@ -139,7 +141,7 @@ angular
         "Project Description & Objectives":"Project Description & Objectives",
         "Project Focal Point":"Project Focal Point",
         "Target Population":"Target Population",
-        "Project Target Locations":"Project Target Locations"
+        "Project Target Locations":"Project Target Locations",
 
 
      });
@@ -206,6 +208,7 @@ angular
        "Duty Station" : "Estación de servicio",
        "Profile" : "Perfil",
        "Projects" : "Proyectos",
+       "Project":"Proyecto",
        "Go to" : "Ir a",
        "Team" : "Equipo",
        "View Team" : "Ver Equipo",
