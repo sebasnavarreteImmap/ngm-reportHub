@@ -19,7 +19,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         templateUrl: '/scripts/modules/cluster/views/forms/details/form.html'
       });
   })
-  .controller( 'ClusterProjectFormDetailsCtrl','$translate' [
+  .controller( 'ClusterProjectFormDetailsCtrl', [
     '$scope',
     '$location',
     '$timeout',
@@ -36,7 +36,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
     'ngmClusterLocations',
     'ngmClusterValidation',
     'ngmClusterHelperAf',
-    'config','$translate',
+    'config', '$translate',
     function( 
         $scope, 
         $location, 
@@ -54,7 +54,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         ngmClusterLocations,
         ngmClusterValidation,
         ngmClusterHelperAf,
-        config){
+        config,$translate){
 
       // project
       $scope.project = {
