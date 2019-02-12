@@ -6,8 +6,8 @@
  * Controller of the ngmReportHub
  */
 
-angular.module( 'ngm.widget.project.details', [ 'ngm.provider','pascalprecht.translate' ])
-  .config( ['$translateProvider', function( dashboardProvider,$translateProvider ){
+angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
+  .config( function( dashboardProvider){
 
     $translateProvider.translations('en',{
 
@@ -31,7 +31,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider','pascalprecht.tra
         controller: 'ClusterProjectFormDetailsCtrl',
         templateUrl: '/scripts/modules/cluster/views/forms/details/form.html'
       });
-  }])
+  })
   .controller( 'ClusterProjectFormDetailsCtrl', [
     '$scope',
     '$location',
@@ -50,7 +50,6 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider','pascalprecht.tra
     'ngmClusterValidation',
     'ngmClusterHelperAf',
     'config',
-    '$translate',
     function( 
         $scope, 
         $location, 
@@ -68,7 +67,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider','pascalprecht.tra
         ngmClusterLocations,
         ngmClusterValidation,
         ngmClusterHelperAf,
-        config,$translate ){
+        config){
 
       // project
       $scope.project = {
