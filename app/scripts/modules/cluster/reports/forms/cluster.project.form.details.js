@@ -6,8 +6,24 @@
  * Controller of the ngmReportHub
  */
 
-angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
-  .config( function( dashboardProvider ){
+angular.module( 'ngm.widget.project.details', [ 'ngm.provider','pascalprecht.translate' ])
+  .config( ['$translateProvider', function( dashboardProvider,$translateProvider ){
+
+    $translateProvider.translations('en',{
+
+                    "Project Focal Point":"Project Focal Point",
+
+
+    });
+
+        $translateProvider.translations('es',{
+                        "Project Focal Point":"Punto Focal del Proyecto",
+
+        });
+
+
+    $translateProvider.preferredLanguage('es');
+
     dashboardProvider
       .widget( 'project.details', {
         title: 'Cluster Project Details Form',
@@ -15,7 +31,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         controller: 'ClusterProjectFormDetailsCtrl',
         templateUrl: '/scripts/modules/cluster/views/forms/details/form.html'
       });
-  })
+  }])
   .controller( 'ClusterProjectFormDetailsCtrl', [
     '$scope',
     '$location',
