@@ -59,6 +59,7 @@ angular
       
 
      $translateProvider.translations('en',{
+     	"Project Details":"Project Details",
      	"LANGUAGE":"LANGUAGE",
      	"Welcome":"Welcome",
      	"Welcome to ReportHub":"Welcome to ReportHub",
@@ -124,6 +125,7 @@ angular
      });
   
   $translateProvider.translations('es',{
+  	"Project Details":"Detalles del Proyecto",
   	"LANGUAGE":"IDIOMA",
   	"Welcome":"Bienvenido",
   	"Welcome to ReportHub": "Bienvenido a ReportHub",
