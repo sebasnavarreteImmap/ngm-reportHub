@@ -31,27 +31,27 @@
 							  <table class="bordered responsive-table" ng-show="project.definition.target_beneficiaries.length">
 							    <tr style="font-weight: 400">
 							    	<td></td>
-							      <td>Activity</td>
-							      <td>Description</td>
-							      <td ng-if="project.definition.admin0pcode === 'NG'">Details</td>
-										<td ng-if="project.showCash() && project.showDeliveryfield() && project.definition.admin0pcode === 'AF'">Delivery</td>
-										<td ng-if="project.showCash()">Mechanism</td>
-										<td ng-if="project.showPackage()">Package</td>
-							      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">Category</td>
-							      <td>Beneficiary</td>
-								 		<td ng-if="project.definition.admin0pcode === 'AF'">Population</td>
-										<td ng-if="project.showUnits()">Amount</td>
-										<td ng-if="project.showUnits()">Units</td>
-							      <td ng-if="project.showCash()">Transfers</td>
+							      <td>{{'Activity' | translate}}</td>
+							      <td>{{'Description' | translate}}</td>
+							      <td ng-if="project.definition.admin0pcode === 'NG'">{{'Details' | translate}}</td>
+										<td ng-if="project.showCash() && project.showDeliveryfield() && project.definition.admin0pcode === 'AF'">{{'Delivery' | translate}}</td>
+										<td ng-if="project.showCash()">{{Mechanism | translate}}</td>
+										<td ng-if="project.showPackage()">{{'Package'|translate}}</td>
+							      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">{{'Category' | translate}}</td>
+							      <td>{{'Beneficiary' | translate}}</td>
+								 		<td ng-if="project.definition.admin0pcode === 'AF'">{{'Population' | translate</td>
+										<td ng-if="project.showUnits()">{{'Amount'|translate}}</td>
+										<td ng-if="project.showUnits()">{{'Units' | translate}}</td>
+							      <td ng-if="project.showCash()">{{'Transfers' | translate}}</td>
 								  	<td ng-if="project.showHouseholds()">HHs</td>
-							      <td ng-if="project.showFamilies()">Families</td>
-							      <td>Boys</td>
-							      <td>Girls</td>
-							      <td ng-if="project.showMen()">Men</td>
-							      <td ng-if="project.showWomen()">Women</td>
-							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. Men</td>
-										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. Women</td>
-										<td ng-if="project.showFatpTreatmentSameProvince()">Treatment Same Province</td>
+							      <td ng-if="project.showFamilies()">{{'Families' | translate}}</td>
+							      <td>{{'Boys' | translate}}</td>
+							      <td>{{'Girls' | translate}}</td>
+							      <td ng-if="project.showMen()">{{'Men' | translate}}</td>
+							      <td ng-if="project.showWomen()">{{'Women'|translate}}</td>
+							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'Men' | translate}}</td>
+										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'Women' | translate}}</td>
+										<td ng-if="project.showFatpTreatmentSameProvince()">{{'Treatment Same Province' | translate}}</td>
 							      <td ng-if="project.definition.project_status !== 'complete'">Edit</td>
 							    </tr>
 							    <tr ng-repeat="beneficiary in project.definition.target_beneficiaries">

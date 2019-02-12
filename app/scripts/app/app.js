@@ -145,7 +145,31 @@ angular
         "Target Population":"Target Population",
         "Project Target Locations":"Project Target Locations",
         "Select FOCAL POINT of your PROJECT in the form below":"Select FOCAL POINT of your PROJECT in the form below",
-        "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Enter the TARGET BENEFICIARIES of your PROJECT in the form below"
+        "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Enter the TARGET BENEFICIARIES of your PROJECT in the form below",
+    
+        //TARGET POPULATION
+
+        "Activity":"Activity",
+        "Description":"Description",
+        "Details":"Details",
+        "Delivery":"Delivery",
+        "Mechanism":"Mechanism",
+        "Package":"Package",
+        "Category":"Category",
+        "Beneficiary":"Beneficiary",
+        "Population":"Population",
+        "Amount":"Amount",
+        "Units":"Units",
+        "Transfers":"Transfers",
+        "Families":"Families",
+        "Boys":"Boys",
+        "Girls":"Girls",
+        "Men":"Men",
+        "Women":"Women",
+        "Treatment Same Province":"reatment Same Province"
+
+
+
      });
   
   $translateProvider.translations('es',{
@@ -239,6 +263,27 @@ angular
          "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario",
          "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Ingrese los BENEFICIARIOS OBJETIVO de su PROYECTO en el siguiente formulario"
 
+       
+        //TARGET POPULATION
+
+        "Activity":"Actividad",
+        "Description":"Descripción",
+        "Details":"Detalles",
+        "Delivery":"Entrega",
+        "Mechanism":"Mecanismo",
+        "Package":"Paquete",
+        "Category":"Categoría",
+        "Beneficiary":"Beneficiario",
+        "Population":"Población",
+        "Amount":"Monto",
+        "Units":"Unidades",
+        "Transfers":"Transferencias",
+        "Families":"Familias",
+        "Boys":"Niños",
+        "Girls":"Niñas",
+        "Men":"Hombre",
+        "Women":"Mujer",
+        "Treatment Same Province":"Tratamiento en la Misma Provincia",
 
   });
 
