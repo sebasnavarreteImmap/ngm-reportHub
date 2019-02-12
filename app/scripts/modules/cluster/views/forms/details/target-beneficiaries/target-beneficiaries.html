@@ -35,12 +35,12 @@
 							      <td>{{'Description' | translate}}</td>
 							      <td ng-if="project.definition.admin0pcode === 'NG'">{{'Details' | translate}}</td>
 										<td ng-if="project.showCash() && project.showDeliveryfield() && project.definition.admin0pcode === 'AF'">{{'Delivery' | translate}}</td>
-										<td ng-if="project.showCash()">{{Mechanism | translate}}</td>
-										<td ng-if="project.showPackage()">{{'Package'|translate}}</td>
+										<td ng-if="project.showCash()">{{'Mechanism' | translate }}</td>
+										<td ng-if="project.showPackage()">{{'Package' | translate }}</td>
 							      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">{{'Category' | translate}}</td>
 							      <td>{{'Beneficiary' | translate}}</td>
-								 		<td ng-if="project.definition.admin0pcode === 'AF'">{{'Population' | translate</td>
-										<td ng-if="project.showUnits()">{{'Amount'|translate}}</td>
+								 		<td ng-if="project.definition.admin0pcode === 'AF'">{{'Population' | translate}}</td>
+										<td ng-if="project.showUnits()">{{'Amount' | translate}}</td>
 										<td ng-if="project.showUnits()">{{'Units' | translate}}</td>
 							      <td ng-if="project.showCash()">{{'Transfers' | translate}}</td>
 								  	<td ng-if="project.showHouseholds()">HHs</td>

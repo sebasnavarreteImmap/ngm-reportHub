@@ -261,7 +261,7 @@ angular
         "Target Population":"Población Objetivo",
         "Project Target Locations":"Locaciones Objetivo del Proyecto",
          "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario",
-         "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Ingrese los BENEFICIARIOS OBJETIVO de su PROYECTO en el siguiente formulario"
+         "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Ingrese los BENEFICIARIOS OBJETIVO de su PROYECTO en el siguiente formulario",
 
        
         //TARGET POPULATION
