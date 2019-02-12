@@ -6,11 +6,11 @@
  * Controller of the ngmReportHub
  */
 angular.module( 'ngmReportHub' )
-	.controller( 'ClusterAppCtrl', ['$scope', '$location', '$route', 'ngmAuth', 'ngmData', 'ngmUser', 'ngmClusterHelper', function ( $scope, $location, $route, ngmAuth, ngmData, ngmUser, ngmClusterHelper ) {
+	.controller( 'ClusterAppCtrl', ['$scope', '$location', '$route', 'ngmAuth', 'ngmData', 'ngmUser', 'ngmClusterHelper','$translate', function ( $scope, $location, $route, ngmAuth, ngmData, ngmUser, ngmClusterHelper,$translate ) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
-			'Karma'
+			'Karma' 
 		];
 
 		// org id
