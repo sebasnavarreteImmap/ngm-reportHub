@@ -167,7 +167,18 @@ angular
         "Men":"Men",
         "Women":"Women",
         "Treatment Same Province":"reatment Same Province",
-        "Edit":"Edit"
+        "Edit":"Edit",
+
+        //LOCATION
+        "Enter the TARGET LOCATIONS of your PROJECT in the form below":"Enter the TARGET LOCATIONS of your PROJECT in the form below",
+        "Reporter":"Reporter",
+        "Implementation":"Implementation",
+        "Type":"Type",
+        "From List":"From List",
+        "Site Name":"Site Name",
+        "save":"save",
+        "delete":"delete",
+        "Add Row":"Add Row"
 
 
 
