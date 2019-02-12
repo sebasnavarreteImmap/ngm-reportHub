@@ -120,8 +120,8 @@ angular
        "Go to" : "Go to",
        "Team" : "Team",
        "View Team" : "View Team",
-       "Projects":"Proyectos",
-       "Project":"Proyecto",
+       "Projects":"Projects",
+       "Project":"Project",
 
        // NEW PROYECT
         "Project Details":"Project Details",
@@ -133,6 +133,7 @@ angular
         "Project Budget Currency":"Project Budget Currency",
         "Select Project Budget Currency":"Select Project Budget Currency",
         "Non-HRP Project":"Non-HRP Project",
+        "HRP Project":"HRP Project",
         "Activity Type":"Activity Type",
         "Other Implementing Partners":"Other Implementing Partners",
         "Other activities in addition to ":"Other activities in addition to",
@@ -223,6 +224,7 @@ angular
         "Project Budget Currency":"Moneda del Presupuesto del Proyecto",
         "Select Project Budget Currency":"Seleccionar Moneda del Presupuesto del Proyecto",
         "Non-HRP Project":"No es un Proyecto HRP",
+        "HRP Project":"Proyecto HRP",
         "Activity Type":"Tipo de Actividad",
         "Other activities in addition to ":"Otras actividades además de",
         "Project Donor":"Donante del Proyecto",
