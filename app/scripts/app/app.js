@@ -134,6 +134,7 @@ angular
         "Select Project Budget Currency":"Select Project Budget Currency",
         "Non-HRP Project":"Non-HRP Project",
         "HRP Project":"HRP Project",
+        "HRP Project Code":"HRP Project Code",
         "Activity Type":"Activity Type",
         "Other Implementing Partners":"Other Implementing Partners",
         "Other activities in addition to":"Other activities in addition to",
@@ -225,8 +226,9 @@ angular
         "Select Project Budget Currency":"Seleccionar Moneda del Presupuesto del Proyecto",
         "Non-HRP Project":"No es un Proyecto HRP",
         "HRP Project":"Proyecto HRP",
+        "HRP Project Code":"Código del Proyecto HRP",
         "Activity Type":"Tipo de Actividad",
-        "Other activities in addition to ":"Otras actividades además de",
+        "Other activities in addition to":"Otras actividades además de",
         "Project Donor":"Donante del Proyecto",
         "Project Partners":"Socios del Proyecto",
         "Other Implementing Partners":"Otros Socios Implementadores",
@@ -234,7 +236,7 @@ angular
         "Project Focal Point":"Punto Focal del Proyecto",
         "Target Population":"Población Objetivo",
         "Project Target Locations":"Locaciones Objetivo del Proyecto",
-                "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario"
+         "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario"
 
 
 
