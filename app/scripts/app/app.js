@@ -116,7 +116,10 @@ angular
        "Contract End Date" : "Contract End Date",
        "Select Duty Station" : "Select Duty Station",
        "Duty Station" : "Estación de Servicio",
-       "Profile" : "Profile"
+       "Profile" : "Profile",
+       "Go to" : "Go to",
+       "Team" : "Team",
+       "View Team" : "View Team"
 
      });
   
@@ -179,7 +182,11 @@ angular
        "Contract End Date" : "Fecha Finalización del Contrato",
        "Select Duty Station" : "Seleccionar Estación de Servicio",
        "Duty Station" : "Estación de servicio",
-       "Profile" : "Perfil"
+       "Profile" : "Perfil",
+       "Projects" : "Proyectos",
+       "Go to" : "Ir a",
+       "Team" : "Equipo",
+       "View Team" : "Ver Equipo"
 
 
   });
