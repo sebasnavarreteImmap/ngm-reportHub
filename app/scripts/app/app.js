@@ -178,7 +178,9 @@ angular
         "Site Name":"Site Name",
         "save":"save",
         "delete":"delete",
-        "Add Row":"Add Row"
+        "Add Row":"Add Row",
+        "Save":"Save",
+        "Cancel":"Cancel"
 
 
 
@@ -307,7 +309,9 @@ angular
         "Site Name":"Nombre del Sitio",
         "save":"Guardar",
         "delete":"Eliminar",
-        "Add Row":"Agregar fila"
+        "Add Row":"Agregar fila",
+        "Save":"Guardar",
+        "Cancel":"Cancelar"
 
 
   });
