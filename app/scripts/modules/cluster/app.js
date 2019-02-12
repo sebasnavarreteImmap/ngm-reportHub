@@ -7,7 +7,7 @@
  * Main module of the application.
  */
 angular
-	.module('ngmCluster',[])
+	.module('ngmCluster',['pascalprecht.translate',])
 	.config([ '$routeProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $compileProvider, $translateProvider) {
 
 		// https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.ufea9sjt1
