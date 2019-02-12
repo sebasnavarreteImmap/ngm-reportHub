@@ -9,20 +9,7 @@
 angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
   .config( function( dashboardProvider){
 
-    $translateProvider.translations('en',{
-
-                    "Project Focal Point":"Project Focal Point",
-
-
-    });
-
-        $translateProvider.translations('es',{
-                        "Project Focal Point":"Punto Focal del Proyecto",
-
-        });
-
-
-    $translateProvider.preferredLanguage('es');
+    
 
     dashboardProvider
       .widget( 'project.details', {
