@@ -21,7 +21,8 @@ angular.module('ngmReportHub')
 			'ngmData',
 			'ngmClusterHelper',
 			'ngmClusterLists',
-		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterHelper, ngmClusterLists ) {
+			'$translate',
+		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterHelper, ngmClusterLists,$translate ) {
 			this.awesomeThings = [
 				'HTML5 Boilerplate',
 				'AngularJS',
