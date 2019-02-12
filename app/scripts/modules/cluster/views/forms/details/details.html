@@ -82,7 +82,7 @@
 
 								<!-- input-date directive -->
 								<div class="input-field col s12 m3">
-								  <label for="ngm-end-date">{{End Date | translate}} *</label>
+								  <label for="ngm-end-date">{{'End Date' | translate}} *</label>
 											<input ngm-date
 											    type="text"
 											    name="created"
@@ -105,7 +105,7 @@
 								  <input id="ngm-project_code" type="text" class="validate"
 								  	ng-model="project.definition.project_code"
 								  	ng-disabled="project.definition.project_status === 'complete'">
-								  <label for="ngm-project_code">{{ project.definition.organization }} {{Project Code | translate}}</label>
+								  <label for="ngm-project_code">{{ project.definition.organization }} {{'Project Code' | translate}}</label>
 								</div>
 
 								<div class="input-field col s12 m3">
@@ -113,7 +113,7 @@
 								  	ng-model="project.definition.project_budget"
 								  	ng-disabled="project.definition.project_status === 'complete'"
 								  	required>
-								  <label for="ngm-project-budget">{{Project Budget | translate}} ( {{ project.definition.project_budget_currency | uppercase }} ) *</label>
+								  <label for="ngm-project-budget">{{'Project Budget' | translate}} ( {{ project.definition.project_budget_currency | uppercase }} ) *</label>
 								</div>
 
 								<div class="input-field col s12 m3"
@@ -124,9 +124,9 @@
 									    	ng-disabled="project.definition.project_status === 'complete'" 
 												ng-options="currency.currency_id as currency.currency_name for currency in project.lists.currencies"
 									    	required>
-									      <option value="" disabled selected>{{Select Project Budget Currency | translate}}</option>
+									      <option value="" disabled selected>{{'Select Project Budget Currency' | translate}}</option>
 									    </select>
-									    <label for="ngm-project_budget_currency">{{Project Budget Currency | translate}} *</label>
+									    <label for="ngm-project_budget_currency">{{'Project Budget Currency' | translate}} *</label>
 								</div>
 
 							</div>
@@ -136,11 +136,11 @@
 								<!-- switch -->
 								<div class="switch input-field col s12 m6">
 									<label>
-										{{Non-HRP Project | translate}}
+										{{'Non-HRP Project' | translate}}
 										<input ng-click="project.setHrpStatus()" 
 														ng-checked="project.definition.project_hrp_project" type="checkbox">
 										<span class="lever"></span>
-										{{HRP Project | translate}}
+										HRP {{'Project' | translate}}
 									</label>
 								</div>
 								
@@ -148,7 +148,7 @@
 								<div class="input-field col s12 m6">
 								  <input id="ngm-project_hrp_code" type="text" class="validate"
 								  	ng-model="project.definition.project_hrp_code" disabled="true">
-								  <label for="ngm-project-budget">{{HRP Project Code | translate}}</label>
+								  <label for="ngm-project-budget">{{'HRP Project Code' | translate}}</label>
 								</div>
 
 							</div>
@@ -173,7 +173,7 @@
 
 								<div class="activity-field col s12 m6" style="padding-top:12px;padding-bottom:5px;">
 									
-									<label class="label" for="ngm-activity_type">{{Activity Type | translate}} *</label>
+									<label class="label" for="ngm-activity_type">{{'Activity Type' | translate}} *</label>
 									<div style="padding-bottom:5px;"></div>
 
 									<label class="label">{{ project.definition.cluster }}</label>
@@ -212,7 +212,7 @@
 								
 								<div class="input-field col s12 m6" style="padding-bottom:5px;">
 									
-									<label>{{Other activities in addition to | translate}} {{ project.definition.cluster }}?</label>
+									<label>{{'Other activities in addition to' | translate}} {{ project.definition.cluster }}?</label>
 									<div style="padding-bottom:35px;"></div>
 
 								    <p ng-repeat="a in project.lists.clusters | 
@@ -251,7 +251,7 @@
 							<div id="ngm-project_donor_label" class="row">
 
 								<div class="input-field col s12" style="padding-bottom:5px;">
-									<label for="ngm-project_donor">{{Project Donor | translate}} *</label>
+									<label for="ngm-project_donor">{{'Project Donor' | translate}} *</label>
 									<div style="padding-bottom:35px;"></div>
 
 									<p ng-repeat="donor in project.lists.donors">
@@ -292,13 +292,13 @@
 							<div class="row">
 								
 						        <div class="input-field col s12 m6" style="padding-bottom:35px;">
-						        	<label>{{Project Partners | translate}}</label>
+						        	<label>{{'Project Partners' | translate}}</label>
 						        	<br/>
 						        	<p style="padding-top:10px;">
 							        	<input type="checkbox" id="ngm-project-other_partbers"
 							        		ng-model="project.definition.implementing_partners_checked"
 							        		ng-disabled="project.definition.project_status === 'complete'"/>
-							          <label class="checkbox-label" for="ngm-project-other_partbers">{{Other Implementing Partners | translate}}?</label>
+							          <label class="checkbox-label" for="ngm-project-other_partbers">{{'Other Implementing Partners' | translate}}?</label>
 							        </p>
 						        </div>
 
@@ -312,7 +312,7 @@
 							          		class="validate"
 							          		name="implementing_partners_list"
 														ng-model="project.definition.implementing_partners">
-							          <label for="ngm-project-implementing_partners">{{List Project Partners | translate}}</label>
+							          <label for="ngm-project-implementing_partners">{{'List Project Partners' | translate}}</label>
 							        </div>
 							    </div>
 
@@ -328,7 +328,7 @@
 												ng-disabled="project.definition.project_status === 'complete'"
 												required>
 											</textarea>
-						          <label for="ngm-project-description">{{Project Description & Objectives | translate}} *</label>
+						          <label for="ngm-project-description">{{'Project Description & Objectives' | translate}} *</label>
 						        </div>
 				      		</div>
 
