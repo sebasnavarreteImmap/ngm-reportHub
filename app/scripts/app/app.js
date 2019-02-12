@@ -144,8 +144,8 @@ angular
         "Project Focal Point":"Project Focal Point",
         "Target Population":"Target Population",
         "Project Target Locations":"Project Target Locations",
-        "Select FOCAL POINT of your PROJECT in the form below":"Select FOCAL POINT of your PROJECT in the form below"
-
+        "Select FOCAL POINT of your PROJECT in the form below":"Select FOCAL POINT of your PROJECT in the form below",
+        "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Enter the TARGET BENEFICIARIES of your PROJECT in the form below"
      });
   
   $translateProvider.translations('es',{
@@ -236,8 +236,8 @@ angular
         "Project Focal Point":"Punto Focal del Proyecto",
         "Target Population":"Población Objetivo",
         "Project Target Locations":"Locaciones Objetivo del Proyecto",
-         "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario"
-
+         "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario",
+         "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Ingrese los BENEFICIARIOS OBJETIVO de su PROYECTO en el siguiente formulario"
 
 
   });
