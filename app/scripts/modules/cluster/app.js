@@ -149,6 +149,11 @@ $translateProvider.translations('en',{
 
   $translateProvider.preferredLanguage('es');
 
+   changeFunction = function ($key) {
+			  	//console.log($key);
+			   $translate.preferredLanguage(key);
+			  };
+
 
 		this.page = {
 			start_date: function() {
