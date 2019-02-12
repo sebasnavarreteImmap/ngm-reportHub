@@ -59,7 +59,6 @@ angular
       
 
      $translateProvider.translations('en',{
-     	"Project Details":"Project Details",
      	"LANGUAGE":"LANGUAGE",
      	"Welcome":"Welcome",
      	"Welcome to ReportHub":"Welcome to ReportHub",
@@ -120,12 +119,32 @@ angular
        "Profile" : "Profile",
        "Go to" : "Go to",
        "Team" : "Team",
-       "View Team" : "View Team"
+       "View Team" : "View Team",
+
+       // NEW PROYECT
+        "Project Details":"Project Details",
+        "Project Title":"Project Title",
+        "Project Code":"Project Code",
+        "Start Date":"Start Date",
+        "End Date":"End Date",
+        "Project Budget":"Project Budget",
+        "Project Budget Currency":"Project Budget Currency",
+        "Non-HRP Project":"Non-HRP Project",
+        "Activity Type":"Activity Type",
+        "Other Implementing Partners":"Other Implementing Partners",
+        "Other activities in addition to ":"Other activities in addition to",
+        "Project Donor":"Project Donor",
+        "Project Parners":"Project Parners",
+        "Project Description & Objectives":"Project Description & Objectives",
+        "Project Focal Point":"Project Focal Point",
+        "Target Population":"Target Population",
+        "Project Target Locations":"Project Target Locations"
+
 
      });
   
   $translateProvider.translations('es',{
-  	"Project Details":"Detalles del Proyecto",
+
   	"LANGUAGE":"IDIOMA",
   	"Welcome":"Bienvenido",
   	"Welcome to ReportHub": "Bienvenido a ReportHub",
@@ -188,7 +207,26 @@ angular
        "Projects" : "Proyectos",
        "Go to" : "Ir a",
        "Team" : "Equipo",
-       "View Team" : "Ver Equipo"
+       "View Team" : "Ver Equipo",
+
+       //NEW PROJECT
+        "Project Details":"Detalles del Proyecto",
+        "Project Title":"Título del Proyecto",
+        "Project Code":"Código del Proyecto",
+        "Start Date":"Fecha de Inicio",
+        "End Date":"Fecha de Finalización",
+        "Project Budget":"Presupuesto del Proyecto",
+        "Project Budget Currency":"Moneda del Presupuesto del Proyecto",
+        "Non-HRP Project":"No es un Proyecto HRP",
+        "Activity Type":"Tipo de Actividad",
+        "Other activities in addition to ":"Otras actividades además de",
+        "Project Donor":"Donante del Proyecto",
+        "Project Parners":"Socios del Proyecto",
+        "Other Implementing Partners":"Otros Socios Implementadores",
+        "Project Description & Objectives":"Descripción y Objetivos del Proyecto",
+        "Project Focal Point":"Punto Focal del Proyecto",
+        "Target Population":"Población Objetivo",
+        "Project Target Locations":"Locaciones Objetivo del Proyecto"
 
 
   });
