@@ -136,14 +136,14 @@ angular
         "HRP Project":"HRP Project",
         "Activity Type":"Activity Type",
         "Other Implementing Partners":"Other Implementing Partners",
-        "Other activities in addition to ":"Other activities in addition to",
+        "Other activities in addition to":"Other activities in addition to",
         "Project Donor":"Project Donor",
-        "Project Parners":"Project Parners",
+        "Project Partners":"Project Parners",
         "Project Description & Objectives":"Project Description & Objectives",
         "Project Focal Point":"Project Focal Point",
         "Target Population":"Target Population",
         "Project Target Locations":"Project Target Locations",
-
+        "Select FOCAL POINT of your PROJECT in the form below":"Select FOCAL POINT of your PROJECT in the form below"
 
      });
   
@@ -228,12 +228,14 @@ angular
         "Activity Type":"Tipo de Actividad",
         "Other activities in addition to ":"Otras actividades además de",
         "Project Donor":"Donante del Proyecto",
-        "Project Parners":"Socios del Proyecto",
+        "Project Partners":"Socios del Proyecto",
         "Other Implementing Partners":"Otros Socios Implementadores",
         "Project Description & Objectives":"Descripción y Objetivos del Proyecto",
         "Project Focal Point":"Punto Focal del Proyecto",
         "Target Population":"Población Objetivo",
-        "Project Target Locations":"Locaciones Objetivo del Proyecto"
+        "Project Target Locations":"Locaciones Objetivo del Proyecto",
+                "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario"
+
 
 
   });
