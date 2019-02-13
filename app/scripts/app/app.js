@@ -232,7 +232,6 @@ angular
         "Multi-Year Funding":"Multi-Year Funding",
         "Funding":"Funding",
         "Notes":"Notes",
-        "clear":"clear",
 
      });
   
@@ -412,7 +411,6 @@ angular
         "Multi-Year Funding":"Financiación Munti-anual",
         "Funding":"Financiación",
         "Notes":"Notas",
-        "clear":"limpiar",
 
 
   });

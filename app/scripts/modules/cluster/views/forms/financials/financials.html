@@ -22,19 +22,19 @@
                 <table class="bordered responsive-table" ng-show="project.definition.project_budget_progress.length">
                   <tr style="font-weight: 400">
                     <td>{{'Donor'|translate}}*</td>
-                    <td>Activity*</td>
-                    <td>Grant ID</td>
-                    <td>Amount*</td>
-                    <td>Currency*</td>
-                    <td>Funds*</td>
-                    <td ng-show="project.showProgrammingLabel()">Programming</td>
-                    <td>Recieved*</td>
-                    <td>Multi-Year Funding</td>
-                    <td ng-show="project.showFunding2017()">2017 Funding</td>
+                    <td>{{'Activity' | translate}}*</td>
+                    <td>{{'Grant' | translate}} ID</td>
+                    <td>{{'Amount' | translate}}*</td>
+                    <td>{{'Currency' | translate}}*</td>
+                    <td>{{'Funds' | translate}}*</td>
+                    <td ng-show="project.showProgrammingLabel()">{{'Programming' | translate}}</td>
+                    <td>{{'Recieved' | translate}}*</td>
+                    <td>{{'Multi-Year Funding' | translate}}</td>
+                    <td ng-show="project.showFunding2017()">2017 {{'Funding' | translate}}</td>
                     <td>on FTS?</td>
                     <td ng-show="project.showFtsIdLabel()">FTS ID</td>
-                    <td>Notes</td>
-                    <td ng-if="project.definition.project_status !== 'complete'">Edit</td>
+                    <td>{{'Notes' | translate}}</td>
+                    <td ng-if="project.definition.project_status !== 'complete'">{{'Edit' | translate}}</td>
                   </tr>
                   <tr ng-repeat="budget in project.definition.project_budget_progress track by $index">
 
@@ -213,7 +213,7 @@
                 </table>
 
                 <button class="btn" ng-show="project.definition.project_status !== 'complete'" ng-click="project.addBudgetItem()" style="margin:20px 0px;">
-                  <i class="material-icons left">add</i>Add Row
+                  <i class="material-icons left">add</i>{{'Add Row' | translate}}
                 </button>
 
               </div>
