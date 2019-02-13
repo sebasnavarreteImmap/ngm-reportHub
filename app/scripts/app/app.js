@@ -233,6 +233,16 @@ angular
         "Funding":"Funding",
         "Notes":"Notes",
 
+        //REPORT:
+        //Beneficiaries
+      
+        "Remarks":"Remarks",
+        "Add Partial Kits": "Add Partial Kits",
+        "Add Kit Details":"Add Kit Details",
+        "Add Beneficiaries":"Add Beneficiaries"
+
+
+
      });
   
   $translateProvider.translations('es',{
@@ -411,6 +421,14 @@ angular
         "Multi-Year Funding":"Financiación Munti-anual",
         "Funding":"Financiación",
         "Notes":"Notas",
+
+        //REPORTS
+        //Beneficiaries
+        "Remarks":"Observaciones",
+        "Add Partial Kits": "Agregar Kits Parciales ",
+        "Add Kit Details":"Agregar Detalles del Kit",
+        "Add Beneficiaries":"Agregar Beneficiarios"
+
 
 
   });
