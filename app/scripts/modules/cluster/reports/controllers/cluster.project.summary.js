@@ -6,7 +6,7 @@
  * Controller of the ngmReportHub
  */
 angular.module('ngmReportHub')
-	.controller('ClusterProjectSummaryCtrl', ['$scope', '$route', '$http', '$location', '$timeout', 'ngmAuth', 'ngmData', 'ngmUser', function ($scope, $route, $http, $location, $timeout, ngmAuth, ngmData, ngmUser) {
+	.controller('ClusterProjectSummaryCtrl', ['$scope', '$route', '$http', '$location', '$timeout', 'ngmAuth', 'ngmData', 'ngmUser','$translate', function ($scope, $route, $http, $location, $timeout, ngmAuth, ngmData, ngmUser,$translate) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',

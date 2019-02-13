@@ -197,9 +197,26 @@ angular
         "delete":"delete",
         "Add Row":"Add Row",
         "Save":"Save",
-        "Cancel":"Cancel"
+        "Cancel":"Cancel",
 
 
+        //PROYECT SUMMARY
+        "Mark Project as Complete":"Mark Project as Complete",
+        'Are you sure you want to mark this PROJECT as "COMPLETE"':'Are you sure you want to mark this PROJECT as "COMPLETE"',
+        "Yes, project complete":"Yes, project complete",
+        "Delete Project":"Delete Project",
+        "Are you sure you want to DELETE this PROJECT and all its associated data":"Are you sure you want to DELETE this PROJECT and all its associated data",
+        "Yes, delete project":"Yes, delete project",
+        "Mark Project as Active":"Mark Project as Active",
+        'Are you sure you want to move this project to "Active"':'Are you sure you want to move this project to "Active"',
+        "Yes, move project to active":"Yes, move project to active",
+        "Go to Project Details":"Go to Project Details",
+        "Financial Reports":"Financial Reports",
+        "Go to Financial Reports":"Go to Financial Reports",
+        "Monthly Reports":"Monthly Reports",
+        "Go to Monthly Reports":"Go to Monthly Reports",
+        "Mark Project as Complete":"Mark Project as Complete",
+        "Mark Project as Active":"Mark Project as Active"
 
      });
   
