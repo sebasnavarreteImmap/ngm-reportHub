@@ -17,7 +17,8 @@ angular.module('ngmReportHub')
 			'ngmAuth',
 			'ngmData',
 			'ngmUser',
-	function ( $scope, $route, $q, $http, $location, $anchorScroll, $timeout, ngmAuth, ngmData, ngmUser ) {
+			'$translate',
+	function ( $scope, $route, $q, $http, $location, $anchorScroll, $timeout, ngmAuth, ngmData, ngmUser, $translate ) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',

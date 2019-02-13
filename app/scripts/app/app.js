@@ -216,7 +216,23 @@ angular
         "Monthly Reports":"Monthly Reports",
         "Go to Monthly Reports":"Go to Monthly Reports",
         "Mark Project as Complete":"Mark Project as Complete",
-        "Mark Project as Active":"Mark Project as Active"
+        "Mark Project as Active":"Mark Project as Active",
+
+        //FINANCIAL
+        "Project Budget Progress":"Project Budget Progress",
+        "Add a NEW ROW of financial details to your project for EACH PAYMENT recieved":"Add a NEW ROW of financial details to your project for EACH PAYMENT recieved",
+        "Donor":"Donor",
+        "Activity":"Activity",
+        "Grant":"Grant",
+        "Amount":"Amount",
+        "Currency":"Currency",
+        "Funds":"Funds",
+        "Programming":"Programming",
+        "Recieved":"Recieved",
+        "Multi-Year Funding":"Multi-Year Funding",
+        "Funding":"Funding",
+        "Notes":"Notes",
+        "clear":"clear",
 
      });
   
@@ -360,7 +376,43 @@ angular
         "delete":"Eliminar",
         "Add Row":"Agregar fila",
         "Save":"Guardar",
-        "Cancel":"Cancelar"
+        "Cancel":"Cancelar",
+
+
+        //PROYECT SUMMARY
+        "Mark Project as Complete":"Marcar Proyecto como COMPLETO",
+        'Are you sure you want to mark this PROJECT as "COMPLETE"':'Está seguro que quiere marcar este PROYECTO como "COMPlETO"',
+        "Yes, project complete":"Si, proyecto completo",
+        "Delete Project":"Eliminar Proyecto",
+        "Are you sure you want to DELETE this PROJECT and all its associated data":"Está seguro que quiere ELIMINAR este PROYECTO y todos los datos asociados",
+        "Yes, delete project":"Si, eliminar proyecto",
+        "Mark Project as Active":"Marcar proyecto como Activo",
+        'Are you sure you want to move this project to "Active"':'Está seguro que quiere mover este proyecto a "Activo"',
+        "Yes, move project to active":"Si, mover proyecto a activo",
+        "Go to Project Details":"Ir a Detalles del Proyecto",
+        "Financial Reports":"Reportes Financieros",
+        "Go to Financial Reports":"Ir a Reportes Financieros",
+        "Monthly Reports":"Reportes Mensuales",
+        "Go to Monthly Reports":"Ir a Reportes Mensuales",
+        "Mark Project as Complete":"Marcar Proyecto como Completo",
+        "Mark Project as Active":"Marcar Proyecto como Activo",
+
+
+        //FINANCIAL
+        "Project Budget Progress":"Progreso Presupuesto del Proyecto",
+        "Add a NEW ROW of financial details to your project for EACH PAYMENT recieved":"Agregar una NUEVA FILA de detalles financieros a su proyecto por CADA PAGO recivido",
+        "Donor":"Donante",
+        "Activity":"Actividad",
+        "Grant":"Donante",
+        "Amount":"Monto",
+        "Currency":"Moneda",
+        "Funds":"Fondos",
+        "Programming":"Programación",
+        "Recieved":"Recibido",
+        "Multi-Year Funding":"Financiación Munti-anual",
+        "Funding":"Financiación",
+        "Notes":"Notas",
+        "clear":"limpiar",
 
 
   });
