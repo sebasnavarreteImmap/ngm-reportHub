@@ -239,7 +239,28 @@ angular
         "Remarks":"Remarks",
         "Add Partial Kits": "Add Partial Kits",
         "Add Kit Details":"Add Kit Details",
-        "Add Beneficiaries":"Add Beneficiaries"
+        "Add Beneficiaries":"Add Beneficiaries",
+
+        //locations
+        "Note":"Note",
+        "DROUGHT":"DROUGHT",
+        "activities, please select from":"activities, please select from",
+        "drop down beneficiary types":"drop down beneficiary types",
+        "Drought Affected Displaced":"Drought Affected Displaced",
+        "or":"or",
+        "Drought Affected Non Displaced": "Drought Affected Non Displaced",
+        "Selected Locations":"Selected Locations",
+        "Edit Report":"Edit Report",
+        "Please enter the amount per":"Please enter the amount per",
+        "HOUSEHOLD ( HH )":"HOUSEHOLD ( HH )",
+        "per":"per",
+        "TRANSFER","TRANSFER",
+        "Please enter the":"Please enter the",
+                "number  of transfers made":"number  of transfers made",
+                "this":"this",
+                "month":"month",
+                "Add Trainings":"Add Trainings",
+                "Add Location":"Add Location"
 
 
 
@@ -427,7 +448,28 @@ angular
         "Remarks":"Observaciones",
         "Add Partial Kits": "Agregar Kits Parciales ",
         "Add Kit Details":"Agregar Detalles del Kit",
-        "Add Beneficiaries":"Agregar Beneficiarios"
+        "Add Beneficiaries":"Agregar Beneficiarios",
+
+        //locations
+        "Note":"Nota",
+        "DROUGHT":"SEQUÍA",
+        "activities, please select from":"actividades, por favor seleccione el origen",
+        "drop down beneficiary types":"desplegar tipo de beneficiarios",
+        "Drought Affected Displaced":"Afectados por Sequía Desplazados",
+        "or":"ó",
+        "Drought Affected Non Displaced": "Afectados por la Sequía No Desplazados",
+        "Selected Locations":"Ubicaciones Seleccionadas",
+        "Edit Report":"Editar Reporte",
+        "Please enter the amount per":"Por favor ingrese la cantidad por",
+        "HOUSEHOLD ( HH )":"GRUPOFAMILIAR",
+        "per":"por",
+        "TRANSFER","TRANSFERENCIA",
+        "Please enter the":"Por favor ingrese la",
+                "number  of transfers made":"número de transferencias realizadas",
+                "this":"este",
+                "month":"mes",
+                "Add Trainings":"Agregar Practicantes",
+                "Add Location":"Agregar Ubicación"
 
 
 
