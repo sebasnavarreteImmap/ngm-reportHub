@@ -146,7 +146,24 @@ angular
         "Project Target Locations":"Project Target Locations",
         "Select FOCAL POINT of your PROJECT in the form below":"Select FOCAL POINT of your PROJECT in the form below",
         "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Enter the TARGET BENEFICIARIES of your PROJECT in the form below",
-    
+        "Save Project":"Save Project",
+        "Do you want to Save this project":"Do you want to Save this project",
+        "Yes":"Yes",
+        "Cancel New Project":"Cancel New Project",
+        "Are you sure you want to return to Projects":"Are you sure you want to return to Projects",
+        "Cancel Project Update":"Cancel Project Update",
+        "Return to Project Summary":"Return to Project Summary",
+        "Yes, Cancel Update":"Yes, Cancel Update",
+        "Remove People in Need":"Remove People in Need",
+        "Remove People in Need from Project":"Remove People in Need from Project",
+        "Yes, Remove People in Need":"Yes, Remove People in Need",
+        "Remove Project Location":"Remove Project Location",
+        "This will effect any existing monthly beneficiary reports":"This will effect any existing monthly beneficiary reports",
+        "Yes, Remove location":"Yes, Remove location",
+        "Back to Projects":"Back to Projects",
+        "Back to Project Summary":"Back to Project Summary",
+        "Last Updated":"Last Updated",
+
         //TARGET POPULATION
 
         "Activity":"Activity",
@@ -276,8 +293,23 @@ angular
         "Project Target Locations":"Locaciones Objetivo del Proyecto",
          "Select FOCAL POINT of your PROJECT in the form below":"Seleccione el PUNTO FOCAL de su PROYECTO en el siguiente formulario",
          "Enter the TARGET BENEFICIARIES of your PROJECT in the form below":"Ingrese los BENEFICIARIOS OBJETIVO de su PROYECTO en el siguiente formulario",
-
-       
+         "Save Project":"Guardar Proyecto",
+         "Do you want to Save this project":"Quieres Guardar este proyecto",
+         "Yes":"Si",
+         "Cancel New Project":"Cancelar Nuevo Proyecto",
+         "Are you sure you want to return to Projects":"Seguro que quieres volver a Proyectos",
+         "Cancel Project Update":"Cancelar Actualización del Proyecto",
+         "Return to Project Summary":"Volver al Resumen del Proyecto",
+         "Yes, Cancel Update":"Si, Cancelar Actualización",
+         "Remove People in Need":"Eliminar Personas con Necesidad",
+         "Remove People in Need from Project":"Eliminar Personas con Necesidad del Proyecto",
+         "Yes, Remove People in Need":"Si, Eliminar Personas con Necesidad",
+         "Remove Project Location":"Eliminar Ubicación del Proyecto",
+         "This will effect any existing monthly beneficiary reports":"Esto afectará cualquier informe mensual de beneficiarios existente",
+         "Yes, Remove location":"Si, Eliminar ubicación",
+         "Back to Projects":"Volver a Proyectos",
+         "Back to Project Summary":"Volver al Resumen del Proyecto",
+         "Last Updated":"Última Actualización",
         //TARGET POPULATION
 
         "Activity":"Actividad",
