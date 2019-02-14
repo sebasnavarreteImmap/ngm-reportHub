@@ -122,6 +122,7 @@ angular
        "View Team" : "View Team",
        "Projects":"Projects",
        "Project":"Project",
+       "Active":"Active",
 
        // NEW PROYECT
         "Project Details":"Project Details",
@@ -407,6 +408,7 @@ angular
         "Add Row":"Agregar fila",
         "Save":"Guardar",
         "Cancel":"Cancelar",
+        "Active":"Activo",
 
 
         //PROYECT SUMMARY
