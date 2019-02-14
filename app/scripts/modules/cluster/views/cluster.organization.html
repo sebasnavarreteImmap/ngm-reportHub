@@ -37,10 +37,10 @@
         						src="images/cluster/projects.jpg">
       </div>
       <div class="card-content white-text">
-      	<p class="card-title">Projects</p>
+      	<p class="card-title">{{'Projects' | translate}}</p>
       </div>
       <div class="card-action">
-        <a href="{{ panel.getProjectsHref() }}">Go to {{ panel.organization.organization }} Projects</a>
+        <a href="{{ panel.getProjectsHref() }}">{{'Go to' | translate}} {{ panel.organization.organization }} {{'Projects' | translate}}</a>
       </div>
     </div>
     </a>
@@ -55,7 +55,7 @@
 	        <p class="card-title">Stocks</p>
 	      </div>
 	      <div class="card-action">
-	        <a href="{{ panel.getStocksHref() }}">Go to {{ panel.organization.organization }} Stocks</a>
+	        <a href="{{ panel.getStocksHref() }}">{{'Go to' | translate}} {{ panel.organization.organization }} Stocks</a>
 	      </div>
 	    </div>
 	   </a>

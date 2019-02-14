@@ -123,7 +123,6 @@ angular
        "Projects":"Projects",
        "Project":"Project",
        "Active":"Active",
-       "Go to":"Go to",
        "Team":"Team",
        "View Team":"View Team",
 
@@ -337,7 +336,6 @@ angular
        "Go to" : "Ir a",
        "Team" : "Equipo",
        "View Team" : "Ver Equipo",
-       "Go to":"Ir a",
        "Team":"Equipo",
        "View Team":"Ver Equipo",
 
