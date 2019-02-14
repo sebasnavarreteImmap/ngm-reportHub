@@ -254,7 +254,7 @@ angular
         "Please enter the amount per":"Please enter the amount per",
         "HOUSEHOLD ( HH )":"HOUSEHOLD ( HH )",
         "per":"per",
-        "TRANSFER","TRANSFER",
+        "TRANSFER":"TRANSFER",
         "Please enter the":"Please enter the",
                 "number  of transfers made":"number  of transfers made",
                 "this":"this",
