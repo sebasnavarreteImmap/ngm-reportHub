@@ -6,7 +6,8 @@
  * Controller of the ngmReportHub
  */
 angular.module( 'ngmReportHub' )
-	.controller( 'ClusterProjectProjectsCtrl', ['$scope', '$location', '$route', 'ngmAuth', 'ngmData', 'ngmUser', 'ngmClusterHelper','$translate', function ( $scope, $location, $route, ngmAuth, ngmData, ngmUser, ngmClusterHelper,$translate ) {
+	.controller( 'ClusterProjectProjectsCtrl', ['$scope', '$location', '$route', 'ngmAuth', 'ngmData', 'ngmUser', 'ngmClusterHelper','$translate','$filter'
+		, function ( $scope, $location, $route, ngmAuth, ngmData, ngmUser, ngmClusterHelper,$translate, $filter ) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
@@ -144,7 +145,7 @@ angular.module( 'ngmReportHub' )
 							// color: 'teal lighten-4',
 							color: 'blue lighten-4',
 							// textColor: 'white-text',
-							title: 'Active',
+							title: $filter('translate')('Active'),
 							icon: 'edit',
 							request: {
 								method: 'POST',
