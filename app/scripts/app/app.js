@@ -334,7 +334,7 @@ angular
        "View Team" : "Ver Equipo",
 
        //NEW PROJECT
-        "Project Details":"Detalles del Proyecto",
+        "Project Details":"Detalles del Proyecto nuevo",
         "Project Title":"Título del Proyecto",
         "Project Code":"Código del Proyecto",
         "Start Date":"Fecha de Inicio",
