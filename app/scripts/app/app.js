@@ -463,7 +463,7 @@ angular
         "Please enter the amount per":"Por favor ingrese la cantidad por",
         "HOUSEHOLD ( HH )":"GRUPOFAMILIAR",
         "per":"por",
-        "TRANSFER","TRANSFERENCIA",
+        "TRANSFER":"TRANSFERENCIA",
         "Please enter the":"Por favor ingrese la",
                 "number  of transfers made":"número de transferencias realizadas",
                 "this":"este",
