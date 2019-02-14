@@ -199,6 +199,7 @@ angular
         "Add Row":"Add Row",
         "Save":"Save",
         "Cancel":"Cancel",
+        "Complete":"Complete",
 
 
         //PROYECT SUMMARY
@@ -409,6 +410,7 @@ angular
         "Save":"Guardar",
         "Cancel":"Cancelar",
         "Active":"Activo",
+        "Complete":"Completo",
 
 
         //PROYECT SUMMARY
