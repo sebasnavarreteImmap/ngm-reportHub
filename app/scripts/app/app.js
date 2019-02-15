@@ -125,6 +125,7 @@ angular
        "Active":"Active",
        "Team":"Team",
        "View Team":"View Team",
+       "Back to Organization":"Back to Organization",
 
        // NEW PROYECT
         "Project Details":"Project Details",
@@ -338,6 +339,7 @@ angular
        "View Team" : "Ver Equipo",
        "Team":"Equipo",
        "View Team":"Ver Equipo",
+       "Back to Organization":"Volver a Organización",
 
        //NEW PROJECT
         "Project Details":"Detalles del Proyecto nuevo",
