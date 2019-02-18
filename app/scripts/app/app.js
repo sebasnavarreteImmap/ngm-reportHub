@@ -61,6 +61,7 @@ angular
      $translateProvider.translations('en',{
      	"LANGUAGE":"LANGUAGE",
      	"Welcome":"Welcome",
+     	"Welcome to":"Welcome",
      	"Welcome to ReportHub":"Welcome to ReportHub",
      	"Register":"Register",
      	"please LOGIN or REGISTER to continue":"please LOGIN or REGISTER to continue",
