@@ -61,8 +61,8 @@ angular
      $translateProvider.translations('en',{
      	"LANGUAGE":"LANGUAGE",
      	"Welcome":"Welcome",
-     	"Welcome to":"Welcome",
-     	"Welcome to ReportHub":"Welcome to ReportHub",
+     	"Welcome_to":"Welcome",
+     	"Welcome_to ReportHub":"Welcome to ReportHub",
      	"Register":"Register",
      	"please LOGIN or REGISTER to continue":"please LOGIN or REGISTER to continue",
      	"please register to continue":"please register to continue",
@@ -140,16 +140,18 @@ angular
        "project":"project",
        "projects":"projects",
        "Active":"Active",
-       "Team":"Team",
-       "View Team":"View Team",
-       "Back to Organization":"Back to Organization",
-       "Add New Project":"Add New Project",
-       "projects for":"projects for",
-       "Download Project Summaries as CSV":"Download Project Summaries as CSV",
+       "back_to_organization":"Back to Organization",
+       "add_new_project":"Add New Project",
+       "projects_for":"projects for",
+       "download_project_summaries_as_CSV":"Download Project Summaries as CSV",
        "update_project":"Update project",
        "updated":"Updated",
 
-       // NEW PROYECT
+       //Helper
+       "please_complete_Project_Details_and_enter_a_project_summary_description_including_objetives":"Please complete Project Details and enter a project summary description including objectives...",
+       
+
+       // NEW PROJECT
         "Project Details":"Project Details",
         "Project Title":"Project Title",
         "Project Code":"Project Code",
@@ -298,8 +300,8 @@ angular
 
   	"LANGUAGE":"IDIOMA",
   	"Welcome":"Bienvenido",
-  	"Welcome to":"Bienvenido a",
-  	"Welcome to ReportHub": "Bienvenido a ReportHub",
+  	"Welcome_to":"Bienvenido a",
+  	"Welcome_to_ReportHub": "Bienvenido a ReportHub",
   	"Register":"Registro",
   	"please LOGIN or REGISTER to continue":"por favor INICIE SESIÓN o REGISTRESE para continuar",
   	"please register to continue":"por favor registrese para continuar",
@@ -380,15 +382,15 @@ angular
        "Team" : "Equipo",
        "view_team" : "Ver Equipo",
        "Team":"Equipo",
-       "Back to Organization":"Volver a Organización",
-       "Add New Project":"Agregar Nuevo Proyecto",
-       "projects for":"proyectos para",
-       "Download Project Summaries as CSV":"Descargar Resúmenes de Proyectos como CSV",
+       "back_to_organization":"Regresar a Organización",
+       "add_new_project":"Agregar Nuevo Proyecto",
+       "projects_for":"proyectos para",
+       "download_project_summaries_as_CSV":"Descargar Resúmenes de Proyectos como CSV",
        "update_project":"Actualización de proyecto",
        "updated":"Actualizado",
 
        //Helper
-       "Please complete Project Details and enter a project summary description including objectives...":"Por favor  complete los Detalles del Proyecto y ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
+       "please_complete_Project_Details_and_enter_a_project_summary_description_including_objetives":"Por favor  complete los Detalles del Proyecto y ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
        
         //NEW PROJECT
         "Project Details":"Detalles del Proyecto nuevo",
@@ -417,9 +419,9 @@ angular
          "Do you want to Save this project":"Quieres Guardar este proyecto",
          "Yes":"Si",
          "Cancel New Project":"Cancelar Nuevo Proyecto",
-         "Are you sure you want to return to Projects":"Seguro que quieres volver a Proyectos",
+         "Are you sure you want to return to Projects":"Seguro que quieres regresar a Proyectos",
          "Cancel Project Update":"Cancelar Actualización del Proyecto",
-         "Return to Project Summary":"Volver al Resumen del Proyecto",
+         "Return to Project Summary":"Regresar al Resumen del Proyecto",
          "Yes, Cancel Update":"Si, Cancelar Actualización",
          "Remove People in Need":"Eliminar Personas con Necesidad",
          "Remove People in Need from Project":"Eliminar Personas con Necesidad del Proyecto",
@@ -428,7 +430,7 @@ angular
          "This will effect any existing monthly beneficiary reports":"Esto afectará cualquier informe mensual de beneficiarios existente",
          "Yes, Remove location":"Si, Eliminar ubicación",
          "Back to Projects":"Volver a Proyectos",
-         "Back to Project Summary":"Volver al Resumen del Proyecto",
+         "Back to Project Summary":"Regresar al Resumen del Proyecto",
          "Last Updated":"Última Actualización",
         //TARGET POPULATION
 

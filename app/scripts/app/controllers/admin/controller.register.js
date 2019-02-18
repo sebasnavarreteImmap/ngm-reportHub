@@ -41,7 +41,7 @@ angular.module('ngmReportHub')
 				subtitle: {
 					'class': 'col s12 m12 l12 report-subtitle',
 					html: true,
-					title: $filter('translate')('Welcome to')+' ReportHub<span class="hide-on-small-only">, '+$filter('translate')('please register to continue')+'</span>',
+					title: $filter('translate')('Welcome_to')+' ReportHub<span class="hide-on-small-only">, '+$filter('translate')('please register to continue')+'</span>',
 				} 
 			},
 			rows: [{
