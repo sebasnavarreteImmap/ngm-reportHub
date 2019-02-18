@@ -364,7 +364,7 @@ li {
 					    <select id="ngm-duty-station"
         							ng-options="list.site_name as list.site_name for list in panel.dutyStations | filter: { admin0pcode: panel.user.admin0pcode } | orderBy:'site_name'"
         							ng-model="panel.user.site_name">{{'select_duty_station' | translate}}
-        					<option value="" disabled selected>Select Station</option>
+        					<option value="" disabled selected>{{'select_station' | translate}}</option>
         					</select>
 					    <label for="ngm-duty-station">{{'duty_station' | translate}}</label>
 	        </div>

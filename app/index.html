@@ -135,7 +135,7 @@
 									<li align="center" class="teal z-depth-2" 
 										ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" href="#/cluster/organization" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">home</i>{{'MY HOME' | translate}}</a>
+										<i class="material-icons smedium right">home</i>{{'my_home' | translate}}</a>
 									</li>
 
 									<!-- iMMAP HOME -->
@@ -143,14 +143,14 @@
 										ng-show="ngm.getUserName() !== 'welcome' && ngm.getUser().organization === 'iMMAP'">
 										<a class="white-text right" href="#/immap" 
 												ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">important_devices</i>{{'iMMAP HOME' | translate}}</a>
+										<i class="material-icons smedium right">important_devices</i>{{'immap_home' | translate}}</a>
 									</li>
 
 									<!-- ADMIN -->
 									<li align="center" class="teal z-depth-2"
 										ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" href="#/cluster/admin/{{ ngm.getUser().adminRpcode | lowercase }}/{{ ngm.getUser().admin0pcode | lowercase }}" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">move_to_inbox</i>{{'MY ADMIN' | translate}}</a>
+										<i class="material-icons smedium right">move_to_inbox</i>{{'my_admin' | translate}}</a>
 									</li>
 
 									<!-- Dashboard -->
@@ -163,28 +163,28 @@
 									<li align="center" class="teal z-depth-2"
 										ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" href="#/team" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">group</i>{{'MY TEAM' | translate}}</a>
+										<i class="material-icons smedium right">group</i>{{'my_team' | translate}}</a>
 									</li>
 
 									<!-- PROFILE -->
 									<li align="center" class="teal z-depth-2"
 										ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" href="#/profile/{{ ngm.getUserName() }}" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">person_pin</i>{{'MY PROFILE' | translate}}</a>
+										<i class="material-icons smedium right">person_pin</i>{{'my_profile' | translate}}</a>
 									</li>
 
 									<!-- my projects -->
 									<li  align="center" class="teal z-depth-2" 
 										ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" href="#/cluster/projects" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">zoom_in</i>{{'MY PROJECTS' | translate}}</a>
+										<i class="material-icons smedium right">zoom_in</i>{{'my_projects' | translate}}</a>
 									</li>
 
 									<!-- my STOCKS -->
 									<li  align="center" class="teal z-depth-2" 
 										ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" href="#/cluster/stocks" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">assignment_turned_in</i>{{'MY STOCKS' | translate}}</a>
+										<i class="material-icons smedium right">assignment_turned_in</i>{{'my_stocks' | translate}}</a>
 									</li>
 
 									<!-- PRODUCTS -->
@@ -192,7 +192,7 @@
 										ng-show="ngm.getUserName() !== 'welcome' && ngm.getUser().organization === 'iMMAP'">
 										<a class="white-text right" href="#/immap/products" 
 												ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">crop_original</i>{{'MY PRODUCTS' | translate}}</a>
+										<i class="material-icons smedium right">crop_original</i>{{'my_products' | translate}}</a>
 									</li>
 
 									<!-- assessments -->
@@ -207,7 +207,7 @@
 										ng-if="ngm.getUser().admin0pcode.toLowerCase() === 'af'"
 										ng-show="ngm.getUser().cluster_id.toLowerCase() === 'nutrition'">
 										<a class="white-text right" href="#/nutrition/afghanistan/" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">bubble_chart</i>{{'NUTRITION WEEKLY' | translate}}</a>
+										<i class="material-icons smedium right">bubble_chart</i>{{'nutrition_weekly' | translate}}</a>
 									</li>
 
 									<!-- EPR -->

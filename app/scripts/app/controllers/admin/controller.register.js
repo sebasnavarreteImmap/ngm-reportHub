@@ -36,12 +36,12 @@ angular.module('ngmReportHub')
 					'class': 'col s12 m12 l12 report-title truncate',
 					style: 'color: ' + $scope.dashboard.ngm.style.defaultPrimaryColor,
 					//title: '{{"Register" | translate}}'
-					title: 'Register'
+					title: $filter('translate')('Register'),
 				},
 				subtitle: {
 					'class': 'col s12 m12 l12 report-subtitle',
 					html: true,
-					title: $filter('translate')('Welcome to')+'ReportHub<span class="hide-on-small-only">,'+$filter('translate')('please register to continue')+'</span>',
+					title: $filter('translate')('Welcome to')+' ReportHub<span class="hide-on-small-only">, '+$filter('translate')('please register to continue')+'</span>',
 				}
 			},
 			rows: [{
