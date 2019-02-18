@@ -98,13 +98,13 @@ li {
 					<div class="card">
 						<img title="Check your ReportHub email account" src="images/find-account.png"/>
 					</div>
-					<h5 class="title">{{reset_password | translate}}</h5>
+					<h5 class="title">{{'reset_password' | translate}}</h5>
 				</div>
 
 				<p class="center" style="font-weight:300;" ng-if="panel.err">
-					{{having_trouble_finding_your_account | translate}}? 
+					{{'having_trouble_finding_your_account' | translate}}? 
 					<br/>
-					{{Contact | translate}} <a href="mailto:ngmreporthub@gmail.com">ngmReportHub@gmail.com</a>
+					{{'Contact' | translate}} <a href="mailto:ngmreporthub@gmail.com">ngmReportHub@gmail.com</a>
 				</p>
 
 				<form name="ngmResetForm" class="col s12" novalidate>
@@ -116,12 +116,12 @@ li {
 								autofocus=""
 								ng-model="panel.user.email"
 								required>
-		          <label for="ngm-reset-email" class="left">{{EMAIL | translate}}</label>
+		          <label for="ngm-reset-email" class="left">{{'EMAIL' | translate}}</label>
 		        </div>
 		      </div>
 
 					<p class="helpers right">
-						<a id="login">{{back_to_login | translate}}></a>
+						<a id="login">{{'back_to_login' | translate}}></a>
 					</p>
 
 					<div class="action center">
@@ -130,7 +130,7 @@ li {
 							type="submit"
 							ng-disabled="!panel.user.email || ngmResetForm.$invalid"
 							ng-click="panel.passwordResetSend( ngmResetForm )">
-								{{send_me_a_reminder | translate}}!
+								{{'send_me_a_reminder' | translate}}!
 						</button>
 					</div>
 

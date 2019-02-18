@@ -95,7 +95,7 @@ angular
        "new_password":"NEW PASSWORD",
        "confirm_password":"CONFIRM PASSWORD",
        "update_password":"Update Password",
-       "back_to_login":"BACK TO LOGIN ",
+       "back_to_login":"BACK TO LOGIN",
        "having_trouble_finding_your_account":"Having trouble finding your account", 
        "send_me_a_reminder":"Send Me a Reminder",
        "ORGANIZATION" : "ORGANIZATION",
