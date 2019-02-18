@@ -7,14 +7,14 @@
 				<li class="collection-header blue lighten-4">
 					<h5 class="report-work-title">
 						<i class="material-icons left">person_pin</i>
-							<span class="beneficiary-count">{{ project.definition.target_locations.length | number }}</span> {{'Project Target Locations' | translate}}
+							<span class="beneficiary-count">{{ project.definition.target_locations.length | number }}</span> {{'project_target_locations' | translate}}
 						<!-- <i class="material-icons left">person_pin</i> Project Target Locations -->
 					</h5>
 				</li>
 				<li class="collection-item avatar">
 
 					<p id="ngm-target_locations" style="padding:10px;">
-						{{'Enter the TARGET LOCATIONS of your PROJECT in the form below' | translate}};
+						{{'enter_the_target_locations_of_your_project_in_the_form_below' | translate}};
 					</p>
 
 					<p>
@@ -35,8 +35,8 @@
 							      <td ng-if="project.lists.admin4.length">{{ project.lists.admin4[0].admin4type_name }}</td>
 							      <td ng-if="project.lists.admin5.length">{{ project.lists.admin5[0].admin5type_name }}</td>
 										<td>{{'Type' | translate}}</td>
-										<td ng-if="project.definition.admin0pcode !== 'AF'">{{'From List'|translate}}?</td>
-							      <td>{{'Site Name'|translate}} *</td>
+										<td ng-if="project.definition.admin0pcode !== 'AF'">{{'from_list'|translate}}?</td>
+							      <td>{{'site_name'|translate}} *</td>
 							      <td ng-show="project.definition.project_status !== 'complete'">{{'Edit'|translate}}</td>
 							    </tr>
 							    <tr ng-repeat="location in project.definition.target_locations track by $index">
@@ -255,7 +255,7 @@
 							  </table>							      
 
 							  <button class="btn" ng-show="project.definition.project_status !== 'complete'" ng-click="project.addLocation()" style="margin:20px 0px;">
-							  	<i class="material-icons left">add</i>{{'Add Row' | translate}}
+							  	<i class="material-icons left">add</i>{{'add_row' | translate}}
 							  </button>
 
 							</div>

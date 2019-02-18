@@ -20,23 +20,23 @@
 <div id="complete-modal" class="modal">
   <div class="modal-content">
     <h4 style="color: #2196F3; font-weight:100; padding-bottom: 10px;"><i class="material-icons left">info_outline</i>{{'Mark Project as Complete' | translate}}</h4>
-    <p>{{'Are you sure you want to mark this PROJECT as "COMPLETE"' | translate}}?</p>
+    <p>{{'are_you_sure_you_want_to_mark_this_project_as_complete' | translate}}?</p>
   </div>
   <div class="modal-footer">
   	<a class=" modal-action modal-close waves-effect waves-green btn-flat">No</a>
-    <a ng-click="panel.markComplete({{ panel.project }})" class=" modal-action modal-close waves-effect waves-green btn-flat">{{'Yes, project complete' | translate}}!</a>
+    <a ng-click="panel.markComplete({{ panel.project }})" class=" modal-action modal-close waves-effect waves-green btn-flat">{{'yes_project_complete' | translate}}!</a>
   </div>
 </div>
 
 <!-- complete modal -->
 <div id="delete-modal" class="modal">
   <div class="modal-content">
-    <h4 style="color: #E57373; font-weight:100; padding-bottom: 10px;"><i class="material-icons left">info_outline</i>{{'Delete Project' | translate}}</h4>
-    <p>{{'Are you sure you want to DELETE this PROJECT and all its associated data'|translate}}?</p>
+    <h4 style="color: #E57373; font-weight:100; padding-bottom: 10px;"><i class="material-icons left">info_outline</i>{{'delete_project' | translate}}</h4>
+    <p>{{'are_you_sure_you_want_to_delete_this_project_and_all_its_associated_data'|translate}}?</p>
   </div>
   <div class="modal-footer">
   	<a class=" modal-action modal-close waves-effect waves-green btn-flat">No</a>
-    <a ng-click="panel.deleteProject({{ panel.project }})" class=" modal-action modal-close waves-effect waves-red btn-flat">{{'Yes, delete project' | translate}}!</a>
+    <a ng-click="panel.deleteProject({{ panel.project }})" class=" modal-action modal-close waves-effect waves-red btn-flat">{{'yes_delete_project' | translate}}!</a>
   </div>
 </div>
 
@@ -44,12 +44,12 @@
 <!-- active modal -->
 <div id="active-modal" class="modal">
   <div class="modal-content">
-    <h4 style="color: #2196F3; font-weight:100; padding-bottom: 10px;"><i class="material-icons left">info_outline</i>{{'Mark Project as Active' | translate}}</h4>
-    <p>{{'Are you sure you want to move this project to "Active"' | translate}}?</p>
+    <h4 style="color: #2196F3; font-weight:100; padding-bottom: 10px;"><i class="material-icons left">info_outline</i>{{'mark_project_as_Active' | translate}}</h4>
+    <p>{{'are_you_sure_you_want_to_move_this_project_to_active' | translate}}?</p>
   </div>
   <div class="modal-footer">
   	<a class=" modal-action modal-close waves-effect waves-green btn-flat">No</a>
-    <a ng-click="panel.markActive({{ panel.project }})" class=" modal-action modal-close waves-effect waves-green btn-flat">{{'Yes, move project to active' | translate}}!</a>
+    <a ng-click="panel.markActive({{ panel.project }})" class=" modal-action modal-close waves-effect waves-green btn-flat">{{'yes_move_project_to_active' | translate}}!</a>
   </div>
 </div>
 
@@ -67,11 +67,11 @@
 	        <img src="images/cluster/details-1.jpg">
 	      </div>
 	      <div class="card-content white-text">
-	      	<p class="card-title">{{'Project Details' | translate}}
+	      	<p class="card-title">{{'project_details' | translate}}
 	      	</p>
 	      </div>
 	      <div class="card-action">
-	        <a href="#/cluster/projects/details/{{ panel.project.id }}">{{'Go to Project Details'|translate}}
+	        <a href="#/cluster/projects/details/{{ panel.project.id }}">{{'go_to' | translate}} {{'project_details'|translate}}
 	        </a>
 	      </div>
 	    </div>
@@ -84,11 +84,11 @@
 		        <img src="images/cluster/reports.jpg">
 		      </div>
 		      <div class="card-content white-text">
-		        <p class="card-title">{{'Financial Reports'|translate}}
+		        <p class="card-title">{{'financial_reports'|translate}}
 		        </p>
 		      </div>
 		      <div class="card-action">
-		        <a href="#/cluster/projects/financials/{{ panel.project.id }}">{{'Go to Financial Reports'|translate}}
+		        <a href="#/cluster/projects/financials/{{ panel.project.id }}">{{'go_to' | translate}} {{financial_reports | translate}}
 		        </a>
 		      </div>
 		    </div>
@@ -101,11 +101,11 @@
 		        <img src="images/cluster/monthly_report.jpg">
 		      </div>
 		      <div class="card-content white-text">
-		        <p class="card-title">{{'Monthly Reports' | translate}}
+		        <p class="card-title">{{'monthly_reports' | translate}}
 		        </p>
 		      </div>
 		      <div class="card-action">
-		        <a href="#/cluster/projects/report/{{ panel.project.id }}">{{'Go to Monthly Reports'|translate}}
+		        <a href="#/cluster/projects/report/{{ panel.project.id }}">{{'go_to' | translate}} {{'monthly_reports' |translate}}
 		        </a>
 		      </div>
 		    </div>
@@ -127,11 +127,11 @@
 	        <img src="images/cluster/details-1.jpg">
 	      </div>
 	      <div class="card-content white-text">
-	      	<p class="card-title">{{'Project Details' | translate}}
+	      	<p class="card-title">{{'project_details' | translate}}
 	      	</p>
 	      </div>
 	      <div class="card-action">
-	        <a href="#/cluster/projects/details/{{ panel.project.id }}">{{'Go to Project Details' | translate}}
+	        <a href="#/cluster/projects/details/{{ panel.project.id }}">{{'go_to' | translate}} {{'project_details' | translate}}
 	        </a>
 	      </div>
 	    </div>
@@ -144,11 +144,11 @@
 		        <img src="images/cluster/monthly_report.jpg">
 		      </div>
 		      <div class="card-content white-text">
-		        <p class="card-title">{{'Monthly Reports' | translate}}
+		        <p class="card-title">{{'monthly_reports' | translate}}
 		        </p>
 		      </div>
 		      <div class="card-action">
-		        <a href="#/cluster/projects/report/{{ panel.project.id }}">{{'Go to Monthly Reports' | translate}}
+		        <a href="#/cluster/projects/report/{{ panel.project.id }}">{{'go_to' | translate}} {{'monthly_reports' |translate}}
 		        </a>
 		      </div>
 		    </div>
@@ -163,12 +163,12 @@
 				<!-- submission -->
 				<div align="center">
 					<button data-target="complete-modal" class="waves-effect waves-light btn modal-trigger blue" ng-cloak>
-						<i class="material-icons left">assignment_turned_in</i>{{'Mark Project as Complete' | translate}}
+						<i class="material-icons left">assignment_turned_in</i>{{'mark_project_as_complete' | translate}}
 					</button>
 					<br/>
 					<br/>
 					<button data-target="delete-modal" class="waves-effect waves-light btn modal-trigger red lighten-2" ng-cloak>
-						<i class="material-icons left">delete_forever</i>{{'Delete Project' | translate}}
+						<i class="material-icons left">delete_forever</i>{{'delete_project' | translate}}
 					</button>
 				</div>
 			</div>
@@ -181,7 +181,7 @@
 				<!-- submission -->
 				<div align="center">
 					<button data-target="active-modal" class="waves-effect waves-light btn modal-trigger blue" ng-cloak>
-						<i class="material-icons left">assignment_turned_in</i>{{'Mark Project as Active' | translate}}
+						<i class="material-icons left">assignment_turned_in</i>{{'mark_project_as_active' | translate}}
 					</button>
 					<br/>
 					<br/>
