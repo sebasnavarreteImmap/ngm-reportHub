@@ -81,8 +81,8 @@ li {
 	        	<i class="material-icons prefix country">person_pin</i>
 	        	<select id="ngm-country" 
 	        					ng-options="location.admin0pcode as location.admin0name for location in panel.adminRegion"
-	        					ng-model="panel.user.admin0pcode">{{'Select Country' | translate }}
-	        					<option value="">{{'Select Country' | translate}}</option>
+	        					ng-model="panel.user.admin0pcode">{{'select_country' | translate }}
+	        					<option value="">{{'select_country' | translate}}</option>
 	        					</select>
 					    <label for="ngm-country">{{'Country' | translate}}</label>
 	        </div>
@@ -96,8 +96,8 @@ li {
 					    	ng-model="panel.user.cluster_id"
 					    	ng-select="panel.onOrganizationSelected()"
 					    	required>
-					      <option value="" disabled selected>{{'Select Sector' | translate}}</option>
-								<option value="cvwg">{{'Multi-Purpose Cash' | translate}}</option>
+					      <option value="" disabled selected>{{'select_sector' | translate}}</option>
+								<option value="cvwg">{{'multi_purpose_cash' | translate}}</option>
 								<option value="agriculture">{{'Agriculture' | translate}}</option>
 								<option value="cccm_esnfi">CCCM - Shelter</option>
 								<option value="education">{{'Education' | translate}}</option>
@@ -132,7 +132,7 @@ li {
 					prompt="" 
 					title="organization" 
 					subtitle="organization_name" 
-					model="panel.user.organization" on-select="panel.onOrganizationSelected()">{{'Select Organization' | translate}}</typeahead>
+					model="panel.user.organization" on-select="panel.onOrganizationSelected()">{{'select_organization' | translate}}</typeahead>
 
  				<div class="action center">
 					<button
@@ -167,7 +167,7 @@ li {
 	          <input id="ngm-fullname" type="text" class="validate"
 							ng-model="panel.user.name"
 							required>
-	          <label for="ngm-fullname">{{'Full Name' | translate}}</label>
+	          <label for="ngm-fullname">{{'full_name' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -229,7 +229,7 @@ li {
 				<div class="card">
 					<img title="ReportHub Login Details" src="images/registration.png"/>
 				</div>
-				<h5 class="title">{{'LOGIN DETAILS' | translate}}</h5>
+				<h5 class="title">{{'login_details' | translate}}</h5>
 			</div>
 
 			<form name="ngmLoginForm" class="col s12" novalidate>
@@ -307,7 +307,7 @@ li {
 				<div class="card">
 					<img title="iMMAP Programme" src="images/registration.png"/>
 				</div>
-				<h5 class="title">{{'iMMAP PROGRAMME' | translate}}</h5>
+				<h5 class="title">{{'immap_programme' | translate}}</h5>
 			</div>
 
 			<form name="ngmProgrammeForm" class="col s12" novalidate>
@@ -318,8 +318,8 @@ li {
 	        	<i class="material-icons prefix cluster">recent_actors</i>
 					    <select id="ngm-programme"
         					ng-options="list.programme_id as list.programme_name for list in panel.programme"
-        					ng-model="panel.user.programme_id">{{'Select Programme' | translate}}
-        					<option value="" disabled selected>{{'Select Programme' | translate}}</option>
+        					ng-model="panel.user.programme_id">{{'select_programme' | translate}}
+        					<option value="" disabled selected>{{'select_programme' | translate}}</option>
         					</select>
 					    <label for="ngm-programme">{{'Programme' | translate}}</label>
 	        </div>
@@ -337,7 +337,7 @@ li {
 								    format="dd mmm, yyyy"
 								    select-years="15"
 								    max="{{ panel.user.contract_end_date }}"/>
-								<label for="ngm-contract-start-date">{{'Contract Start Date' | translate }}</label>
+								<label for="ngm-contract-start-date">{{'contract_start_date' | translate }}</label>
 					</div>
 				</div>
 
@@ -353,7 +353,7 @@ li {
 								    format="dd mmm, yyyy"
 								    select-years="15"
 								    min="{{ panel.user.contract_start_date }}"/>
-								<label for="ngm-contract-end-date">{{'Contract End Date' | translate}}</label>
+								<label for="ngm-contract-end-date">{{'contract_end_date' | translate}}</label>
 					</div>
 				</div>
 
@@ -363,10 +363,10 @@ li {
 	        	<i class="material-icons prefix cluster">person_pin</i>
 					    <select id="ngm-duty-station"
         							ng-options="list.site_name as list.site_name for list in panel.dutyStations | filter: { admin0pcode: panel.user.admin0pcode } | orderBy:'site_name'"
-        							ng-model="panel.user.site_name">{{'Select Duty Station' | translate}}
+        							ng-model="panel.user.site_name">{{'select_duty_station' | translate}}
         					<option value="" disabled selected>Select Station</option>
         					</select>
-					    <label for="ngm-duty-station">{{'Duty Station' | translate}}</label>
+					    <label for="ngm-duty-station">{{'duty_station' | translate}}</label>
 	        </div>
 	      </div>
 

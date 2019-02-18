@@ -67,7 +67,7 @@ angular.module( 'ngmReportHub' )
 			$scope.model.header.download.downloads[0].request.data.report = organization.organization_tag  +'_projects-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' );
 			// set model titles
 			$scope.model.header.title.title = organization.admin0name.toUpperCase().substring(0, 3) + ' | ' + organization.cluster.toUpperCase() + ' | ' + organization.organization + ' | Projects';
-			$scope.model.header.subtitle.title = organization.cluster + ' projects for ' + organization.organization + ' ' + organization.admin0name;
+			$scope.model.header.subtitle.title = organization.cluster +' '+ $filter('translate')('projects for') +' ' + organization.organization + ' ' + organization.admin0name;
 
 		});
 
@@ -94,7 +94,7 @@ angular.module( 'ngmReportHub' )
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'assignment',
-						hover: 'Download Project Summaries as CSV',
+						hover: $filter('translate')('Download Project Summaries as CSV'),
 						request: {
 							method: 'POST',
 							url: ngmAuth.LOCATION + '/api/cluster/project/getProjects',
