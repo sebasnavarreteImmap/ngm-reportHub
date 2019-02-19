@@ -140,7 +140,7 @@
 										<input ng-click="project.setHrpStatus()" 
 														ng-checked="project.definition.project_hrp_project" type="checkbox">
 										<span class="lever"></span>
-										{{'HRP_project' | translate}}
+										{{'hrp_project' | translate}}
 									</label>
 								</div>
 								
@@ -148,7 +148,7 @@
 								<div class="input-field col s12 m6">
 								  <input id="ngm-project_hrp_code" type="text" class="validate"
 								  	ng-model="project.definition.project_hrp_code" disabled="true">
-								  <label for="ngm-project-budget">{{'HRP_project_code' | translate}}</label>
+								  <label for="ngm-project-budget">{{'hrp_project_code' | translate}}</label>
 								</div>
 
 							</div>
@@ -157,13 +157,13 @@
 
 								<!-- budget currency -->
 								<div class="input-field col s12 m12">
-									<label>ACBAR Partner?</label>
+									<label>ACBAR {{'partner'|translate}}?</label>
 									<div style="padding-bottom:35px;"></div>
 							      <input type="checkbox" id="project_acbar_partner" 
 							      ng-model="project.definition.project_acbar_partner"
 							      ng-click="project.updateAcbarOrganization()"
 							      ng-disabled="project.definition.project_status === 'complete'"/>
-							      <label class="checkbox-label" for="project_acbar_partner">{{'Yes' | translate}}</label>
+							      <label class="checkbox-label" for="project_acbar_partner">{{'yes' | translate}}</label>
 								</div>
 
 							</div>

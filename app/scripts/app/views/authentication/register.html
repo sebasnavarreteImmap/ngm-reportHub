@@ -71,7 +71,7 @@ li {
 				<div class="card">
 					<img title="ReportHub Registration" src="images/registration.png"/>
 				</div>
-				<h5 class="title">{{'ORGANIZATION' | translate}}</h5>
+				<h5 class="title">{{'organization_mayus' | translate}}</h5>
 			</div>
 
 			<form name="ngmOrganizationForm" class="col s12" novalidate>
@@ -84,7 +84,7 @@ li {
 	        					ng-model="panel.user.admin0pcode">{{'select_country' | translate }}
 	        					<option value="">{{'select_country' | translate}}</option>
 	        					</select>
-					    <label for="ngm-country">{{'Country' | translate}}</label>
+					    <label for="ngm-country">{{'country' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -98,17 +98,17 @@ li {
 					    	required>
 					      <option value="" disabled selected>{{'select_sector' | translate}}</option>
 								<option value="cvwg">{{'multi_purpose_cash' | translate}}</option>
-								<option value="agriculture">{{'Agriculture' | translate}}</option>
+								<option value="agriculture">{{'agriculture' | translate}}</option>
 								<option value="cccm_esnfi">CCCM - Shelter</option>
-								<option value="education">{{'Education' | translate}}</option>
+								<option value="education">{{'education' | translate}}</option>
 					      <option value="eiewg">EiEWG</option>
 					      <option value="esnfi">ESNFI</option>
 					      <option value="fsac">FSAC</option>
-					      <option value="health">{{'Health' | translate}}</option>
-					      <option value="nutrition">{{'Nutrition' | translate}}</option>
-					      <option value="protection">{{'Protection' | translate}}</option>
+					      <option value="health">{{'health' | translate}}</option>
+					      <option value="nutrition">{{'nutrition' | translate}}</option>
+					      <option value="protection">{{'protection' | translate}}</option>
 					      <option value="rnr_chapter">R&R Chapter</option>
-					      <option value="wash">{{'WASH' | translate}}</option>
+					      <option value="wash">{{'wash' | translate}}</option>
 					    </select>
 					    <label for="ngm-cluster">Sector</label>
 	        </div>
@@ -127,7 +127,7 @@ li {
  				-->
 
 				<typeahead
-					label="{{'Organization' | translate}} "
+					label="{{'organization' | translate}} "
 					items="panel.organizations" 
 					prompt="" 
 					title="organization" 
@@ -140,7 +140,7 @@ li {
 						class="btn btn-large waves-effect waves-teal" 
 						ng-disabled="panel.organizationDisabled()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{'Next' | translate}}
+							{{'next' | translate}}
 					</button>
 				</div>
 
@@ -156,7 +156,7 @@ li {
 				<div class="card">
 					<img title="Contact Details" src="images/registration.png"/>
 				</div>
-				<h5 class="title">{{'CONTACT' | translate}}</h5>
+				<h5 class="title">{{'contact_mayus' | translate}}</h5>
 			</div>
 
 			<form name="ngmContactForm" class="col s12" novalidate>
@@ -177,7 +177,7 @@ li {
 	          <input id="ngm-position" type="text" class="validate"
 							ng-model="panel.user.position"
 							required>
-	          <label for="ngm-position">{{'Position' | translate}}</label>
+	          <label for="ngm-position">{{'position' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -187,7 +187,7 @@ li {
 	          <input id="ngm-phone" type="tel" class="validate"
 							ng-model="panel.user.phone"
 							required>
-	          <label for="ngm-phone">{{'Phone' | translate}}</label>
+	          <label for="ngm-phone">{{'phone' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -197,7 +197,7 @@ li {
 	          <input id="ngm-email" type="email" class="validate"
 							ng-model="panel.user.email"
 							required>
-	          <label for="ngm-email">{{'Email' | translate}}</label>
+	          <label for="ngm-email">{{'email' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -206,14 +206,14 @@ li {
 						id="contact-back"
 						class="btn btn-large waves-effect waves-teal" >
 							<i class="material-icons left">keyboard_arrow_left</i>
-							{{'Back' | translate}}
+							{{'back' | translate}}
 					</div>
 					<div
 						id="contact-next"
 						class="btn btn-large waves-effect waves-teal"
 						ng-disabled="ngmContactForm.$invalid">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{'Next' | translate}}
+							{{'next' | translate}}
 					</div>
 				</div>
 
@@ -241,7 +241,7 @@ li {
 							autofocus=""
 							ng-model="panel.user.username"
 							required>
-	          <label for="ngm-username">{{'Username' | translate}}</label>
+	          <label for="ngm-username">{{'username' | translate}}</label>
 	        </div>
 	      </div>
 	      
@@ -251,7 +251,7 @@ li {
 	          <input id="ngm-password" type="password" class="validate"
 							ng-model="panel.user.password"
 							required>
-	          <label for="ngm-password">{{'Password' | translate}}</label>
+	          <label for="ngm-password">{{'password' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -260,7 +260,7 @@ li {
 						id="login-back"
 						class="btn btn-large waves-effect waves-teal">
 							<i class="material-icons left">keyboard_arrow_left</i>
-							{{'Back' | translate}}
+							{{'back' | translate}}
 					</div>
 					<div
 						id="login-next"
@@ -269,7 +269,7 @@ li {
 						class="btn btn-large waves-effect waves-teal"
 						ng-disabled="ngmLoginForm.$invalid">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{'Next' | translate}}
+							{{'next' | translate}}
 					</div>
 					<div
 						id="login-register"
@@ -278,7 +278,7 @@ li {
 						ng-disabled="ngmLoginForm.$invalid"
 						ng-click="panel.register()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{'Register' | translate}}!
+							{{'register' | translate}}!
 					</div>
 					<div class="action center">
 						<button
@@ -290,7 +290,7 @@ li {
 								ng-disabled="ngmLoginForm.$invalid"
 								ng-click="panel.register()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{'Register' | translate}}!
+							{{'register' | translate}}!
 						</button>
 					</div>
 				</div>
@@ -321,7 +321,7 @@ li {
         					ng-model="panel.user.programme_id">{{'select_programme' | translate}}
         					<option value="" disabled selected>{{'select_programme' | translate}}</option>
         					</select>
-					    <label for="ngm-programme">{{'Programme' | translate}}</label>
+					    <label for="ngm-programme">{{'programme' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -378,7 +378,7 @@ li {
 	          				type="text"
 	          				class="validate"
 										ng-model="panel.user.profile">
-	          <label for="ngm-profile">{{'Profile' | translate}}</label>
+	          <label for="ngm-profile">{{'profile' | translate}}</label>
 	        </div>
 	      </div>
 
@@ -399,7 +399,7 @@ li {
 							id="programme-back"
 							class="btn btn-large waves-effect waves-teal">
 							<i class="material-icons left">keyboard_arrow_left</i>
-							{{'Back' | translate}}
+							{{'back' | translate}}
 					</div>
 					<div
 							id="programme-register"
@@ -407,7 +407,7 @@ li {
 							ng-disabled="ngmProgrammeForm.$invalid"
 							ng-click="panel.register()">
 							<i class="material-icons right">keyboard_arrow_right</i>
-							{{'Register' | translate}}!
+							{{'register' | translate}}!
 					</div>
 				</div>
 

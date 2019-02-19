@@ -43,11 +43,11 @@
 		<!-- ie modal -->
 		<div id="ngm-ie-modal" class="modal">
 			<div class="modal-content">
-	      <h4></img>Download Google Chome</h4>
-	      <p><img align="center" src="images/chrome.png" width="10%">Google Chrome is the required browser for ReportHub!</p>
+	      <h4></img>{{'download_google_chrome' | translate}}</h4>
+	      <p><img align="center" src="images/chrome.png" width="10%">{{'google_chrome_is_the_required_browser_for_reporthub' | translate}}!</p>
 			</div>
 	    <div class="modal-footer">
-	      <a class="waves-effect waves-teal btn-flat" href="https://www.google.com/chrome">Download</a>
+	      <a class="waves-effect waves-teal btn-flat" href="https://www.google.com/chrome">{{'download' | translate}}</a>
 	    </div>
 		</div>
 
@@ -114,21 +114,21 @@
 									<li align="right" class="teal z-depth-2"
 											ng-show="ngm.getUserName() === 'welcome' && ngm.style.home === '#/immap'">
 										<a class="white-text right" href="#/immap/login" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">lock_outline</i>{{'LOGIN' | translate}}</a>
+										<i class="material-icons smedium right">lock_outline</i>{{'login' | translate}}</a>
 									</li>
 
 									<!-- user login -->
 									<li align="right" class="teal z-depth-2"
 											ng-show="ngm.getUserName() === 'welcome' && ngm.style.home !== '#/immap'">
 										<a class="white-text right" href="#/cluster/login" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">lock_outline</i>{{'LOGIN' | translate}}</a>
+										<i class="material-icons smedium right">lock_outline</i>{{'login' | translate}}</a>
 									</li>
 
 									<!-- user logout -->
 									<li class="teal z-depth-2"
 											ng-show="ngm.getUserName() !== 'welcome'">
 										<a class="white-text right" ng-click="ngm.logout();">
-										<i class="material-icons smedium right">lock_open</i>{{'LOGOUT' | translate}}</a>
+										<i class="material-icons smedium right">lock_open</i>{{'logout' | translate}}</a>
 									</li>
 
 									<!-- home page -->
@@ -201,7 +201,7 @@
 															ngm.getUser().admin0pcode.toLowerCase() === 'et' &&
 															ngm.getUser().organization.toLowerCase() === 'who'">
 										<a class="white-text right" href="#/who/ethiopia" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">assignment_late</i>{{'ASSESSMENTS' | translate}}</a>
+										<i class="material-icons smedium right">assignment_late</i>{{'assessments' | translate}}</a>
 									</li>
 									<li  align="center" class="teal z-depth-2" 
 										ng-if="ngm.getUser().admin0pcode.toLowerCase() === 'af'"
@@ -242,7 +242,7 @@
 									 ng-if="ngm.getUser().admin0pcode.toLowerCase() === 'af'"
 									>
 										<a class="white-text right" href="#/response/afghanistan/drought" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">bubble_chart</i>{{'DROUGHT' | translate}} DASHBOARD</a>
+										<i class="material-icons smedium right">bubble_chart</i>{{'drought' | translate}} DASHBOARD</a>
 									</li>
 
 
@@ -255,14 +255,14 @@
 									<!-- contact modal -->
 									<li align="center" class="teal z-depth-2">
 										<a class="white-text right" ng-click="ngm.contact(); ngm.toggleNavigationMenu()">
-										<i class="material-icons smedium right">perm_phone_msg</i>{{'CONTACT' | translate}} REPORTHUB</a>
+										<i class="material-icons smedium right">perm_phone_msg</i>{{'contact' | translate}} REPORTHUB</a>
 									</li>
 
 									<li align="center" class="teal z-depth-2">
 										
 										<a class="white-text" >
 											
-											{{'LANGUAGE'|translate}}: <span class="white-text" ng-click="ngm.changeFunction('en');">EN</span> /
+											{{'language'|translate}}: <span class="white-text" ng-click="ngm.changeFunction('en');">EN</span> /
 											<span class="white-text" ng-click="ngm.changeFunction('es');">ES</span>
 										</a> 
 

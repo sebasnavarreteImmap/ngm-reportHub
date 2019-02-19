@@ -11,27 +11,27 @@
   <table class="bordered responsive-table" style="margin-bottom:10px;"
           ng-show="project.report.locations[ $locationIndex ].beneficiaries.length">
     <tr style="font-weight: 400">
-      <td>{{'Activity' | translate}}</td>
-      <td>{{'Description' | translate}}</td>
-			<td ng-if="project.showCash( $locationIndex ) && project.showDeliveryfield(project.report.locations[ $locationIndex ].beneficiaries) && project.definition.admin0pcode === 'AF'">{{'Delivery' | translate}}</td>
-			<td ng-if="project.showCash( $locationIndex )">{{'Mechanism' | translate}}</td>
-      <td ng-if="project.showPackage( $locationIndex )">{{'Package' | translate}}</td>
-      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">{{'Category' | translate}}</td>
-      <td>{{'Beneficiary' | translate}}</td>
-      <td ng-if="project.definition.admin0pcode === 'AF'">{{'Population' | translate}}</td>
-			<td ng-if="project.showUnits( $locationIndex )">{{'Amount' | translate}}</td>
-			<td ng-if="project.showUnits( $locationIndex )">{{'Units' | translate}}</td>
-      <td ng-if="project.showCash( $locationIndex )">{{'Transfers' | translate}}</td>
+      <td>{{'activity' | translate}}</td>
+      <td>{{'description' | translate}}</td>
+			<td ng-if="project.showCash( $locationIndex ) && project.showDeliveryfield(project.report.locations[ $locationIndex ].beneficiaries) && project.definition.admin0pcode === 'AF'">{{'delivery' | translate}}</td>
+			<td ng-if="project.showCash( $locationIndex )">{{'mechanism' | translate}}</td>
+      <td ng-if="project.showPackage( $locationIndex )">{{'package' | translate}}</td>
+      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">{{'category' | translate}}</td>
+      <td>{{'beneficiary' | translate}}</td>
+      <td ng-if="project.definition.admin0pcode === 'AF'">{{'population' | translate}}</td>
+			<td ng-if="project.showUnits( $locationIndex )">{{'amount' | translate}}</td>
+			<td ng-if="project.showUnits( $locationIndex )">{{'units' | translate}}</td>
+      <td ng-if="project.showCash( $locationIndex )">{{'transfers' | translate}}</td>
       <td ng-if="project.showHouseholds( $locationIndex )">HHs</td>
-      <td ng-if="project.showFamilies( $locationIndex )">{{'Families' | translate}}</td>
-      <td>{{'Boys' | translate}}</td>
-      <td>{{'Girls' | translate}}</td>
-      <td ng-if="project.showMen( $locationIndex )">{{'Men' | translate}}</td>
-      <td ng-if="project.showWomen( $locationIndex )">{{'Women' | translate}}</td>
-      <td ng-if="project.definition.admin0pcode === 'NG' || project.definition.admin0pcode === 'AF'">Eld. {{'Men' | translate}}</td>
-      <td ng-if="project.definition.admin0pcode === 'NG' || project.definition.admin0pcode === 'AF'">Eld. {{'Women' | translate}}</td>
-			<td ng-if="project.showFatpTreatmentSameProvince( $locationIndex )">{{'Treatment Same Province'| translate}}</td>
-      <td ng-if="project.report.report_status !== 'complete'">{{'Edit' | translate}}</td>
+      <td ng-if="project.showFamilies( $locationIndex )">{{'families' | translate}}</td>
+      <td>{{'boys' | translate}}</td>
+      <td>{{'girls' | translate}}</td>
+      <td ng-if="project.showMen( $locationIndex )">{{'men' | translate}}</td>
+      <td ng-if="project.showWomen( $locationIndex )">{{'women' | translate}}</td>
+      <td ng-if="project.definition.admin0pcode === 'NG' || project.definition.admin0pcode === 'AF'">Eld. {{'men' | translate}}</td>
+      <td ng-if="project.definition.admin0pcode === 'NG' || project.definition.admin0pcode === 'AF'">Eld. {{'women' | translate}}</td>
+			<td ng-if="project.showFatpTreatmentSameProvince( $locationIndex )">{{'treatment_same_province'| translate}}</td>
+      <td ng-if="project.report.report_status !== 'complete'">{{'edit' | translate}}</td>
     </tr>
     <tr ng-repeat-start="beneficiary in project.report.locations[ $locationIndex ].beneficiaries"
           ng-init="$beneficiaryIndex=$index">
@@ -387,14 +387,14 @@
 
       <!-- remarks -->
         <div class="col s12 m2" style="text-align:right;">
-          <p style="font-size:16px; padding-top:30px;">{{'Remarks' | translate}}</p>
+          <p style="font-size:16px; padding-top:30px;">{{'remarks' | translate}}</p>
         </div>
         <div style="margin-top:20px;" class="input-field col s12 m10">
           <input id="ngm-beneficiary-remarks" type="text" class="validate"
                 ng-model="beneficiary.remarks"
                 ng-disabled="project.definition.project_status === 'complete' || !rowform.$visible"
                 required>
-          <label for="ngm-beneficiary-remarks" class="error">{{'Remarks' | translate}}</label>
+          <label for="ngm-beneficiary-remarks" class="error">{{'remarks' | translate}}</label>
         </div>       
 
         <!-- distribution / kit details -->
@@ -422,7 +422,7 @@
                       ng-show="project.report.report_status !== 'complete' && rowform.$visible"
                       ng-click="ngmClusterBeneficiaries.addPartialKits( beneficiary, $beneficiaryIndex );
                                   ngmClusterHelperNgWash.init_material_select();">
-                <i class="material-icons left">add</i>{{'Add Partial Kits' | translate}}
+                <i class="material-icons left">add</i>{{'add_partial_kits' | translate}}
               </button>
             </div>
           </div>
@@ -440,7 +440,7 @@
                       ng-show="project.report.report_status !== 'complete' && rowform.$visible"
                       ng-click="ngmClusterBeneficiaries.addKitDetail( beneficiary );
                                   ngmClusterHelperNgWash.init_material_select();">
-                <i class="material-icons left">add</i>{{'Add Kit Details' | translate}}
+                <i class="material-icons left">add</i>{{'add_kit_details' | translate}}
               </button>
             </div>
       		</div>
@@ -457,7 +457,7 @@
             ng-if="project.definition.admin0pcode === 'ET' && project.definition.cluster_id === 'esnfi'"
             ng-show="project.report.report_status !== 'complete'" 
             ng-click="project.addBeneficiary( $locationIndex, { households: 1 } )">
-    <i class="material-icons left">add</i>{{'Add Beneficiaries' | translate}}
+    <i class="material-icons left">add</i>{{'add_beneficiaries' | translate}}
   </button>
 
   <!-- default -->
@@ -465,7 +465,7 @@
             ng-if="project.definition.admin0pcode !== 'ET' || project.definition.cluster_id !== 'esnfi'" 
             ng-show="project.report.report_status !== 'complete'" 
             ng-click="project.addBeneficiary( $locationIndex )">
-    <i class="material-icons left">add</i>{{'Add Beneficiaries' | translate}}
+    <i class="material-icons left">add</i>{{'add_beneficiaries' | translate}}
   </button>  
 
 </div>

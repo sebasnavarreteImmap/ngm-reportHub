@@ -66,7 +66,7 @@ angular.module( 'ngmReportHub' )
 			.then( function( organization ){
 			$scope.model.header.download.downloads[0].request.data.report = organization.organization_tag  +'_projects-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' );
 			// set model titles
-			$scope.model.header.title.title = organization.admin0name.toUpperCase().substring(0, 3) + ' | ' + organization.cluster.toUpperCase() + ' | ' + organization.organization + ' '+$filter('translate')('Projects');
+			$scope.model.header.title.title = organization.admin0name.toUpperCase().substring(0, 3) + ' | ' + organization.cluster.toUpperCase() + ' | ' + organization.organization + ' | '+$filter('translate')('projects_mayus1');
 			$scope.model.header.subtitle.title = organization.cluster +' projects_for ' + organization.organization + ' ' + organization.admin0name;
 
 		});

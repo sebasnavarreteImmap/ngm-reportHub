@@ -21,20 +21,20 @@
 
                 <table class="bordered responsive-table" ng-show="project.definition.project_budget_progress.length">
                   <tr style="font-weight: 400">
-                    <td>{{'Donor'|translate}}*</td>
-                    <td>{{'Activity' | translate}}*</td>
-                    <td>{{'Grant' | translate}} ID</td>
-                    <td>{{'Amount' | translate}}*</td>
-                    <td>{{'Currency' | translate}}*</td>
-                    <td>{{'Funds' | translate}}*</td>
-                    <td ng-show="project.showProgrammingLabel()">{{'Programming' | translate}}</td>
-                    <td>{{'Recieved' | translate}}*</td>
+                    <td>{{'donor'|translate}}*</td>
+                    <td>{{'activity' | translate}}*</td>
+                    <td>{{'grant' | translate}} ID</td>
+                    <td>{{'amount' | translate}}*</td>
+                    <td>{{'currency' | translate}}*</td>
+                    <td>{{'funds' | translate}}*</td>
+                    <td ng-show="project.showProgrammingLabel()">{{'programming' | translate}}</td>
+                    <td>{{'recieved' | translate}}*</td>
                     <td>{{'multi_year_funding' | translate}}</td>
-                    <td ng-show="project.showFunding2017()">2017 {{'Funding' | translate}}</td>
-                    <td>on FTS?</td>
+                    <td ng-show="project.showFunding2017()">2017 {{'funding' | translate}}</td>
+                    <td>{{'on' |translate}} FTS?</td>
                     <td ng-show="project.showFtsIdLabel()">FTS ID</td>
-                    <td>{{'Notes' | translate}}</td>
-                    <td ng-if="project.definition.project_status !== 'complete'">{{'Edit' | translate}}</td>
+                    <td>{{'notes' | translate}}</td>
+                    <td ng-if="project.definition.project_status !== 'complete'">{{'edit' | translate}}</td>
                   </tr>
                   <tr ng-repeat="budget in project.definition.project_budget_progress track by $index">
 
