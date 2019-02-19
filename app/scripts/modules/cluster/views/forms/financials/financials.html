@@ -5,14 +5,14 @@
         
         <li class="collection-header teal lighten-4">
           <h5 class="report-work-title">
-            <i class="material-icons left">attach_money</i>{{'Project Budget Progress' | translate}}
+            <i class="material-icons left">attach_money</i>{{'project_budget_progress' | translate}}
           </h5>
         </li>
 
         <li class="collection-item avatar">
 
           <p style="padding:10px;">
-            {{'Add a NEW ROW of financial details to your project for EACH PAYMENT recieved' | translate}};
+            {{'add_new_row_of_financial_details_to_your_project_for_each_payment_recieved' | translate}};
           </p>
 
           <div class="row">
@@ -29,7 +29,7 @@
                     <td>{{'Funds' | translate}}*</td>
                     <td ng-show="project.showProgrammingLabel()">{{'Programming' | translate}}</td>
                     <td>{{'Recieved' | translate}}*</td>
-                    <td>{{'Multi-Year Funding' | translate}}</td>
+                    <td>{{'multi_year_funding' | translate}}</td>
                     <td ng-show="project.showFunding2017()">2017 {{'Funding' | translate}}</td>
                     <td>on FTS?</td>
                     <td ng-show="project.showFtsIdLabel()">FTS ID</td>
@@ -213,7 +213,7 @@
                 </table>
 
                 <button class="btn" ng-show="project.definition.project_status !== 'complete'" ng-click="project.addBudgetItem()" style="margin:20px 0px;">
-                  <i class="material-icons left">add</i>{{'Add Row' | translate}}
+                  <i class="material-icons left">add</i>{{'add_row' | translate}}
                 </button>
 
               </div>

@@ -247,8 +247,8 @@ angular
         "mark_project_as_active":"Mark Project as Active",
 
         //FINANCIAL
-        "Project Budget Progress":"Project Budget Progress",
-        "Add a NEW ROW of financial details to your project for EACH PAYMENT recieved":"Add a NEW ROW of financial details to your project for EACH PAYMENT recieved",
+        "project_budget_progress":"Project Budget Progress",
+        "add_new_row_of_financial_details_to_your_project_for_each_payment_recieved":"Add a NEW ROW of financial details to your project for EACH PAYMENT recieved",
         "Donor":"Donor",
         "Activity":"Activity",
         "Grant":"Grant",
@@ -257,7 +257,7 @@ angular
         "Funds":"Funds",
         "Programming":"Programming",
         "Recieved":"Recieved",
-        "Multi-Year Funding":"Multi-Year Funding",
+        "multi_year_funding":"Multi-Year Funding",
         "Funding":"Funding",
         "Notes":"Notes",
 
@@ -490,8 +490,8 @@ angular
 
 
         //FINANCIAL
-        "Project Budget Progress":"Progreso Presupuesto del Proyecto",
-        "Add a NEW ROW of financial details to your project for EACH PAYMENT recieved":"Agregar una NUEVA FILA de detalles financieros a su proyecto por CADA PAGO recivido",
+        "project_budget_progress":"Progreso Presupuesto del Proyecto",
+        "add_new_row_of_financial_details_to_your_project_for_each_payment_recieved":"Agregar una NUEVA FILA de detalles financieros a su proyecto por CADA PAGO recivido",
         "Donor":"Donante",
         "Activity":"Actividad",
         "Grant":"Donante",
@@ -500,7 +500,7 @@ angular
         "Funds":"Fondos",
         "Programming":"Programación",
         "Recieved":"Recibido",
-        "Multi-Year Funding":"Financiación Munti-anual",
+        "multi_year_funding":"Financiación Munti-anual",
         "Funding":"Financiación",
         "Notes":"Notas",
 
