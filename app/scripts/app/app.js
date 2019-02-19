@@ -180,6 +180,7 @@ angular
         "select_focal_point_of_your_project_in_the_form_below":"Select FOCAL POINT of your PROJECT in the form below",
         "enter_the_target_beneficiaries_of_your_project_in_the_form_below":"Enter the TARGET BENEFICIARIES of your PROJECT in the form below",
         "save_project":"Save Project",
+<<<<<<< HEAD
         "do_you_want_to_save_this_project":"Do you want to Save this project",
         "yes":"Yes",
         "cancel_new_project":"Cancel New Project",
@@ -196,6 +197,24 @@ angular
         "back_to_projects":"Back to Projects",
         "back_to_project_summary":"Back to Project Summary",
         "last_updated":"Last Updated",
+=======
+        "Do you want to Save this project":"Do you want to Save this project",
+        "Yes":"Yes",
+        "Cancel New Project":"Cancel New Project",
+        "Are you sure you want to return to Projects":"Are you sure you want to return to Projects",
+        "Cancel Project Update":"Cancel Project Update",
+        "Return to Project Summary":"Return to Project Summary",
+        "Yes, Cancel Update":"Yes, Cancel Update",
+        "Remove People in Need":"Remove People in Need",
+        "Remove People in Need from Project":"Remove People in Need from Project",
+        "Yes, Remove People in Need":"Yes, Remove People in Need",
+        "Remove Project Location":"Remove Project Location",
+        "This will effect any existing monthly beneficiary reports":"This will effect any existing monthly beneficiary reports",
+        "Yes, Remove location":"Yes, Remove location",
+        "Back to Projects":"Back to Projects",
+        "Back to Project Summary":"Back to Project Summary",
+        "Last Updated":"Last Updated",
+>>>>>>> 5094412d813d7d27f4e83b533316c78b1a7221de
 
         //TARGET POPULATION
 
