@@ -145,7 +145,7 @@ angular.module( 'ngmReportHub' )
 							// color: 'teal lighten-4',
 							color: 'blue lighten-4',
 							// textColor: 'white-text',
-							title: $filter('translate')('Active'),
+							title: $filter('translate')('active'),
 							icon: 'edit',
 							request: {
 								method: 'POST',
@@ -170,7 +170,7 @@ angular.module( 'ngmReportHub' )
 							titleIcon: 'done_all',
 							// color: 'lime lighten-4',
 							color: 'blue lighten-4',
-							title: 'Complete',
+							title: $filter('translate')('complete'),
 							icon: 'done',
 							request: {
 								method: 'POST',

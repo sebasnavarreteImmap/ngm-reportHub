@@ -136,7 +136,7 @@ angular
        "duty_station" : "Estación de Servicio",
        "profile" : "Profile",
        "go_to" : "Go to",
-       "Team" : "Team",
+       "team" : "Team",
        "view_team" : "View Team",
        "projects_mayus1":"Projects",
        "project_mayus1":"Project",
@@ -463,9 +463,8 @@ angular
        "project_mayus1":"Proyecto",
        "project":"proyecto",
        "go_to" : "Ir a",
-       "Team" : "Equipo",
+       "team" : "Equipo",
        "view_team" : "Ver Equipo",
-       "Team":"Equipo",
        "back_to_organization":"Regresar a Organización",
        "add_new_project":"Agregar Nuevo Proyecto",
        "projects_for":"proyectos para",
@@ -846,7 +845,7 @@ angular
 		});
 
 	}])
-	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate) {
+	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate','$filter', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate,$filter) {
    
 
 
@@ -860,7 +859,7 @@ angular
 
 
 			// app name
-			title: 'Welcome',
+			title: $filter('translate')('welcome'),
 
 			// current route
 			route: $route,
