@@ -164,8 +164,10 @@ angular
        "updated":"Updated",
 
        //Helper
-       "please_complete_Project_Details_and_enter_a_project_summary_description_including_objetives":"Please complete Project Details and enter a project summary description including objectives...",
+       "please_complete_project_details_and_enter_a_project_summary_description_including_objetives":"Please complete Project Details and enter a project summary description including objectives...",
        
+       //ngm-list
+       "you_have":"You have",
 
        // NEW PROJECT
         "project_details":"Project Details",
@@ -485,8 +487,10 @@ angular
        "updated":"Actualizado",
 
        //Helper
-       "please_complete_Project_Details_and_enter_a_project_summary_description_including_objetives":"Por favor  complete los Detalles del Proyecto y ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
+       "please_complete_project_details_and_enter_a_project_summary_description_including_objetives":"Por favor  complete los Detalles del Proyecto y ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
        
+       //ngm-list
+       "you_have":"Usted tiene",
         //NEW PROJECT
         "project_details":"Detalles del Proyecto",
         "project_title":"Título del Proyecto",
