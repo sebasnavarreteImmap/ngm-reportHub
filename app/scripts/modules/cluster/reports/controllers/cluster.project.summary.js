@@ -6,7 +6,7 @@
  * Controller of the ngmReportHub
  */
 angular.module('ngmReportHub')
-	.controller('ClusterProjectSummaryCtrl', ['$scope', '$route', '$http', '$location', '$timeout', 'ngmAuth', 'ngmData', 'ngmUser','$translate','$filter', function ($scope, $route, $http, $location, $timeout, ngmAuth, ngmData, ngmUser,$translate,$filter) {
+	.controller('ClusterProjectSummaryCtrl', ['$scope', '$route', '$http', '$location', '$timeout', 'ngmAuth',  'ngmData', 'ngmUser','$translate','$filter', function ($scope, $route, $http, $location, $timeout, ngmAuth, ngmData, ngmUser,$translate,$filter) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
@@ -133,7 +133,7 @@ angular.module('ngmReportHub')
 									  project.project_status = 'complete';
 
 									  // timeout
-									  $timeout(function(){ Materialize.toast( $filter('translate')('processing', 3000, 'note'); }, 200 );
+									  $timeout(function(){ Materialize.toast( $filter('translate')('processing'), 3000, 'note'); }, 200 );
 
 									  // Submit project for save
 									  ngmData.get({
