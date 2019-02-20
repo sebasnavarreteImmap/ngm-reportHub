@@ -343,7 +343,7 @@ angular.module('ngmReportHub')
 								'afro': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': $filter('translate')('country_mayus'),
+									'title': $filter('translate')('country'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Democratic Republic of Congo',
