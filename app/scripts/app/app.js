@@ -503,7 +503,7 @@ angular
          "back_to_project_summary":"Regresar al Resumen del Proyecto",
          "last_updated":"Última Actualización",
          "refresh_data":"Refrescar Datos",
-         "project_locatins":"UBICACIONES DE PROYECTOS",
+         "project_locations":"UBICACIONES DE PROYECTOS",
         //TARGET POPULATION
 
         "Activity":"Actividad",
