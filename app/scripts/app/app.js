@@ -157,6 +157,7 @@ angular
        "active_projects":"Active Projects",
        "active_locations":"Active Locations",
        "services_to_beneficiaries":"Services to Beneficiaries",
+       "reset":"Reset",
 
        "all_mayus":"ALL",
        "update_project":"Update project",
@@ -210,6 +211,8 @@ angular
         "back_to_projects":"Back to Projects",
         "back_to_project_summary":"Back to Project Summary",
         "last_updated":"Last Updated",
+        "refresh_data":"Refresh Data",
+        "project_locations":"PROJECT LOCATIONS",
 
         //TARGET POPULATION
 
@@ -448,6 +451,7 @@ angular
        "active_projects":"Proyectos Activos",
        "active_locations":"Ubicaciones Activas",
        "services_to_beneficiaries":"Servicios a Beneficiarios",
+       "reset":"Restaurar",
        "all_mayus":"TODO",
        "update_project":"Actualización de proyecto",
        "updated":"Actualizado",
@@ -498,6 +502,8 @@ angular
          "back_to_projects":"Volver a Proyectos",
          "back_to_project_summary":"Regresar al Resumen del Proyecto",
          "last_updated":"Última Actualización",
+         "refresh_data":"Refrescar Datos",
+         "project_locatins":"UBICACIONES DE PROYECTOS",
         //TARGET POPULATION
 
         "Activity":"Actividad",
