@@ -214,6 +214,7 @@ angular
         "project_locations":"PROJECT LOCATIONS",
         "children":"Children",
         "adult":"Adult",
+        "elderly":"Elderly",
 
         //DASHBOARD ADMIN
         "download_admin_as_pdf":"Download Admin as PDF",
@@ -233,6 +234,8 @@ angular
         "by":"by",
         "previous_month":"Previous Month",
         "current_month":"Current Month",
+        "from":"from",
+        "to":"to",
 
 
 
@@ -528,6 +531,7 @@ angular
          "project_locations":"UBICACIONES DE PROYECTOS",
          "children":"Niños",
          "adult":"Adultos",
+         "elderly":"Mayores",
 
          //DASHBOARD ADMIN
 
@@ -548,6 +552,8 @@ angular
          "country_mayus":"Country",
          "organizations":"Organizaciones",
          "total_projects":"TOTAL DE PROYECTOS",
+         "from":"desde",
+         "to":"hasta",
 
 
 

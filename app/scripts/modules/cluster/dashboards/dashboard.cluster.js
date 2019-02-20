@@ -672,7 +672,7 @@ angular.module('ngmReportHub')
 					}
 					// cluster
 					if ( $scope.dashboard.cluster_id === 'all' ) {
-						$scope.dashboard.subtitle += ', '+$filter('translate')('all')+' clusters';
+						$scope.dashboard.subtitle += ', '+$filter('translate')('all_clusters');
 					}	else {
 						$scope.dashboard.subtitle += ', ' + $scope.dashboard.cluster.cluster.toUpperCase() + ' cluster';
 					}
@@ -771,7 +771,7 @@ angular.module('ngmReportHub')
 								'class': 'col s12 m4 l3',
 								dates: [{
 									style: 'float:left;',
-									label: 'from',
+									label: $filter('translate')('from'),
 									format: 'd mmm, yyyy',
 									min: '2017-01-01',
 									max: $scope.dashboard.endDate,
@@ -788,7 +788,7 @@ angular.module('ngmReportHub')
 									}
 								},{
 									style: 'float:right',
-									label: 'to',
+									label: $filter('translate')('to'),
 									format: 'd mmm, yyyy',
 									min: $scope.dashboard.startDate,
 									currentTime: $scope.dashboard.endDate,
