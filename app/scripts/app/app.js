@@ -218,6 +218,7 @@ angular
         "children":"Children",
         "adult":"Adult",
         "elderly":"Elderly",
+        "new_project":"New Project",
 
         //DASHBOARD ADMIN
         "download_admin_as_pdf":"Download Admin as PDF",
@@ -539,6 +540,7 @@ angular
          "children":"Niños",
          "adult":"Adultos",
          "elderly":"Mayores",
+         "new_project":"Nuevo Proyecto",
 
          //DASHBOARD ADMIN
 
@@ -569,24 +571,24 @@ angular
 
         //TARGET POPULATION
 
-        "Activity":"Actividad",
+        "activity":"Actividad",
 
-        "Description":"Descripción",
-        "Details":"Detalles",
-        "Delivery":"Entrega",
-        "Mechanism":"Mecanismo",
-        "Package":"Paquete",
-        "Category":"Categoría",
+        "description":"Descripción",
+        "details":"Detalles",
+        "delivery":"Entrega",
+        "mechanism":"Mecanismo",
+        "package":"Paquete",
+        "category":"Categoría",
         "beneficiary":"Beneficiario",
         "Population":"Población",
         "amount":"Monto",
-        "Units":"Unidades",
+        "units":"Unidades",
         "transfers":"Transferencias",
-        "Families":"Familias",
-        "Boys":"Niños",
-        "Girls":"Niñas",
-        "Men":"Hombre",
-        "Women":"Mujer",
+        "families":"Familias",
+        "boys":"Niños",
+        "girls":"Niñas",
+        "men":"Hombre",
+        "women":"Mujer",
         "treatment_same_province":"Tratamiento en la Misma Provincia",
         "edit":"Editar",
 

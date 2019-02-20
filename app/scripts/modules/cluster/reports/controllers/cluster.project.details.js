@@ -40,7 +40,7 @@ angular.module('ngmReportHub')
 
 				// set model to null
 				if( $route.current.params.project === 'new' ){
-					title += 'New Project';
+					title += $filter('translate')('new_project');
 				} else {
 					title += $scope.report.project.project_title;
 				}
@@ -104,7 +104,7 @@ angular.module('ngmReportHub')
 								type: 'csv',
 								color: 'blue lighten-2',
 								icon: 'assignment',
-								hover: 'Download ' + $scope.report.project.project_title + ' as CSV',
+								hover: $filter('translate')('download')+' ' + $scope.report.project.project_title + ' as CSV',
 								request: {
 									method: 'POST',
 									url: ngmAuth.LOCATION + '/api/cluster/project/getProjects',
