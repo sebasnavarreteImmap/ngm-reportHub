@@ -213,6 +213,8 @@ angular
         "last_updated":"Last Updated",
         "refresh_data":"Refresh Data",
         "project_locations":"PROJECT LOCATIONS",
+        "children":"Children",
+        "adult":"Adult",
 
         //TARGET POPULATION
 
@@ -504,6 +506,9 @@ angular
          "last_updated":"Última Actualización",
          "refresh_data":"Refrescar Datos",
          "project_locations":"UBICACIONES DE PROYECTOS",
+         "children":"Niños",
+         "adult":"Adultos",
+
         //TARGET POPULATION
 
         "Activity":"Actividad",

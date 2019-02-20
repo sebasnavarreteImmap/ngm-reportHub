@@ -881,7 +881,7 @@ angular.module('ngmReportHub')
 									card: 'card-panel chart-stats-card white grey-text text-darken-2',
 									config: {
 										title: {
-											text: 'Children'
+											text: $filter('translate')('children'),
 										},
 										display: {
 											label: true,
@@ -913,7 +913,7 @@ angular.module('ngmReportHub')
 													}
 											},
 											series: [{
-												name: 'Children',
+												name: $filter('translate')('children'),
 												size: '100%',
 												innerSize: '80%',
 												showInLegend:false,
@@ -933,7 +933,7 @@ angular.module('ngmReportHub')
 									card: 'card-panel chart-stats-card white grey-text text-darken-2',
 									config: {
 										title: {
-											text: 'Adult'
+											text: $filter('translate')('adult')
 										},
 										display: {
 											label: true,
@@ -965,7 +965,7 @@ angular.module('ngmReportHub')
 													}
 											},
 											series: [{
-												name: 'Adult',
+												name: $filter('translate')('adult'),
 												size: '100%',
 												innerSize: '80%',
 												showInLegend:false,
@@ -985,7 +985,7 @@ angular.module('ngmReportHub')
 									card: 'card-panel chart-stats-card white grey-text text-darken-2',
 									config: {
 										title: {
-											text: 'Elderly'
+											text: $filter('translate')('elderly')
 										},
 										display: {
 											label: true,
@@ -1017,7 +1017,7 @@ angular.module('ngmReportHub')
 													}
 											},
 											series: [{
-												name: 'Elderly',
+												name: $filter('translate')('elderly'),
 												size: '100%',
 												innerSize: '80%',
 												showInLegend:false,
