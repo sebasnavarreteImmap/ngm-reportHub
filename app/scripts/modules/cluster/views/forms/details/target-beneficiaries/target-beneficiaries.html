@@ -51,7 +51,7 @@
 							      <td ng-if="project.showWomen()">{{'Women'|translate}}</td>
 							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'Men' | translate}}</td>
 										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'Women' | translate}}</td>
-										<td ng-if="project.showFatpTreatmentSameProvince()">{{'treatment_same_province | translate}} | translate}}</td>
+										<td ng-if="project.showFatpTreatmentSameProvince()">{{'treatment_same_province' | translate}} | translate}}</td>
 							      <td ng-if="project.definition.project_status !== 'complete'">{{'Edit' | translate}}</td>
 							    </tr>
 							    <tr ng-repeat="beneficiary in project.definition.target_beneficiaries">
