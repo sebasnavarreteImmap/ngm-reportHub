@@ -67,7 +67,7 @@ angular
      	"welcome_to":"Welcome to",
      	"welcome_to ReportHub":"Welcome to ReportHub",
      	"register":"Register",
-     	"please LOGIN or REGISTER to continue":"please LOGIN or REGISTER to continue",
+     	"please_login_or_register_to_continue":"please LOGIN or REGISTER to continue",
      	"please register to continue":"please register to continue",
      	"login_mayus" : "LOGIN",
      	"logout_mayus" : "LOGOUT",
@@ -146,6 +146,19 @@ angular
        "add_new_project":"Add New Project",
        "projects_for":"projects for",
        "download_project_summaries_as_CSV":"Download Project Summaries as CSV",
+       "download_dashboard_as_pdf":"Download Dashboard as PDF",
+       "download_cluster_contact__list_as_csv":"Download Cluster Contact List as CSV",
+       "for":"for",
+       "all_organizations":"ALL organizations",
+       "all_provinces":"ALL Provinces",
+       "province":"Province",
+       "district":"District",
+       "active_organizations":"Active Organizations",
+       "active_projects":"Active Projects",
+       "active_locations":"Active Locations",
+       "services_to_beneficiaries":"Services to Beneficiaries",
+
+       "all_mayus":"ALL",
        "update_project":"Update project",
        "updated":"Updated",
 
@@ -219,6 +232,9 @@ angular
         "women":"Women",
         "treatment_same_province":"Treatment Same Province",
         "edit":"Edit",
+
+        //FILTER
+        "region":"REGION",
 
         //LOCATION
 
@@ -338,7 +354,7 @@ angular
   	"welcome_to":"Bienvenido a",
   	"welcome_to_reporthub": "Bienvenido a ReportHub",
   	"register":"Registro",
-  	"please LOGIN or REGISTER to continue":"por favor INICIE SESIÓN o REGISTRESE para continuar",
+  	"please_login_or_register_to_continue":"por favor INICIE SESIÓN o REGISTRESE para continuar",
   	"please register to continue":"por favor registrese para continuar",
   	"login_mayus" : "INICIO DE SESIÓN",
   	"logout_mayus" : "CERRAR SESIÓN",
@@ -359,7 +375,7 @@ angular
     "password_mayus" : "CONTRASEÑA",
     "register_mayus" : "REGISTRO",
     "forgot_password" : "OLVIDASTE LA CONTRASEÑA"  ,
-    "sign_in" : "Inicar sesión",
+    "sign_in" : "Iniciar sesión",
     "reminder_sent": "RECORDATORIO ENVIADO",
     "please_check_your_ReportHub_email_account_to_reset_your_password":"Por favor revise su cuenta de email de ReportHub para reestablecer su contraseña",
     "the_email_will_contain_a_secure_link_to_reset_your_password_so_you_can_close_this_window.":"El email contendrá un enlace seguro para restablecer su contraseña, puede cerrar esta ventana.",
@@ -370,7 +386,7 @@ angular
     "update_password":"Actualizar Contraseña",
     "having_trouble_finding_your_account":"Tienes problema para encontrar tu cuenta ", 
     "send_me_a_reminder":"Enviarme un Recordatorio",
-    "back_to_login":"REGRESAR A LOGIN",
+    "back_to_login":"REGRESAR A INICIO DE SESIÓN",
     "organization_mayus" : "ORGANIZACIÓN",
     "organization" : "Organización",
     "country" : "País",
@@ -421,6 +437,18 @@ angular
        "add_new_project":"Agregar Nuevo Proyecto",
        "projects_for":"proyectos para",
        "download_project_summaries_as_CSV":"Descargar Resúmenes de Proyectos como CSV",
+       "download_dashboard_as_pdf":"Descargar Dashboard como PDF",
+       "download_cluster_contact__list_as_csv":"Descargar Lista de Contactos del Cluster como CSV",
+       "for":"para",
+       "all_organizations":"TODAS las organizaciones",
+       "all_provinces":"TODAS las provincias",
+       "province":"Provincia",
+       "district":"Distrito",
+       "active_organizations":"Organizaciones Activas",
+       "active_projects":"Proyectos Activos",
+       "active_locations":"Ubicaciones Activas",
+       "services_to_beneficiaries":"Servicios a Beneficiarios",
+       "all_mayus":"TODO",
        "update_project":"Actualización de proyecto",
        "updated":"Actualizado",
 
@@ -491,6 +519,10 @@ angular
         "Women":"Mujer",
         "treatment_same_province":"Tratamiento en la Misma Provincia",
         "edit":"Editar",
+
+        //FILTER
+        "region":"REGIÓN",
+
 
         //LOCATION
         "enter_the_target_locations_of_your_project_in_the_form_below":"Ingrese la LOCACIÓN OBJETIVO de su PROYECTO en el siguiente formulario",

@@ -22,7 +22,8 @@ angular.module('ngmReportHub')
 			'ngmClusterHelper',
 			'ngmClusterLists',
 			'$translate',
-		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterHelper, ngmClusterLists,$translate ) {
+			'$filter',
+		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterHelper, ngmClusterLists,$translate, $filter ) {
 			this.awesomeThings = [
 				'HTML5 Boilerplate',
 				'AngularJS',
@@ -78,7 +79,7 @@ angular.module('ngmReportHub')
 				menu: [{
 					'id': 'search-region',
 					'icon': 'person_pin',
-					'title': 'Region',
+					'title': $filter('translate')('region'),
 					'class': 'teal lighten-1 white-text',
 					'rows': [{
 						'title': 'HQ',
@@ -206,7 +207,7 @@ angular.module('ngmReportHub')
 						type: 'pdf',
 						color: 'blue',
 						icon: 'picture_as_pdf',
-						hover: 'Download Dashboard as PDF',
+						hover: $filter('translate')('download_dashboard_as_pdf'),
 						request: {
 							method: 'POST',
 							url: ngmAuth.LOCATION + '/api/print',
@@ -224,7 +225,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'call',
-						hover: 'Download Cluster Contact List as CSV',
+						hover: $filter('translate')('download_cluster_contact_list_as_CSV'),
 						request: $scope.dashboard.getRequest( { csv: true, indicator: 'contacts', report: $scope.dashboard.cluster_id_filename + '_contacts_list-from-' + $scope.dashboard.startDate + '-to-' + $scope.dashboard.endDate + '-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' ) } ),
 						metrics: $scope.dashboard.getMetrics( 'cluster_contact_list', 'csv' )
 					},{
@@ -342,7 +343,7 @@ angular.module('ngmReportHub')
 								'afro': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': 'Country',
+									'title': $filter('translate')('country_mayus'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Democratic Republic of Congo',
@@ -373,7 +374,7 @@ angular.module('ngmReportHub')
 								'emro': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': 'Country',
+									'title': $filter('translate')('country_mayus'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Afghanistan',
@@ -398,7 +399,7 @@ angular.module('ngmReportHub')
 								'searo': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': 'Country',
+									'title': $filter('translate')('country_mayus'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Bangladesh',
@@ -417,7 +418,7 @@ angular.module('ngmReportHub')
 								'amer': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': 'Country',
+									'title': $filter('translate')('country_mayus'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Colombia',
@@ -475,10 +476,10 @@ angular.module('ngmReportHub')
 								'search': false,
 								'id': 'search-cluster-activity',
 								'icon': 'assignment_turned_in',
-								'title': 'Activity',
+								'title': $filter('translate')('activity'),
 								'class': 'teal lighten-1 white-text',
 								'rows': [{
-									'title': 'ALL',
+									'title': $filter('translate')('all_mayus'),
 									'param': 'activity_type_id',
 									'active': 'all',
 									'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
@@ -520,7 +521,7 @@ angular.module('ngmReportHub')
 								'search': true,
 								'id': 'search-cluster-organization',
 								'icon': 'supervisor_account',
-								'title': 'Organization',
+								'title': $filter('translate')('organization'),
 								'class': 'teal lighten-1 white-text',
 								'rows': orgRows
 							});
@@ -660,10 +661,10 @@ angular.module('ngmReportHub')
 				// subtitle
 				setSubtitle: function(){
 					// subtitle
-					$scope.dashboard.subtitle = '5W Dashboard for ';
+					$scope.dashboard.subtitle = '5W Dashboard '+ $filter('translate')('for')+' ';
 					// admin0
 					if ( $scope.dashboard.admin0pcode === 'all' ) {
-						$scope.dashboard.subtitle = '5W Dashboard for ' + $scope.dashboard.adminRpcode.toUpperCase();
+						$scope.dashboard.subtitle = '5W Dashboard '+ $filter('translate')('for') + ' ' + $scope.dashboard.adminRpcode.toUpperCase();
 					}
 
 					if ( $scope.dashboard.admin0pcode !== 'all' ) {
@@ -671,7 +672,7 @@ angular.module('ngmReportHub')
 					}
 					// cluster
 					if ( $scope.dashboard.cluster_id === 'all' ) {
-						$scope.dashboard.subtitle += ', ALL clusters';
+						$scope.dashboard.subtitle += ', '+$filter('translate')('all')+' clusters';
 					}	else {
 						$scope.dashboard.subtitle += ', ' + $scope.dashboard.cluster.cluster.toUpperCase() + ' cluster';
 					}
@@ -681,20 +682,20 @@ angular.module('ngmReportHub')
 					}
 					// org
 					if ( $scope.dashboard.organization_tag === 'all' ) {
-						$scope.dashboard.subtitle += ', ALL organizations';
+						$scope.dashboard.subtitle += ', '+ $filter('translate')('all_organizations');
 					} else {
-						var org =  $scope.dashboard.organization ? ', ' + $scope.dashboard.organization + ' organization' : '';
+						var org =  $scope.dashboard.organization ? ', ' + $scope.dashboard.organization + ' ' + $filter('translate')('organization') : '';
 						$scope.dashboard.subtitle += org;
 					}
 					// admin1
 					if ( $scope.dashboard.admin1pcode === 'all' ) {
-						$scope.dashboard.subtitle += ', ALL Provinces';
+						$scope.dashboard.subtitle += ', '+ $filter('translate')('all_provinces');
 					} else {
-						$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin1.admin1name.toUpperCase() + ' Province';
+						$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin1.admin1name.toUpperCase() + ' '+ $filter('translate')('province');
 					}
 					// admin2
 					if ( $scope.dashboard.admin2pcode !== 'all' ) {
-						$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin2.admin2name.toUpperCase() + ' District';
+						$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin2.admin2name.toUpperCase() + ' ' + $filter('translate')('district');
 					}
 					// update of rendered title
 					if ( $scope.model.header && $scope.model.header.subtitle ){
@@ -831,7 +832,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Active Organizations',
+										title: $filter('translate')('active_organizations'),
 										request: $scope.dashboard.getRequest( { indicator: 'organizations' } )
 									}
 								}]
@@ -842,7 +843,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Active Projects',
+										title: $filter('translate')('active_projects'),
 										request: $scope.dashboard.getRequest( { indicator: 'projects' } )
 									}
 								}]
@@ -853,7 +854,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Active Locations',
+										title: $filter('translate')('active_locations'),
 										request: $scope.dashboard.getRequest( { indicator: 'locations' } )
 									}
 								}]
@@ -866,7 +867,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Services to Beneficiaries',
+										title: $filter('translate')('services_to_beneficiaries'),
 										request: $scope.dashboard.getRequest( { indicator: 'beneficiaries' } )
 									}
 								}]
