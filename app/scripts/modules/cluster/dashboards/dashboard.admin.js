@@ -818,7 +818,7 @@ angular.module('ngmReportHub')
 						'euro': {
 							'id': 'search-country',
 							'icon': 'person_pin',
-							'title': 'Country',
+							'title': $filter('translate')('country_mayus'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
 								'title': 'Ukraine',
@@ -831,7 +831,7 @@ angular.module('ngmReportHub')
 						'amer': {
 							'id': 'search-country',
 							'icon': 'person_pin',
-							'title': 'Country',
+							'title': $filter('translate')('country_mayus'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
 								'title': 'Colombia',
@@ -942,7 +942,7 @@ angular.module('ngmReportHub')
 								'class': 'col s12 m4 l3',
 								dates: [{
 									style: 'float:left;',
-									label: 'from',
+									label: $filter('translate')('from'),
 									format: 'd mmm, yyyy',
 									min: '2017-01-01',
 									max: $scope.dashboard.endDate,
@@ -962,7 +962,7 @@ angular.module('ngmReportHub')
 									}
 								},{
 									style: 'float:right',
-									label: 'to',
+									label: $filter('translate')('to'),
 									format: 'd mmm, yyyy',
 									min: $scope.dashboard.startDate,
 									currentTime: $scope.dashboard.endDate,
@@ -1068,7 +1068,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Reports Completed',
+										title: $filte('translate')('reports_complete'),
 										request: {
 											method: 'POST',
 											url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',
@@ -1084,7 +1084,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Reports Due',
+										title: $filter('translate')('reports_due'),
 										request: {
 											method: 'POST',
 											url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',
@@ -1109,7 +1109,7 @@ angular.module('ngmReportHub')
 										headerClass: 'collection-header red lighten-2',
 										headerText: 'white-text',
 										headerIcon: 'assignment_late',
-										headerTitle: 'Reports Due',
+										headerTitle: $filter('translate')('reports_due'),
 										templateUrl: '/scripts/widgets/ngm-table/templates/cluster/admin.project.list.html',
 										tableOptions:{
 											count: 10
@@ -1168,7 +1168,7 @@ angular.module('ngmReportHub')
 										headerClass: 'collection-header teal lighten-2',
 										headerText: 'white-text',
 										headerIcon: 'assignment_turned_in',
-										headerTitle: 'Projects Progress',
+										headerTitle: $filter('translate')('projects_progress'),
 										templateUrl: '/scripts/widgets/ngm-table/templates/cluster/admin.progress.beneficiaries.html',
 										tableOptions:{
 											count: 10

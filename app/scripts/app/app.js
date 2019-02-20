@@ -221,6 +221,7 @@ angular
         "download_admin_as_pdf":"Download Admin as PDF",
         "download_project_summaries_as_csv":"Download Project Summaries as CSV",
         "reports_todo":"Reports ToDo",
+        "reports_due":"Reports Due",
         "reports_complete":"Reports Complete",
         "download_projects_financials_as_csv":"Download Projects Financials as CSV",
         "admin_dashboard_for":"ADMIN Dashboard for",
@@ -235,8 +236,10 @@ angular
         "by":"by",
         "previous_month":"Previous Month",
         "current_month":"Current Month",
+        "current_reporting":"Current Reporting",
         "from":"from",
         "to":"to",
+        "projects_progress":"Projects Progress",
 
 
 
@@ -540,11 +543,13 @@ angular
          "by":"por",
          "previous_month":"Mes Anterior",
          "current_month":"Mes Actual",
+         "current_reporting":"Current Reporting",
 
          "download_admin_as_pdf":"Descargar Admin como PDF",
          "download_project_summaries_as_csv":"Descargar Resumen de Proyectos como CSV",
          "reports_todo":"Reportes A Realizar",
          "reports_complete":"Reports Complete",
+         "reports_due":"Reports Due",
          "download_projects_financials_as_csv":"Descargar Proyectos Financieros como CSV",
          "all_clusters":"TODOS los clusters",
          "all_organizations":"TODAS las organizaciones",
@@ -555,6 +560,7 @@ angular
          "total_projects":"TOTAL DE PROYECTOS",
          "from":"desde",
          "to":"hasta",
+         "projects_progress":"Proyectos en Progreso",
 
 
 
