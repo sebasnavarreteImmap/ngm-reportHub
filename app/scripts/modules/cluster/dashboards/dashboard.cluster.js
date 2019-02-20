@@ -535,7 +535,7 @@ angular.module('ngmReportHub')
 							// add all
 							admin1List.unshift({
 								admin1pcode: 'all',
-								admin1name: 'ALL',
+								admin1name: $filter('translate')('all_mayus'),
 							});
 							angular.forEach( admin1List, function(d,i){
 								var path = $scope.dashboard.getPath( $scope.dashboard.cluster_id, $scope.dashboard.activity_type_id, $scope.dashboard.organization_tag, d.admin1pcode, 'all' );
@@ -567,7 +567,7 @@ angular.module('ngmReportHub')
 							// add all
 							admin2List.unshift({
 								admin2pcode: 'all',
-								admin2name: 'ALL',
+								admin2name: $filter('translate')('all_mayus'),
 							});
 							angular.forEach( admin2List, function(d,i){
 								var path = $scope.dashboard.getPath( $scope.dashboard.cluster_id, $scope.dashboard.activity_type_id, $scope.dashboard.organization_tag, $scope.dashboard.admin1pcode, d.admin2pcode );
