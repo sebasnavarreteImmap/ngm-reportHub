@@ -219,6 +219,7 @@ angular
         "adult":"Adult",
         "elderly":"Elderly",
         "new_project":"New Project",
+        "as":"as",
 
         //DASHBOARD ADMIN
         "download_admin_as_pdf":"Download Admin as PDF",
@@ -541,6 +542,7 @@ angular
          "adult":"Adultos",
          "elderly":"Mayores",
          "new_project":"Nuevo Proyecto",
+         "as":"como",
 
          //DASHBOARD ADMIN
 

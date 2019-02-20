@@ -31,28 +31,28 @@
 							  <table class="bordered responsive-table" ng-show="project.definition.target_beneficiaries.length">
 							    <tr style="font-weight: 400">
 							    	<td></td>
-							      <td>{{'Activity' | translate}}</td>
-							      <td>{{'Description' | translate}}</td>
-							      <td ng-if="project.definition.admin0pcode === 'NG'">{{'Details' | translate}}</td>
-										<td ng-if="project.showCash() && project.showDeliveryfield() && project.definition.admin0pcode === 'AF'">{{'Delivery' | translate}}</td>
-										<td ng-if="project.showCash()">{{'Mechanism' | translate }}</td>
-										<td ng-if="project.showPackage()">{{'Package' | translate }}</td>
-							      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">{{'Category' | translate}}</td>
-							      <td>{{'Beneficiary' | translate}}</td>
-								 		<td ng-if="project.definition.admin0pcode === 'AF'">{{'Population' | translate}}</td>
-										<td ng-if="project.showUnits()">{{'Amount' | translate}}</td>
-										<td ng-if="project.showUnits()">{{'Units' | translate}}</td>
-							      <td ng-if="project.showCash()">{{'Transfers' | translate}}</td>
+							      <td>{{'activity' | translate}}</td>
+							      <td>{{'description' | translate}}</td>
+							      <td ng-if="project.definition.admin0pcode === 'NG'">{{'details' | translate}}</td>
+										<td ng-if="project.showCash() && project.showDeliveryfield() && project.definition.admin0pcode === 'AF'">{{'delivery' | translate}}</td>
+										<td ng-if="project.showCash()">{{'mechanism' | translate }}</td>
+										<td ng-if="project.showPackage()">{{'package' | translate }}</td>
+							      <td ng-if="project.definition.admin0pcode === 'AF' && project.categoryShow2017()">{{'category' | translate}}</td>
+							      <td>{{'beneficiary' | translate}}</td>
+								 		<td ng-if="project.definition.admin0pcode === 'AF'">{{'population' | translate}}</td>
+										<td ng-if="project.showUnits()">{{'amount' | translate}}</td>
+										<td ng-if="project.showUnits()">{{'units' | translate}}</td>
+							      <td ng-if="project.showCash()">{{'transfers' | translate}}</td>
 								  	<td ng-if="project.showHouseholds()">HHs</td>
-							      <td ng-if="project.showFamilies()">{{'Families' | translate}}</td>
-							      <td>{{'Boys' | translate}}</td>
-							      <td>{{'Girls' | translate}}</td>
+							      <td ng-if="project.showFamilies()">{{'families' | translate}}</td>
+							      <td>{{'boys' | translate}}</td>
+							      <td>{{'girls' | translate}}</td>
 							      <td ng-if="project.showMen()">{{'Men' | translate}}</td>
-							      <td ng-if="project.showWomen()">{{'Women'|translate}}</td>
-							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'Men' | translate}}</td>
-										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'Women' | translate}}</td>
+							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
+							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'men' | translate}}</td>
+										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'women' | translate}}</td>
 										<td ng-if="project.showFatpTreatmentSameProvince()">{{'treatment_same_province' | translate}} | translate}}</td>
-							      <td ng-if="project.definition.project_status !== 'complete'">{{'Edit' | translate}}</td>
+							      <td ng-if="project.definition.project_status !== 'complete'">{{'edit' | translate}}</td>
 							    </tr>
 							    <tr ng-repeat="beneficiary in project.definition.target_beneficiaries">
 							    	<td>
@@ -418,7 +418,7 @@
 							  					ng-show="project.definition.project_status !== 'complete'"
 							  					ng-click="project.addBeneficiary()"
 							  					style="margin:20px 0px;">
-							  	<i class="material-icons left">add</i>{{'Add Row' | translate}}
+							  	<i class="material-icons left">add</i>{{'add_row' | translate}}
 							  </button>
 
 							</div>

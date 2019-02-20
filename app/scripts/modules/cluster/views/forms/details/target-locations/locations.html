@@ -27,17 +27,17 @@
 							  <table class="bordered responsive-table" ng-show="project.definition.target_locations.length">
 							    <tr style="font-weight: 400">
 							    	<td></td>
-							    	<td>{{'Reporter' | translate}}</td>
-							    	<td>{{'Implementation' | translate}}</td>
+							    	<td>{{'reporter' | translate}}</td>
+							    	<td>{{'implementation' | translate}}</td>
 							      <td>{{ project.lists.admin2[0].admin1type_name }}</td>
 							      <td>{{ project.lists.admin2[0].admin2type_name }}</td>
 							      <td ng-if="project.lists.admin3.length">{{ project.lists.admin3[0].admin3type_name }}</td>
 							      <td ng-if="project.lists.admin4.length">{{ project.lists.admin4[0].admin4type_name }}</td>
 							      <td ng-if="project.lists.admin5.length">{{ project.lists.admin5[0].admin5type_name }}</td>
-										<td>{{'Type' | translate}}</td>
+										<td>{{'type' | translate}}</td>
 										<td ng-if="project.definition.admin0pcode !== 'AF'">{{'from_list'|translate}}?</td>
 							      <td>{{'site_name'|translate}} *</td>
-							      <td ng-show="project.definition.project_status !== 'complete'">{{'Edit'|translate}}</td>
+							      <td ng-show="project.definition.project_status !== 'complete'">{{'edit'|translate}}</td>
 							    </tr>
 							    <tr ng-repeat="location in project.definition.target_locations track by $index">
 							    	<td>
