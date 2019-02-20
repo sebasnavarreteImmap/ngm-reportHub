@@ -374,7 +374,7 @@ angular.module('ngmReportHub')
 								'emro': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': $filter('translate')('country_mayus'),
+									'title': $filter('translate')('country'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Afghanistan',
@@ -399,7 +399,7 @@ angular.module('ngmReportHub')
 								'searo': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': $filter('translate')('country_mayus'),
+									'title': $filter('translate')('country'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Bangladesh',
@@ -418,7 +418,7 @@ angular.module('ngmReportHub')
 								'amer': {
 									'id': 'search-country',
 									'icon': 'person_pin',
-									'title': $filter('translate')('country_mayus'),
+									'title': $filter('translate')('country'),
 									'class': 'teal lighten-1 white-text',
 									'rows': [{
 										'title': 'Colombia',
