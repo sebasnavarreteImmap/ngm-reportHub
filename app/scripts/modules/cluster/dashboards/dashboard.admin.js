@@ -19,8 +19,8 @@ angular.module('ngmReportHub')
 			'ngmUser',
 			'ngmAuth',
 			'ngmData',
-			'ngmClusterLists','$translate',
-		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterLists,$translate ) {
+			'ngmClusterLists','$translate','$filter',
+		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterLists,$translate , $filter) {
 			this.awesomeThings = [
 				'HTML5 Boilerplate',
 				'AngularJS',
@@ -62,7 +62,7 @@ angular.module('ngmReportHub')
 				menu: [{
 					'id': 'search-region',
 					'icon': 'person_pin',
-					'title': 'Region',
+					'title': $filter('translate')('region'),
 					'class': 'teal lighten-1 white-text',
 					'rows': [{
 						'title': 'HQ',
@@ -259,7 +259,7 @@ angular.module('ngmReportHub')
 							type: 'pdf',
 							color: 'blue',
 							icon: 'picture_as_pdf',
-							hover: 'Download Admin as PDF',
+							hover: $filter('translate')('download_admin_as_pdf'),
 							request: {
 								method: 'POST',
 								url: ngmAuth.LOCATION + '/api/print',
@@ -277,7 +277,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'assignment',
-						hover: 'Download Project Summaries as CSV',
+						hover: $filter('translate')('download_project_summaries_as_csv'),
 						request: {
 							method: 'POST',
 							url: ngmAuth.LOCATION + '/api/cluster/project/getProjects',
@@ -288,7 +288,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'assignment_late',
-						hover: 'Download ' + $scope.dashboard.report_type.charAt(0).toUpperCase() + $scope.dashboard.report_type.slice(1) + ' Reports ToDo',
+						hover: $filter('translate')('download')+' ' + $scope.dashboard.report_type.charAt(0).toUpperCase() + $scope.dashboard.report_type.slice(1) + ' '+$filter('translate')('reports_todo')+',',
 						request: {
 							method: 'POST',
 							url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',
@@ -299,7 +299,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'assignment_turned_in',
-						hover: 'Download ' + $scope.dashboard.report_type.charAt(0).toUpperCase() + $scope.dashboard.report_type.slice(1) + ' Reports Complete',
+						hover: $filter('translate')('download')+ ' ' + $scope.dashboard.report_type.charAt(0).toUpperCase() + $scope.dashboard.report_type.slice(1) + ' ' +$filter('translate')('reports_complete'),
 						request: {
 							method: 'POST',
 							url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',
@@ -310,7 +310,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'attach_money',
-						hover: 'Download Projects Financials as CSV',
+						hover: $filter('translate')('download_projects_financials_as_csv'),
 						request: $scope.dashboard.getCsvRequest( { csv: true, indicator: 'financial_report', report: $scope.dashboard.cluster_id_filename + '_ocha_financial_report-from-' + $scope.dashboard.startDate + '-to-' + $scope.dashboard.endDate + '-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' ) } ),
 						metrics: $scope.dashboard.getMetrics( 'cluster_financial_report', 'csv' )
 					},{
@@ -482,7 +482,7 @@ angular.module('ngmReportHub')
 									'search': true,
 									'id': 'search-cluster-organization',
 									'icon': 'supervisor_account',
-									'title': 'Organization',
+									'title': $filter('translate')('organization'),
 									'class': 'teal lighten-1 white-text',
 									'rows': orgRows
 								});
@@ -562,10 +562,10 @@ angular.module('ngmReportHub')
 				// subtitle
 				setSubtitle: function(){
 					// subtitle
-					$scope.dashboard.subtitle = 'ADMIN Dashboard for ';
+					$scope.dashboard.subtitle = $filter('translate')('admin_dashboard_for')+' ';
 					// admin0
 					if ( $scope.dashboard.admin0pcode === 'all' ) {
-						$scope.dashboard.subtitle = 'ADMIN Dashboard for ' + $scope.dashboard.adminRpcode.toUpperCase();
+						$scope.dashboard.subtitle = $filter('translate')('admin_dashboard_for')+' ' + $scope.dashboard.adminRpcode.toUpperCase();
 					}
 
 					if ( $scope.dashboard.admin0pcode !== 'all' ) {
@@ -573,7 +573,7 @@ angular.module('ngmReportHub')
 					}
 					// cluster
 					if ( $scope.dashboard.cluster_id === 'all' ) {
-						$scope.dashboard.subtitle += ', ALL clusters';
+						$scope.dashboard.subtitle += ', '+$filter('translate')('all_clusters');
 					}	else {
 						$scope.dashboard.subtitle += ', '+ $scope.dashboard.cluster.cluster.toUpperCase() + ' cluster';
 					}
@@ -585,10 +585,10 @@ angular.module('ngmReportHub')
 
 					// org
 					if ( $scope.dashboard.organization_tag === 'all' ) {
-						$scope.dashboard.subtitle += ', ALL organizations';
+						$scope.dashboard.subtitle += ', '+$filter('translate')('all_organizations');
 					} else {
 						var org = $scope.dashboard.organization ? $scope.dashboard.organization : '';
-						$scope.dashboard.subtitle += ', ' + org + ' organization';
+						$scope.dashboard.subtitle += ', ' + org + ' '+$filter('translate')('organization');
 					}
 					// admin1
 					// if ( $scope.dashboard.admin1pcode === 'all' ) {
@@ -613,10 +613,10 @@ angular.module('ngmReportHub')
 						'search': false,
 						'id': 'search-cluster-report',
 						'icon': 'assignment_turned_in',
-						'title': 'REPORT',
+						'title': $filter('translate')('report_mayus'),
 						'class': 'teal lighten-1 white-text',
 						'rows': [{
-							'title': 'ACTIVITY',
+							'title': $filter('translate')('activity_mayus'),
 							'param': 'report_type',
 							'active': 'activity',
 							'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
@@ -640,10 +640,10 @@ angular.module('ngmReportHub')
 							'search': false,
 							'id': 'search-cluster-activity',
 							'icon': 'autorenew',
-							'title': 'Activity',
+							'title': $filter('translate')('activity'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
-								'title': 'ALL',
+								'title': $filter('translate')('all_mayus'),
 								'param': 'activity_type_id',
 								'active': 'all',
 								'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
@@ -669,7 +669,7 @@ angular.module('ngmReportHub')
 						'all': {
 							'id': 'search-country',
 							'icon': 'location_on',
-							'title': 'Country',
+							'title': $filter('translate')('country_mayus'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
 								'title': 'Afghanistan',
@@ -743,7 +743,7 @@ angular.module('ngmReportHub')
 						'afro': {
 							'id': 'search-country',
 							'icon': 'person_pin',
-							'title': 'Country',
+							'title': $filter('translate')('country_mayus'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
 								'title': 'Democratic Republic of Congo',
@@ -774,7 +774,7 @@ angular.module('ngmReportHub')
 						'emro': {
 							'id': 'search-country',
 							'icon': 'person_pin',
-							'title': 'Country',
+							'title': $filter('translate')('country_mayus'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
 								'title': 'Afghanistan',
@@ -799,7 +799,7 @@ angular.module('ngmReportHub')
 						'searo': {
 							'id': 'search-country',
 							'icon': 'person_pin',
-							'title': 'Country',
+							'title': $filter('translate')('country_mayus'),
 							'class': 'teal lighten-1 white-text',
 							'rows': [{
 								'title': 'Bangladesh',
@@ -1036,7 +1036,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Organizations',
+										title: $filter('translate')('organizations'),
 										request: {
 											method: 'POST',
 											url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',
@@ -1052,7 +1052,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: 'Total Projects',
+										title: $filter('translate')('total_projects'),
 										request: {
 											method: 'POST',
 											url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',

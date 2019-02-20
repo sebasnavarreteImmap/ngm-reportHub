@@ -149,7 +149,6 @@ angular
        "download_dashboard_as_pdf":"Download Dashboard as PDF",
        "download_cluster_contact__list_as_csv":"Download Cluster Contact List as CSV",
        "for":"for",
-       "all_organizations":"ALL organizations",
        "all_provinces":"ALL Provinces",
        "province":"Province",
        "district":"District",
@@ -215,6 +214,28 @@ angular
         "project_locations":"PROJECT LOCATIONS",
         "children":"Children",
         "adult":"Adult",
+
+        //DASHBOARD ADMIN
+        "download_admin_as_pdf":"Download Admin as PDF",
+        "download_project_summaries_as_csv":"Download Project Summaries as CSV",
+        "reports_todo":"Reports ToDo",
+        "reports_complete":"Reports Complete",
+        "download_projects_financials_as_csv":"Download Projects Financials as CSV",
+        "admin_dashboard_for":"ADMIN Dashboard for",
+        "all_clusters":"ALL clusters",
+        "all_organizations":"ALL organizations",
+        "activity_mayus":"ACTIVITY",
+        "report_mayus":"REPORT",
+        "country_mayus":"Country",
+        "organizations":"Organizations",
+        "total_projects":"Total Projects",
+        "lastest_report_update":"Lastest Report Update",
+        "by":"by",
+        "previous_month":"Previous Month",
+        "current_month":"Current Month",
+
+
+
 
         //TARGET POPULATION
 
@@ -445,7 +466,6 @@ angular
        "download_dashboard_as_pdf":"Descargar Dashboard como PDF",
        "download_cluster_contact__list_as_csv":"Descargar Lista de Contactos del Cluster como CSV",
        "for":"para",
-       "all_organizations":"TODAS las organizaciones",
        "all_provinces":"TODAS las provincias",
        "province":"Provincia",
        "district":"Distrito",
@@ -509,9 +529,32 @@ angular
          "children":"Niños",
          "adult":"Adultos",
 
+         //DASHBOARD ADMIN
+
+         "lastest_report_update":"Última Actualización de Reporte",
+         "by":"por",
+         "previous_month":"Mes Anterior",
+         "current_month":"Mes Actual",
+
+         "download_admin_as_pdf":"Descargar Admin como PDF",
+         "download_project_summaries_as_csv":"Descargar Resumen de Proyectos como CSV",
+         "reports_todo":"Reportes A Realizar",
+         "reports_complete":"Reports Complete",
+         "download_projects_financials_as_csv":"Descargar Proyectos Financieros como CSV",
+         "all_clusters":"TODOS los clusters",
+         "all_organizations":"TODAS las organizaciones",
+         "activity_mayus":"ACTIVIDAD",
+         "report_mayus":"REPORTE",
+         "country_mayus":"Country",
+         "organizations":"Organizaciones",
+         "total_projects":"TOTAL DE PROYECTOS",
+
+
+
         //TARGET POPULATION
 
         "Activity":"Actividad",
+
         "Description":"Descripción",
         "Details":"Detalles",
         "Delivery":"Entrega",
