@@ -178,7 +178,7 @@ angular
         "project_budget":"project_budget",
         "project_budget_currency":"Project Budget Currency",
         "select_project_budget_currency":"Select Project Budget Currency",
-        "non_HRP_project":"Non-HRP Project",
+        "non_hrp_project":"Non-HRP Project",
         "hrp_project":"HRP Project",
         "hrp_project_code":"HRP Project Code",
         "activity_type":"Activity Type",
@@ -229,7 +229,7 @@ angular
         //project details.js
 
         "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
-
+        "cash_intented_for_even_if_unrestricted":"Cash intented for event if unrestricted",
         //reports list
          "back_to_project_summary":"Back to Project Summary",
          "download_monthly_reports_as_csv":"Download Monthly Reports as CSV",
@@ -540,7 +540,7 @@ angular
         "project_budget":"Presupuesto del Proyecto",
         "project_budget_currency":"Moneda del Presupuesto del Proyecto",
         "select_project_budget_currency":"Seleccionar Moneda del Presupuesto del Proyecto",
-        "non_HRP_project":"No es un Proyecto HRP",
+        "non_hrp_project":"No es un Proyecto HRP",
         "hrp_project":"Proyecto HRP",
         "hrp_project_code":"Código del Proyecto HRP",
         "activity_type":"Tipo de Actividad",
@@ -591,6 +591,7 @@ angular
          //project details
 
          "actual_monthly_beneficiaries_report_for":"Actual Reporte Mensual de Beneficiarios para",
+          "cash_intented_for_even_if_unrestricted":"Cash intented for event if unrestricted"
 
          //Reports list
 
