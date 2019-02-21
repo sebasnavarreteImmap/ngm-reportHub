@@ -236,6 +236,7 @@ angular
          "update":"Update",
          "report_submitted":"Report Submitted",
          "report_due_date":"Report Due Date",
+         "download_monthly_acitivty_report_as_csv":"Download Monthly Acvitiy Report as CSV",
 
 
         //DASHBOARD ADMIN
@@ -578,6 +579,7 @@ angular
          "update":"Actualizar",
          "report_submitted":"Reporte Enviado",
          "report_due_date":"Fecha de Vencimiento del Reporte",
+         "download_monthly_activity_report_as_csv":"Descargar Reporte de Actividad Mensual como CSV",
          //DASHBOARD ADMIN
 
          "lastest_report_update":"Última Actualización de Reporte",
