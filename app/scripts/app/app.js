@@ -237,6 +237,33 @@ angular
          "report_submitted":"Report Submitted",
          "report_due_date":"Report Due Date",
          "download_monthly_acitivty_report_as_csv":"Download Monthly Acvitiy Report as CSV",
+         
+         //Report
+         "back_to_project_reports":"Back to Project Reports",
+         "submit_monthly_report":"Submit Monthly Report",
+          "cancel_montly_report":"Cancel Monthly Report",
+          "return_to_monthly_report_list":"Return to Monthly Report List",
+         "remove_beneficiary":"Remove Beneficiary",
+          "remove_this_beneficiary_from_your_report":"Remove this Beneficiary from your Report",
+          "yes_remove_beneficiary":"Yes, Remove Beneficiary",
+          "remove_borehole":"Remove Borehole",
+         "remove_this_borehol_from_your_report":"Remove this Borehole from your Report",
+         "yes_remove_borehole":"Yes, Remove Borehole",
+
+        //Beneficiaries
+      
+        "remarks":"Remarks",
+        "add_partial_kits": "Add Partial Kits",
+        "add_kit_details":"Add Kit Details",
+        "add_beneficiaries":"Add Beneficiaries",
+        "monthly_beneficiaries_report_for":"Monthly Beneficiaries Report for",
+
+        //Notes
+        "monthly_notes_&_comments":"Monthly Notes & Comments",
+        "save_notes":"Save Notes",
+
+
+
 
 
         //DASHBOARD ADMIN
@@ -336,18 +363,12 @@ angular
         "funding":"Funding",
         "on":"on",
         "notes":"Notes",
+        "notes_for":"Notes for",
         "remove_budget":"Remove Budget",
         "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Are you sure you want to remove this Budget Item from your project",
         "yes_remove":"Yes, remove",
         "back_to_project_summary":"Back to Project Summary",
-        //REPORT:
-        //Beneficiaries
-      
-        "remarks":"Remarks",
-        "add_partial_kits": "Add Partial Kits",
-        "add_kit_details":"Add Kit Details",
-        "add_beneficiaries":"Add Beneficiaries",
-        "monthly_beneficiaries_report_for":"Monthly Beneficiaries Report for",
+        
 
         //locations
         "note":"Note",
@@ -580,6 +601,23 @@ angular
          "report_submitted":"Reporte Enviado",
          "report_due_date":"Fecha de Vencimiento del Reporte",
          "download_monthly_activity_report_as_csv":"Descargar Reporte de Actividad Mensual como CSV",
+        
+        //Report
+         "back_to_project_reports":"Regresar a Reportes del Proyecto",
+         "submit_monthly_report":"Enviar Reporte Mensual",
+         "cancel_montly_report":"Cancelar Reporte Mensual",
+         "return_to_monthly_report_list":"Regresar a Lista de Reportes Mensuales",
+         "remove_beneficiary":"Eliminar Beneficiario",
+         "remove_this_beneficiary_from_your_report":"Eliminar este Beneficiario de su Reporte",
+         "yes_remove_beneficiary":"Si, Eliminar Beneficiario",
+         "remove_borehole":"Eliminar Pozo",
+         "remove_this_borehol_from_your_report":"Eliminar este Pozo de su Reporte",
+         "yes_remove_borehole":"Si, Eliminar Pozo",
+
+         //Notes
+        "monthly_notes_&_comments":"Notas Mensuales y Comentarios",
+        "save_notes":"Guardar Notas",
+
          //DASHBOARD ADMIN
 
          "lastest_report_update":"Última Actualización de Reporte",
@@ -680,6 +718,7 @@ angular
         "funding":"Financiación",
         "on":"en",
         "notes":"Notas",
+        "notes_for":"Notas para",
         "remove_budget":"Eliminar Presupuesto",
         "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Are you sure you want to remove this Budget Item from your project",
         "yes_remove":"Si, eliminar",
