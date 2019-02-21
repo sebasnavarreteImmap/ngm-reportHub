@@ -204,7 +204,7 @@ angular.module('ngmReportHub')
 								style: 'text-align: center;',
 								card: 'card-panel stats-card white grey-text text-darken-2',
 								config: {
-									title: $filter('translate')('countries'),
+									title: $filter('translate')('countries_mayus'),
 									request: $scope.dashboard.getRequest( 'countries', 'active' )
 								}
 							}]
