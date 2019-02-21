@@ -30,32 +30,32 @@
           <div ng-if="data.length">
             <table class="centered highlight responsive-table" ng-table="table.tableParams">
               <tr ng-repeat="row in $data" style="cursor: pointer; cursor: hand;" ng-click="table.onClick(row)">
-                <td data-title="'cualquiera'" sortable="'admin0name'">
+                <td data-title="'Country''" sortable="'admin0name'">
                     {{ row.admin0name }}
                 </td>
-                <td data-title="'{{'organization'|translate}}'"  sortable="'organization'">
+                <td data-title="'Organization'"  sortable="'organization'">
                     {{ row.organization }}
                 </td>
-                <td data-title="'{{'name'|transalte}}" sortable="'name'">
+                <td data-title="'Name'" sortable="'name'">
                     {{ row.name }}
                 </td>
-                <td data-title="'{{'position'|translate}}'" sortable="'position'">
+                <td data-title="'Position'" sortable="'position'">
                   {{ row.position }}
                 </td>
                 <td data-title="'Sector'" sortable="'cluster'">
                     {{ row.cluster }}
                 </td>
-                <td data-title="'{{'email'|translate}}'" sortable="'email'">
+                <td data-title="'Email'" sortable="'email'">
                   {{ row.email }}
                 </td>
-                <td data-title="'{{'phone'|translate}}'" sortable="'phone'">
+                <td data-title="'Phone'" sortable="'phone'">
                     {{ row.phone }}
                 </td>
-                <td data-title="'{{'updated'|translate}}'" sortable="'updatedAt'">
+                <td data-title="'Updated'" sortable="'updatedAt'">
                     {{ row.updatedAt | date:'medium' }}
                 </td>
-                <td data-title="'{{'edit'|translate}}'" sortable="'name'" ng-if="false">
-                  <div title="{{'delete_mayus1'|translate}}">
+                <td data-title="'Edit'" sortable="'name'" ng-if="false">
+                  <div title="'Delete'">
                     <i class="material-icons">delete</i>
                   </div>
                 </td>
