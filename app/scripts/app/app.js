@@ -340,7 +340,6 @@ angular
         "delete_project":"Delete Project",
         "are_you_sure_you_want_to_delete_this_project_and_all_its_associated_data":"Are you sure you want to DELETE this PROJECT and all its associated data",
         "yes_delete_project":"Yes, delete project",
-        "mark_project_as_active":"Mark Project as Active",
         'are_you_sure_you_want_to_move_this_project_to_active':'Are you sure you want to move this project to "Active"',
         "yes_move_project_to_active":"Yes, move project to active",
         "financial_reports":"Financial Reports",
