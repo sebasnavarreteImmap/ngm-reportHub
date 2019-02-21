@@ -591,7 +591,7 @@ angular
          //project details
 
          "actual_monthly_beneficiaries_report_for":"Actual Reporte Mensual de Beneficiarios para",
-          "cash_intented_for_even_if_unrestricted":"Cash intented for event if unrestricted"
+          "cash_intented_for_even_if_unrestricted":"Cash intented for event if unrestricted",
 
          //Reports list
 
@@ -928,7 +928,7 @@ angular
 		});
 
 	}])
-	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate','$filter', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser,$translate,$filter) {
+	.controller('ngmReportHubCrtl', ['$scope', '$route', '$location', '$http', '$timeout', 'ngmAuth', 'ngmUser','$translate', function ($scope, $route, $location, $http, $timeout, ngmAuth, ngmUser) {
    
 
 
