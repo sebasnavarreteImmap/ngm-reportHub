@@ -570,7 +570,7 @@ angular
         
          //project details
 
-         "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
+         "actual_monthly_beneficiaries_report_for":"Actual Reporte Mensual de Beneficiarios para",
 
          //Reports list
 
