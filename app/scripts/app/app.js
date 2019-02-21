@@ -174,6 +174,7 @@ angular
        "active_users":"Active Users",
         "desactivated_users":"Desactivated Users ",
         "name_mayus":"Name",
+        "update_photo":"Update Photo",
 
 
        // NEW PROJECT
@@ -547,6 +548,7 @@ angular
        "active_users":"Usuarios Activos",
        "desactivated_users":"Usuarios Desactivados",
        "name_mayus":"Nombre",
+       "update_photo":"Actualizar Foto",
         //NEW PROJECT
         "project_details":"Detalles del Proyecto",
         "project_title":"Título del Proyecto",
