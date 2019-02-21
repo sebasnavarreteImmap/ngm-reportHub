@@ -105,7 +105,7 @@ angular
        "country" : "Country",
        "select_country" : "Select Country",
        "select_organization" : "Select Organization",
-       "Sector" : "Sector",
+       "sectors_mayus":"Sectors",
        "select_sector" : "Select Sector",
        "select_station":"Select Station",
        "agriculture" : "Agriculture",
@@ -168,6 +168,13 @@ angular
        
        //ngm-list
        "you_have":"You have",
+
+       //TEAM
+       "active_sctaff":"Active Staff",
+       "active_users":"Active Users",
+        "desactivated_users":"Desactivated Users ",
+        "name_mayus":"Name",
+
 
        // NEW PROJECT
         "project_details":"Project Details",
@@ -279,6 +286,7 @@ angular
         "activity_mayus":"ACTIVITY",
         "report_mayus":"REPORT",
         "country_mayus":"Country",
+        "countries_mayus":"Countries",
         "organizations":"Organizations",
         "total_projects":"Total Projects",
         "lastest_report_update":"Lastest Report Update",
@@ -328,6 +336,7 @@ angular
         "site_name":"Site Name",
         "save":"save",
         "delete":"delete",
+        "delete_mayus1":"Delete",
         "add_row":"Add Row",
         "save_mayus":"Save",
         "cancel_mayus":"Cancel",
@@ -467,7 +476,7 @@ angular
     "country" : "País",
     "select_country" : "Seleccionar País",
     "select_organization" : "Seleccionar Organización",
-    "Sector" : "Sector",
+    "sectors_mayus":"Sectores",
     "select_sector" : "Seleccionar Sector",
     "select_station":"Seleccionar Estación",
     "multi_purpose_cash" : "Dinero Multi-Propósito",
@@ -531,6 +540,13 @@ angular
        
        //ngm-list
        "you_have":"Usted tiene",
+
+       //team
+
+       "active_staff":"Personal Activo",
+       "active_users":"Usuarios Activos",
+       "desactivated_users":"Usuarios Desactivados",
+       "name_mayus":"Nombre",
         //NEW PROJECT
         "project_details":"Detalles del Proyecto",
         "project_title":"Título del Proyecto",
@@ -636,7 +652,9 @@ angular
          "all_organizations":"TODAS las organizaciones",
          "activity_mayus":"ACTIVIDAD",
          "report_mayus":"REPORTE",
-         "country_mayus":"Country",
+         "country_mayus":"País",
+          "countries_mayus":"Países",
+
          "organizations":"Organizaciones",
          "total_projects":"TOTAL DE PROYECTOS",
          "from":"desde",
@@ -680,7 +698,7 @@ angular
         "from_list":"Lista de Origenes",
         "site_name":"Nombre del Sitio",
         "save":"Guardar",
-        "delete":"Eliminar",
+        "delete_mayus1":"Eliminar",
         "add_row":"Agregar fila",
         "save_mayus":"Guardar",
         "cancel_mayus":"Cancelar",

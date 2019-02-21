@@ -19,8 +19,8 @@ angular.module('ngmReportHub')
 			'ngmUser',
 			'ngmAuth',
 			'ngmData',
-			'ngmClusterLists','$translate','$filter',
-		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterLists,$translate , $filter) {
+			'ngmClusterLists','$translate',
+		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterLists,$translate ) {
 			this.awesomeThings = [
 				'HTML5 Boilerplate',
 				'AngularJS',
@@ -1068,7 +1068,7 @@ angular.module('ngmReportHub')
 									style: 'text-align: center;',
 									card: 'card-panel stats-card white grey-text text-darken-2',
 									config: {
-										title: $filte('translate')('reports_complete'),
+										title: $filter('translate')('reports_complete'),
 										request: {
 											method: 'POST',
 											url: ngmAuth.LOCATION + '/api/cluster/admin/indicator',
