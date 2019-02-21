@@ -27,25 +27,25 @@
 <div id="beneficiary-modal" class="modal">
 	<div class="modal-content">
 		<h4 style="color: #E57373; font-weight:100; padding-top: 20px;">
-			<i class="material-icons medium left">delete</i>{{'remove_beneficiary'|translate}}</h4>
-		<p style="padding-left: 76px;">{{'remove_this_beneficiary_from_your_report'|translate}}?</p>
+			<i class="material-icons medium left">delete</i>Remove Beneficiary</h4>
+		<p style="padding-left: 76px;">Remove this Beneficiary from your Report?</p>
 	</div>
 	<div class="modal-footer">
 		<a class="modal-action modal-close waves-effect waves-green btn-flat">No</a>
-		<a ng-click="project.removeBeneficiary()" class="modal-action modal-close waves-effect waves-green btn-flat">{{'yes_remove_beneficiary'|translate}}!</a>
+		<a ng-click="project.removeBeneficiary()" class="modal-action modal-close waves-effect waves-green btn-flat">Yes, Remove Beneficiary!</a>
 	</div>
 </div>
 
 <div id="borehole-modal" class="modal">
 	<div class="modal-content">
 		<h4 style="color: #E57373; font-weight:100; padding-top: 20px;">
-			<i class="material-icons medium left">delete</i>{{'remove_borehole' |translate}}</h4>
-		<p style="padding-left: 76px;">{{'remove_this_borehole_from_your_report'|translate}}?</p>
+			<i class="material-icons medium left">delete</i>Remove Borehole</h4>
+		<p style="padding-left: 76px;">Remove this Borehole from your Report?</p>
 	</div>
 	<div class="modal-footer">
 		<a class="modal-action modal-close waves-effect waves-green btn-flat">No</a>
 		<a ng-click="ngmClusterHelperNgWash.remove()" 
-				class="modal-action modal-close waves-effect waves-green btn-flat">{{'yes_remove_borehole'|translate}}!</a>
+				class="modal-action modal-close waves-effect waves-green btn-flat">Yes, Remove Borehole!</a>
 	</div>
 </div>
 
@@ -224,7 +224,7 @@
 			
 			<!--  -->
 			<button class="waves-effect waves-teal btn-flat" ng-click="project.modalConfirm( 'list-modal' )">
-				<i class="material-icons left">keyboard_return</i>{{'back_to_project_reports' | translate}}
+				<i class="material-icons left">keyboard_return</i>{{'back_to_project_reports'|translate}}
 			</button>
 
 			<span class="right" style="padding-top:8px;">{{'last_updated'|translate}}: {{ project.updatedAt }}</span>
