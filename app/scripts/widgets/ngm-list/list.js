@@ -86,7 +86,7 @@ angular.module('ngm.widget.list', ['ngm.provider'])
         dueFormat: function( date ) {
           // return moment
           //return moment.utc( date ).format('DD MMMM, YYYY');
-          return $filter('date')(date,format,timezone)
+          return $filter('date')(date,'DD MMMM, YYYY')
         },
 
         // description
