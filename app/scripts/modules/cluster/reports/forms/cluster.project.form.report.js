@@ -37,7 +37,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
     'ngmClusterHelperNgWash',
     'ngmClusterHelperNgWashLists',
     'ngmClusterHelperNgWashValidation',
-    'config',"$translate",'$filter',
+    'config',
     function( 
       $scope,
       $location,
@@ -59,7 +59,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
       ngmClusterHelperNgWash,
       ngmClusterHelperNgWashLists,
       ngmClusterHelperNgWashValidation,
-      config,$translate,$filter ){
+      config ){
 
 
       /**** TRAINING SERVICE ****/
