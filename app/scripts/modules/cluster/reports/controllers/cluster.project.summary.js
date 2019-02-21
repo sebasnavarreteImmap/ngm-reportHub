@@ -109,7 +109,7 @@ angular.module('ngmReportHub')
 									  project.project_status = 'active';
 
 									  // timeout
-									  $timeout(function(){ Materialize.toast( $filter('translate')('processing'), 3000, 'note'); }, 200 ); 
+									  $timeout(function(){ Materialize.toast( 'Processing...', 3000, 'note'); }, 200 ); 
 
 									  // Submit project for save
 									  ngmData.get({
@@ -121,7 +121,7 @@ angular.module('ngmReportHub')
 									  }).then(function(data){
 									    // redirect on success
 									    $location.path( '/cluster/projects' );
-									    Materialize.toast( $filter('translate')('project_moved_to_active'), 4000, 'success');
+									    Materialize.toast( 'Project moved to Active!', 4000, 'success');
 									  });
 
 									},
@@ -133,7 +133,7 @@ angular.module('ngmReportHub')
 									  project.project_status = 'complete';
 
 									  // timeout
-									  $timeout(function(){ Materialize.toast( $filter('translate')('processing'), 3000, 'note'); }, 200 );
+									  $timeout(function(){ Materialize.toast( 'Processing...', 3000, 'note'); }, 200 );
 
 									  // Submit project for save
 									  ngmData.get({
@@ -165,11 +165,11 @@ angular.module('ngmReportHub')
 									    }
 									    if ( !data.err ){
 										    $location.path( '/cluster/projects' );
-										    Materialize.toast( $filter('translate')('project_delete'), 3000, 'success');
+										    Materialize.toast( 'Project Deleted!', 3000, 'success');
 									    }
 									  }).error(function(err){
 									    // redirect on success
-									    Materialize.toast( $filter('translate')('project_delete_error_please_try_again'), 4000, 'error');
+									    Materialize.toast( 'Project delete error! Please try again', 4000, 'error');
 									  });
 									}
 
