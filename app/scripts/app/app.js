@@ -287,8 +287,16 @@ angular
          "download_borehol_data_as_csv":"Download Borehole Data as CSV",
         "download_cash_programming_data_as_csv":"Download Cash Programming Data as CSV",
         "download_hygiene_data_as_csv":"Download Hygiene Data as CSV",
-       "download_sanitarian_data_as_csv":"Download Sanitation Data as CSV",
+       "download_sanitation_data_as_csv":"Download Sanitation Data as CSV",
         "download_water_data_as_csv":"Download Water Data as CSV",
+
+        //dashboard.cluster
+
+        "download_ocha_hrp_report_as_csv":"Download OCHA HRP Report as CSV",
+        "download_ocha_financial_report_as_csv":"Download OCHA Financial Report as CSV",
+        "download_training_participants_as_csv":"Download Training Participants as CSV",
+        "download_beneficiary_data_as_csv":"Download Beneficiary Data as CSV",
+
         "admin_dashboard_for":"ADMIN Dashboard for",
         "all_clusters":"ALL clusters",
         "all_organizations":"ALL organizations",
@@ -532,7 +540,7 @@ angular
        "projects_for":"proyectos para",
        "download_project_summaries_as_CSV":"Descargar Resúmenes de Proyectos como CSV",
        "download_dashboard_as_pdf":"Descargar Dashboard como PDF",
-       "download_cluster_contact__list_as_csv":"Descargar Lista de Contactos del Cluster como CSV",
+       "download_cluster_contact_list_as_csv":"Descargar Lista de Contactos del Cluster como CSV",
        "for":"para",
        "all_provinces":"TODAS las provincias",
        "province":"Provincia",
@@ -666,8 +674,16 @@ angular
          "download_borehol_data_as_csv":"Descargar Datos de Pozos como CSV",
          "download_cash_programming_data_as_csv":"Descargar Datos del Programa Dinero en Efectivo como CSV",
          "download_hygiene_data_as_csv":"Descargar Datos de Higiene como CSV",
-         "download_sanitarian_data_as_csv":"Descargar Datos de Download Saneamiento Data as CSV",
+         "download_sanitation_data_as_csv":"Descargar Datos de Download Saneamiento Data as CSV",
          "download_water_data_as_csv":"Descargar Datos de Agua como CSV",
+         
+         //dashboard.cluster
+
+         "download_ocha_hrp_report_as_csv":"Descargar Reporte HRP de OCHA como CSV",
+        "download_ocha_financial_report_as_csv":"Descargar Reporte Financiero de OCHA como CSV",
+        "download_training_participants_as_csv":"Descargar Participantes de Entrenamiento como CSV",
+         "download_beneficiary_data_as_csv":"Descargar Datos de Beneficiarios como CSV",
+
 
          "admin_dashboard_for":"ADMIN Dashboard para",
          "all_clusters":"TODOS los clusters",
@@ -679,7 +695,7 @@ angular
           "reports_completed":"Reportes Completos",
 
          "organizations":"Organizaciones",
-         "total_projects":"TOTAL DE PROYECTOS",
+         "total_projects":"Total de Proyectos",
          "from":"desde",
          "to":"hasta",
          "projects_progress":"Proyectos en Progreso",

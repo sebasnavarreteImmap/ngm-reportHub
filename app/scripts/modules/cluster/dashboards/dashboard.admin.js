@@ -362,7 +362,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'teal lighten-3',
 						icon: 'wc',
-						hover: $filter('translate')('download_sanitarian_data_as_csv'),
+						hover: $filter('translate')('download_sanitation_data_as_csv'),
 						request: $scope.dashboard.getCsvRequest( { csv: true, indicator: 'sanitation', report: $scope.dashboard.cluster_id_filename + '_sanitation_data-extracted-from-' + $scope.dashboard.startDate + '-to-' + $scope.dashboard.endDate + '-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' ) } ),
 						metrics: $scope.dashboard.getMetrics( 'sanitation_data', 'csv' )
 					},{
