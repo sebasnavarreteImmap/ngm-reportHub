@@ -226,6 +226,18 @@ angular
          "project_delete_error_please_try_again":"Project delete error! Please try again",
         "project_delete":"Project Deleted!",
 
+        //project details.js
+
+        "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
+
+        //reports list
+         "back_to_project_summary":"Back to Project Summary",
+         "download_monthly_reports_as_csv":"Download Monthly Reports as CSV",
+         "update":"Update",
+         "report_submitted":"Report Submitted",
+         "report_due_date":"Report Due Date",
+
+
         //DASHBOARD ADMIN
         "download_admin_as_pdf":"Download Admin as PDF",
         "download_project_summaries_as_csv":"Download Project Summaries as CSV",
@@ -553,6 +565,19 @@ angular
          "project_market_as_complete":"Projectp marcado como Completo, Felicitaciones!",
          "project_delete_error_please_try_again":"Error al Eliminar Proyecto! Por favor intente de nuevo",
          "project_delete":"Proyecto Eliminado!",
+
+        
+         //project details
+
+         "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
+
+         //Reports list
+
+         "back_to_project_summary":"Regresar a Resumen del Proyecto",
+         "download_monthly_reports_as_csv":"Descargar Reportes Mensuales como CSV",
+         "update":"Actualizar",
+         "report_submitted":"Reporte Enviado",
+         "report_due_date":"Fecha de Vencimiento del Reporte",
          //DASHBOARD ADMIN
 
          "lastest_report_update":"Última Actualización de Reporte",
@@ -563,8 +588,8 @@ angular
 
          "download_admin_as_pdf":"Descargar Admin como PDF",
          "download_project_summaries_as_csv":"Descargar Resumen de Proyectos como CSV",
-         "reports_todo":"Reportes A Realizar",
-         "reports_complete":"Reports Complete",
+         "reports_todo":"Reportes para Realizar",
+         "reports_complete":"Reportes Completos",
          "reports_due":"Reports Due",
          "download_projects_financials_as_csv":"Descargar Proyectos Financieros como CSV",
          "all_clusters":"TODOS los clusters",
