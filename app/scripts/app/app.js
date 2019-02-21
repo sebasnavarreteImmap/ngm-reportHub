@@ -222,7 +222,7 @@ angular
         "as":"as",
         "processing":"Processing...",
         "project_moved_to_active":"Project moved to Active!",
-        "project_market_as_complete":"Project marked as Complete, Congratulations!",
+        "project_market_as_complete_congratulations":"Project marked as Complete, Congratulations!",
          "project_delete_error_please_try_again":"Project delete error! Please try again",
         "project_delete":"Project Deleted!",
 
@@ -584,7 +584,7 @@ angular
          "as":"como",
          "processing":"Procesando...",
          "project_moved_to_active":"Prouecto movido a Activo!",
-         "project_market_as_complete":"Projectp marcado como Completo, Felicitaciones!",
+         "project_market_as_complete_congratulations":"Projectp marcado como Completo, Felicitaciones!",
          "project_delete_error_please_try_again":"Error al Eliminar Proyecto! Por favor intente de nuevo",
          "project_delete":"Proyecto Eliminado!",
 
