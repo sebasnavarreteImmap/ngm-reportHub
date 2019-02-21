@@ -244,7 +244,7 @@ angular.module('ngmReportHub')
 									headerStyle: 'background-color:' + $scope.dashboard.ngm.style.defaultPrimaryColor,
 									headerText: 'white-text',
 									headerIcon: 'group',
-									headerTitle: $scope.dashboard.user.organization + $filter('translate')('active_users'),
+									headerTitle: $scope.dashboard.user.organization + ' ' +$filter('translate')('active_users'),
 									templateUrl: '/scripts/app/views/authentication/team.html',
 									tableOptions:{
 										count: 10
