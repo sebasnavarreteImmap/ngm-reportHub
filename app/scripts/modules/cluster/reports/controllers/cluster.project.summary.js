@@ -145,7 +145,7 @@ angular.module('ngmReportHub')
 									  }).then(function(data){
 									    // redirect on success
 									    $location.path( '/cluster/projects' );
-									    Materialize.toast( $filter('translate')('project_market_as_complete_congratulations'), 4000, 'success');
+									    Materialize.toast( 'Project marked as Complete, Congratulations!', 4000, 'success');
 									  });
 
 									},
@@ -161,7 +161,7 @@ angular.module('ngmReportHub')
 									  }).success(function(data){
 									    // redirect on success
 									    if ( data.err ) {
-									    	Materialize.toast( $filter('translate')('project_delete_error_please_try_again'), 4000, 'error');
+									    	Materialize.toast( 'Project delete error! Please try again', 4000, 'error');
 									    }
 									    if ( !data.err ){
 										    $location.path( '/cluster/projects' );
