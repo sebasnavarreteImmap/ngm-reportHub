@@ -233,7 +233,10 @@ angular
         "project_market_as_complete_congratulations":"Project marked as Complete, Congratulations!",
          "project_delete_error_please_try_again":"Project delete error! Please try again",
         "project_delete":"Project Deleted!",
-
+        "objetives_mayus":"OBJETIVES",
+        "select_the_objetives_that_your_project_will":"Select the Objectives that your project will",
+        "relates_to":"Relates to",
+        "there_are_no_strategic_objetives_for":"There are no Strategic Objectives for",
         //project details.js
 
         "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
@@ -622,6 +625,10 @@ angular
          "project_market_as_complete_congratulations":"Projectp marcado como Completo, Felicitaciones!",
          "project_delete_error_please_try_again":"Error al Eliminar Proyecto! Por favor intente de nuevo",
          "project_delete":"Proyecto Eliminado!",
+         "objetives_mayus":"OBJETIVOS",
+         "select_the_objetives_that_your_project_will_target":"Seleccionar los Objetivos de su proyecto",
+         "relates_to":"Relacionado con",
+         "there_are_no_strategic_objetives_for":"No hay Objetivos Estratégicos para",
 
         
          //project details
