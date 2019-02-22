@@ -901,7 +901,7 @@ angular
         "in":"en",
         "monthly_stock_report_for":"Reporte Mensual de Stock para",
         "stock_reports_for":"Reportes de Stock para",
-        "stock_reports_todo":"Reportes de Stock Stock Reports para Realizar",
+        "stock_reports_todo":"Reportes de Stock para Realizar",
         "stock_reports_complete":"Reportes de Stock Completados"
 
 
