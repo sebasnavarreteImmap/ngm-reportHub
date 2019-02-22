@@ -467,6 +467,7 @@ angular
         "beneficiaries_covered":"Beneficiaries Covered",
         "stock_report":"Stock Report",
         "donwload_monthly_stock_report_as_csv":"Download Monthly Stock Report as CSV",
+        "in":"in"
 
 
 
@@ -892,7 +893,8 @@ angular
         "copy_last_month":"Copiar Mes Anterior",
         "beneficiaries_covered":"Beneficiarios Cubiertos",
         "stock_report":"Reporte de Stock",
-        "donwload_monthly_stock_report_as_csv":"Descargar Reporte Mensual de Stock como CSV"
+        "donwload_monthly_stock_report_as_csv":"Descargar Reporte Mensual de Stock como CSV",
+        "in":"en"
 
 
 
