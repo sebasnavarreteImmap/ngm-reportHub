@@ -454,6 +454,18 @@ angular
         "yes_submit_report":"Yes, submit report",
         "back_to_stock_reports":"Back to Stock Reports",
         "form_not_completed":"FORM NOT COMPLETED",
+        "form_not_completed_min":"Form Not Completed",
+        "return_to_stock_reports_list":"Return to Stock Reports List",
+        "stock_purpose":"Stock Purpose",
+        "targeted_groups":"Targeted Groups",
+        "stock_type":"Stock Type",
+        "status_mayus":"Status",
+        "pipeline":"Pipeline",
+        "beneficiary_coverage":"Beneficiary Coverage",
+        "stock_report_for":"Stock Report for",
+        "copy_last_month":"Copy Last Month",
+        "beneficiaries_covered":"Beneficiaries Covered"
+
 
 
 
@@ -864,7 +876,19 @@ angular
         "submit_monthly_stock_report_for":"Enviar reporte mensual de stock para",
         "yes_submit_report":"Si, enviar reporte",
         "back_to_stock_reports":"Regresar a Reportes de Stock",
-        "form_not_completed":"FORMULARIO SIN COMPLETAR"
+        "form_not_completed":"FORMULARIO SIN COMPLETAR",
+        "form_not_completed_min":"Formulario Sin Completar",
+
+        "return_to_stock_reports_list":"Regresar a Lista de Reportes de Stock",
+        "stock_purpose":"Propósito del Stock",
+        "targeted_groups":"Grupos Objetivo",
+        "stock_type":"Tipo de Stock",
+        "status_mayus":"Estado",
+        "pipeline":"Transporte",
+        "beneficiary_coverage":"Cobertura de Beneficiarios",
+        "stock_report_for":"Reporte de Stock para",
+        "copy_last_month":"Copiar Mes Anterior",
+        "beneficiaries_covered":"Beneficiarios Cubiertos"
 
 
 

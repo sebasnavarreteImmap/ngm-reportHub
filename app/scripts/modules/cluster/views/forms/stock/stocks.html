@@ -3,15 +3,15 @@
   <table class="bordered responsive-table" style="margin-bottom:10px;" ng-show="report.report.stocklocations[$locationIndex].stocks.length">
     <tr style="font-weight: 400">
 			<td>Cluster</td>
-			<td>Stock Purpose</td>
-			<td>Targeted Groups</td>
-      <td>Stock Type</td>
-      <td>Status</td>
-      <td>No. in Stock</td>
-      <td>No. in Pipeline</td>
-      <td>Units</td>
-			<td>Beneficiary Coverage</td>
-      <td ng-show="report.report.report_status !== 'complete'">Edit</td>
+			<td>{{'stock_purpose'|translate}}</td>
+			<td>{{'targeted_groups'|translate}}</td>
+      <td>{{'stock_type' | translate}}</td>
+      <td>{{'status'|translate}}</td>
+      <td>No. {{'in'|translate}} Stock</td>
+      <td>No. {{'in'|translate}} {{'pipeline'|transporte}}</td>
+      <td>{{'units'|translate}}</td>
+			<td>{{'beneficiary_coverage'|translate}}</td>
+      <td ng-show="report.report.report_status !== 'complete'">{{'edit'|translate}}</td>
     </tr>
     <tr ng-repeat="stock in report.report.stocklocations[$locationIndex].stocks">
       <td>
@@ -94,7 +94,7 @@
   </table>
 
   <button class="btn" ng-show="report.report.report_status !== 'complete'" ng-click="report.addStock( $locationIndex )">
-    <i class="material-icons left">add</i>Add Row
+    <i class="material-icons left">add</i>{{'add_row'|translate}}
   </button>
 
 </div>
