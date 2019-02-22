@@ -239,7 +239,6 @@ angular
         "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
         "cash_intented_for_even_if_unrestricted":"Cash intented for event if unrestricted",
         //reports list
-         "back_to_project_summary":"Back to Project Summary",
          "download_monthly_reports_as_csv":"Download Monthly Reports as CSV",
          "update":"Update",
          "report_submitted":"Report Submitted",
@@ -610,7 +609,6 @@ angular
          "this_will_affect_any_existing_monthly_beneficiary_reports":"Esto afectará cualquier informe mensual de beneficiarios existente",
          "yes_remove_location":"Si, Eliminar ubicación",
          "back_to_projects":"Volver a Proyectos",
-         "back_to_project_summary":"Regresar al Resumen del Proyecto",
          "last_updated":"Última Actualización",
          "refresh_data":"Refrescar Datos",
          "project_locations":"UBICACIONES DE PROYECTOS",
@@ -779,9 +777,8 @@ angular
         "notes":"Notas",
         "notes_for":"Notas para",
         "remove_budget":"Eliminar Presupuesto",
-        "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Are you sure you want to remove this Budget Item from your project",
+        "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Está seguro que quiere Eliminar este Presupuesto de su proyecto",
         "yes_remove":"Si, eliminar",
-        "back_to_project_summary":"Regresar a Resumen del Proyecto",
         "financial_reports_for":"Reportes Financieros Para",
         "download_project_financial_report_as_csv":"Descargar Reporte Financiero como CSV",
 
