@@ -26,8 +26,8 @@ angular.module('ngm.widget.form.authentication', ['ngm.provider'])
     'ngmAuth',
     'ngmUser',
     'ngmData',
-    'config','$translate',
-    function( $scope, $http, $location, $timeout, $filter, $q, ngmAuth, ngmUser, ngmData, config,$translate ){
+    'config',
+    function( $scope, $http, $location, $timeout, $filter, $q, ngmAuth, ngmUser, ngmData, config){
 
       // project
       $scope.panel = {
