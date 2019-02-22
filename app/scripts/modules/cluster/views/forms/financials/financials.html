@@ -5,14 +5,14 @@
         
         <li class="collection-header teal lighten-4">
           <h5 class="report-work-title">
-            <i class="material-icons left">attach_money</i>Project Budget Progress
+            <i class="material-icons left">attach_money</i>{{'project_budget_progress' | translate}}
           </h5>
         </li>
 
         <li class="collection-item avatar">
 
           <p style="padding:10px;">
-            Add a NEW ROW of financial details to your project for EACH PAYMENT recieved;
+            {{'add_new_row_of_financial_details_to_your_project_for_each_payment_recieved' | translate}};
           </p>
 
           <div class="row">
@@ -21,20 +21,20 @@
 
                 <table class="bordered responsive-table" ng-show="project.definition.project_budget_progress.length">
                   <tr style="font-weight: 400">
-                    <td>Donor*</td>
-                    <td>Activity*</td>
-                    <td>Grant ID</td>
-                    <td>Amount*</td>
-                    <td>Currency*</td>
-                    <td>Funds*</td>
-                    <td ng-show="project.showProgrammingLabel()">Programming</td>
-                    <td>Recieved*</td>
-                    <td>Multi-Year Funding</td>
-                    <td ng-show="project.showFunding2017()">2017 Funding</td>
-                    <td>on FTS?</td>
+                    <td>{{'donor'|translate}}*</td>
+                    <td>{{'activity' | translate}}*</td>
+                    <td>{{'grant' | translate}} ID</td>
+                    <td>{{'amount' | translate}}*</td>
+                    <td>{{'currency' | translate}}*</td>
+                    <td>{{'funds' | translate}}*</td>
+                    <td ng-show="project.showProgrammingLabel()">{{'programming' | translate}}</td>
+                    <td>{{'recieved' | translate}}*</td>
+                    <td>{{'multi_year_funding' | translate}}</td>
+                    <td ng-show="project.showFunding2017()">2017 {{'funding' | translate}}</td>
+                    <td>{{'on' |translate}} FTS?</td>
                     <td ng-show="project.showFtsIdLabel()">FTS ID</td>
-                    <td>Notes</td>
-                    <td ng-if="project.definition.project_status !== 'complete'">Edit</td>
+                    <td>{{'notes' | translate}}</td>
+                    <td ng-if="project.definition.project_status !== 'complete'">{{'edit' | translate}}</td>
                   </tr>
                   <tr ng-repeat="budget in project.definition.project_budget_progress track by $index">
 
@@ -208,15 +208,20 @@
                         </div>
                       </div>  
                     </td>
+
                   </tr>
                 </table>
+
                 <button class="btn" ng-show="project.definition.project_status !== 'complete'" ng-click="project.addBudgetItem()" style="margin:20px 0px;">
-                  <i class="material-icons left">add</i>Add Row
+                  <i class="material-icons left">add</i>{{'add_row' | translate}}
                 </button>
+
               </div>
             </div>
           </div>
+
         </li>
+
       </ul>
     </div>
   </div>
