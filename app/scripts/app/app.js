@@ -515,8 +515,8 @@ angular
        "full_name" : "Nombre Completo",
        "position" : "Cargo",
        "phone" : "Teléfono",
-       "email" : "Email",
-       "email_mayus":"EMAIL",
+       "email" : "Correo",
+       "email_mayus":"CORREO",
 
 
        "back" : "Atrás",
@@ -559,7 +559,7 @@ angular
        "updated":"Actualizado",
 
        //Helper
-       "please_complete_project_details_and_enter_a_project_summary_description_including_objetives":"Por favor  complete los Detalles del Proyecto y ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
+       "please_complete_project_details_and_enter_a_project_summary_description_including_objetives":"Por favor complete los Detalles del Proyecto y ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
        
        //ngm-list
        "you_have":"Usted tiene",
