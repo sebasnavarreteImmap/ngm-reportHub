@@ -468,7 +468,10 @@ angular
         "stock_report":"Stock Report",
         "donwload_monthly_stock_report_as_csv":"Download Monthly Stock Report as CSV",
         "in":"in",
-        "monthly_stock_report_for":"Monthly Stock Report for"
+        "monthly_stock_report_for":"Monthly Stock Report for",
+        "stock_reports_for":"Stock Reports for",
+        "stock_reports_todo":"Stock Reports ToDo",
+        "stock_reports_complete":"Stock Reports Complete"
 
 
 
@@ -699,7 +702,7 @@ angular
          "download_admin_as_pdf":"Descargar Admin como PDF",
          "download_project_summaries_as_csv":"Descargar Resumen de Proyectos como CSV",
          "reports_todo":"Reportes para Realizar",
-         "reports_complete":"Reportes Completos",
+         "reports_complete":"Reportes Completados",
          "reports_due":"Reportes Pendiente",
          "download_projects_financials_as_csv":"Descargar Proyectos Financieros como CSV",
          "download_beneficiary_data_as_csv":"Descargar Datos de Beneficiarios como CSV",
@@ -726,7 +729,7 @@ angular
          "report_mayus":"REPORTE",
          "country_mayus":"País",
           "countries_mayus":"Países",
-          "reports_completed":"Reportes Completos",
+          "reports_completed":"Reportes Completados",
 
          "organizations":"Organizaciones",
          "total_projects":"Total de Proyectos",
@@ -896,7 +899,13 @@ angular
         "stock_report":"Reporte de Stock",
         "donwload_monthly_stock_report_as_csv":"Descargar Reporte Mensual de Stock como CSV",
         "in":"en",
-        "monthly_stock_report_for":"Reporte Mensual de Stock para"
+        "monthly_stock_report_for":"Reporte Mensual de Stock para",
+        "stock_reports_for":"Reportes de Stock para",
+        "stock_reports_todo":"Reportes de Stock Stock Reports para Realizar",
+        "stock_reports_complete":"Reportes de Stock Completados"
+
+
+
 
 
 
