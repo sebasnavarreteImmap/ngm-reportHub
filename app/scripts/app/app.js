@@ -471,7 +471,8 @@ angular
         "monthly_stock_report_for":"Monthly Stock Report for",
         "stock_reports_for":"Stock Reports for",
         "stock_reports_todo":"Stock Reports ToDo",
-        "stock_reports_complete":"Stock Reports Complete"
+        "stock_reports_complete":"Stock Reports Complete",
+        "remove_warehouse_location":"Remove Warehouse Location"
 
 
 
@@ -902,7 +903,8 @@ angular
         "monthly_stock_report_for":"Reporte Mensual de Stock para",
         "stock_reports_for":"Reportes de Stock para",
         "stock_reports_todo":"Reportes de Stock para Realizar",
-        "stock_reports_complete":"Reportes de Stock Completados"
+        "stock_reports_complete":"Reportes de Stock Completados",
+        "remove_warehouse_location":"Eliminar Ubicación de Bodega"
 
 
 
