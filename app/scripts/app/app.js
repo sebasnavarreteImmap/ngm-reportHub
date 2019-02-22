@@ -713,7 +713,7 @@ angular
         "package":"Paquete",
         "category":"Categoría",
         "beneficiary":"Beneficiario",
-        "Population":"Población",
+        "population":"Población",
         "amount":"Monto",
         "units":"Unidades",
         "transfers":"Transferencias",
