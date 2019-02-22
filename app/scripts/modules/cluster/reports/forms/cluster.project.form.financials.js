@@ -30,8 +30,7 @@ angular.module( 'ngm.widget.project.financials', [ 'ngm.provider' ])
     'ngmClusterHelper',
     'ngmClusterLists',
     'config',
-    '$translate',
-    function( $scope, $location, $timeout, $filter, $q, $http, $route, ngmUser, ngmAuth, ngmData, ngmClusterHelper, ngmClusterLists, config,$translate ){
+    function( $scope, $location, $timeout, $filter, $q, $http, $route, ngmUser, ngmAuth, ngmData, ngmClusterHelper, ngmClusterLists, config ){
 
       // project
       $scope.project = {
@@ -352,4 +351,3 @@ angular.module( 'ngm.widget.project.financials', [ 'ngm.provider' ])
   }
 
 ]);
-
