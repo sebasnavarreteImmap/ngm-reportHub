@@ -472,7 +472,11 @@ angular
         "stock_reports_for":"Stock Reports for",
         "stock_reports_todo":"Stock Reports ToDo",
         "stock_reports_complete":"Stock Reports Complete",
-        "remove_warehouse_location":"Remove Warehouse Location"
+        "remove_warehouse_location":"Remove Warehouse Location",
+        "warehouse_locations":"Warehouse Locations",
+        "choose":"Choose",
+        "warehouse_name":"Warehouse Name",
+        "selected_warehouses":"Selected Warehouses"
 
 
 
@@ -904,7 +908,11 @@ angular
         "stock_reports_for":"Reportes de Stock para",
         "stock_reports_todo":"Reportes de Stock para Realizar",
         "stock_reports_complete":"Reportes de Stock Completados",
-        "remove_warehouse_location":"Eliminar Ubicación de Bodega"
+        "remove_warehouse_location":"Eliminar Ubicación de Bodega",
+        "warehouse_locations":"Ubicaciones de Bodegas",
+        "choose":"Seleccionar",
+        "warehouse_name":"Nombre de Bodega",
+        "selected_warehouses":"Bodegas Seleccionadas"
 
 
 
