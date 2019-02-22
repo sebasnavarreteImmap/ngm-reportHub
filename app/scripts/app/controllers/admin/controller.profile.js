@@ -6,7 +6,7 @@
  * Controller of the ngmReportHub
  */
 angular.module('ngmReportHub')
-	.controller('DashboardProfileCtrl', ['$scope', '$route', 'ngmData', 'ngmAuth','$translation','$filter', function ($scope, $route, ngmData, ngmAuth,$translation,$filter) {
+	.controller('DashboardProfileCtrl', ['$scope', '$route', 'ngmData', 'ngmAuth', function ($scope, $route, ngmData, ngmAuth) {
 		this.awesomeThings = [
 			'HTML5 Boilerplate',
 			'AngularJS',
