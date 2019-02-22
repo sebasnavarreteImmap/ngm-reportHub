@@ -394,7 +394,7 @@ angular
         "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Are you sure you want to remove this Budget Item from your project",
         "yes_remove":"Yes, remove",
         "back_to_project_summary":"Back to Project Summary",
-        "financial_reports_for":"Financial Reports for ",
+        "financial_reports_for":"Financial Reports for",
         "download_project_financial_report_as_csv":"Download Project Financial Report as CSV",
         
 
@@ -779,7 +779,7 @@ angular
         "remove_budget":"Eliminar Presupuesto",
         "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Está seguro que quiere Eliminar este Presupuesto de su proyecto",
         "yes_remove":"Si, eliminar",
-        "financial_reports_for":"Reportes Financieros Para",
+        "financial_reports_for":"Reportes Financieros para",
         "download_project_financial_report_as_csv":"Descargar Reporte Financiero como CSV",
 
 
