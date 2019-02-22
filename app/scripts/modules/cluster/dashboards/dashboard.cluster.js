@@ -306,7 +306,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'teal lighten-3',
 						icon: 'local_drink',
-						hover: $filter('translation')('download_water_data_as_csv'),
+						hover: $filter('translate')('download_water_data_as_csv'),
 						request: $scope.dashboard.getRequest( { csv: true, indicator: 'water', report: $scope.dashboard.cluster_id_filename + '_water_data-extracted-from-' + $scope.dashboard.startDate + '-to-' + $scope.dashboard.endDate + '-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' ) } ),
 						metrics: $scope.dashboard.getMetrics( 'water_data', 'csv' )
 					}];
