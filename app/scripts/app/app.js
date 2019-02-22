@@ -442,7 +442,18 @@ angular
         "profile_mayus":"PROFILE",
         "select_programme":"Select Programme",
         "update_mayus":"UPDATE",
-        "delete_mayus":"DELETE"
+        "delete_mayus":"DELETE",
+
+
+        //STOCKS
+        "save_monthly_stock_report":"Save Monthly Stock Report",
+        "has been saved":"has been saved",
+        "cancel_stock_report":"Cancel Stock Report",
+        "submit_stock_report_for":"Submit Stock Report for",
+        "submit_monthly_stock_report_for":"Submit monthly stock report for",
+        "yes_submit_report":"Yes, submit report",
+        "back_to_stock_reports":"Back to Stock Reports",
+        "form_not_completed":"FORM NOT COMPLETED",
 
 
 
@@ -842,7 +853,19 @@ angular
         "profile_mayus":"PERFIL",
         "select_programme":"Seleccionar Programa",
         "update_mayus":"ACTUALIZAR",
-        "delete_mayus":"ELIMINAR"
+        "delete_mayus":"ELIMINAR",
+
+        //STOCKS
+
+        "save_monthly_stock_report":"Guardar Reporte Mensual de Stock",
+        "has been saved":"ha sido guardado",
+        "cancel_stock_report":"Cancel Stock Report",
+        "submit_stock_report_for":"Enviar Reporte de Stock para",
+        "submit_monthly_stock_report_for":"Enviar reporte mensual de stock para",
+        "yes_submit_report":"Si, enviar reporte",
+        "back_to_stock_reports":"Regresar a Reportes de Stock",
+        "form_not_completed":"FORMULARIO SIN COMPLETAR"
+
 
 
 
