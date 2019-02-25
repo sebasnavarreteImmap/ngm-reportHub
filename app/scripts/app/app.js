@@ -482,7 +482,7 @@ angular
 
         //ASSESSMENTS (afghanistan)
         "assessments":"Assessments",
-        "please_select_an_assesments_from_the_option_below":"Please select an assessments from the options below",
+        "please_select_an_assesments_from_the_options_below":"Please select an assessments from the options below",
         "view_projects":"View Projects",
         "nutrition_weekly_assessment":"Nutrition Weekly Assessment",
         "complete_survey":"Complete Survey",
@@ -927,7 +927,7 @@ angular
 
         //ASSESSMENTS (afghanistan)
         "assessments":"Evaluaciones",
-        "please_select_an_assessments_from_the_option_below":"Por favor seleccione una evaluación de las siguientes opciones",
+        "please_select_an_assessments_from_the_options_below":"Por favor seleccione una evaluación de las siguientes opciones",
         "view_projects":"Ver Proyectos",
         "nutrition_weekly_assessment":"Evaluación Semanal Nutrición",
         "complete_survey":"Completar Encuesta",
