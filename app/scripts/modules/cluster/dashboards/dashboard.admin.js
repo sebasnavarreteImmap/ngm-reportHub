@@ -482,7 +482,7 @@ angular.module('ngmReportHub')
 									'search': true,
 									'id': 'search-cluster-organization',
 									'icon': 'supervisor_account',
-									'title': $filter('translate')('organization'),
+									'title': 'Organization',
 									'class': 'teal lighten-1 white-text',
 									'rows': orgRows
 								});
