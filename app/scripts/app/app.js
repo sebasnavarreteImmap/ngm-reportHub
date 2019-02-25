@@ -491,6 +491,17 @@ angular
         "new_mayus1":"New",
         "please_complete_an_assessment_in_the_form_below":"Please complete an assessment in the form below",
         "form":"form",
+        "nutrition_weekly_reporting":"Nutrition Weekly Reporting",
+        "download_reports_data_as_csv":"Download Reports Data as CSV",
+        "download_beneficiaries_as_csv":"Download Beneficiaries as CSV",
+        "refreshing_data":"Refreshing data",
+        "nutrition_reports_data_updated":"Nutrition Reports data updated",
+        "beneficiaries":"Beneficiaries",
+        "beneficiaries_mayus":"BENEFICIARIES",
+        "reports":"Reports",
+        "activities":"Activities",
+        "locations":"Locations"
+
 
 
 
@@ -938,7 +949,20 @@ angular
         "nutrition_admin_dashboard":"Dashboard Administración de Nutrición",
         "new_mayus1":"Nuevo",
         "please_complete_an_assessment_in_the_form_below":"Por favor complete una evaluación en el siguiente formulario",
-        "form":"formulario"
+        "form":"formulario",
+        "nutrition_weekly_reporting":"Reportes Semanales de Nutrición",
+        "download_reports_data_as_csv":"Descargar Datos de Reportes como CSV",
+        "download_beneficiaries_as_csv":"Descargar Beneficiarios como CSV",
+        "refreshing_data":"Actualizando datos",
+        "nutrition_reports_data_updated":"Reportes de Datos de Nutrición Actualizados",
+        "beneficiaries":"Beneficiarios",
+        "beneficiaries_mayus":"BENEFICIARIOS",
+        "reports_mayus1":"Reportes",
+        "activities":"Actividades",
+        "locations":"Ubicaciones"
+
+
+
 
 
 
