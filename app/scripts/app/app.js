@@ -1083,7 +1083,7 @@ angular
 
 
 			// app name
-			title: $filter('translate')('welcome'),
+			title: $filter('translate')('welcome'), 
 
 			// current route
 			route: $route,
