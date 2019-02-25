@@ -228,7 +228,7 @@ angular.module( 'ngmReportHub' )
       getTitle: function( admin ){
         // title
         var title = $filter('translate')('nutrition_mayus')+ ' | ';
-            title += admin ? $filter('translate')('ADMIN | ' : '';
+            title += admin ? 'ADMIN | ' : '';
             title += dashboard.year;
 
         if ( dashboard.province !== 'all' ) {
