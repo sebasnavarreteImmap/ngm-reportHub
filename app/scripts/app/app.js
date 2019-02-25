@@ -1135,7 +1135,7 @@ angular
 
 
 			// app name
-			title: 'welcome', 
+			title: $filter('translate')('welcome'), 
 
 			// current route
 			route: $route,
@@ -1299,7 +1299,7 @@ angular
 				if ( ngmUser.get() ) {
 					return ngmUser.get().username;
 				} else {
-					return $filter('translate')('welcome');
+					return 'welcome';
 				}
 			},
 
