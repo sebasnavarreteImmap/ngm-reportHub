@@ -258,15 +258,6 @@
 										<i class="material-icons smedium right">perm_phone_msg</i>{{'contact_mayus' | translate}} REPORTHUB</a>
 									</li>
 
-									
-
-									<li  align="center" class="teal z-depth-2" 
-										ng-if="ngm.getUser().admin0pcode === 'AF'"
-										ng-show="ngm.getUser().organization.toLowerCase() === 'immap' || ngm.getUser().organization.toLowerCase() === 'who' || ngm.getUser().organization.toLowerCase() === 'dews'">
-										<a class="white-text right" href="#/who/" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">bubble_chart</i>DEWS DASHBOARD</a>
-									</li>
-
 									<li align="center" class="teal z-depth-2">
 										
 										<a class="white-text" >
@@ -281,6 +272,13 @@
 										</ul>-->
 
 									
+									</li>
+
+									<li  align="center" class="teal z-depth-2" 
+										ng-if="ngm.getUser().admin0pcode === 'AF'"
+										ng-show="ngm.getUser().organization.toLowerCase() === 'immap' || ngm.getUser().organization.toLowerCase() === 'who' || ngm.getUser().organization.toLowerCase() === 'dews'">
+										<a class="white-text right" href="#/who/" ng-click="ngm.toggleNavigationMenu();">
+										<i class="material-icons smedium right">bubble_chart</i>DEWS DASHBOARD</a>
 									</li>
 
 							</ul>
