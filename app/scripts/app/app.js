@@ -489,8 +489,8 @@ angular
         "complete_survey":"Complete Survey",
         "nutrition_admin_dashboard":"Nutrition Admin Dashboard",
         "new_mayus1":"New",
-        "please_complete_an_assessment_in_the_form_below":"Please complete an assessment in the form below"
-
+        "please_complete_an_assessment_in_the_form_below":"Please complete an assessment in the form below",
+        "form":"form",
 
 
 
@@ -937,8 +937,8 @@ angular
         "complete_survey":"Completar Encuesta",
         "nutrition_admin_dashboard":"Dashboard Administración de Nutrición",
         "new_mayus1":"Nuevo",
-        "please_complete_an_assessment_in_the_form_below":"Por favor complete una evaluación en el siguiente formulario"
-        
+        "please_complete_an_assessment_in_the_form_below":"Por favor complete una evaluación en el siguiente formulario",
+        "form":"formulario"
 
 
 
