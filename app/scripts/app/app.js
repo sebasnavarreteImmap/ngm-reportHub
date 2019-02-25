@@ -476,8 +476,17 @@ angular
         "warehouse_locations":"Warehouse Locations",
         "choose":"Choose",
         "warehouse_name":"Warehouse Name",
-        "selected_warehouses":"Selected Warehouses"
+        "selected_warehouses":"Selected Warehouses",
 
+
+
+        //ASSESSMENTS (afghanistan)
+        "assessments":"Assessments",
+        "please_select_an_assesments_from_the_option_below":"Please select an assessments from the options below",
+        "view_projects":"View Projects",
+        "nutrition_weekly_assessment":"Nutrition Weekly Assessment",
+        "complete_survey":"Complete Survey",
+        "nutrition_admin_dashboard":"Nutrition Admin Dashboard"
 
 
 
@@ -912,8 +921,17 @@ angular
         "warehouse_locations":"Ubicaciones de Bodegas",
         "choose":"Seleccionar",
         "warehouse_name":"Nombre de Bodega",
-        "selected_warehouses":"Bodegas Seleccionadas"
+        "selected_warehouses":"Bodegas Seleccionadas",
 
+
+
+        //ASSESSMENTS (afghanistan)
+        "assessments":"Evaluaciones",
+        "please_select_an_assesments_from_the_option_below":"Por favor seleccione una evaluación de las siguientes opciones",
+        "vie_projects":"Ver Proyectos",
+        "nutrition_weekly_assessment":"Evaluación Semanal de Nutrición",
+        "complete_survey":"Completar Encuesta",
+        "nutrition_admin_dashboard":"Dashboard Administración de Nutrición"
 
 
 
