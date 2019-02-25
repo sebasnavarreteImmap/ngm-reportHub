@@ -1247,7 +1247,7 @@ angular
 				if ( ngmUser.get() ) {
 					return ngmUser.get().username;
 				} else {
-					return 'welcome';
+					return $filter('translate')('welcome');
 				}
 			},
 
