@@ -929,7 +929,7 @@ angular
         "assessments":"Evaluaciones",
         "please_select_an_assessments_from_the_option_below":"Por favor seleccione una evaluación de las siguientes opciones",
         "view_projects":"Ver Proyectos",
-        "nutrition_weekly_assessment":"Evaluación Semanal de Nutrición",
+        "nutrition_weekly_assessment":"Evaluación Semanal Nutrición",
         "complete_survey":"Completar Encuesta",
         "nutrition_admin_dashboard":"Dashboard Administración de Nutrición"
 
