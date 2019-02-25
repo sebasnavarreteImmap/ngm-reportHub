@@ -79,7 +79,7 @@ angular
      	"my_projects" : "MY PROJECTS",
      	"my_stocks" : "MY STOCKS",
      	"my_products" : "MY PRODUCTS",
-     	"assessments" : "ASSESSMENTS",
+     	"assessments_mayus" : "ASSESSMENTS",
      	"nutrition_weekly" : "NUTRITION WEEKLY",
      	"drought" : "DROUGHT",
      	"contact_mayus" : "CONTACT",
@@ -482,11 +482,14 @@ angular
 
         //ASSESSMENTS (afghanistan)
         "assessments":"Assessments",
+        "assessment":"Assessment",
         "please_select_an_assesments_from_the_options_below":"Please select an assessments from the options below",
         "view_projects":"View Projects",
         "nutrition_weekly_assessment":"Nutrition Weekly Assessment",
         "complete_survey":"Complete Survey",
-        "nutrition_admin_dashboard":"Nutrition Admin Dashboard"
+        "nutrition_admin_dashboard":"Nutrition Admin Dashboard",
+        "new_mayus1":"New",
+        "please_complete_an_assessment_in_the_form_below":"Please complete an assessment in the form below"
 
 
 
@@ -519,7 +522,7 @@ angular
   	"my_products" : "MIS PRODUCTOS",
   	"nutrition_weekly" : "NUTRICIÓN SEMANAL",
   	"drought" : "SEQUÍA",
-  	"assessments" : "EVALUACIONES",
+  	"assessments_mayus" : "EVALUACIONES",
   	"contact_mayus" : "CONTACTO",
   	"contact":"Contacto",
   	"username_mayus" : "NOMBRE DE USUARIO",
@@ -927,11 +930,16 @@ angular
 
         //ASSESSMENTS (afghanistan)
         "assessments":"Evaluaciones",
+        "assessment":"Evaluación",
         "please_select_an_assessments_from_the_options_below":"Por favor seleccione una evaluación de las siguientes opciones",
         "view_projects":"Ver Proyectos",
         "nutrition_weekly_assessment":"Evaluación Semanal Nutrición",
         "complete_survey":"Completar Encuesta",
-        "nutrition_admin_dashboard":"Dashboard Administración de Nutrición"
+        "nutrition_admin_dashboard":"Dashboard Administración de Nutrición",
+        "new_mayus1":"Nuevo",
+        "please_complete_an_assessment_in_the_form_below":"Por favor complete una evaluación en el siguiente formulario"
+        
+
 
 
 
