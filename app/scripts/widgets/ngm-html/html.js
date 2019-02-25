@@ -88,7 +88,7 @@ angular.module('ngm.widget.html', ['ngm.provider'])
 
       // if updatedAt
       if ( $scope.panel.data && $scope.panel.data.updatedAt ) {
-        $scope.panel.data.updatedAt = moment( data.updatedAt ).format('DD MMMM, YYYY @ h:mm:ss a');
+        $scope.panel.data.updatedAt = moment( data.updatedAt ).lang("de").format('DD MMMM, YYYY @ h:mm:ss a');
       }
 
       // init tabs
