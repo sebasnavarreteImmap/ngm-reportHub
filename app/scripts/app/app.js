@@ -500,7 +500,9 @@ angular
         "beneficiaries_mayus":"BENEFICIARIES",
         "reports":"Reports",
         "activities":"Activities",
-        "locations":"Locations"
+        "locations":"Locations",
+        "report_week":"Report Week",
+        "nutrition_mayus":"Nutrition",
 
 
 
@@ -950,7 +952,7 @@ angular
         "new_mayus1":"Nuevo",
         "please_complete_an_assessment_in_the_form_below":"Por favor complete una evaluación en el siguiente formulario",
         "form":"formulario",
-        "nutrition_weekly_reporting":"Reportes Semanales de Nutrición",
+        "nutrition_weekly_reporting":"Nutrición Reportes Semanales",
         "download_reports_data_as_csv":"Descargar Datos de Reportes como CSV",
         "download_beneficiaries_as_csv":"Descargar Beneficiarios como CSV",
         "refreshing_data":"Actualizando datos",
@@ -959,7 +961,9 @@ angular
         "beneficiaries_mayus":"BENEFICIARIOS",
         "reports_mayus1":"Reportes",
         "activities":"Actividades",
-        "locations":"Ubicaciones"
+        "locations":"Ubicaciones",
+        "report_week":"Reporte Semanal",
+        "nutrition_mayus":"NUTRICIÓN",
 
 
 
