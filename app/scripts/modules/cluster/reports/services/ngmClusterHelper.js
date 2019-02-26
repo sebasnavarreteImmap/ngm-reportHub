@@ -146,7 +146,7 @@ angular.module( 'ngmReportHub' )
         var project = {
           project_status: 'new',
           project_title: '',//'Enter New ' + user.organization + ' Project Title...',
-          project_description: $filter('translate')('please_complete_project_details_and_enter_a_project_summary_description_including_objetives'),
+          project_description: 'NADA de nada',
           project_start_date: moment.utc().startOf( 'M' ).format('YYYY-MM-DD'),
           project_end_date: moment.utc().add( 8, 'M' ).endOf( 'M' ).format('YYYY-MM-DD'),
           // project_code: user.organization + '/' + moment().unix(),
