@@ -114,7 +114,7 @@
 												<span e-form="rowform"
 															e-name="package_type_id"
 															editable-select="beneficiary.package_type_id"
-															e-placeholder="Select..."
+															e-placeholder="{{'select'|translate}}"
 															e-ng-options="s.package_type_id as s.package_type_name for s in [{'package_type_id':'standard', 'package_type_name':'Standard'},{'package_type_id':'non-standard', 'package_type_name':'Non-standard'}]"
 															e-ng-disabled="!project.enablePackage( beneficiary )">
 													{{ project.showPackageTypes( $data, beneficiary ) }}
@@ -127,7 +127,7 @@
 							        <span e-form="rowform"
 							        			e-name="category_type_id"
 							        			editable-select="beneficiary.category_type_id"
-							        			e-placeholder="Select..."
+							        			e-placeholder="{{'select'|translate}}"
 							        			e-ng-options="b.category_type_id as b.category_type_name for b in project.lists.category_types | filter: { cluster_id: beneficiary.cluster_id }"
 							        			e-ng-disabled="!beneficiary.activity_description_id">
 							          {{ project.showCategory( $data, beneficiary ) }}
@@ -137,7 +137,7 @@
 							        <span e-form="rowform"
 							        			e-name="beneficiary_type_id"
 							        			editable-select="beneficiary.beneficiary_type_id"
-							        			e-placeholder="Select..."
+							        			e-placeholder="{{'select'|translate}}"
 							        			e-ng-options="b.beneficiary_type_id as b.beneficiary_type_name for b in project.lists.beneficiary_types | filter: { category_type_id: beneficiary.category_type_id, cluster_id: beneficiary.cluster_id }"
 							        			e-ng-disabled="!beneficiary.activity_description_id || !beneficiary.category_type_id">
 							          {{ project.showBeneficiary( $data, beneficiary ) }}
@@ -150,7 +150,7 @@
 							        <span e-form="rowform"
 							        			e-name="beneficiary_type_id"
 							        			editable-select="beneficiary.beneficiary_type_id"
-							        			e-placeholder="Select..."
+							        			e-placeholder="{{'select'|translate}}"
 							        			e-ng-options="b.beneficiary_type_id as b.beneficiary_type_name for b in project.lists.beneficiary_types | filter: { cluster_id: beneficiary.cluster_id }"
 							        			e-ng-disabled="!beneficiary.activity_description_id">
 							          {{ project.showBeneficiary( $data, beneficiary ) }}
@@ -162,7 +162,7 @@
 							        <span e-form="rowform"
 							              e-name="delivery_type_id"
 							              editable-select="beneficiary.delivery_type_id"
-							              e-placeholder="Select..."
+							              e-placeholder="{{'select'|translate}}"
 							              e-ng-options="b.delivery_type_id as b.delivery_type_name for b in project.lists.delivery_types"
 							              e-ng-disabled="!beneficiary.beneficiary_type_id">
 							          {{ project.showDelivery( $data, beneficiary ) }}
@@ -201,7 +201,7 @@
 							        <span e-form="rowform"
 							        			e-name="unit_type_id"
 							        			editable-select="beneficiary.unit_type_id"
-														e-placeholder="Select..."
+														e-placeholder="{{'select'|translate}}"
 							        			e-ng-options="a.unit_type_id as a.unit_type_name for a in project.lists.units"
 														e-ng-disabled="
 															!project.showUnits() ||
@@ -227,7 +227,7 @@
 							        <span e-form="rowform"
 							        			e-name="transfer_type_id"
 							        			editable-select="beneficiary.transfer_type_id"
-														e-placeholder="Select..."
+														e-placeholder="{{'select'|translate}}"
 														e-ng-disabled="
 							              	!beneficiary.activity_description_id ||
 															( beneficiary.activity_type_id.indexOf('cash') === -1 &&
@@ -347,7 +347,7 @@
 												<span e-form="rowform"
 														e-name="injury_treatment_same_province"
 														editable-select="beneficiary.injury_treatment_same_province"
-														e-placeholder="Select..."
+														e-placeholder="{{'select'|translate}}"
 														e-ng-options="s.choise as s.text for s in [{'choise':true, 'text':'Yes'},{'choise':false, 'text':'No'}]"
 														e-ng-disabled="beneficiary.activity_description_id !== 'fatp_stabilization_referrals_conflict' &&
 																						beneficiary.activity_description_id !== 'fatp_stabilization_referrals_civilian'">
