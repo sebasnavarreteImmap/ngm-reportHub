@@ -266,6 +266,7 @@ angular
         "add_kit_details":"Add Kit Details",
         "add_beneficiaries":"Add Beneficiaries",
         "monthly_beneficiaries_report_for":"Monthly Beneficiaries Report for",
+        "select":"Select...",
 
         //Notes
         "monthly_notes_&_comments":"Monthly Notes & Comments",
@@ -635,7 +636,7 @@ angular
         "start_date":"Fecha de Inicio",
         "end_date":"Fecha de Finalización",
         "project_budget":"Presupuesto del Proyecto",
-        "project_budget_currency":"Moneda del Presupuesto del Proyecto",
+        "project_budget_currency":"Moneda Presupuesto del Proyecto",
         "select_project_budget_currency":"Seleccionar Moneda del Presupuesto del Proyecto",
         "non_hrp_project":"No es un Proyecto HRP",
         "hrp_project":"Proyecto HRP",
@@ -856,6 +857,7 @@ angular
         "add_beneficiaries":"Agregar Beneficiarios",
         "monthly_beneficiaries_report_for":"Reporte Mensual para Beneficiarios",
         "reports":"Reportes",
+        "select":"Seleccionar...",
 
         //locations
         "note":"Nota",
