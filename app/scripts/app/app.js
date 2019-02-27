@@ -503,6 +503,14 @@ angular
         "locations":"Locations",
         "report_week":"Report Week",
         "nutrition_mayus":"Nutrition",
+        "monitoring_assesment":"Monitoring Assessment",
+        "view":"View",
+
+
+        //MODULES IMMAP
+
+        "view_briefing_package":"View Briefing Package",
+        "monthly_report":"Monthly Report"
 
 
 
@@ -963,6 +971,16 @@ angular
         "locations":"Ubicaciones",
         "report_week":"Reporte Semanal",
         "nutrition_mayus":"NUTRICIÓN",
+        "monitoring_assesment":"Evaluación de Monitoreo",
+        "view":"Ver",
+
+
+        //MODULES IMMAP
+
+          "view_briefing_package":"Ver Paquete de Instrucciones",
+           "monthly_report":"Reporte Mensual"
+
+
 
 
 
