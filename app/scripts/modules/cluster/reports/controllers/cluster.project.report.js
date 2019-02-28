@@ -104,7 +104,7 @@ angular.module('ngmReportHub')
 								type: 'csv',
 								color: 'blue lighten-2',
 								icon: 'assignment',
-								hover: $filter('translate')('download_monthly_acitivty_report_as_csv'),
+								hover: $filter('translate')('download_monthly_activity_report_as_csv'),
 								request: {
 									method: 'POST',
 									url: ngmAuth.LOCATION + '/api/cluster/report/getReportCsv',
