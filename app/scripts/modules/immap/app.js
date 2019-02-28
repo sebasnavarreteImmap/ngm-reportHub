@@ -8,7 +8,7 @@
  */
 angular
 	.module('ngmiMMAP', [])
-	.config([ '$routeProvider', '$compileProvider', function ( $routeProvider, $compileProvider ) {
+	.config([ '$routeProvider', '$compileProvider','$translate','$filter', function ( $routeProvider, $compileProvider,$transalte,$filter ) {
 
 		// https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.ufea9sjt1
 		$compileProvider.debugInfoEnabled( false )
