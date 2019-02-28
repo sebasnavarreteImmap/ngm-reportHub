@@ -430,6 +430,9 @@ angular
 
         "desactive_user":"Desactive User",
         "desactive":"Desactive",
+        "desactivate_mayus":"DESACTIVATE",
+         "activate_mayus":"ACTIVATE",
+
         "yes_desactive_user":"Yes, Desactive User",
         "activate_user":"Activate User",
         "activate":"Activate",
@@ -897,6 +900,9 @@ angular
 
         "desactive_user":"Desactivar Usuario",
         "desactive":"Desactivar",
+        "desactivate_mayus":"DESACTIVAR",
+        "activate_mayus":"ACTIVAR",
+
         "yes_desactive_user":"Si, Desactivar Usuario",
         "activate_user":"Activar Usuario",
         "activate":"Activar",

@@ -335,7 +335,7 @@ form {
 				class="btn btn-large blue waves-effect waves-blue"
 				ng-click="panel.openModal( 'deactivate-modal' )"
 				ng-disabled="panel.btnDisabled">
-				<i class="material-icons left">assignment_late</i>DEACTIVATE
+				<i class="material-icons left">assignment_late</i>{{'desactivate_mayus'|translate}}
 		</button>
 		<button
 				ng-if="panel.activateUpdateVisible() && panel.btnActivate"
@@ -343,7 +343,7 @@ form {
 				class="btn btn-large blue waves-effect waves-blue"
 				ng-click="panel.openModal( 'activate-modal' )"
 				ng-disabled="panel.btnDisabled">
-				<i class="material-icons left">assignment_turned_in</i>ACTIVATE
+				<i class="material-icons left">assignment_turned_in</i>{{'activate_mayus'|translate}}ACTIVATE
 		</button>
 		<button
 				ng-if="panel.activateUpdateVisible()"
