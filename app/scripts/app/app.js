@@ -516,7 +516,8 @@ angular
         "monthly_report":"Monthly Report",
         "trainings":"Trainings",
          "products_mayus1":"Products",
-         "briefing":"Briefing"
+         "briefing":"Briefing",
+         "add_products":"Add Products"
 
 
 
@@ -991,7 +992,8 @@ angular
            "monthly_report":"Reporte Mensual",
            "trainings":"Entrenamientos",
            "products_mayus1":"Productos",
-           "briefing":"Instrucciones"
+           "briefing":"Instrucciones",
+           "add_products":"Agregar Productos"
 
 
 
