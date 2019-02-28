@@ -517,7 +517,8 @@ angular
         "trainings":"Trainings",
          "products_mayus1":"Products",
          "briefing_mayus1":"Briefing",
-         "add_products":"Add Products"
+         "add_products":"Add Products",
+         "please_select_from_the_options_below":"Please select from the options below"
 
 
 
@@ -993,7 +994,9 @@ angular
            "trainings":"Entrenamientos",
            "products_mayus1":"Productos",
            "briefing_mayus1":"Instrucciones",
-           "add_products":"Agregar Productos"
+           "add_products":"Agregar Productos",
+           "please_select_from_the_options_below":"Por favor seleccione una de las siguientes opciones"
+
 
 
 
