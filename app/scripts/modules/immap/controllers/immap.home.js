@@ -39,7 +39,7 @@ angular.module( 'ngmReportHub' )
 						},
 						subtitle: {
 							'class': 'col s12 m12 l12 report-subtitle hide-on-small-only',
-							title: $filter('translate')('plase_select_from_the_options_below')
+							title: $filter('translate')('please_select_from_the_options_below')
 						}
 					},
 					rows: [{
