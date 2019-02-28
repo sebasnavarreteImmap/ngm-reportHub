@@ -225,7 +225,7 @@ angular.module('ngmReportHub')
 						type: 'csv',
 						color: 'blue lighten-2',
 						icon: 'call',
-						hover: $filter('translate')('download_cluster_contact_list_as_CSV'),
+						hover: $filter('translate')('download_cluster_contact_list_as_csv'),
 						request: $scope.dashboard.getRequest( { csv: true, indicator: 'contacts', report: $scope.dashboard.cluster_id_filename + '_contacts_list-from-' + $scope.dashboard.startDate + '-to-' + $scope.dashboard.endDate + '-extracted-' + moment().format( 'YYYY-MM-DDTHHmm' ) } ),
 						metrics: $scope.dashboard.getMetrics( 'cluster_contact_list', 'csv' )
 					},{

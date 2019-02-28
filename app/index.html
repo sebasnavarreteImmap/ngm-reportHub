@@ -258,7 +258,7 @@
 										<i class="material-icons smedium right">perm_phone_msg</i>{{'contact_mayus' | translate}} REPORTHUB</a>
 									</li>
 
-									<li align="center" class="teal z-depth-2">
+									<li align="center" class="teal z-depth-2" ng-show="ngm.getUsername() !== 'welcome">
 										
 										<a class="white-text" >
 											
@@ -273,6 +273,8 @@
 
 									
 									</li>
+
+									
 
 									<li  align="center" class="teal z-depth-2" 
 										ng-if="ngm.getUser().admin0pcode === 'AF'"
