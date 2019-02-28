@@ -197,11 +197,7 @@
 									</li>
 
 									<!-- my STOCKS -->
-									<li  align="center" class="teal z-depth-2" 
-										ng-show="ngm.getUserName() !== 'welcome'">
-										<a class="white-text right" href="#/cluster/stocks" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">assignment_turned_in</i>{{'my_stocks' | translate}}</a>
-									</li>
+									
 
 									<!-- PRODUCTS -->
 									<li align="center" class="teal z-depth-2"
@@ -268,6 +264,19 @@
 										<i class="material-icons smedium right">help_outline</i>USER GUIDES</a>
 									</li> -->
 
+									<li  align="center" class="teal z-depth-2" 
+										ng-show="ngm.getUserName() !== 'welcome'">
+										<a class="white-text right" href="#/cluster/stocks" ng-click="ngm.toggleNavigationMenu();">
+										<i class="material-icons smedium right">assignment_turned_in</i>{{'my_stocks' | translate}}</a>
+									</li>
+
+									<li  align="center" class="teal z-depth-2" 
+										ng-if="ngm.getUser().admin0pcode === 'AF'"
+										ng-show="ngm.getUser().organization.toLowerCase() === 'immap' || ngm.getUser().organization.toLowerCase() === 'who' || ngm.getUser().organization.toLowerCase() === 'dews'">
+										<a class="white-text right" href="#/who/" ng-click="ngm.toggleNavigationMenu();">
+										<i class="material-icons smedium right">bubble_chart</i>DEWS DASHBOARD</a>
+									</li>
+
 									<!-- contact modal -->
 									<li align="center" class="teal z-depth-2">
 										<a class="white-text right" ng-click="ngm.contact(); ngm.toggleNavigationMenu()">
@@ -278,12 +287,7 @@
 
 									
 
-									<li  align="center" class="teal z-depth-2" 
-										ng-if="ngm.getUser().admin0pcode === 'AF'"
-										ng-show="ngm.getUser().organization.toLowerCase() === 'immap' || ngm.getUser().organization.toLowerCase() === 'who' || ngm.getUser().organization.toLowerCase() === 'dews'">
-										<a class="white-text right" href="#/who/" ng-click="ngm.toggleNavigationMenu();">
-										<i class="material-icons smedium right">bubble_chart</i>DEWS DASHBOARD</a>
-									</li>
+									
 
 							</ul>
 
