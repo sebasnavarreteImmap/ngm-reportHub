@@ -522,7 +522,7 @@ angular
          "please_select_from_the_options_below":"Please select from the options below",
 
          //Products
-         "products_list":"Products List"
+         "products_list":"Products List",
          "download_products_list_as_csv":"Download Products List as CSV",
          "add_new_product":"Add New Product",
          "register_a_new_product":"Register a new product",
