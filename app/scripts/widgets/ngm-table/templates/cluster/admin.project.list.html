@@ -137,7 +137,7 @@
                     </a>
 
                     <a href="#/cluster/projects/report/{{ row.project_id }}/{{ row.id }}" 
-                      title="{{'goto'|translate}} {{ row.reporting_period | date: 'MMMM' }} Activity {{'report'}}"
+                      title="{{'goto'|translate}} {{ row.reporting_period | date: 'MMMM' }} Activity {{'report'|translate}}"
                       ng-if="row.project_title">
                       <i class="material-icons" style="color: {{ row.status }}">{{ row.icon }}</i>
                     </a>
@@ -153,7 +153,7 @@
                     </a>
 
                     <a target="_blank" href="#/cluster/projects/report/{{ row.project_id }}/{{ row.id }}" 
-                      title="{{'goto'|translate}}{{ row.reporting_period | date: 'MMMM' }} Activity {{'report'|translate}}"
+                      title="{{'goto'|translate}} {{ row.reporting_period | date: 'MMMM' }} Activity {{'report'|translate}}"
                       ng-if="row.project_title">
                       <i class="material-icons" style="color: {{ row.status }}">{{ row.icon }}</i>
                     </a>
