@@ -123,6 +123,7 @@ angular
        "email" : "Email",
        "email_mayus" : "EMAIL",
        "back" : "Back",
+       "back_mayus":"BACK",
        "login_details" : "LOGIN DETAILS",
        "username" : "Username",
        "password" : "Password",
@@ -518,7 +519,26 @@ angular
          "products_mayus1":"Products",
          "briefing_mayus1":"Briefing",
          "add_products":"Add Products",
-         "please_select_from_the_options_below":"Please select from the options below"
+         "please_select_from_the_options_below":"Please select from the options below",
+
+         //Products
+         "products_list":"Products List"
+         "download_products_list_as_csv":"Download Products List as CSV",
+         "add_new_product":"Add New Product",
+         "register_a_new_product":"Register a new product",
+         "product_submissions":"Product Submissions",
+         "total_products":"Total Products"
+         "total_sectors":"Total Sectors",
+         "team_contributors":"Team Contributors",
+         "by_type":"by Type",
+         "by_sector":"by Sector",
+         "fetch_latest":"Fetch Latest",
+         "product_type":"Product Type",
+         "view_product_from_registration":"View Product Form Registration"
+         "view_product":"View Product"
+
+
+
 
 
 
@@ -597,6 +617,7 @@ angular
 
 
        "back" : "Atrás",
+       "back_mayus":"ATRÁS",
        "login_details" : "DETALLES DE INICIO DE SESIÓN",
        "username" : "Nombre de Usuario",
        "password" : "Contraseña",
@@ -844,7 +865,7 @@ angular
 
         //FINANCIAL
         "project_budget_progress":"Progreso Presupuesto del Proyecto",
-        "add_new_row_of_financial_details_to_your_project_for_each_payment_recieved":"Agregar una NUEVA FILA de detalles financieros a su proyecto por CADA PAGO recivido",
+        "add_new_row_of_financial_details_to_your_project_for_each_payment_recieved":"Agregar una NUEVA FILA de detalles financieros a su proyecto por CADA PAGO recibido",
         "donor":"Donante",
         "activity":"Actividad",
         "grant":"Donante",
@@ -878,11 +899,11 @@ angular
 
         //locations
         "note":"Nota",
-        "to_report":"A Reportar",
+        "to_report":"Al Reportar",
         "drought":"SEQUÍA",
-        "activities_please_select_from":"actividades, por favor seleccione el origen",
-        "drop_down_beneficiary_types":"desplegar tipo de beneficiarios",
-        "drought_affected_displaced":"Afectados por Sequía Desplazados",
+        "activities_please_select_from":"actividades, por favor seleccione el",
+        "drop_down_beneficiary_types":"de la lista desplegada de tipos de beneficiarios",
+        "drought_affected_displaced":"Afectados por la Sequía Desplazados",
         "or":"ó",
         "drought_affected_non_displaced": "Afectados por la Sequía No Desplazados",
         "selected_locations":"Ubicaciones Seleccionadas",
@@ -995,7 +1016,27 @@ angular
            "products_mayus1":"Productos",
            "briefing_mayus1":"Instrucciones",
            "add_products":"Agregar Productos",
-           "please_select_from_the_options_below":"Por favor seleccione una de las siguientes opciones"
+           "please_select_from_the_options_below":"Por favor seleccione una de las siguientes opciones",
+
+           //products
+           "products_list":"Products List",
+           "download_products_list_as_csv":"Descargar Lista de Productos como CSV",
+           "add_new_product":"Agregar Nuevo Producto",
+           "register_a_new_product":"Registrar un nuevo producto",
+           "product_submissions":"Envíos de Productos",
+           "total_products":"Total Productos",
+           "total_sectors":"Total Sectores",
+           "team_contributors":"Colaboradores del Equipo",
+           "by_type":"por Tipo",
+           "by_sector":"por Sector",
+           "fetch_latest":"Buscar Más Reciente",
+           "product_type":"Tipo de Producto",
+           "view_product_from_registration":"Ver Formulario de Registro de Producto",
+           "view_product":"Ver Producto"
+
+
+
+
 
 
 
