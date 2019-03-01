@@ -534,7 +534,7 @@ angular
          "by_sector":"by Sector",
          "fetch_latest":"Fetch Latest",
          "product_type":"Product Type",
-         "view_product_from_registration":"View Product Form Registration"
+         "view_product_from_registration":"View Product Form Registration",
          "view_product":"View Product"
 
 
