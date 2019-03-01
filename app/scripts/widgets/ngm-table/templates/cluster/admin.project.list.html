@@ -131,7 +131,7 @@
                   <div ng-if="table.user.roles.indexOf( 'ADMIN' ) === -1">
 
                     <a href="#/cluster/stocks/report/{{ row.organization_id }}/{{ row.id }}" 
-                      title="{{'goto'|transalte}} {{ row.reporting_period | date: 'MMMM' }} Stock {{'report'|translate}}"
+                      title="{{'goto'|translate}} {{ row.reporting_period | date: 'MMMM' }} Stock {{'report'|translate}}"
                       ng-if="!row.project_title">
                       <i class="material-icons" style="color: {{ row.status }}">{{ row.icon }}</i>
                     </a>

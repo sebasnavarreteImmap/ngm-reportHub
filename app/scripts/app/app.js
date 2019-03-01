@@ -299,7 +299,7 @@ angular
         "download_water_data_as_csv":"Download Water Data as CSV",
 
         "goto_organization_stocks_list":"GoTo Organization Stocks List",
-        "goto_organization_projects_list":"GoTo Organizaiton Projects List",
+        "goto_organization_projects_list":"GoTo Organization Projects List",
         "user_mayus1":"User",
         "title":"Title",
          "goto_project_summary":"GoTo Project Summary",
