@@ -247,6 +247,11 @@ angular
          "report_submitted":"Report Submitted",
          "report_due_date":"Report Due Date",
          "download_monthly_activity_report_as_csv":"Download Monthly Acvitiy Report as CSV",
+         "submitted_reports":"Submitted Reports",
+         "duplicate_reports":"Duplicate Reports",
+         "reports_timeline":"Reports Timeline",
+         "reports_submitted":"Reports Submitted",
+
          
          //Report
          "back_to_project_reports":"Back to Project Reports",
@@ -742,6 +747,12 @@ angular
          "report_submitted":"Reporte Enviado",
          "report_due_date":"Fecha de Vencimiento del Reporte",
          "download_monthly_activity_report_as_csv":"Descargar Reporte de Actividad Mensual como CSV",
+         "submitted_reports":"Reportes Enviados",
+         "duplicate_reports":"Reportes Duplicados",
+         "reports_timeline":"Línea de Tiempo de Reportes",
+         "reports_submitted":"Reportes Enviados",
+
+
 
         //Report
          "back_to_project_reports":"Regresar a Reportes del Proyecto",
