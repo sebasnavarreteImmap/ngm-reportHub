@@ -298,6 +298,20 @@ angular
        "download_sanitation_data_as_csv":"Download Sanitation Data as CSV",
         "download_water_data_as_csv":"Download Water Data as CSV",
 
+        "goto_organization_stocks_list":"GoTo Organization Stocks List",
+        "goto_organization_projects_list":"GoTo Organizaiton Projects List",
+        "user_mayus1":"User",
+        "title":"Title",
+         "goto_project_summary":"GoTo Project Summary",
+         "month_mayus":"Mes",
+
+         "goto":"GoTo",
+         "report":"Report",
+          "activity_report":"Activity Report",
+
+
+
+
         //dashboard.cluster
 
         "download_ocha_hrp_report_as_csv":"Download OCHA HRP Report as CSV",
@@ -792,6 +806,16 @@ angular
          "download_hygiene_data_as_csv":"Descargar Datos de Higiene como CSV",
          "download_sanitation_data_as_csv":"Descargar Datos de Download Saneamiento Data as CSV",
          "download_water_data_as_csv":"Descargar Datos de Agua como CSV",
+
+         "goto_organization_stocks_list":"Ir a Lista de Stocks de la Organización",
+         "goto_organization_projects_list":"Ir a Lista de Proyectos de la Organización",
+         "user_mayus1":"Usuario",
+         "title":"Título",
+         "goto_project_summary":"Ir a Resumen del Proyecto",
+         "month_mayus":"Month",
+         "goto":"Ir a",
+         "report":"Reporte",
+         "activity_report":"Reporte de Actividad",
          
          //dashboard.cluster
 
