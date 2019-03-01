@@ -527,7 +527,7 @@ angular
          "add_new_product":"Add New Product",
          "register_a_new_product":"Register a new product",
          "product_submissions":"Product Submissions",
-         "total_products":"Total Products"
+         "total_products":"Total Products",
          "total_sectors":"Total Sectors",
          "team_contributors":"Team Contributors",
          "by_type":"by Type",
