@@ -143,7 +143,7 @@ angular.module('ngmReportHub')
 									}
 								},{
 									style: 'float:right',
-									label: $filter('translate'('to'),
+									label: $filter('translate')('to'),
 									format: 'd mmm, yyyy',
 									min: $scope.dashboard.startDate,
 									currentTime: $scope.dashboard.endDate,
