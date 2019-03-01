@@ -18,7 +18,7 @@ angular.module('ngmReportHub')
 			'$filter',
 			'ngmUser',
 			'ngmAuth',
-			'ngmData',
+			'ngmData', 
 			'ngmClusterLists','$translate',
 		function ( $scope, $q, $http, $location, $route, $rootScope, $window, $timeout, $filter, ngmUser, ngmAuth, ngmData, ngmClusterLists,$translate ) {
 			this.awesomeThings = [
