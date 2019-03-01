@@ -44,13 +44,13 @@
                   <div ng-if="table.user.roles.indexOf( 'ADMIN' ) === -1">
 
                     <a href="#/cluster/stocks"
-                      title="'goto_organization_stocks_list'|translate"
+                      title="{{'goto_organization_stocks_list'|translate}}"
                       ng-if="!row.project_title">
                       {{ row.organization }}
                     </a>
                     
                     <a href="#/cluster/projects"
-                      title="'goto_organization_projects_list'|translate"
+                      title="{{'goto_organization_projects_list'|translate}}"
                       ng-if="row.project_title">
                       {{ row.organization }}
                     </a>
@@ -60,13 +60,13 @@
                   <div ng-if="table.user.roles.indexOf( 'ADMIN' ) !== -1">
 
                     <a target="_blank" href="#/cluster/stocks/{{ row.organization_id }}"
-                      title="'goto_organization_stocks_list'|translate"
+                      title="{{'goto_organization_stocks_list'|translate}}"
                       ng-if="!row.project_title">
                       {{ row.organization }}
                     </a>
                     
                     <a target="_blank" href="#/cluster/projects/{{ row.organization_id }}"
-                      title="'goto_organization_projects_list'|translate"
+                      title="{{'goto_organization_projects_list'|translate}}"
                       ng-if="row.project_title">
                       {{ row.organization }}
                     </a>
