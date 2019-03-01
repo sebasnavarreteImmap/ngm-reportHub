@@ -67,7 +67,7 @@ angular.module( 'ngmReportHub' )
         return {
           'id': 'nutrition-dashboard-year',
           'icon': 'search',
-          'title': $filter('translate')('Year',
+          'title': $filter('translate')('Year'),
           'class': 'teal lighten-1 white-text',
           'rows': [{
             'title': '2018',
