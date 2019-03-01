@@ -1035,22 +1035,6 @@ angular
            "view_product":"Ver Producto"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   });
 
   $translateProvider.preferredLanguage('es');
