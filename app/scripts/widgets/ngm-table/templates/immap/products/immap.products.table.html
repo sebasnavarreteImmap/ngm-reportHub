@@ -34,19 +34,19 @@
             <table class="centered highlight responsive-table" ng-table="table.tableParams">
               <tr ng-repeat="row in $data" style="cursor: pointer; cursor: hand;">
                 <!-- columns -->
-                <td data-title="'country|translate'" sortable="'admin0name'">
+                <td data-title="'country'|translate" sortable="'admin0name'">
                     {{ row.admin0name }}
                 </td>
-                <td data-title="'project_mayus1|translate'" sortable="'project'">
+                <td data-title="'project_mayus1'|translate" sortable="'project'">
                     {{ row.project }}
                 </td>
                 <td data-title="'Sector'" sortable="'product_sector'">
                     {{ row.product_sector }}
                 </td>
-                <td data-title="'product_type|translate'" sortable="'product_type'">
+                <td data-title="'product_type'|translate" sortable="'product_type'">
                     {{ row.product_type }}
                 </td>
-                <td data-title="'Product Month'" sortable="'product_month'">
+                <td data-title="'product_month'|translate" sortable="'product_month'">
                     {{ row.product_month + ' ' + row.product_year }}
                 </td>
                 <td data-title="'view|translate'" sortable="'product_month'">

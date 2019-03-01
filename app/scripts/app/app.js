@@ -535,7 +535,9 @@ angular
          "fetch_latest":"Fetch Latest",
          "product_type":"Product Type",
          "view_product_from_registration":"View Product Form Registration",
-         "view_product":"View Product"
+         "view_product":"View Product",
+         "product_month":"Product Month",
+         "open":"Open",
 
 
 
@@ -1032,7 +1034,9 @@ angular
            "fetch_latest":"Buscar Más Reciente",
            "product_type":"Tipo de Producto",
            "view_product_from_registration":"Ver Formulario de Registro de Producto",
-           "view_product":"Ver Producto"
+           "view_product":"Ver Producto",
+           "product_month":"Mes del Producto",
+           "open":"Abrir"
 
 
   });
