@@ -574,16 +574,33 @@ angular
          //table templates
          "target_beneficiaries":"Target Beneficiaries",
           "reported_beneficiaries":"Reported Beneficiaries",
-         "progress":"Progress"
+         "progress":"Progress",
 
 
+         //GUIDES
 
-
-
-
-
-
-
+         "feature_request":"Feature Request",
+         "purpose":"Purpose",
+         "have_a_cool_idea_for_some_new_features?_send_the_details_to_the_reporthub_team_so_thy_can_improve_thy_system_for_you":"Have a cool idea for some new features? Send the details to the ReportHub team so they can improve the system for you",
+         "send_to":"Send To",
+         "subject":"Subject",
+         "details":"Details",
+         "in_the_email_please_include_the_details_and_a_description_as_listed_below":"In the email please include the details and a description as listed below",
+         "field":"Field",
+         "description":"Description",
+         "the_name_of_the_new_feature_ie_new_dashboard_filter":"The name of the new feature. i.e. 'New Dashboard Filter'",
+         "the_purpose_of_the_new_feature_ie_to_filter_by_donor_organization":"The purpose of the new feature. i.e. 'To filter by donor/organization'",
+         "a_description_of_the_new_feature_ie_have_a_filter_menu_on_the_dashboard":"A description of the new feature. i.e. 'Have a filter menu on the dashboard'",
+         "bug_report":"Bug Report",
+         "found_an_error_or_something_is_not_working?_let_the_reporthub_team_know_so_they_can_help":"Found an error or something is not working? Let the ReportHub team know so they can help",
+         "in_the_email_please_include_the_details_and_a_description_as_listed_below":"In the email please include the details and a description as listed below",
+         "page":"Page",
+         "the_name_of_the_page_where_you_encountered_the_error_ie_new_project_page":"The name of the page where you encountered the error. i.e. 'New Project Page'",
+         "the_url_of_the_page_where_you_encoureted_the_error":"The URL of the page where you encountered the error",
+         "action":"Action",
+         "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"The action you were performing at the time. i.e. 'Adding a new Beneficiary'",
+         "any_error_messages_that_the_reporthub_displayed":"Any error messages that the ReportHub displayed",
+         "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Any additional description of the error that will prove useful. i.e. 'I removed a location and then added a new location'"
 
      });
   
@@ -1109,7 +1126,34 @@ angular
            //table templates
          "target_beneficiaries":"Beneficiarios Objetivo",
          "reported_beneficiaries":"Beneficiarios Reportados",
-          "progress":"Progreso"
+          "progress":"Progreso",
+
+
+          //GUIDES
+
+         "feature_request":"Feature Request",
+         "purpose":"Propósito",
+         "have_a_cool_idea_for_some_new_features?_send_the_details_to_the_reporthub_team_so_thy_can_improve_thy_system_for_you":"Tienes una buena idea para algunas nuevas características? Envía los detalles al equipo de ReportHub para que puedan mejorar el sistema por tí.",
+         "send_to":"Send To",
+         "subject":"Asunto",
+         "details":"Detalles",
+         "in_the_email_please_include_the_details_and_a_description_as_listed_below":"En el correo electrónico por favor incluya los detalles y una descripción que se enumeran a continuación",
+         "field":"Campo",
+         "description":"Descripción",
+         "the_name_of_the_new_feature_ie_new_dashboard_filter":"Elnombre de la nueva característica. Por ejemplo: 'Nuevo Filtro de Dashboard'",
+         "the_purpose_of_the_new_feature_ie_to_filter_by_donor_organization":"El propósito de la nueva característica. Por ejemplo: 'Filtrar por donante/organización'",
+         "a_description_of_the_new_feature_ie_have_a_filter_menu_on_the_dashboard":"Una descripción de la nueva característica. Por ejemplo: 'Tener un filtro de menu en el dashboard'",
+         "bug_report":"Reporte de Bug",
+         "found_an_error_or_something_is_not_working?_let_the_reporthub_team_know_so_they_can_help":"¿Encontró un error o algo no está funcionando? Informe al equipo de ReportHub para que puedan ayudarlo.",
+         "in_the_email_please_include_the_details_and_a_description_as_listed_below":"En el correo electónico por favor incluya los detalles y una descripción como se enumeran a continuación",
+         "page":"Página",
+         "the_name_of_the_page_where_you_encountered_the_error_ie_new_project_page":"El nombre de la pagina donde usted encontró el error. Por Ejemplo: Página Nuevo Proyecto'",
+          "the_url_of_the_page_where_you_encoureted_the_error":"La URL de la página donde encontraste el error",
+          "action":"Acción",
+          "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"La acción que estás realizando en el momento. Por Ejemplo: 'Agregar un nuevo Beneficiario'",
+          "any_error_messages_that_the_reporthub_displayed":"Cualquier mensaje de error que muestre ReportHub",
+          "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Cualquier descripción adicional del error que resulte útil. Por Ejemplo: 'Eliminé una ubicación y luego agregué una nueva ubicación"
+
 
 
 
