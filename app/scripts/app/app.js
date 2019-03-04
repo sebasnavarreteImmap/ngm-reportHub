@@ -1068,7 +1068,7 @@ angular
            "please_select_from_the_options_below":"Por favor seleccione una de las siguientes opciones",
 
            //products
-           "products_list":"Products List",
+           "products_list":"Lista de Productos",
            "download_products_list_as_csv":"Descargar Lista de Productos como CSV",
            "add_new_product":"Agregar Nuevo Producto",
            "register_a_new_product":"Registrar un nuevo producto",
