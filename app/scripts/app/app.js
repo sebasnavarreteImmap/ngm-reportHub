@@ -185,7 +185,7 @@ angular
         "project_code":"Project Code",
         "start_date":"Start Date",
         "end_date":"End Date",
-        "project_budget":"project_budget",
+        "project_budget":"Project Budget",
         "project_budget_currency":"Project Budget Currency",
         "select_project_budget_currency":"Select Project Budget Currency",
         "non_hrp_project":"Non-HRP Project",
