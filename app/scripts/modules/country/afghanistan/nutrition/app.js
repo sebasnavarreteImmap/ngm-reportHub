@@ -7,8 +7,14 @@
  * Main module of the application.
  */
 angular
-	.module('ngmNutrition', [])
-	.config([ '$routeProvider', '$compileProvider', function ( $routeProvider, $compileProvider ) {
+	.module('ngmNutrition', ['pascalprecht.translate'])
+	.config([ '$routeProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $compileProvider ,$translateProvider) {
+
+		$translateProvider.translations('en',{});
+
+		$translateProvider.translations('es',{});
+
+		$translateProvider.preferredLanguage('$translate');
 
 		// https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.ufea9sjt1
 		$compileProvider.debugInfoEnabled( false )
