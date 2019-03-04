@@ -355,7 +355,7 @@ angular.module('ngmReportHub')
 									config: {
 										title: {
 											style: 'padding-top: 10px;',
-											name: '2017'+' '+$filter('translate')('2007_assessments_timeline'),
+											name: '2017'+' '+$filter('translate')('2017_assessments_timeline'),
 										},							
 										options: { itemName: $filter('translate')('assessment(s)'), start: new Date( $scope.dashboard.startDate ) },
 										request: $scope.dashboard.getRequest( 'assessments/indicator', 'calendar' )
