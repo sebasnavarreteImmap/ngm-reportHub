@@ -10,11 +10,11 @@ angular
 	.module('ngmNutrition', ['pascalprecht.translate'])
 	.config([ '$routeProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $compileProvider ,$translateProvider) {
 
-		$translateProvider.translations('en',{});
+		$translateProvider.translations('en',{"beneficiaries_mayus":"BENEFICIARIES"});
 
-		$translateProvider.translations('es',{});
+		$translateProvider.translations('es',{"beneficiaries_mayus":"BENEFICIARIOS"});
 
-		$translateProvider.preferredLanguage('$translate');
+		$translateProvider.preferredLanguage('en');
 
 		// https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.ufea9sjt1
 		$compileProvider.debugInfoEnabled( false )
