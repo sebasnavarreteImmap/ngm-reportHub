@@ -530,6 +530,7 @@ angular
         "nutrition_mayus":"Nutrition",
         "monitoring_assesment":"Monitoring Assessment",
         "view":"View",
+        "year":"Year",
 
 
         //MODULES IMMAP
@@ -1055,6 +1056,7 @@ angular
         "nutrition_mayus":"NUTRICIÓN",
         "monitoring_assesment":"Evaluación de Monitoreo",
         "view":"Ver",
+        "year":"Año",
 
 
         //MODULES IMMAP
@@ -1094,7 +1096,7 @@ angular
 
   });
 
-  $translateProvider.preferredLanguage('es');
+  $translateProvider.preferredLanguage('en');
 
   
 
