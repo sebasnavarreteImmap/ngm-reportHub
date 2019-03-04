@@ -148,7 +148,7 @@ angular
        "projects_for":"projects for",
        "download_project_summaries_as_CSV":"Download Project Summaries as CSV",
        "download_dashboard_as_pdf":"Download Dashboard as PDF",
-       "download_cluster_contact__list_as_csv":"Download Cluster Contact List as CSV",
+       "download_cluster_contact_list_as_csv":"Download Cluster Contact List as CSV",
        "for":"for",
        "all_provinces":"ALL Provinces",
        "province":"Province",
