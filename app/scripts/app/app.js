@@ -236,7 +236,7 @@ angular
          "project_delete_error_please_try_again":"Project delete error! Please try again",
         "project_delete":"Project Deleted!",
         "objetives_mayus":"OBJETIVES",
-        "select_the_objetives_that_your_project_will":"Select the Objectives that your project will",
+        "select_the_objetives_that_your_project_will_target":"Select the Objectives that your project will",
         "relates_to":"Relates to",
         "there_are_no_strategic_objetives_for":"There are no Strategic Objectives for",
         //project details.js
