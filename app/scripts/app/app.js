@@ -508,7 +508,7 @@ angular
         //ASSESSMENTS (afghanistan)
         "assessments":"Assessments",
         "assessment":"Assessment",
-        "please_select_an_assesments_from_the_options_below":"Please select an assessments from the options below",
+        "please_select_an_assessments_from_the_options_below":"Please select an assessments from the options below",
         "view_projects":"View Projects",
         "nutrition_weekly_assessment":"Nutrition Weekly Assessment",
         "complete_survey":"Complete Survey",
