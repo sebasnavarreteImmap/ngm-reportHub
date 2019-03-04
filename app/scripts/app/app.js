@@ -531,6 +531,14 @@ angular
         "monitoring_assesment":"Monitoring Assessment",
         "view":"View",
         "year":"Year",
+        "download_ctc_assessments_as_pdf":"Download CTC Assessments as PDF",
+        "download_assessments_as_csv":"Download Assessments as CSV",
+        "download_case_management_details_as_csv":"Download Case Management Details as CSV",
+        "patients":"Patients",
+        "beds":"Beds",
+        "doctors":"Doctors",
+        "2017_assessments_timeline":"2017 Assessments Timeline",
+        "assessment(s)":"Assessment(s)",
 
 
         //MODULES IMMAP
@@ -1057,6 +1065,17 @@ angular
         "monitoring_assesment":"Evaluación de Monitoreo",
         "view":"Ver",
         "year":"Año",
+         "download_ctc_assessments_as_pdf":"Descargar Evaluaciones CTC como PDF",
+         "download_assessments_as_csv":"Descargar Evaluaciones como CSV",
+        "download_case_management_details_as_csv":"Download Detalles de Casos de Gestión como CSV",
+        "patients":"Pacientes",
+        "beds":"Camas",
+        "doctors":"Doctores",
+        "2017_assessments_timeline":"Linea de Tiempo Evaluaciones 2017",
+        "assessment(s)":"Evaluación(es)",
+
+
+
 
 
         //MODULES IMMAP
@@ -1096,7 +1115,7 @@ angular
 
   });
 
-  $translateProvider.preferredLanguage('en');
+  $translateProvider.preferredLanguage('es');
 
   
 
