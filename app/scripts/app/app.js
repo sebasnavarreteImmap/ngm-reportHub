@@ -162,6 +162,7 @@ angular
        "all_mayus":"ALL",
        "update_project":"Update project",
        "updated":"Updated",
+       "overview_for":"overview for",
 
        //Helper
        "please_complete_project_details_and_enter_a_project_summary_description_including_objectives":"Please complete Project Details and enter a project summary description including objectives...",
@@ -175,6 +176,7 @@ angular
         "desactivated_users":"Desactivated Users ",
         "name_mayus":"Name",
         "update_photo":"Update Photo",
+        "active_staff":"Active Staff",
 
 
        // NEW PROJECT
@@ -303,7 +305,7 @@ angular
         "user_mayus1":"User",
         "title":"Title",
          "goto_project_summary":"GoTo Project Summary",
-         "month_mayus":"Mes",
+         "month_mayus":"Month",
 
          "goto":"GoTo",
          "report":"Report",
@@ -560,6 +562,14 @@ angular
 
 
 
+         //table templates
+         "target_beneficiaries":"Target Beneficiaries",
+          "reported_beneficiaries":"Reported Beneficiaries",
+         "progress":"Progress"
+
+
+
+
 
 
 
@@ -675,6 +685,8 @@ angular
        "all_mayus":"TODO",
        "update_project":"Actualización de proyecto",
        "updated":"Actualizado",
+       "overview_for":"resumen para",
+
 
        //Helper
        "please_complete_project_details_and_enter_a_project_summary_description_including_objectives":"Por favor complete los Detalles del Proyecto e ingrese un resumen de la descripción del proyecto incluyendo objetivos...",
@@ -812,7 +824,7 @@ angular
          "user_mayus1":"Usuario",
          "title":"Título",
          "goto_project_summary":"Ir a Resumen del Proyecto",
-         "month_mayus":"Month",
+         "month_mayus":"Mes",
          "goto":"Ir a",
          "report":"Reporte",
          "activity_report":"Reporte de Actividad",
@@ -1071,7 +1083,13 @@ angular
            "view_product_from_registration":"Ver Formulario de Registro de Producto",
            "view_product":"Ver Producto",
            "product_month":"Mes del Producto",
-           "open":"Abrir"
+           "open":"Abrir",
+
+           //table templates
+         "target_beneficiaries":"Beneficiarios Objetivo",
+         "reported_beneficiaries":"Beneficiarios Reportados",
+          "progress":"Progreso"
+
 
 
   });
