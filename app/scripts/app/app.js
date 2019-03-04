@@ -1115,7 +1115,7 @@ angular
 
   });
 
-  $translateProvider.preferredLanguage('es');
+  $translateProvider.preferredLanguage('en');
 
   
 
