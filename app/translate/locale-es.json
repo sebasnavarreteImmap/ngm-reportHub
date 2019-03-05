@@ -443,7 +443,7 @@
          "field":"Campo",
          "description":"Descripción",
          "the_name_of_the_new_feature_ie_new_dashboard_filter":"Elnombre de la nueva característica. Por ejemplo: 'Nuevo Filtro de Dashboard'",
-         "the_purpose_of_the_new_feature_ie_to_filter_by_donor_organization":"El propósito de la nueva característica. Por ejemplo: 'Filtrar por donante/organización'",
+         "the_purpose_of_the_new_feature_ie_to_filter_by_donor_organization":"El propósito de la nueva característica. Por ejemplo: 'Filtrar por donante-organización'",
          "a_description_of_the_new_feature_ie_have_a_filter_menu_on_the_dashboard":"Una descripción de la nueva característica. Por ejemplo: 'Tener un filtro de menu en el dashboard'",
          "bug_report":"Reporte de Bug",
          "found_an_error_or_something_is_not_working?_let_the_reporthub_team_know_so_they_can_help":"¿Encontró un error o algo no está funcionando? Informe al equipo de ReportHub para que puedan ayudarlo.",
