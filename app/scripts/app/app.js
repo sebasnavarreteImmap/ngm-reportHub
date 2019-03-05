@@ -1166,7 +1166,7 @@ angular
 
   $translateProvider.preferredLanguage('en');
 
-  $translateProvider.forceAsyncReaload(true);
+  $translateProvider.forceAsyncReload(true);
   
 
 
