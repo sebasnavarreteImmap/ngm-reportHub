@@ -1158,13 +1158,15 @@ angular
 
   });
   */
-     /* $translateProvider.preferredLanguage('es');
 
 
     $translateProvider.useStaticFilesLoader({
-        prefix: '/scripts/app/translate/locale-',
+        prefix: 'scripts/app/translate/locale-',
         suffix: '.json'
-      });*/
+      });
+
+          $translateProvider.preferredLanguage('es');
+
 
 
 
