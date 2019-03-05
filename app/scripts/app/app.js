@@ -1159,12 +1159,14 @@ angular
   });
   */
 
-  $translateProvider.preferredLanguage('en');
 
     $translateProvider.useStaticFilesLoader({
         prefix: '../../translate/locale-',
         sufix: '.json'
       });
+
+      $translateProvider.preferredLanguage('en');
+
 
   
 
