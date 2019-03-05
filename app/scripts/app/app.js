@@ -1162,7 +1162,7 @@ angular
 
     $translateProvider.useStaticFilesLoader({
         prefix: '../../translate/locale-',
-        sufix: '.json'
+        suffix: '.json'
       });
 
       $translateProvider.preferredLanguage('en');
