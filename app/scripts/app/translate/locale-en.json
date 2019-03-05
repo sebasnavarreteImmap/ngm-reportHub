@@ -104,23 +104,14 @@
        "update_project":"Update project",
        "updated":"Updated",
        "overview_for":"overview for",
-
-       //Helper
        "please_complete_project_details_and_enter_a_project_summary_description_including_objectives":"Please complete Project Details and enter a project summary description including objectives...",
-       
-       //ngm-list
        "you_have":"You have",
-
-       //TEAM
        "active_sctaff":"Active Staff",
        "active_users":"Active Users",
         "desactivated_users":"Desactivated Users ",
         "name_mayus":"Name",
         "update_photo":"Update Photo",
         "active_staff":"Active Staff",
-
-
-       // NEW PROJECT
         "project_details":"Project Details",
         "project_title":"Project Title",
         "project_code":"Project Code",
@@ -180,11 +171,9 @@
         "select_the_objetives_that_your_project_will_target":"Select the Objectives that your project will",
         "relates_to":"Relates to",
         "there_are_no_strategic_objetives_for":"There are no Strategic Objectives for",
-        //project details.js
-
+       
         "actual_monthly_beneficiaries_report_for":"Actual Monthly Beneficiaries Report for",
         "cash_intented_for_even_if_unrestricted":"Cash intented for event if unrestricted",
-        //reports list
          "download_monthly_reports_as_csv":"Download Monthly Reports as CSV",
          "update":"Update",
          "report_submitted":"Report Submitted",
@@ -196,7 +185,6 @@
          "reports_submitted":"Reports Submitted",
 
          
-         //Report
          "back_to_project_reports":"Back to Project Reports",
          "submit_monthly_report":"Submit Monthly Report",
           "cancel_montly_report":"Cancel Monthly Report",
@@ -208,24 +196,14 @@
          "remove_this_borehol_from_your_report":"Remove this Borehole from your Report",
          "yes_remove_borehole":"Yes, Remove Borehole",
 
-        //Beneficiaries
-      
         "remarks":"Remarks",
         "add_partial_kits": "Add Partial Kits",
         "add_kit_details":"Add Kit Details",
         "add_beneficiaries":"Add Beneficiaries",
         "monthly_beneficiaries_report_for":"Monthly Beneficiaries Report for",
         "select":"Select...",
-
-        //Notes
         "monthly_notes_&_comments":"Monthly Notes & Comments",
         "save_notes":"Save Notes",
-
-
-
-
-
-        //DASHBOARD ADMIN
         "download_admin_as_pdf":"Download Admin as PDF",
         "download_project_summaries_as_csv":"Download Project Summaries as CSV",
         "reports_todo":"Reports ToDo",
@@ -251,12 +229,6 @@
          "goto":"GoTo",
          "report":"Report",
           "activity_report":"Activity Report",
-
-
-
-
-        //dashboard.cluster
-
         "download_ocha_hrp_report_as_csv":"Download OCHA HRP Report as CSV",
         "download_ocha_financial_report_as_csv":"Download OCHA Financial Report as CSV",
         "download_training_participants_as_csv":"Download Training Participants as CSV",
@@ -283,10 +255,6 @@
         "projects_progress":"Projects Progress",
 
 
-
-
-        //TARGET POPULATION
-
         "activity":"Activity",
         "description":"Description",
         "details":"Details",
@@ -306,11 +274,7 @@
         "women":"Women",
         "treatment_same_province":"Treatment Same Province",
         "edit":"Edit",
-
-        //FILTER
         "region":"REGION",
-
-        //LOCATION
 
         "enter_the_target_locations_of_your_project_in_the_form_below":"Enter the TARGET LOCATIONS of your PROJECT in the form below",
         "reporter":"Reporter",
@@ -326,21 +290,17 @@
         "cancel_mayus":"Cancel",
         "complete":"Complete",
 
-
-        //PROYECT SUMMARY
-        'are_you_sure_you_want_to_mark_this_project_as_complete':'Are you sure you want to mark this PROJECT as "COMPLETE"',
+        "are_you_sure_you_want_to_mark_this_project_as_complete":"Are you sure you want to mark this PROJECT as 'COMPLETE'",
         "yes_project_complete":"Yes, project complete",
         "delete_project":"Delete Project",
         "are_you_sure_you_want_to_delete_this_project_and_all_its_associated_data":"Are you sure you want to DELETE this PROJECT and all its associated data",
         "yes_delete_project":"Yes, delete project",
-        'are_you_sure_you_want_to_move_this_project_to_active':'Are you sure you want to move this project to "Active"',
+        "are_you_sure_you_want_to_move_this_project_to_active":"Are you sure you want to move this project to 'Active'",
         "yes_move_project_to_active":"Yes, move project to active",
         "financial_reports":"Financial Reports",
         "monthly_reports":"Monthly Reports",
         "mark_project_as_complete":"Mark Project as Complete",
         "mark_project_as_active":"Mark Project as Active",
-
-        //FINANCIAL
         "project_budget_progress":"Project Budget Progress",
         "add_new_row_of_financial_details_to_your_project_for_each_payment_recieved":"Add a NEW ROW of financial details to your project for EACH PAYMENT recieved",
         "donor":"Donor",
@@ -364,7 +324,7 @@
         "download_project_financial_report_as_csv":"Download Project Financial Report as CSV",
         
 
-        //locations
+        
         "note":"Note",
         "to_report":"To Report",
         "drought":"DROUGHT",
@@ -387,10 +347,6 @@
                 "month":"month",
                 "add_trainings":"Add Trainings",
                 "add_location":"Add Location",
-
-
-        //USER PROFILE
-
         "desactive_user":"Desactive User",
         "desactive":"Desactive",
         "desactivate_mayus":"DESACTIVATE",
@@ -410,8 +366,6 @@
         "update_mayus":"UPDATE",
         "delete_mayus":"DELETE",
 
-
-        //STOCKS
         "save_monthly_stock_report":"Save Monthly Stock Report",
         "has been saved":"has been saved",
         "cancel_stock_report":"Cancel Stock Report",
@@ -446,7 +400,7 @@
 
 
 
-        //ASSESSMENTS (afghanistan)
+        
         "assessments":"Assessments",
         "assessment":"Assessment",
         "please_select_an_assessments_from_the_options_below":"Please select an assessments from the options below",
@@ -481,9 +435,6 @@
         "2017_assessments_timeline":"2017 Assessments Timeline",
         "assessment(s)":"Assessment(s)",
 
-
-        //MODULES IMMAP
-
         "view_briefing_package":"View Briefing Package",
         "monthly_report":"Monthly Report",
         "trainings":"Trainings",
@@ -492,7 +443,7 @@
          "add_products":"Add Products",
          "please_select_from_the_options_below":"Please select from the options below",
 
-         //Products
+        
          "products_list":"Products List",
          "download_products_list_as_csv":"Download Products List as CSV",
          "add_new_product":"Add New Product",
@@ -512,13 +463,13 @@
 
 
 
-         //table templates
+       
          "target_beneficiaries":"Target Beneficiaries",
           "reported_beneficiaries":"Reported Beneficiaries",
          "progress":"Progress",
 
 
-         //GUIDES
+        
 
          "feature_request":"Feature Request",
          "purpose":"Purpose",

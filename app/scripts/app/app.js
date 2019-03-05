@@ -1165,7 +1165,7 @@ angular
         suffix: '.json'
       });
 
-          $translateProvider.preferredLanguage('es');
+          $translateProvider.preferredLanguage('en');
 
 
 
