@@ -1158,6 +1158,7 @@ angular
 
   });
   */
+      $translateProvider.preferredLanguage('en');
 
 
     $translateProvider.useStaticFilesLoader({
@@ -1165,12 +1166,11 @@ angular
         suffix: '.json'
       });
 
-      $translateProvider.preferredLanguage('en');
 
 
   
 
-  //$translateProvider.forceAsyncReload(true);
+  $translateProvider.forceAsyncReload(true);
   
 
 
