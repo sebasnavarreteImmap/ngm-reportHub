@@ -1161,7 +1161,7 @@ angular
 
 
     $translateProvider.useStaticFilesLoader({
-        prefix: '../../translate/locale-',
+        prefix: '/../../translate/locale-',
         suffix: '.json'
       });
 
