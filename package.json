@@ -37,6 +37,6 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "angular-translate": "^2.18.1"
+    "angular-translate": "^2.18.1" 
   }
 }
