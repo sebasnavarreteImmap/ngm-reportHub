@@ -58,7 +58,7 @@ angular
 	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
       
 
-     $translateProvider.translations('en',{
+   /*  $translateProvider.translations('en',{
      	"download_google_chrome":"Download Google Chrome",
      	"google_chrome_is_the_required_browser_for_reporthub":"Google Chrome is the required browser for ReportHub",
      	"language":"LANGUAGE",
@@ -601,7 +601,6 @@ angular
          "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"The action you were performing at the time. i.e. 'Adding a new Beneficiary'",
          "any_error_messages_that_the_reporthub_displayed":"Any error messages that the ReportHub displayed",
          "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Any additional description of the error that will prove useful. i.e. 'I removed a location and then added a new location'"
-
      });
   
   $translateProvider.translations('es',{
@@ -1158,8 +1157,18 @@ angular
 
 
   });
+  */
+
+    $translateProvider.useStaticFilesLoader({
+        prefix: '../../translate/',
+        sufix: '.json'
+      });
 
   $translateProvider.preferredLanguage('en');
+
+  $translateProvider.forceAsyncReaload(true);
+  
+
 
   
 
@@ -1311,8 +1320,16 @@ angular
 
        changeFunction = function ($key) {
 			  	//console.log($key);
-			   $translate.preferredLanguage(key);
+			   $translate.use(key);
+
+         /* $translate.useStaticFilesLoader({
+            prefix: '../../translate/'+key,
+            sufix: '.json'
+          });*/
 			  };
+
+
+
         
 		// ngm object
 		$scope.ngm = {
