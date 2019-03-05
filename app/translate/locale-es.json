@@ -454,5 +454,5 @@
           "action":"Acción",
           "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"La acción que estás realizando en el momento. Por Ejemplo: 'Agregar un nuevo Beneficiario'",
           "any_error_messages_that_the_reporthub_displayed":"Cualquier mensaje de error que muestre ReportHub",
-          "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Cualquier descripción adicional del error que resulte útil. Por Ejemplo: 'Eliminé una ubicación y luego agregué una nueva ubicación"
+          "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Cualquier descripción adicional del error que resulte útil. Por Ejemplo: 'Eliminé una ubicación y luego agregué una nueva ubicación",
         }
