@@ -541,6 +541,6 @@
          "action":"Action",
          "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"The action you were performing at the time. i.e. 'Adding a new Beneficiary'",
          "any_error_messages_that_the_reporthub_displayed":"Any error messages that the ReportHub displayed",
-         "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Any additional description of the error that will prove useful. i.e. 'I removed a location and then added a new location'"
+         "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Any additional description of the error that will prove useful. i.e. 'I removed a location and then added a new location'",
     
 }
