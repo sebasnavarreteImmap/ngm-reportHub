@@ -372,7 +372,7 @@ angular.module( 'ngm.widget.organization.stock', [ 'ngm.provider' ])
 
             // user msg
             var msg = $filter('translate')('stock_report_for')+' ' + $scope.report.titleFormat + ' ';
-                msg += complete ? $filter('translate')('submitted')+'!' : $filter('translate')('saved')+'!';
+                msg += complete ? $filter('translate')('submitted')+'!' : $filter('translate')('saved_mayus1')+'!';
 
             // msg
             Materialize.toast( msg , 3000, 'success');

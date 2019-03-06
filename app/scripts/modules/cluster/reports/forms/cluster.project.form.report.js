@@ -484,7 +484,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
               $scope.project.report.submit = false;
 
               // user msg
-              var msg = 'Project Report for  ' + moment.utc( $scope.project.report.reporting_period ).format('MMMM, YYYY') + ' ';
+              var msg = $filter('translate')('project_report_for')+'  ' + moment.utc( $scope.project.report.reporting_period ).format('MMMM, YYYY') + ' ';
                   msg += complete ? $filter('translate')('submitted')+'!' : $filter('translate')('saved')+'!';
 
               // msg

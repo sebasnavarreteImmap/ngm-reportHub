@@ -269,6 +269,8 @@
         "re_directing_to_dashboard":"Re-dirigiendo a dashboard...",
         "data_processing_error_please_check_the":"Error en procesamiento de Datos, por favor revise la ",
         "and_try_again":"e intente de nuevo",
+         "project_report_for":"Reporte de Proyecto para",
+
 
 
         "mark_project_as_complete":"Marcar Proyecto como COMPLETO",
@@ -458,6 +460,7 @@
         "saved_mayus1":"Guardado",
         "save_failed_the_project_contains_error":"Guardado fallido! El proyecto contiene errores",
         "project_created":"Projecto Creado",
+        "has_been_saved":"ha sido guardado",
 
         "copy_last_month":"Copiar Mes Anterior",
         "beneficiaries_covered":"Beneficiarios Cubiertos",
