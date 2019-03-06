@@ -378,8 +378,9 @@
 
 
 
+        "not_selected":"No Seleccionado",
 
-        "remove_beneficiary":"Remove Beneficiary",
+        "remove_beneficiary":"Eliminar Beneficiario",
         "please_enter_the_amount_per":"Por favor ingrese la cantidad por",
         "household_hh":"GRUPOFAMILIAR",
         "per":"por",
