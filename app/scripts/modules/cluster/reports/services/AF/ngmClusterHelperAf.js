@@ -80,7 +80,7 @@ angular.module( 'ngmReportHub' )
         // will show if not selected
         } else if ( $data == null ) {
           delete $beneficiary.injury_treatment_same_province;
-          selected[0].text = $filter('translate')('not_selected')+'!'
+          selected[0].text = $filter('translate')('not_selected')+' !'
         // will show if selected
         } else {
           $beneficiary.injury_treatment_same_province = $data;
