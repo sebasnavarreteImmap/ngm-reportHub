@@ -435,6 +435,8 @@
         "stock_reports_todo":"Stock Reports ToDo",
         "stock_reports_complete":"Stock Reports Complete",
         "remove_warehouse_location":"Remove Warehouse Location",
+        "are_you_sure_you_want_to_remove_this_warehouse_from_your_organization":"Are you sure you want to remove this warehouse from your organization",
+
         "warehouse_locations":"Warehouse Locations",
         "choose":"Choose",
         "warehouse_name":"Warehouse Name",

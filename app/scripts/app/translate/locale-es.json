@@ -314,12 +314,14 @@
         "drought_affected_non_displaced": "Afectados por la Sequía No Desplazados",
         "selected_locations":"Ubicaciones Seleccionadas",
         "edit_report":"Editar Reporte",
+
         "remove_beneficiary":"Eliminar Beneficiario",
         "remove_this_beneficiary_from_your_report":"Eliminar este Beneficiario de su Reporte",
         "yes_remove_beneficiary":"Si, Eliminar Beneficiario",
         "remove_borehole":"Eliminar Pozo",
         "remove_this_borehole_from_your_report":"Eliminar este Pozo de su Reporte",
         "yes_remove_borehole":"Si, Eliminar Pozo",
+       
         "remove_reticulation":"Eliminar Reticulación",
         "remove_this_reticulation_from_your_report":"Eliminar esta Reticulación de su Reporte",
         "yes_remove_reticulation":"Si, Eliminar Reticulación",
@@ -437,6 +439,7 @@
         "stock_reports_todo":"Reportes de Stock para Realizar",
         "stock_reports_complete":"Reportes de Stock Completados",
         "remove_warehouse_location":"Eliminar Ubicación de Bodega",
+        "are_you_sure_you_want_to_remove_this_warehouse_from_your_organization":"Está seguro que quiere eliminar esta Bodega de su Organización",
         "warehouse_locations":"Ubicaciones de Bodegas",
         "choose":"Seleccionar",
         "warehouse_name":"Nombre de Bodega",
