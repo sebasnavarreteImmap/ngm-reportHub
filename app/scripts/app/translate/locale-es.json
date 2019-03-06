@@ -267,7 +267,7 @@
         "active":"Activo",
         "complete":"Completo",
         "mark_project_as_complete":"Marcar Proyecto como COMPLETO",
-        "are_you_sure_you_want_to_mark_this_project_as_complete":"Está seguro que quiere marcar este PROYECTO como 'COMPlETO'",
+        "are_you_sure_you_want_to_mark_this_project_as_complete":"Está seguro que quiere marcar este PROYECTO como 'COMPLETO'",
         "yes_project_complete":"Si, proyecto completo",
         "delete_project":"Eliminar Proyecto",
         "are_you_sure_you_want_to_delete_this_project_and_all_its_associated_data":"Está seguro que quiere ELIMINAR este PROYECTO y todos los datos asociados",
@@ -314,6 +314,69 @@
         "drought_affected_non_displaced": "Afectados por la Sequía No Desplazados",
         "selected_locations":"Ubicaciones Seleccionadas",
         "edit_report":"Editar Reporte",
+        "remove_beneficiary":"Eliminar Beneficiario",
+        "remove_this_beneficiary_from_your_report":"Eliminar este Beneficiario de su Reporte",
+        "yes_remove_beneficiary":"Si, Eliminar Beneficiario",
+        "remove_borehole":"Eliminar Pozo",
+        "remove_this_borehole_from_your_report":"Eliminar este Pozo de su Reporte",
+        "yes_remove_borehole":"Si, Eliminar Pozo",
+        "remove_reticulation":"Eliminar Reticulación",
+        "remove_this_reticulation_from_your_report":"Eliminar esta Reticulación de su Reporte",
+        "yes_remove_reticulation":"Si, Eliminar Reticulación",
+        "remove_service":"Eliminar Servicio",
+        "remove_this_Service_from_your_report":"Eliminar este Servicio de su Reporte",
+        "yes_remove_service":"Si, Eliminar Servicio",
+        "remove_maintenance":"Eliminar Mantenimiento",
+        "remove_this_maintenance_from_your_report":"Eliminar este Mantenimiento de su Reporte",
+        "yes_remove_maintenance":"Si, Eliminar Mantenimiento",
+        "remove_latrine":"Eliminar Letrina",
+        "remove_this_latrine_from_your_report":"Eliminar esta Letrina de su Reporte",
+        "yes_remove_letrina":"Si, Eliminar Letrina",
+        "remove_shower":"Eliminar Ducha",
+        "remove_this_shower_from_your_report":"Eliminar esta Ducha de su Reporte",
+        "yes_remove_shower":"Si, Eliminar Ducha",
+        "remove_waste_management":"Eliminar Gestión de Residuos",
+        "remove_this_waste_management_from_your_report":"Eliminar esta Gestión de Residuos de su Reporte",
+        "yes_remove_waste_management":"Si, Eliminar Gestión de Residuos",
+        "remove_committee":"Eliminar Comité",
+        "yes_remove_committee":"Si, Eliminar Comité",
+        "remove_hygiene_promotion":"Eliminar Fomento de Higiene",
+        "remove_this_hygiene_promotion_from_your_report":"Eliminar este Fomento de Higiene de su Reporte",
+        "yes_remove_hygiene_promotion":"Si, Eliminar Fomento de Higiene",
+        "remove_hygiene_distribution":"Eliminar Distribución de Higiene",
+        "remove_this_hygiene_distribution_from_your_report":"Eliminar esta Distribución de Higiene de su Reporte",
+        "yes_remove_hygiene_distribution":"Eliminar Distribución de Higiene",
+        "remove_cash_transfer":"Eliminar Transferencia de Dinero",
+        "remove_this_cash_transfer_from_your_report":"Eliminar esta Transferencia de Dinero de su Reporte",
+        "yes_remove_cash_transfer":"Si, Eliminar Transferencia de Dinero",
+         "remove_accountability_activity":"Eliminar Actividad de Rendición de Cuentas",
+        "remove_this_Accountability_activity_from_your_report":"Eliminar esta Actividad de Rendición de Cuentas de su Reporte",
+        "yes_remove_accountability_activity":"Si, Eliminar Actividad de Rendición de Cuentas",
+        "remove_training":"Eliminar Entrenamiento",
+        "remove_this_training_from_your_report":"Eliminar este Entrenamiento de su Reporte",
+        "yes_remove_training":"Si, Eliminar Entrenamiento",
+        "submit_monthly_report_for":"Enviar Reporte Mensual para",
+        "submit_monthly_report_for":"Enviar reporte mensual para",
+        "yes_submit_report":"Si, Enviar reporte",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "remove_beneficiary":"Remove Beneficiary",
         "please_enter_the_amount_per":"Por favor ingrese la cantidad por",
         "household_hh":"GRUPOFAMILIAR",
         "per":"por",
