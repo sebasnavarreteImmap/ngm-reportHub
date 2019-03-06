@@ -156,8 +156,8 @@
          "new_project":"Nuevo Proyecto",
          "as":"como",
          "processing":"Procesando...",
-         "project_moved_to_active":"Prouecto movido a Activo!",
-         "project_market_as_complete_congratulations":"Projectp marcado como Completo, Felicitaciones!",
+         "project_moved_to_active":"Proyecto movido a Activo!",
+         "project_market_as_complete_congratulations":"Proyecto marcado como Completo, Felicitaciones!",
          "project_delete_error_please_try_again":"Error al Eliminar Proyecto! Por favor intente de nuevo",
          "project_delete":"Proyecto Eliminado!",
          "objetives_mayus":"OBJETIVOS",
@@ -266,6 +266,11 @@
         "cancel_mayus":"Cancelar",
         "active":"Activo",
         "complete":"Completo",
+        "re_directing_to_dashboard":"Re-dirigiendo a dashboard...",
+        "data_processing_error_please_check_the":"Error en procesamiento de Datos, por favor revise la ",
+        "and_try_again":"e intente de nuevo",
+
+
         "mark_project_as_complete":"Marcar Proyecto como COMPLETO",
         "are_you_sure_you_want_to_mark_this_project_as_complete":"Está seguro que quiere marcar este PROYECTO como 'COMPLETO'",
         "yes_project_complete":"Si, proyecto completo",
@@ -381,6 +386,26 @@
 
 
         "not_selected":"No Seleccionado",
+        "no_selection":"Sin Selección",
+        "no_data_in_previous_report":"No hay datos en el reporte previo",
+        "no_previous_report":"No hay reporte previo",
+        "copied":"copiadas",
+        "rows":"filas",
+        "error_not_copied":"Error, No copiado",
+        "processing_stock_report":"Procesando Reporte de Stock...",
+
+        "processing_report":"Procesando Reporte...",
+        "please_correct_the_row_and_try_again":"Por favor corrija la FILA y intenta de nuevo",
+        "drag_files_here_or_click_to_upload":"Arrastre los archivos aquí ó haga click para subir",
+        "uploading":"Subiendo...",
+
+
+
+
+
+
+
+
 
         "remove_beneficiary":"Eliminar Beneficiario",
         "please_enter_the_amount_per":"Por favor ingrese la cantidad por",
@@ -429,6 +454,11 @@
         "pipeline":"Transporte",
         "beneficiary_coverage":"Cobertura de Beneficiarios",
         "stock_report_for":"Reporte de Stock para",
+        "submitted":"Enviado",
+        "saved_mayus1":"Guardado",
+        "save_failed_the_project_contains_error":"Guardado fallido! El proyecto contiene errores",
+        "project_created":"Projecto Creado",
+
         "copy_last_month":"Copiar Mes Anterior",
         "beneficiaries_covered":"Beneficiarios Cubiertos",
         "stock_report":"Reporte de Stock",

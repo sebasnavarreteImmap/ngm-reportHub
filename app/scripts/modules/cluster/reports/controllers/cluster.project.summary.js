@@ -165,7 +165,7 @@ angular.module('ngmReportHub')
 									    }
 									    if ( !data.err ){
 										    $location.path( '/cluster/projects' );
-										    Materialize.toast( $filter('transalte')('project_deleted')+'!', 3000, 'success');
+										    Materialize.toast( $filter('translate')('project_deleted')+'!', 3000, 'success');
 									    }
 									  }).error(function(err){
 									    // redirect on success
