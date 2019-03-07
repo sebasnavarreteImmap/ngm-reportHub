@@ -185,6 +185,16 @@
          "reports_submitted":"Reports Submitted",
          "project_report_for":"Project Report for",
 
+         //financials:
+         "project_budget_item_removed":"Project Budget Item Removed",
+         "project_budget_item_added":"Project Budget Item Added",
+         "all_activities":"All Activities",
+         "non_cash":"Non-Cash",
+         "financial":"Financial",
+         "restricted_cash":"Restricted Cash",
+         "unrestricted_cash":"Unrestricted Cash",
+         "inkind":"InKind",
+
          
          "back_to_project_reports":"Back to Project Reports",
          "submit_monthly_report":"Submit Monthly Report",
