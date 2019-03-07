@@ -403,7 +403,7 @@
 
          "project_budget_item_removed":"Item de Presupuesto del Proyecto Eliminado",
          "project_budget_item_added":"Item de Presupuesto del Proyecto Agregado",
-         "all_activities":"Todas las Actividades",
+         "all_activities":"Todas las Actividades", 
           "non_cash":"No-Efectivo",
           "financial":"Financiero",
           "restricted_cash":"Dinero Restringido",
