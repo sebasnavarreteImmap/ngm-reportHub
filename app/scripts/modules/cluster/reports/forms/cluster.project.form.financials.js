@@ -111,7 +111,7 @@ angular.module( 'ngm.widget.project.financials', [ 'ngm.provider' ])
               $budget.activity_type_name = selected[0].activity_type_name;
             }
           } 
-          return selected.length ? selected[0].activity_type_name : $filter('translate')('no_selection')('!');
+          return selected.length ? selected[0].activity_type_name : $filter('translate')('no_selection')+'!';
         },
 
         // currency
