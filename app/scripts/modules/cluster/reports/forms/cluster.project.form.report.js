@@ -485,7 +485,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
 
               // user msg
               var msg = $filter('translate')('project_report_for')+'  ' + moment.utc( $scope.project.report.reporting_period ).format('MMMM, YYYY') + ' ';
-                  msg += complete ? $filter('translate')('submitted')+'!' : $filter('translate')('saved')+'!';
+                  msg += complete ? $filter('translate')('submitted')+'!' : $filter('translate')('saved_mayus1')+'!';
 
               // msg
               $timeout(function() { Materialize.toast( msg , 3000, 'success'); }, 600 );
