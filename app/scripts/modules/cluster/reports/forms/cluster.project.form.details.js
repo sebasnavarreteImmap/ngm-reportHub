@@ -36,7 +36,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
     'ngmClusterLocations',
     'ngmClusterValidation',
     'ngmClusterHelperAf',
-    'config', '$translate',
+    'config', '$translate','multipleSelect',
     function( 
         $scope, 
         $location, 
@@ -54,17 +54,19 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         ngmClusterLocations,
         ngmClusterValidation,
         ngmClusterHelperAf,
-        config,$translate){
+        config,$translate,$multipleSelect){
 
 
-      afterSelectItem = function(item){
-    // perform operation on this item after selecting it.
-         console.log("afterselectItem");
-         console.log(item);
-       }
+      
 
       // project
       $scope.project = {
+
+        afterSelectItem: function(item){
+    // perform operation on this item after selecting it.
+         console.log("afterselectItem");
+         console.log(item);
+       },
 
         // defaults
         user: ngmUser.get(),
