@@ -56,6 +56,13 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         ngmClusterHelperAf,
         config,$translate){
 
+
+      afterSelectItem = function(item){
+    // perform operation on this item after selecting it.
+         console.log("afterselectItem");
+         console.log(item);
+       }
+
       // project
       $scope.project = {
 
