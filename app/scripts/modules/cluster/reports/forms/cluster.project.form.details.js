@@ -66,7 +66,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
     // perform operation on this item after selecting it.
          console.log("afterselectItem");
          console.log(item);
-         $scope.project.definition.push(item.project_donor_id);
+         $scope.project.definition.project_donor_check[id.project_donor_id] ;
          console.log($scope.project.definition);
          $scope.project.compileDonor();
        },
