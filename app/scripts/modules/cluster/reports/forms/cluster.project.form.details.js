@@ -71,7 +71,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
        afterRemoveItem: function(item){
           // perform operation on this item after removing it.
           console.log("afterRemoveItem");
-          console.log(item),
+          console.log(item);
       },
 
         // defaults
