@@ -56,7 +56,7 @@ angular
 		'ngm.widget.table',
 		'multipleSelect'
 	])
-	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider ) {
+	.config([ '$routeProvider', '$locationProvider', '$compileProvider','$translateProvider', function ( $routeProvider, $locationProvider, $compileProvider,$translateProvider,$multipleSelect ) {
       
 
    
