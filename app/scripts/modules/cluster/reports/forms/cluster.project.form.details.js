@@ -66,12 +66,14 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
     // perform operation on this item after selecting it.
          console.log("afterselectItem");
          console.log(item);
+         $scope.project.compileDonor();
        },
 
        afterRemoveItem: function(item){
           // perform operation on this item after removing it.
           console.log("afterRemoveItem");
           console.log(item);
+          $scope.project.compileDonor();
       },
 
         // defaults
