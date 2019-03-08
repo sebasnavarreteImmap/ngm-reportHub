@@ -36,7 +36,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
     'ngmClusterLocations',
     'ngmClusterValidation',
     'ngmClusterHelperAf',
-    'config', '$translate','multipleSelect',
+    'config', '$translate',
     function( 
         $scope, 
         $location, 
@@ -54,7 +54,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         ngmClusterLocations,
         ngmClusterValidation,
         ngmClusterHelperAf,
-        config,$translate,$multipleSelect){
+        config,$translate){
 
       // project
       $scope.project = {
