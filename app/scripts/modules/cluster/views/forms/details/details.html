@@ -268,6 +268,21 @@
 								      ng-click="project.compileDonor()"/>
 								      <label class="checkbox-label" for="other">Other</label>
 								    </p> -->
+
+								    <!--multiple select-->
+
+								    <!--
+								    <multiple-autocomplete ng-model="selectedList"
+									     object-property="name"
+									     suggestions-arr="optionsList">
+									</multiple-autocomplete>
+								-->
+								<!--ng-model="project.definition.project_donor_check[ donor.project_donor_id ]"-->
+
+								    <multiple-autocomplete 
+									    
+									     suggestions-arr="project.lists.donors">
+									</multiple-autocomplete>
 								</div>
 
 							</div>

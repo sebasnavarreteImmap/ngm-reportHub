@@ -10,7 +10,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
   .config( function( dashboardProvider){
 
     
-
+ 
     dashboardProvider
       .widget( 'project.details', {
         title: 'Cluster Project Details Form',
@@ -36,7 +36,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
     'ngmClusterLocations',
     'ngmClusterValidation',
     'ngmClusterHelperAf',
-    'config', '$translate',
+    'config', '$translate','multipleSelect',
     function( 
         $scope, 
         $location, 
@@ -114,7 +114,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
           ngmClusterLists.setOrganizationUsersList( $scope.project.lists, config.project );
           // set form on page load
           ngmClusterHelper.setForm( $scope.project.definition, $scope.project.lists );
-        },
+        }, 
 
         // cofirm exit if changes
         modalConfirm: function( modal ){
