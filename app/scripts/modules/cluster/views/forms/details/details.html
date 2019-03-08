@@ -296,6 +296,8 @@
 								    object-property="project_donor_name"
 								    after-select-item="project.afterSelectItem"
 								    after-remove-item="project.afterRemoveItem" 
+								    required="true"
+								    ng-model="project.definition.project_donor_check[ donor.project_donor_id ]"
 
 									  
 									     suggestions-arr="project.lists.donors">
