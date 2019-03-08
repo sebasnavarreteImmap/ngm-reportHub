@@ -269,7 +269,19 @@
 								      <label class="checkbox-label" for="other">Other</label>
 								    </p> -->
 
-								    <!--multiple select-->
+
+								</div>
+
+							</div>
+
+							<div>
+
+								<div class="input-field col s12" style="padding-bottom:5px;">
+									<label for="ngm-project_donor">{{'project_donor' | translate}} * multiple select</label>
+									<div style="padding-bottom:35px;"></div>
+
+
+								<!--multiple select-->
 
 								    <!--
 								    <multiple-autocomplete ng-model="selectedList"
@@ -279,13 +291,19 @@
 								-->
 								<!--ng-model="project.definition.project_donor_check[ donor.project_donor_id ]"-->
 
-								    <multiple-autocomplete 
+								    <multiple-autocomplete
+
+								    object-property="project_donor_name" 
 									    
 									     suggestions-arr="project.lists.donors">
 									</multiple-autocomplete>
+
+
 								</div>
+								
 
 							</div>
+
 							
 							<!-- other partners -->
 							<div class="row">
