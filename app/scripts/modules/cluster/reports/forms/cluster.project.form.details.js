@@ -68,6 +68,12 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          console.log(item);
        },
 
+       afterRemoveItem: function(item){
+          // perform operation on this item after removing it.
+          console.log("afterRemoveItem");
+          console.log(item),
+      },
+
         // defaults
         user: ngmUser.get(),
         style: config.style,
