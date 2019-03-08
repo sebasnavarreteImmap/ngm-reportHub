@@ -289,7 +289,13 @@
 									     suggestions-arr="optionsList">
 									</multiple-autocomplete>
 								-->
-								<!--ng-model="project.definition.project_donor_check[ donor.project_donor_id ]"-->
+								<!--ng-model="project.definition.project_donor_check[ donor.project_donor_id ]"
+
+
+								ng-model="project.definition.project_donor_check[project_donor_id]"
+								    ng-click="project.compileDonor()"
+
+								-->
 
 								    <multiple-autocomplete
 
@@ -297,8 +303,7 @@
 								    after-select-item="project.aftercompSelectItem"
 								    after-remove-item="project.afterRemoveItem" 
 								    required="true"
-								    ng-model="project.definition.project_donor_check[project_donor_id]"
-								    ng-click="project.compileDonor()"
+								    ng-model="project.definition.project_donor_check.id"
 								   
 									  
 									     suggestions-arr="project.lists.donors">
