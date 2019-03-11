@@ -78,7 +78,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          
        },
 
-       afterRemoveItem: function(item){
+      /* afterRemoveItem: function(item){
           // perform operation on this item after removing it.
           console.log("afterRemoveItem");
           console.log(item);
@@ -86,7 +86,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
           $scope.project.definition.project_donor.splice(item);
           console.log($scope.project.definition);
           $scope.project.compileDonor();
-      },
+      },*/
 
         // defaults
         user: ngmUser.get(),
