@@ -104,25 +104,6 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
 
          
-
-       multiple : $('#multipleInput').materialize_autocomplete({
-            multiple: {
-                enable: true
-            },
-            appender: {
-                el: '.ac-users'
-            },
-            dropdown: {
-                     el: '#multipleDropdown'
-            },
-            resultCache: lists.donors
-        }),
-
-
-
-       
-
-
        
 
         
@@ -171,6 +152,20 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
           // set form on page load
           ngmClusterHelper.setForm( $scope.project.definition, $scope.project.lists );
         }, 
+
+        
+       multiple : $('#multipleInput').materialize_autocomplete({
+            multiple: {
+                enable: true
+            },
+            appender: {
+                el: '.ac-users'
+            },
+            dropdown: {
+                     el: '#multipleDropdown'
+            },
+            resultCache: lists.donors
+        }),
 
         // cofirm exit if changes
         modalConfirm: function( modal ){
