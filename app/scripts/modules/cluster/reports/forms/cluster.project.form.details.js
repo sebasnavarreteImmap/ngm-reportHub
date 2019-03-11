@@ -62,17 +62,6 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
       // project
       $scope.project = {
 
-       multiple = $('#multipleInput').materialize_autocomplete({
-            multiple: {
-                enable: true
-            },
-            appender: {
-                el: '.ac-users'
-            },
-            dropdown: {
-                el: '#multipleDropdown'
-            }
-        }),
 
         
 
@@ -112,6 +101,28 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
         // lists ( project, mpc transfers )
         lists: ngmClusterLists.setLists( config.project, 30 ),
+
+
+          nuev: function () {
+
+       multiple : $('#multipleInput').materialize_autocomplete({
+            multiple: {
+                enable: true
+            },
+            appender: {
+                el: '.ac-users'
+            },
+            dropdown: {
+                     el: '#multipleDropdown'
+            }
+        });
+
+       resultCache: $scope.project.lists.donors;
+
+        multiple.resultCache = resultCache;
+
+       },
+       
         
         // datepicker
         datepicker: {
@@ -695,10 +706,6 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
       }
 
-       resultCache = $scope.project.lists.donors,
-
-        //single.resultCache = resultCache;
-        multiple.resultCache = resultCache,
 
       // init project
       $scope.project.init();
