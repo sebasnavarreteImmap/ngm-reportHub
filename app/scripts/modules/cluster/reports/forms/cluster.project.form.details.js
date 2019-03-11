@@ -115,7 +115,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
             dropdown: {
                      el: '#multipleDropdown'
             },
-            resultCache: $scope.project.lists.donors
+            resultCache: lists.donors
         }),
 
 
