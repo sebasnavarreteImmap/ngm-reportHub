@@ -706,8 +706,8 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
       }
 
-      resultCache: $scope.project.lists.donors,
-         $scope.project.multiple.resultCache = resultCache,
+      
+         $scope.project.multiple.resultCache = $scope.project.lists.donors;
 
 
 
