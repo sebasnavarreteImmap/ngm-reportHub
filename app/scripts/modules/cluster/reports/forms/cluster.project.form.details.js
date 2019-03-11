@@ -62,6 +62,20 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
       // project
       $scope.project = {
 
+       multiple = $('#multipleInput').materialize_autocomplete({
+            multiple: {
+                enable: true
+            },
+            appender: {
+                el: '.ac-users'
+            },
+            dropdown: {
+                el: '#multipleDropdown'
+            }
+        }),
+
+        
+
         afterSelectItem: function(item){
     // perform operation on this item after selecting it.
          console.log("afterselectItemnew");
@@ -680,6 +694,11 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
         }
 
       }
+
+       resultCache = $scope.project.lists.donors,
+
+        //single.resultCache = resultCache;
+        multiple.resultCache = resultCache,
 
       // init project
       $scope.project.init();

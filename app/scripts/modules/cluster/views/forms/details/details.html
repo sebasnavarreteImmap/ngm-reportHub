@@ -34,7 +34,7 @@
 
 
   $(function () {
-        var single = $('#singleInput').materialize_autocomplete({
+        /*var single = $('#singleInput').materialize_autocomplete({
             multiple: {
                 enable: false
             },
@@ -45,8 +45,8 @@
             onSelect: function (item) {
                 console.log(item.text + ' was selected');
             }
-        });
-        var multiple = $('#multipleInput').materialize_autocomplete({
+        });*/
+       /* var multiple = $('#multipleInput').materialize_autocomplete({
             multiple: {
                 enable: true
             },
@@ -56,7 +56,7 @@
             dropdown: {
                 el: '#multipleDropdown'
             }
-        });
+        });*/
        /* var resultCache = {
             'A': [
                 {
@@ -124,10 +124,9 @@
                     highlight: '<strong>Ari</strong>'
                 }
             ]
-        };*/
-        var resultCache = project.lists.donors;
+        };
         single.resultCache = resultCache;
-        multiple.resultCache = resultCache;
+        multiple.resultCache = resultCache;*/
     });
 
 </script>
