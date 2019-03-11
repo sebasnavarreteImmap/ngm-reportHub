@@ -117,7 +117,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
             }
         }),
 
-       resultCache: $scope.project.lists.donors,
+       
 
 
        
@@ -705,7 +705,9 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
 
       }
-         $scope.project.multiple.resultCache = $scope.project.resultCache,
+
+      resultCache: $scope.project.lists.donors,
+         $scope.project.multiple.resultCache = resultCache,
 
 
 
