@@ -71,7 +71,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          console.log("$scope.project.definition.project_donor");
          console.log($scope.project.definition.project_donor);
          console.log("haré push");
-         $scope.project.definition.project_donor.push(item) ;
+         //$scope.project.definition.project_donor.push(item) ;
          console.log("Despues del push");
          console.log($scope.project.definition.project_donor);
          console.log($scope.project.definition);
