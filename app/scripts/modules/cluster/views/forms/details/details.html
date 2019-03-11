@@ -299,13 +299,12 @@
 
 								    <multiple-autocomplete
 
-								    ng-model="project.definition.project_donor_check"
+								    ng-model="project.definition.project_donor"
 								    object-property="project_donor_name"
 								    after-select-item="project.afterSelectItem"
 								    after-remove-item="project.afterRemoveItem" 
 								    required="true"
-								    >
-								    {{project_donor_name}}
+								    suggestions-arr="project.lists.donors">
 									</multiple-autocomplete>
 
 
