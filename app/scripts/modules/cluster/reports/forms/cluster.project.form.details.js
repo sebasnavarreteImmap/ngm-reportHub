@@ -67,6 +67,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          console.log("afterselectItemnew");
          console.log(item);
          $scope.project.definition.project_donor_check[item.project_donor_name] = true ;
+         $scope.project.compileDonor();
          console.log("$scope.project.definition.project_donor");
          console.log($scope.project.definition.project_donor);
          console.log("haré push");
@@ -74,7 +75,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          console.log("Despues del push");
          console.log($scope.project.definition.project_donor);
          console.log($scope.project.definition);
-         $scope.project.compileDonor();
+         
        },
 
        afterRemoveItem: function(item){
