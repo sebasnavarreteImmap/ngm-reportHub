@@ -75,7 +75,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          //$scope.project.compileDonor();
          console.log($scope.project.definition.project_donor);
          console.log($scope.project.definition);
-         
+          
        },
 
       /* afterRemoveItem: function(item){

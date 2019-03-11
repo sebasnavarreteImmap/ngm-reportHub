@@ -276,7 +276,7 @@
 
 							<div>
 
-								<div class="input-field col s12" style="padding-bottom:5px;">
+								<div class="input-field col s3" style="padding-bottom:5px;">
 									<label for="ngm-project_donor">{{'project_donor' | translate}} * multiple select</label>
 									<div style="padding-bottom:35px;"></div>
 
@@ -311,6 +311,20 @@
 								</div>
 								
 
+							</div>
+
+							<div>
+								<div class="input-field col s12">
+				                    <div class="autocomplete" id="multiple">
+				                        <div class="ac-users"></div>
+				                        <div class="ac-input">
+				                            <input type="text" id="multipleInput" placeholder="Please input some letters" data-activates="multipleDropdown" data-beloworigin="true" autocomplete="off">
+				                        </div>
+				                        <ul id="multipleDropdown" class="dropdown-content ac-dropdown"></ul>
+				                        <input type="hidden" name="multipleHidden" />
+				                    </div>
+				                    <label class="active" for="multipleInput">Multiple autocomplete: </label>
+				                </div>
 							</div>
 
 							
@@ -385,3 +399,103 @@
 		</div>
 	</div>
 </div>
+
+
+<script src="../jquery.materialize-autocomplete.js"></script>
+<script>
+    $(function () {
+        var single = $('#singleInput').materialize_autocomplete({
+            multiple: {
+                enable: false
+            },
+            dropdown: {
+                el: '#singleDropdown',
+                itemTemplate: '<li class="ac-item" data-id="<%= item.id %>" data-text=\'<%= item.text %>\'><a href="javascript:void(0)"><%= item.highlight %></a></li>'
+            },
+            onSelect: function (item) {
+                console.log(item.text + ' was selected');
+            }
+        });
+        var multiple = $('#multipleInput').materialize_autocomplete({
+            multiple: {
+                enable: true
+            },
+            appender: {
+                el: '.ac-users'
+            },
+            dropdown: {
+                el: '#multipleDropdown'
+            }
+        });
+        var resultCache = {
+            'A': [
+                {
+                    id: 'Abe',
+                    text: 'Sia \"Zirdzi\u0146\u0161\"',
+                    highlight: 'Sia \"Zirdzi\u0146\u0161\"'
+                },
+                {
+                    id: 'Ari',
+                    text: 'Ari',
+                    highlight: '<strong>A</strong>ri'
+                }
+            ],
+            'B': [
+                {
+                    id: 'Abe',
+                    text: 'Abe',
+                    highlight: '<strong>A</strong>be'
+                },
+                {
+                    id: 'Baz',
+                    text: 'Baz',
+                    highlight: '<strong>B</strong>az'
+                }
+            ],
+            'BA': [
+                {
+                    id: 'Baz',
+                    text: 'Baz',
+                    highlight: '<strong>Ba</strong>z'
+                }
+            ],
+            'BAZ': [
+                {
+                    id: 'Baz',
+                    text: 'Baz',
+                    highlight: '<strong>Baz</strong>'
+                }
+            ],
+            'AB': [
+                {
+                    id: 'Abe',
+                    text: 'Abe',
+                    highlight: '<strong>Ab</strong>e'
+                }
+            ],
+            'ABE': [
+                {
+                    id: 'Abe',
+                    text: 'Abe',
+                    highlight: '<strong>Abe</strong>'
+                }
+            ],
+            'AR': [
+                {
+                    id: 'Ari',
+                    text: 'Ari',
+                    highlight: '<strong>Ar</strong>i'
+                }
+            ],
+            'ARI': [
+                {
+                    id: 'Ari',
+                    text: 'Ari',
+                    highlight: '<strong>Ari</strong>'
+                }
+            ]
+        };
+        single.resultCache = resultCache;
+        multiple.resultCache = resultCache;
+    });
+</script>
