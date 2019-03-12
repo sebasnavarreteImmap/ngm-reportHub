@@ -439,6 +439,28 @@
 							        </p>
 						        </div>
 
+						        <!--project partners nuevo-->
+
+
+						        <div class="input-field col s3" style="padding-bottom:5px;">
+									<label for="ngm-project-implementing_partners">{{'list_project_partners' | translate}} new * <!--multiple select--></label>
+									<div style="padding-bottom:35px;"></div>
+
+								    <multiple-autocomplete
+
+								    ng-model="project.definition.implementing_partners"
+								    object-property="project_donor_name"
+								    after-select-item="project.afterSelectItemImplementingPartners"
+								    after-remove-item="project.afterRemoveItemImplementingParners" 
+								    required="true"
+								    suggestions-arr="project.lists.donors">
+									</multiple-autocomplete>
+
+
+								</div>
+
+						        <!-- list project partners anterior
+
 						        <div style="padding-top:25px;">
 							        <div class="input-field col s12 m6"
 							        		ng-class="{ 'has-error' : healthProjectForm.implementing_partners_list.$error.pattern }"
@@ -451,7 +473,7 @@
 														ng-model="project.definition.implementing_partners">
 							          <label for="ngm-project-implementing_partners">{{'list_project_partners' | translate}}</label>
 							        </div>
-							    </div>
+							    </div>-->
 
 					     	</div>
 

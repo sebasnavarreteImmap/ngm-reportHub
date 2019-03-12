@@ -62,7 +62,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
       // project
       $scope.project = {
 
-        multiple : $('#multipleInput').materialize_autocomplete({
+       /* multiple : $('#multipleInput').materialize_autocomplete({
             multiple: {
                 enable: true
             },
@@ -73,7 +73,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
                      el: '#multipleDropdown'
             },
             
-        }),
+        }),*/
 
 
 
@@ -81,19 +81,24 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
         afterSelectItem: function(item){
     // perform operation on this item after selecting it.
-         console.log("afterselectItemnew");
-         console.log(item);
+       //  console.log("afterselectItemnew");
+        // console.log(item);
          $scope.project.definition.project_donor_check[item.project_donor_name] = true ;
-         console.log("$scope.project.definition.project_donor");
+        /* console.log("$scope.project.definition.project_donor");
          console.log($scope.project.definition.project_donor);
          console.log("haré push");
         // $scope.project.definition.project_donor.push(item) ;
          console.log("Despues del push");
          //$scope.project.compileDonor();
          console.log($scope.project.definition.project_donor);
-         console.log($scope.project.definition);
+         console.log($scope.project.definition);*/
           
        },
+
+       afterSelectItemImplementingPartners:function(item){
+         console.log("nuevo partner");
+         console.log(item);
+       }
 
       /* afterRemoveItem: function(item){
           // perform operation on this item after removing it.
