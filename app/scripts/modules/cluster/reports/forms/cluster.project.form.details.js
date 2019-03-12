@@ -98,7 +98,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
        afterSelectItemImplementingPartners:function(item){
          console.log("nuevo partner");
          console.log(item);
-       }
+       },
 
       /* afterRemoveItem: function(item){
           // perform operation on this item after removing it.
