@@ -346,6 +346,10 @@
 
 							</div>
 
+
+							<!--select individual-->
+
+							<!--
 							<div id="ngm-project_donor_label" class="row">
 
 								<div class="input-field col s12" style="padding-bottom:5px;">
@@ -359,18 +363,11 @@
 									      ng-click="project.compileDonor()"/>
 								      <label class="checkbox-label" for="donor_{{ donor.project_donor_id }}">{{ donor.project_donor_name }}</label>
 									</p>
-<!-- 								    <p>
-								      <input type="checkbox" id="other" 
-								      ng-model="project.definition.project_donor_check.other"
-								      ng-disabled="project.definition.project_status === 'complete'"
-								      ng-click="project.compileDonor()"/>
-								      <label class="checkbox-label" for="other">Other</label>
-								    </p> -->
 
 
 								</div>
 
-							</div>
+							</div>-->
 
 							<div>
 
@@ -415,7 +412,8 @@
 								<br/>	
 
 						        <div class="input-field col s12" style="padding-left: 20px;"
-						        		ng-show="project.definition.project_donor_check.other">
+						        		>
+						        		<!--ng-show="project.definition.project_donor_check.other"-->
 						          <input 
 						          		id="ngm-project-project_donor_other" type="text"
 										ng-model="project.definition.project_donor_other"
