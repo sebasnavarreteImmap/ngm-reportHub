@@ -101,15 +101,18 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
          $scope.project.definition.project_implementing_partners_check[item.project_donor_name] = true;
        },
 
-      /* afterRemoveItem: function(item){
+       afterRemoveItem: function(item){
+
+           $scope.project.definition.project_donor_check[item.project_donor_name] = true ;
+
           // perform operation on this item after removing it.
-          console.log("afterRemoveItem");
+          /*console.log("afterRemoveItem");
           console.log(item);
           delete $scope.project.definition.project_donor_check[item.project_donor_name] ;
           $scope.project.definition.project_donor.splice(item);
           console.log($scope.project.definition);
-          $scope.project.compileDonor();
-      },*/
+          $scope.project.compileDonor();*/
+      },
 
         // defaults
         user: ngmUser.get(),
