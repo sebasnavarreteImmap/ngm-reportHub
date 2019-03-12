@@ -104,7 +104,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
        afterRemoveItem: function(item){
 
-         $scope.project.definition.project_donor_check[item.project_donor_name] = false ;
+          delete $scope.project.definition.project_donor_check[item.project_donor_name] ;
          console.log($scope.project.definition.project_donor_check);
 
           // perform operation on this item after removing it.
