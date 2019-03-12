@@ -98,6 +98,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
        afterSelectItemImplementingPartners:function(item){
          console.log("nuevo partner");
          console.log(item);
+         $scope.project.definition.project_implementing_partners_check[item.project_donor_name] = true;
        },
 
       /* afterRemoveItem: function(item){

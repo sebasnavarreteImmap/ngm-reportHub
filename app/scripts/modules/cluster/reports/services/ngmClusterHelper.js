@@ -98,6 +98,16 @@ angular.module( 'ngmReportHub' )
               });
             }
 
+            //add project_partners_new
+            if(project.project_implementing_partners){
+              project.project_implementing_partners_check = {};
+              angular.forEach(project.project_implementing_partners, function(d,i){
+                if(d){
+                  project.project_implementing_partners_check[d.project_donor_id] = true;
+                }
+              });
+            }
+
             // add SOs check box list
             if ( project.strategic_objectives ) {
               project.strategic_objectives_check = {};
@@ -320,7 +330,7 @@ angular.module( 'ngmReportHub' )
           }
         });
       },
-
+ 
 
 
 
