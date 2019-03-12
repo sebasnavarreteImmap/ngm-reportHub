@@ -716,7 +716,6 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
       // init project
       $scope.project.init();
 
-     $scope.project.multiple.resultCache = $scope.project.lists.donors;
 
 
 
