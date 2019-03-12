@@ -3,11 +3,12 @@
         <li ng-repeat="item in modelArr">
 			<span ng-if="objectProperty == undefined || objectProperty == ''">
 				{{item}} <span class="remove" ng-click="removeAddedValues(item)">
-                <i style="font-size:20px" class="material-icons left">cancel</i></span>&nbsp; 
+               <!-- <i style="font-size:20px" class="material-icons left">cancel</i>--></span>&nbsp; 
 			</span>
             <span ng-if="objectProperty != undefined && objectProperty != ''">
 				{{item[objectProperty]}} <span class="remove" ng-click="removeAddedValues(item)">
-                <i style="font-size:20px" class="material-icons left">cancel</i></span>&nbsp;
+                    <a class="waves-effect waves-light btn-small"><i class="material-icons left">cancel</i></a>
+               <!-- <i style="font-size:20px" class="material-icons left">cancel</i>--></span>&nbsp;
 			</span>
         </li>
         <li>
