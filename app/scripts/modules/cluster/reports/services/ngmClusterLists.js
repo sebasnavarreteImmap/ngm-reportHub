@@ -245,9 +245,9 @@ angular.module( 'ngmReportHub' )
             // families: 0,
             boys: 0,
             girls: 0,
+            womens05:0,
             men: 0,
             women: 0,
-            womens05:0,
             elderly_men: 0,
             elderly_women: 0
           }
