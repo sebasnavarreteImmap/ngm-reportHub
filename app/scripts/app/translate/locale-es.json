@@ -456,7 +456,13 @@
         "submitted":"Enviado",
         "saved_mayus1":"Guardado",
         "save_failed_the_project_contains_error":"Guardado fallido! El proyecto contiene errores",
-        "project_created":"Projecto Creado",
+        "project_created":"Proyecto Creado",
+        "project_updated":"Proyecto Actualizado",
+        "create_project_cancelle":"Creación de Proyecto Cancelado!",
+        "project_update_cancelled":"Actualización de Proyecto Cancelado!",
+        "project_location_saved":"Ubicación de Proyecto Guardada!",
+
+
         "has_been_saved":"ha sido guardado",
 
         "copy_last_month":"Copiar Mes Anterior",
