@@ -147,7 +147,7 @@ angular.module( 'ngmReportHub' )
           getDonors: {
             method: 'GET',
             url: ngmAuth.LOCATION + '/api/cluster/list/donors'
-          },
+          }, 
 
           // indicators list
           getIndicators: {
@@ -247,6 +247,7 @@ angular.module( 'ngmReportHub' )
             girls: 0,
             men: 0,
             women: 0,
+            womens05:0,
             elderly_men: 0,
             elderly_women: 0
           }
