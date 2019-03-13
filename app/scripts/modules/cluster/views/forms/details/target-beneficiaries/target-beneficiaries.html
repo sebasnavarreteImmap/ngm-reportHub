@@ -47,7 +47,7 @@
 							      <td ng-if="project.showFamilies()">{{'families' | translate}}</td>
 							      <td>{{'boys' | translate}}</td>
 							      <td>{{'girls' | translate}}</td>
-							      <td>{{'womens05' | translate}}</td>
+							      <td>{{'womenscerofive' | translate}}</td>
 							      <td ng-if="project.showMen()">{{'men' | translate}}</td>
 							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
 							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'men' | translate}}</td>
@@ -291,12 +291,12 @@
 							      <td>
 							        <!-- editable number -->
 							        <span e-form="rowform"
-							        			e-name="womens05"
-							        			editable-number="beneficiary.womens05"
+							        			e-name="womenscerofive"
+							        			editable-number="beneficiary.womenscerofive"
 							        			e-min="0"
-							        			e-ng-change="project.updateInput($index, 'womens05', $data )"
+							        			e-ng-change="project.updateInput($index, 'womenscerofive', $data )"
 							        			e-required>
-							          {{ beneficiary.womens05 }}
+							          {{ beneficiary.womenscerofive }}
 							        </span>
 							      </td>
 
