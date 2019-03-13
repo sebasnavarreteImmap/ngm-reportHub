@@ -89,7 +89,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
         monthNameFormat: moment.utc( [ config.report.report_year, config.report.report_month, 1 ] ).format('MMM'),
 
         // lists ( project, mpc transfers )
-        lists: ngmClusterLists.setLists( config.project, 10 ),
+        lists: ngmClusterLists.setLists( config.project, 10 ), 
 
         
         /**** TEMPLATES ****/
@@ -361,6 +361,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
 
         // units
         showUnits: function( $locationIndex ){
+          console.log($scope.project.report.locations[ $locationIndex ].beneficiaries);
           return ngmClusterBeneficiaries.showUnits( $scope.project.report.locations[ $locationIndex ].beneficiaries );
         },
 
