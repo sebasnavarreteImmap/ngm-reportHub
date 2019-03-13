@@ -361,7 +361,7 @@ angular.module( 'ngm.widget.project.report', [ 'ngm.provider' ])
 
         // units
         showUnits: function( $locationIndex ){
-          console.log($scope.project.report.locations[ $locationIndex ].beneficiaries);
+          console.log($scope.project.report.locations[ $locationIndex ]);
           return ngmClusterBeneficiaries.showUnits( $scope.project.report.locations[ $locationIndex ].beneficiaries );
         },
 
