@@ -291,6 +291,9 @@
 							        </span>
 							      </td>
 
+							      <!--Beneficiaries Segregation-->
+
+
 							      <!-- womens0-5-->
 							      <td>
 							        <span e-form="rowform"
@@ -341,7 +344,21 @@
 							        </span>
 							      </td>
 
-							      <!--segregación de población-->
+							      <!-- womens 60 and more-->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="womenssixtyandmore"
+							        			editable-number="beneficiary.womenssixtyandmore"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'womenssixtyandmore', $data )"
+							        			e-required>
+							          {{ beneficiary.womenssixtyandmore }}
+							        </span>
+							      </td>
+
+							      
+
 
 							      <td ng-show="project.showMen()">
 							        <!-- editable number -->
