@@ -52,8 +52,9 @@
 							     <td>{{'womenstwelveseventeen' | translate}}</td>
 							     <td>{{'womenseighteenfiftynine' | translate}}</td>
 							     <td>{{'womenssixtyandmore' | translate}}</td>
-							      <td ng-if="project.showMen()">{{'men' | translate}}</td>
-							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
+							     <td>{{'menscerofive' | translate}}</td>
+							      <!--<td ng-if="project.showMen()">{{'men' | translate}}</td>
+							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>-->
 							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'men' | translate}}</td>
 										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'women' | translate}}</td>
 										<td ng-if="project.showFatpTreatmentSameProvince()">{{'treatment_same_province' | translate}} | translate}}</td>
@@ -358,11 +359,26 @@
 							        </span>
 							      </td>
 
+							      <!-- mens 0-5 -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="menscerofive"
+							        			editable-number="beneficiary.menscerofive"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'menscerofive', $data )"
+							        			e-required>
+							          {{ beneficiary.menscerofive }}
+							        </span>
+							      </td>
+
 							      
 
+							      	<!-- editable number -->
+
+							      <!-- ShowMen and Show Women
 
 							      <td ng-show="project.showMen()">
-							        <!-- editable number -->
 							        <span e-form="rowform"
 							        			e-name="men"
 							        			editable-number="beneficiary.men"
@@ -381,7 +397,7 @@
 							        </span>
 							      </td>
 							      <td ng-show="project.showWomen()">
-							        <!-- editable number -->
+							        
 							        <span e-form="rowform"
 							        			e-name="women"
 							        			editable-number="beneficiary.women"
@@ -394,6 +410,7 @@
 							          {{ beneficiary.women }}
 							        </span>
 							      </td>
+							  -->
 							      <td ng-show="project.definition.admin0pcode === 'NG'">
 							        <!-- editable number -->
 							        <span e-form="rowform"
@@ -424,9 +441,8 @@
 														editable-select="beneficiary.injury_treatment_same_province"
 														e-placeholder="{{'select'|translate}}"
 														e-ng-options="s.choise as s.text for s in [{'choise':true, 'text':'Yes'},{'choise':false, 'text':'No'}]"
-														e-ng-disabled="beneficiary.activity_description_id !== 'fatp_stabilization_referrals_conflict' &&
-																						beneficiary.activity_description_id !== 'fatp_stabilization_referrals_civilian'">
-												{{ project.showTreatmentSameProvince( $data, beneficiary ) }}
+														e-ng-disabled="beneficiary.activity_description_id !== 'fatp_stabilization_referrals_conflict' && beneficiary.activity_description_id !== 'fatp_stabilization_referrals_civilian'">
+											{{ project.showTreatmentSameProvince( $data, beneficiary ) }}
 										</td>
 
 							      <td style="white-space: nowrap"
