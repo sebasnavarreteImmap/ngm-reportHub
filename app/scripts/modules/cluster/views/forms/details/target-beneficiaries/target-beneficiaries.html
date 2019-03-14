@@ -314,6 +314,18 @@
 							        </span>
 							      </td>
 
+							      <!-- womens 12-17 -->
+							       <td>
+							        <span e-form="rowform"
+							        			e-name="womenstwelveseventeen"
+							        			editable-number="beneficiary.womenstwelveseventeen"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'womenstwelveseventeen', $data )"
+							        			e-required>
+							          {{ beneficiary.womenstwelveseventeen }}
+							        </span>
+							      </td>
+
 							      <!--segregación de población-->
 
 							      <td ng-show="project.showMen()">
