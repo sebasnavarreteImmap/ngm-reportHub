@@ -65,6 +65,7 @@ angular.module( 'ngmReportHub' )
           womenscerofive: 0,
           womenssixeleven:0,
           womenstwelveseventeen:0,
+          womenseighteenfiftynine:0,
 
           men:0,
           women:0,
