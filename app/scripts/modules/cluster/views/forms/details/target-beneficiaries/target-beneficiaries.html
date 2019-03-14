@@ -45,8 +45,8 @@
 							      <td ng-if="project.showCash()">{{'transfers' | translate}}</td>
 								  	<td ng-if="project.showHouseholds()">HHs</td>
 							      <td ng-if="project.showFamilies()">{{'families' | translate}}</td>
-							      <td>{{'boys' | translate}}</td>
-							      <td>{{'girls' | translate}}</td>
+							      <!--<td>{{'boys' | translate}}</td>
+							      <td>{{'girls' | translate}}</td>-->
 							     <td>{{'womenscerofive' | translate}}</td>
 							     <td>{{'womenssixeleven' | translate}}</td>
 							     <td>{{'womenstwelveseventeen' | translate}}</td>
@@ -268,9 +268,9 @@
 							        			e-required>
 							          {{ beneficiary.families }}
 							        </span>
-							      </td>
-							      <td>
-							        <!-- editable number -->
+							      </td><!-- editable number -->
+							       <!--<td>
+							        
 							        <span e-form="rowform"
 							        			e-name="boys"
 							        			editable-number="beneficiary.boys"
@@ -281,7 +281,6 @@
 							        </span>
 							      </td>
 							      <td>
-							        <!-- editable number -->
 							        <span e-form="rowform"
 							        			e-name="girls"
 							        			editable-number="beneficiary.girls"
@@ -291,6 +290,7 @@
 							          {{ beneficiary.girls }}
 							        </span>
 							      </td>
+							       -->
 
 							      <!--Beneficiaries Segregation-->
 
