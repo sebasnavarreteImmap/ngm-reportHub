@@ -74,6 +74,8 @@ angular.module( 'ngmReportHub' )
           menseighteenfiftynine:0,
           menssixtyandmore:0,
 
+          lgtbi:0,
+
           men:0,
           women:0,
           elderly_men:0,
@@ -788,6 +790,8 @@ angular.module( 'ngmReportHub' )
                   //menseighteenfiftynine >= 0 &&
                   //menssixtyandmore >= 0 &&
 
+                  //lgtbi >= 0 &&
+
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
@@ -818,6 +822,8 @@ angular.module( 'ngmReportHub' )
                   //menstwelveseventeen >= &&
                   //menseighteenfiftynine >= &&
                   //menssixtyandmore >= &&
+
+                  //lgtbi >= &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
@@ -870,6 +876,8 @@ angular.module( 'ngmReportHub' )
                  //menstwelveseventeen >= 0 &&
                  //menseighteenfiftynine >= 0 &&
                  //menssixtyandmore >= 0 &&
+
+                 //lgtbi >= &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
