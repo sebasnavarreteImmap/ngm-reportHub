@@ -80,6 +80,7 @@ angular.module( 'ngmReportHub' )
           people_black_communities:0,
           raizales:0,
           palenqueras:0,
+          rom_gitanos:0,
 
           men:0,
           women:0,
@@ -801,6 +802,7 @@ angular.module( 'ngmReportHub' )
                   //$data.people_black_communities >= 0 &&
                   //$data.raizales >= 0 &&
                   //$data.palenqueras >= 0 &&
+                  //$data.rom_gitanos >= 0 &&
 
 
                   $data.men >= 0 &&
@@ -839,6 +841,7 @@ angular.module( 'ngmReportHub' )
                   //$data.people_black_communities >= 0 &&
                   //$data.raizales >= 0 &&
                   //$data.palenqueras >= 0 &&
+                  //$data.rom_gitanos >= 0 &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
@@ -898,6 +901,7 @@ angular.module( 'ngmReportHub' )
                  //$data.people_black_communities >= 0 &&
                  //$data.raizales >= 0 &&
                  //$data.palenqueras >= 0 && 
+                 //$data.rom_gitanos >= 0 &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&

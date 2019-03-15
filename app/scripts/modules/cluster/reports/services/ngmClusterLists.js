@@ -263,6 +263,7 @@ angular.module( 'ngmReportHub' )
             people_black_communities:0,
             raizales:0,
             palenqueras:0,  
+            rom_gitanos:0,
 
             men: 0,
             women: 0,

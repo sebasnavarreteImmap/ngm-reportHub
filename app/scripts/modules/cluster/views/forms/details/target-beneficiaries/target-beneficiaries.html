@@ -65,6 +65,7 @@
 							     <td>{{'people_black_communities'|translate}}</td>
 							     <td>Raizales</td>
 							     <td>Palenqueras</td>
+							     <td>ROM-Gitanos</td>
 
 							      
 							      <!--
@@ -547,6 +548,18 @@
 							        			e-ng-change="project.updateInput($index, 'palenqueras', $data )"
 							        			e-required>
 							          {{ beneficiary.palenqueras }} 
+							        </span>
+							      </td>
+
+							        <!--ROM-GITANOS-->
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="rom_gitanos"
+							        			editable-number="beneficiary.rom_gitanos"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'rom_gitanos', $data )"
+							        			e-required>
+							          {{ beneficiary.rom_gitanos }} 
 							        </span>
 							      </td>
 
