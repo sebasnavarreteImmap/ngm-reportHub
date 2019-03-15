@@ -78,6 +78,7 @@ angular.module( 'ngmReportHub' )
           afro_col:0,
           natives:0,
           people_black_communities:0,
+          raizales:0,
 
           men:0,
           women:0,
@@ -797,6 +798,7 @@ angular.module( 'ngmReportHub' )
                   //$data.afro_col >= 0 &&
                   //$data.natives >= 0 &&
                   //$data.people_black_communities >= 0 &&
+                  //$data.raizales >= 0 &&
 
 
                   $data.men >= 0 &&
@@ -833,6 +835,7 @@ angular.module( 'ngmReportHub' )
                   //$data.afro_col >= 0 &&
                   //$data.natives >= 0 &&
                   //$data.people_black_communities >= 0 &&
+                  //$data.raizales >= 0 &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
@@ -890,6 +893,7 @@ angular.module( 'ngmReportHub' )
                  //$data.afro_col >= 0 &&
                  //$data.natives >= 0 &&
                  //$data.people_black_communities >= 0 &&
+                 //$data.raizales >= 0 &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&

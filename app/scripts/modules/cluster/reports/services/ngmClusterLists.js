@@ -261,6 +261,7 @@ angular.module( 'ngmReportHub' )
             afro_col:0,
             natives:0,
             people_black_communities:0,
+            raizales:0,
 
             men: 0,
             women: 0,
