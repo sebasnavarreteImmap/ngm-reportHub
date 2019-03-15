@@ -62,21 +62,22 @@ angular.module( 'ngmReportHub' )
           families: 0,
           boys: 0,
           girls: 0,
-          womenscerofive: 0,
-          womenssixeleven:0,
-          womenstwelveseventeen:0,
-          womenseighteenfiftynine:0,
-          womenssixtyandmore:0,
+          womens_cero_five: 0,
+          womens_six_eleven:0,
+          womens_twelve_seventeen:0,
+          womens_eighteen_fiftynine:0,
+          womens_sixty_and_more:0,
 
-          menscerofive: 0,
-          menssixeleven: 0,
-          menstwelveseventeen:0,
-          menseighteenfiftynine:0,
-          menssixtyandmore:0,
+          mens_cero_five: 0,
+          mens_six_eleven: 0,
+          mens_twelve_seventeen:0,
+          mens_eighteen_fiftynine:0,
+          mens_sixty_and_more:0,
 
           lgtbi:0,
-          afrocol:0,
+          afro_col:0,
           natives:0,
+          people_black_communities:0,
 
           men:0,
           women:0,
@@ -781,20 +782,21 @@ angular.module( 'ngmReportHub' )
                   $data.boys >= 0 &&
                   $data.girls >= 0 &&
                  // $data.womenscerofive >= 0 &&
-                 // womenssixeleven >= 0 &&
-                 //womenstwelveseventeen >= 0 &&
-                  //womenseighteenfiftynine >= 0 &&
-                   //womenssixtyandmore >= 0 &&
+                 // $data.womens_six_eleven >= 0 &&
+                 //$data.womens_twelve_seventeen >= 0 &&
+                  //$data.womens_eighteen_fiftynine >= 0 &&
+                   //$data.womens_sixty_and_more >= 0 &&
 
-                   //menscerofive >= 0 &&
-                  //menssixeleven >= 0 &&
-                  //menstwelveseventeen >= 0 &&
-                  //menseighteenfiftynine >= 0 &&
-                  //menssixtyandmore >= 0 &&
+                   //$data.mens_cero_five >= 0 &&
+                  //$data.mens_six_eleven >= 0 &&
+                  //$data.mens_twelve_seventeen >= 0 &&
+                  //$data.mens_eighteen_fiftynine >= 0 &&
+                  //$data.mens_sixty_and_more >= 0 &&
 
-                  //lgtbi >= 0 &&
-                  //afrocol >= 0 &&
-                  //natives >= 0 &&
+                  //$data.lgtbi >= 0 &&
+                  //$data.afro_col >= 0 &&
+                  //$data.natives >= 0 &&
+                  //$data.people_black_communities >= 0 &&
 
 
                   $data.men >= 0 &&
@@ -816,20 +818,21 @@ angular.module( 'ngmReportHub' )
                   $data.boys >= 0 &&
                   $data.girls >= 0 &&
                  //$data.womenscerofive >= 0 &&
-                  // womenssixeleven >= 0 &&
-                 //womenstwelveseventeen >= 0 &&
-                 //womenseighteenfiftynine >= 0 &&
-                  //womenssixtyandmore >= 0 &&
+                  // $data.womens_six_eleven >= 0 &&
+                 //$data.womens_twelve_seventeen >= 0 &&
+                 //$data.womens_eighteen_fiftynine >= 0 &&
+                  //$data.womens_sixty_and_more >= 0 &&
 
-                  //menscerofive >= 0 &&
-                  //menssixeleven >= 0 &&
-                  //menstwelveseventeen >= &&
-                  //menseighteenfiftynine >= &&
-                  //menssixtyandmore >= &&
+                  //$data.mens_cero_five >= 0 &&
+                  //$data.mens_six_eleven >= 0 &&
+                  //$data.mens_twelve_seventeen >= 0 && 
+                  //$data.mens_eighteen_fiftynine >= 0&&
+                  //$data.mens_sixty_and_more >= 0 &&
 
-                  //lgtbi >= &&
-                  //afrocol >= &&
-                  //natives >= &&
+                  //$data.lgtbi >= 0 &&
+                  //$data.afro_col >= 0 &&
+                  //$data.natives >= 0 &&
+                  //$data.people_black_communities >= 0 &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
@@ -872,20 +875,21 @@ angular.module( 'ngmReportHub' )
                   $data.boys >= 0 &&
                   $data.girls >= 0 &&
                 // $data.womenscerofive >= 0 &&
-                 // womenssixeleven >= 0 &&
-                 //womenstwelveseventeen >= 0 &&
-                 //womenseighteenfiftynine >= 0 &&
-                 //womenssixtyandmore >= 0 &&
+                 // $data.womens_six_eleven >= 0 &&
+                 //$data.womens_twelve_seventeen >= 0 &&
+                 //$data.womens_eighteen_fiftynine >= 0 &&
+                 //$data.womens_sixty_and_more >= 0 &&
 
-                 //menscerofive >= 0 &&
-                 //menssixeleven >= 0 &&
-                 //menstwelveseventeen >= 0 &&
-                 //menseighteenfiftynine >= 0 &&
-                 //menssixtyandmore >= 0 &&
+                 //$data.mens_cero_five >= 0 &&
+                 //$data.mens_six_eleven >= 0 &&
+                 //$data.mens_twelve_seventeen >= 0 &&
+                 //$data.mens_eighteen_fiftynine >= 0 &&
+                 //$data.mens_sixty_and_more >= 0 &&
 
-                 //lgtbi >= &&
-                 //afrocol >= &&
-                 //natives >= &&
+                 //$data.lgtbi >= 0 &&
+                 //$data.afro_col >= 0 &&
+                 //$data.natives >= 0 &&
+                 //$data.people_black_communities >= 0 &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
