@@ -54,10 +54,13 @@
 							     <td>{{'womenssixtyandmore' | translate}}</td>
 							     <td>{{'menscerofive' | translate}}</td>
 							     <td>{{'menssixeleven'|translate}}</td>
-							      <!--<td ng-if="project.showMen()">{{'men' | translate}}</td>
-							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>-->
+							     <td>{{'menstwelveseventeen' | translate}}
+							      <td ng-if="project.showMen()">{{'men' | translate}}</td>
+							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
+							      <!--
 							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'men' | translate}}</td>
-										<td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'women' | translate}}</td>
+								  <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'women' | translate}}</td>
+								   -->
 										<td ng-if="project.showFatpTreatmentSameProvince()">{{'treatment_same_province' | translate}} | translate}}</td>
 							      <td ng-if="project.definition.project_status !== 'complete'">{{'edit' | translate}}</td>
 							    </tr>
@@ -375,7 +378,7 @@
 
 							      
 
-							      <!-- mens 6-17 -->
+							      <!-- mens 6-11 -->
 
 							      <td>
 							        <span e-form="rowform"
@@ -388,11 +391,23 @@
 							        </span>
 							      </td>
 
+							      <!-- mens 12-17 -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="menstwelveseventeen"
+							        			editable-number="beneficiary.menstwelveseventeen"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'menstwelveseventeen', $data )"
+							        			e-required>
+							          {{ beneficiary.menstwelveseventeen }}
+							        </span>
+							      </td>
+
 							      
 
-							      	<!-- editable number -->
+							      	<!-- ShowMen and Show Women-->
 
-							      <!-- ShowMen and Show Women
 
 							      <td ng-show="project.showMen()">
 							        <span e-form="rowform"
@@ -426,9 +441,10 @@
 							          {{ beneficiary.women }}
 							        </span>
 							      </td>
-							  -->
+
+							      <!--elderly_men-->
+							     <!--
 							      <td ng-show="project.definition.admin0pcode === 'NG'">
-							        <!-- editable number -->
 							        <span e-form="rowform"
 							        			e-name="elderly_men"
 							        			editable-number="beneficiary.elderly_men"
@@ -439,7 +455,6 @@
 							        </span>
 							      </td>
 							      <td ng-show="project.definition.admin0pcode === 'NG'">
-							        <!-- editable number -->
 							        <span e-form="rowform"
 							        			e-name="elderly_women"
 							        			editable-number="beneficiary.elderly_women"
@@ -450,6 +465,8 @@
 							          {{ beneficiary.elderly_women }}
 							        </span>
 							      </td>
+							      -->
+
 										<td ng-show="project.showFatpTreatmentSameProvince()">
 												<!-- editable select true/false -->
 												<span e-form="rowform"
