@@ -57,11 +57,13 @@
 							     <td>{{'menstwelveseventeen' | translate}}
 							     <td>{{'menseighteenfiftynine' |translate}}</td>
 							     <td>{{'menssixtyandmore' |translate}}</td>
+							     <td ng-if="project.showMen()">{{'men' | translate}}</td>
+							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
 							     <td>LGTBI</td>
 							     <td>Afro-Col</td>
+							     <td>{{'natives'|translate}}</td>
 
-							      <td ng-if="project.showMen()">{{'men' | translate}}</td>
-							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
+							      
 							      <!--
 							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'men' | translate}}</td>
 								  <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'women' | translate}}</td>
@@ -435,37 +437,8 @@
 							        </span>
 							      </td>
 
-							      <!-- LGTBI -->
 
-							      <td>
-							        <span e-form="rowform"
-							        			e-name="lgtbi"
-							        			editable-number="beneficiary.lgtbi"
-							        			e-min="0"
-							        			e-ng-change="project.updateInput($index, 'lgtbi', $data )"
-							        			e-required>
-							          {{ beneficiary.lgtbi }}
-							        </span>
-							      </td>
-
-							      <!-- AFRO-COLOMBIANO -->
-
-							      <td>
-							        <span e-form="rowform"
-							        			e-name="afrocol"
-							        			editable-number="beneficiary.afrocol"
-							        			e-min="0"
-							        			e-ng-change="project.updateInput($index, 'afrocol', $data )"
-							        			e-required>
-							          {{ beneficiary.afrocol }}
-							        </span>
-							      </td>
-
-
-
-							      
-
-							      	<!-- ShowMen and Show Women-->
+							      <!-- ShowMen and Show Women-->
 
 
 							      <td ng-show="project.showMen()">
@@ -500,6 +473,51 @@
 							          {{ beneficiary.women }}
 							        </span>
 							      </td>
+
+							      <!-- LGTBI -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="lgtbi"
+							        			editable-number="beneficiary.lgtbi"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'lgtbi', $data )"
+							        			e-required>
+							          {{ beneficiary.lgtbi }}
+							        </span>
+							      </td>
+
+							      <!-- AFRO-COLOMBIANO -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="afrocol"
+							        			editable-number="beneficiary.afrocol"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'afrocol', $data )"
+							        			e-required>
+							          {{ beneficiary.afrocol }}
+							        </span>
+							      </td>
+
+
+
+							      <!-- Natives -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="natives"
+							        			editable-number="beneficiary.natives"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'natives', $data )"
+							        			e-required>
+							          {{ beneficiary.natives }}
+							        </span>
+							      </td>
+
+
+
+							      	
 
 							      <!--elderly_men-->
 							     <!--

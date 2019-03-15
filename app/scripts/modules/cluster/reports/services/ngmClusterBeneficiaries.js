@@ -76,6 +76,7 @@ angular.module( 'ngmReportHub' )
 
           lgtbi:0,
           afrocol:0,
+          natives:0,
 
           men:0,
           women:0,
@@ -793,6 +794,7 @@ angular.module( 'ngmReportHub' )
 
                   //lgtbi >= 0 &&
                   //afrocol >= 0 &&
+                  //natives >= 0 &&
 
 
                   $data.men >= 0 &&
@@ -827,6 +829,7 @@ angular.module( 'ngmReportHub' )
 
                   //lgtbi >= &&
                   //afrocol >= &&
+                  //natives >= &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
@@ -882,6 +885,7 @@ angular.module( 'ngmReportHub' )
 
                  //lgtbi >= &&
                  //afrocol >= &&
+                 //natives >= &&
 
                   $data.men >= 0 &&
                   $data.women >= 0 &&
