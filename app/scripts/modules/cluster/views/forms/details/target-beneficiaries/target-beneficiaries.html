@@ -58,6 +58,7 @@
 							     <td>{{'menseighteenfiftynine' |translate}}</td>
 							     <td>{{'menssixtyandmore' |translate}}</td>
 							     <td>LGTBI</td>
+							     <td>Afro-Col</td>
 
 							      <td ng-if="project.showMen()">{{'men' | translate}}</td>
 							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>
@@ -444,6 +445,19 @@
 							        			e-ng-change="project.updateInput($index, 'lgtbi', $data )"
 							        			e-required>
 							          {{ beneficiary.lgtbi }}
+							        </span>
+							      </td>
+
+							      <!-- AFRO-COLOMBIANO -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="afrocol"
+							        			editable-number="beneficiary.afrocol"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'afrocol', $data )"
+							        			e-required>
+							          {{ beneficiary.afrocol }}
 							        </span>
 							      </td>
 
