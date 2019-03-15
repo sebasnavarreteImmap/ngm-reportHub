@@ -53,6 +53,7 @@
 							     <td>{{'womenseighteenfiftynine' | translate}}</td>
 							     <td>{{'womenssixtyandmore' | translate}}</td>
 							     <td>{{'menscerofive' | translate}}</td>
+							     <td>{{'menssixeleven'|translate}}</td>
 							      <!--<td ng-if="project.showMen()">{{'men' | translate}}</td>
 							      <td ng-if="project.showWomen()">{{'women'|translate}}</td>-->
 							      <td ng-if="project.definition.admin0pcode === 'NG'">Eld. {{'men' | translate}}</td>
@@ -369,6 +370,21 @@
 							        			e-ng-change="project.updateInput($index, 'menscerofive', $data )"
 							        			e-required>
 							          {{ beneficiary.menscerofive }}
+							        </span>
+							      </td>
+
+							      
+
+							      <!-- mens 6-17 -->
+
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="menssixeleven"
+							        			editable-number="beneficiary.menssixeleven"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'menssixeleven', $data )"
+							        			e-required>
+							          {{ beneficiary.menssixeleven }}
 							        </span>
 							      </td>
 

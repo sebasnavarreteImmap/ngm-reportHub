@@ -250,7 +250,10 @@ angular.module( 'ngmReportHub' )
             womenstwelveseventeen: 0,
             womenseighteenfiftynine: 0, 
             womenssixtyandmore: 0,
+            
             menscerofive:0,
+            menssixeleven:0,
+            
             men: 0,
             women: 0,
             elderly_men: 0,
