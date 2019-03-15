@@ -64,6 +64,7 @@
 							     <td>{{'natives'|translate}}</td>
 							     <td>{{'people_black_communities'|translate}}</td>
 							     <td>Raizales</td>
+							     <td>Palenqueras</td>
 
 							      
 							      <!--
@@ -533,6 +534,19 @@
 							        			e-ng-change="project.updateInput($index, 'raizales', $data )"
 							        			e-required>
 							          {{ beneficiary.raizales }}
+							        </span>
+							      </td>
+
+
+							       <!--Palenqueras-->
+							      <td>
+							        <span e-form="rowform"
+							        			e-name="palenqueras"
+							        			editable-number="beneficiary.palenqueras"
+							        			e-min="0"
+							        			e-ng-change="project.updateInput($index, 'palenqueras', $data )"
+							        			e-required>
+							          {{ beneficiary.palenqueras }}
 							        </span>
 							      </td>
 
