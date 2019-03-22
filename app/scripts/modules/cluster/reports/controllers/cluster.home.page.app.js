@@ -52,7 +52,7 @@ angular.module( 'ngmReportHub' )
 
 				// set model titles
 				$scope.report.title = $scope.report.organization.admin0name.toUpperCase().substring(0, 3) + ' | ' + $scope.report.organization.organization;
-				$scope.report.subtitle = $scope.report.organization.organization + ' '+$filter('translate')('overview_for')+' ' + $scope.report.organization.admin0name;
+				$scope.report.subtitle = $scope.report.organization.organization + ' '+ $filter('translate')('overview_for') +' ' + $scope.report.organization.admin0name;
 
 
 				// report dashboard model
@@ -89,45 +89,96 @@ angular.module( 'ngmReportHub' )
 										// title, roles
 										var title;
 										var roles = $scope.report.user.roles;
+										var admin0pcode = $scope.report.user.admin0pcode;
 
 										// set title USER, ORG
 										if ( roles.indexOf( 'USER' ) >= 0 || roles.indexOf( 'ORG' ) >= 0 ) {
-											title = $scope.report.user.organization + ' Team';
+
+											if($translate == 'es'){
+												title = $filter('translate')('team') + ' '+$scope.report.user.organization;
+
+											}
+											if($translate == 'en'){
+												title = $scope.report.user.organization + ' '+$filter('translate')('team');
+											}
 										}
 
 										// set title CLUSTER
 										if ( roles.indexOf( 'CLUSTER' ) >= 0 ) {
-											title = $scope.report.user.cluster + ' Sector Partners';
+
+											if($translate == 'es'){
+												title = $filter('translate')('sector_partners') +' '+$scope.report.user.cluster;
+
+											}
+											if($translate == 'en'){
+
+												title = $scope.report.user.cluster + ' '+$filter('translate')('sector_partners');
+
+											}
 										}
 
 										// set title COUNTRY
 										if ( roles.indexOf( 'COUNTRY' ) >= 0 ) {
-											title = $scope.report.user.admin0name + ' Partners';
+
+											if($translate == 'es'){
+
+												title =  $filter('translate')('partners')+' '+$scope.report.user.admin0name;
+											}
+
+											if($translate == 'en'){
+												title = $scope.report.user.admin0name + ' '+$filter('translate')('partners');
+
+											}
+
 										}
 
 										// set title REGION_ORG
 										if ( roles.indexOf( 'REGION_ORG' ) >= 0 ) {
-											title = $scope.report.user.adminRname + ' Regional ' + $scope.report.user.organization + ' Team' ;
+
+											if($translate == 'es'){
+
+											 title = $filter('translate')('team')+ ' Regional ' + $scope.report.user.organization + ' '+ $scope.report.user.adminRname ;
+
+
+											}
+
+											if($translate == 'en'){
+
+ 												title = $scope.report.user.adminRname + ' Regional ' + $scope.report.user.organization + ' '+$filter('translate')('team') ;
+										    }
 										}
 
 										// set title REGION
 										if ( roles.indexOf( 'REGION' ) >= 0 ) {
-											title = $scope.report.user.adminRname + ' Regional Partners';
+
+											if($translate == 'en'){
+
+											  title = $filter('translate')('regional_partners')+ ' ' +$scope.report.user.adminRname ;
+
+											}
+
+											if($translate == 'es'){
+
+												title = $scope.report.user.adminRname +' '+ $filter('translate')('regional_partners');
+
+
+											}
+
 										}
 
 										// set title HQ_ORG
 										if ( roles.indexOf( 'HQ_ORG' ) >= 0 ) {
-											title = $scope.report.user.organization + ' Global Team' ;
+											title = $scope.report.user.organization + ' '+$filter('translate')('global_team') ;
 										}
 
 										// set title HQ
 										if ( roles.indexOf( 'HQ' ) >= 0 ) {
-											title = 'HQ ReportHub Partners' ;
+											title = 'HQ ReportHub '+$filter('translate')('partners') ;
 										}
 
 										// set title SUPERADMIN
 										if ( roles.indexOf( 'SUPERADMIN' ) >= 0 ) {
-											title = 'ReportHub Users' ;
+											title = 'ReportHub '+$filter('translate')('users_mayus1') ;
 										}
 
 										// return

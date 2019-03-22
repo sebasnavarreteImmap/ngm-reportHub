@@ -132,7 +132,7 @@ angular.module('ngmReportHub')
 								type: 'zip',
 								color: 'blue lighten-2',
 								icon: 'folder',
-								hover: 'Download All Report Documents',
+								hover: $filter('translate')('download_all_report_documents'),
 								request: {
 									method: 'GET',
 									url: ngmAuth.LOCATION + '/api/getReportDocuments/' + $scope.report.definition.id,

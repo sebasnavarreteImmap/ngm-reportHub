@@ -11,7 +11,7 @@ angular.module( 'ngmReportHub' )
         '$filter',
         '$timeout',
         'ngmClusterBeneficiaries',
-        'ngmAuth', function( $http, $filter, $timeout, ngmClusterBeneficiaries, ngmAuth ) {
+        'ngmAuth','$translate', function( $http, $filter, $timeout, ngmClusterBeneficiaries, ngmAuth,$translate ) {
 
 		var ngmClusterValidation = {
 
@@ -148,7 +148,7 @@ angular.module( 'ngmReportHub' )
 
         // valid
         if ( detailsLength !== detailsRowComplete ) {
-          Materialize.toast( 'Details contains errors!' , 6000, 'error' );
+          Materialize.toast( $filter('translate')('details_contains_errors')+'!' , 6000, 'error' );
           $timeout(function() { rowform.$show(); }, 10);
           $( elements[0] ).animatescroll();
           return false;
@@ -271,7 +271,7 @@ angular.module( 'ngmReportHub' )
         } else {
           // scroll and error
           scrollDiv.animatescroll();
-          Materialize.toast( 'Project contains errors!', 6000, 'error' );
+          Materialize.toast( $filteR('translate')('project_contains_errors')+'!', 6000, 'error' );
         }
 
       }

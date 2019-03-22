@@ -40,9 +40,9 @@ angular.module('ngmReportHub')
 										+'<div class="col s12 m12 l12">'
 											+'<div style="padding:20px;">'
 												+'<a class="btn-flat waves-effect waves-teal" href="#/cluster/projects/summary/' + $scope.report.project.id +'">'
-													+'<i class="material-icons left">keyboard_return</i>Back to Project Summary'
+													+'<i class="material-icons left">keyboard_return</i>'+ $filter('translate')('back_to_project_summary')
 												+'</a>'
-												+'<span class="right" style="padding-top:8px;">Last Updated: ' + moment( $scope.report.project.updatedAt ).format( 'DD MMMM, YYYY @ h:mm:ss a' ) +'</span>'
+												+'<span class="right" style="padding-top:8px;">'+$filter('translate')('last_updated')+': ' + moment( $scope.report.project.updatedAt ).format( 'DD MMMM, YYYY @ h:mm:ss a' ) +'</span>'
 											+'</div>'
 										+'</div>'
 									+'</div>';
@@ -92,7 +92,7 @@ angular.module('ngmReportHub')
 					.get( $scope.report.getOrganization( $scope.report.organization_id ) )
 					.then( function( organization ){
 					// set model titles
-					$scope.model.header.title.title = organization.admin0name.toUpperCase().substring(0, 3) + ' | ' + organization.cluster.toUpperCase() + ' | ' + organization.organization + ' | Documents';
+					$scope.model.header.title.title = organization.admin0name.toUpperCase().substring(0, 3) + ' | ' + organization.cluster.toUpperCase() + ' | ' + organization.organization + ' | '+$filter('translate')('documents');
 					// $scope.model.header.subtitle.title = organization.cluster + ' projects for ' + organization.organization + ' ' + organization.admin0name;
 
 				});
@@ -102,7 +102,7 @@ angular.module('ngmReportHub')
 
 				// add project code to subtitle?
 
-				$scope.report.subtitle = $scope.report.project.project_title + '- Documents' ;
+				$scope.report.subtitle = $scope.report.project.project_title + '- '+$filter('translate')('documents') ;
 
 				// report dashboard model
 				$scope.model = {
@@ -127,7 +127,7 @@ angular.module('ngmReportHub')
 								type: 'zip',
 								color: 'blue lighten-2',
 								icon: 'assignment',
-								hover: 'Download all document project ' + $scope.report.project.project_title,
+								hover: $filter('translate')('download_all_document_project')+' ' + $scope.report.project.project_title,
 								request: {
 									method: 'GET',
 									url: ngmAuth.LOCATION + '/api/getProjectDocuments/' + $scope.report.project.id,
@@ -183,7 +183,7 @@ angular.module('ngmReportHub')
 																			</div>
 																			<div data-dz-remove class=" remove-upload btn-floating red" style="margin-left:35%; "><i class="material-icons">clear</i></div> 
 																		</div>`,
-									completeMessage: '<i class="medium material-icons" style="color:#009688;">cloud_done</i><br/><h5 style="font-weight:300;">Complete!</h5><br/><h5 style="font-weight:100;"><div id="add_doc" class="btn"><i class="small material-icons">add_circle</i></div></h5></div>',
+									completeMessage: '<i class="medium material-icons" style="color:#009688;">cloud_done</i><br/><h5 style="font-weight:300;">'+$filter('translate')('complete')+'!'+'</h5><br/><h5 style="font-weight:100;"><div id="add_doc" class="btn"><i class="small material-icons">add_circle</i></div></h5></div>',
 									url: ngmAuth.LOCATION + '/api/uploadGDrive',
 									acceptedFiles: 'image/*,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/zip,.zip,text/plain,text/csv,video/mp4,application/mp4',
 									maxFiles: 3,
@@ -211,7 +211,7 @@ angular.module('ngmReportHub')
 									headers: { 'Authorization': 'Bearer ' + $scope.report.user.token },
 									successMessage: false,
 									dictDefaultMessage: 
-										`<i class="medium material-icons" style="color:#009688;">cloud_upload</i> <br/>Drag files here or click button to upload `,
+										`<i class="medium material-icons" style="color:#009688;">cloud_upload</i> <br/>`+$filter('translate')('drag_files_here_or_click_button_to_upload')+` `,
 									process: {
 									},
 									setRedirect:function () {
@@ -333,7 +333,7 @@ angular.module('ngmReportHub')
 											
 											document.querySelector(".dz-default.dz-message").style.display = 'none';
 											document.querySelector(".percent-upload").style.display = 'block';
-											$(".percentage").html('<div style="font-size:32px;">Uploading....! </div>');
+											$(".percentage").html('<div style="font-size:32px;">'+$filter('translate')('uploading')+'! '+'</div>');
 											// uncomment  this code below, if the write to server and gdrive is work well 
 											// progress = Math.round(progress)
 											// $(".percentage").text(progress + '%');											
@@ -348,7 +348,7 @@ angular.module('ngmReportHub')
 
 										myDropzone.on('sending',function(file){
 											if (this.getUploadingFiles().length == 1){
-												Materialize.toast('Uploading...',3000, 'note');
+												Materialize.toast($filter('translate')('uploading'),3000, 'note');
 											}
 											$("#upload_doc").attr("disabled", true);
 											// $("#delete_doc").attr("disabled", true);
@@ -364,7 +364,7 @@ angular.module('ngmReportHub')
 									},
 									success:function(){
 										if (this.getUploadingFiles().length === 0 && this.getQueuedFiles().length === 0) {
-												msg = "File Uploaded!";
+												msg = $filter('translate')('file_uploaded')+'!';
 												typ = 'success';
 												Materialize.toast(msg, 2000, typ);
 											
@@ -384,7 +384,7 @@ angular.module('ngmReportHub')
 												typ = 'error';
 												Materialize.toast(response, 2000, typ);
 												if(response.indexOf('canceled')<0){
-													Materialize.toast('Upload canceled', 2000,typ);
+													Materialize.toast($filter('translate')('upload_canceled'), 2000,typ);
 												}
 											}, 500);
 										}
@@ -443,7 +443,7 @@ angular.module('ngmReportHub')
 										},
 										removeFile:function(){
 											// IF API READY TO USE
-											Materialize.toast("Deleting...", 2000, 'note'); 
+											Materialize.toast($filter('translate')('deleting'), 2000, 'note'); 
 											$http({
 												method: 'DELETE',
 												url: ngmAuth.LOCATION + '/api/deleteGDriveFile/' + $scope.fileId,
@@ -451,7 +451,7 @@ angular.module('ngmReportHub')
 											})
 											.success(function (result){
 														$timeout(function () {															
-															msg="File Deleted!";
+															msg=$filter('translate')('file_deleted')+'!';
 															typ = 'success';
 															Materialize.toast(msg, 2000, typ);
 															$rootScope.$broadcast('refresh:doclist');
@@ -459,7 +459,7 @@ angular.module('ngmReportHub')
 											})
 											.error(function (err){
 												$timeout(function () {
-													msg = "Error, File Not Deleted!";
+													msg = $filter('translate')('error_file_not_deleted')+'!';
 													typ = 'error';
 													Materialize.toast(msg, 2000, typ);
 												}, 2000);
@@ -480,8 +480,8 @@ angular.module('ngmReportHub')
 												return img
 
 										},
-										title: 'Upload',
-										hoverTitle: 'Update',
+										title: $filter('translate')('upload'),
+										hoverTitle: $filter('translate')('upload'),
 										icon: 'edit',
 										rightIcon: 'watch_later',
 										templateUrl: 'scripts/widgets/ngm-list/template/list_upload.html',

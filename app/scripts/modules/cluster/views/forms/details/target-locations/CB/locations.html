@@ -7,14 +7,14 @@
 				<li class="collection-header blue lighten-1">
 					<h5 class="report-work-title white-text">
 						<i class="material-icons left">person_pin</i>
-							<span class="beneficiary-count">{{ project.definition.target_locations.length | number }}</span> Project Target Locations
+							<span class="beneficiary-count">{{ project.definition.target_locations.length | number }}</span> {{'project_target_locations'|translate}}
 						<!-- <i class="material-icons left">person_pin</i> Project Target Locations -->
 					</h5>
 				</li>
 				<li class="collection-item avatar">
 
 					<p id="ngm-target_locations" style="padding:10px;">
-						Enter the TARGET LOCATIONS of your PROJECT in the form below;
+						{{'enter_the_target_locations_of_your_project_in_the_form_below'|translate}};
 					</p>
 
 					<p>
@@ -27,14 +27,14 @@
 							  <table class="bordered responsive-table" ng-show="project.definition.target_locations.length">
 							    <tr style="font-weight: 400">
 							    	<td></td>
-							    	<td>Reporter</td>
-							      <td>Location Type</td>
+							    	<td>{{'reporter' | translate}}</td>
+							      <td>{{'location_type'|translate}}</td>
 							      <td>Upazila</td>
 							      <td>Union</td>
 							      <!-- <td ng-if="ngmCbLocations.showUnion( project.definition.target_locations )">Union</td> -->      
-							      <td ng-if="ngmCbLocations.showCamps( project.definition.target_locations )">Camp</td>
-							      <td>Location Name</td>
-							      <td ng-show="project.definition.project_status !== 'complete'">Edit</td>
+							      <td ng-if="ngmCbLocations.showCamps( project.definition.target_locations )">{{'camp'|translate}}</td>
+							      <td>{{'location_name'|translate}}</td>
+							      <td ng-show="project.definition.project_status !== 'complete'">{{'edit'|translate}}</td>
 							    </tr>
 							    <tr ng-repeat="location in project.definition.target_locations track by $index">
 							    	
@@ -46,7 +46,7 @@
 
 							    	<!-- editable reporter -->
 							      <td>
-							        <span e-placeholder="Select..." 
+							        <span e-placeholder="{{'select'|translate}}" 
 							        				editable-select="location.username" 
 							        				e-name="username" 
 							        				e-form="locationform" 
@@ -59,7 +59,7 @@
 
 							      <!-- site type -->
 							      <td>
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.site_type_id"
 							        				e-name="site_type_id"
 							        				e-form="locationform"
@@ -74,7 +74,7 @@
 
 							      <!-- admin1 -->
 							      <td>
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.admin1pcode"
 							        				e-name="admin1pcode"
 							        				e-form="locationform"
@@ -88,7 +88,7 @@
 
 							      <!-- admin2 OPTIONS WITH FILTERS! -->
 							      <td ng-if="!location.site_type_id">
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.admin2pcode"
 							        				e-name="admin2pcode"
 							        				e-form="locationform"
@@ -101,7 +101,7 @@
 							      <td ng-if="location.site_type_id === 'refugee_camp' || 
 							      							location.site_type_id === 'refugee_block' ||
 							      							location.site_type_id === 'nutrition_center'">
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.admin2pcode"
 							        				e-name="admin2pcode"
 							        				e-form="locationform"
@@ -112,7 +112,7 @@
 							        </span>
 							      </td>
 							      <td ng-if="location.site_type_id === 'host_community'">
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.admin2pcode"
 							        				e-name="admin2pcode"
 							        				e-form="locationform"
@@ -124,7 +124,7 @@
 							        </span>
 							      </td>
 							      <td ng-if="location.site_type_id === 'cyclone_shelter'">
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.admin2pcode"
 							        				e-name="admin2pcode"
 							        				e-form="locationform"
@@ -146,7 +146,7 @@
 										<!-- nutrition_center -->
 							      <td ng-if="location.site_type_id === 'nutrition_center' ||
 							      						location.site_type_id === 'refugee_block'">
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        				editable-select="location.admin3pcode"
 							        				e-name="admin3pcode"
 							        				e-form="locationform"
@@ -164,7 +164,7 @@
 							      <!-- select existing: drop down -->
 							      <!-- <td ng-if="( location.site_type_id === 'host_community' || location.site_type_id === 'cyclone_shelter' )"> -->
 							      <td>
-							        <span e-placeholder="Select..."
+							        <span e-placeholder="{{'select'|translate}}"
 							        			editable-select="location.site_id"
 							        			e-name="site_id"
 							        			e-form="locationform"
@@ -187,7 +187,7 @@
 							        <!-- form -->
 							        <form editable-form name="locationform" ng-show="locationform.$visible" onbeforesave="project.saveLocation()" class="form-buttons form-inline" shown="inserted == location">
 							          <button 
-							          		title="Save" type="submit" class="btn waves-effect waves-light save"
+							          		title="{{'save_mayus'|translate}}" type="submit" class="btn waves-effect waves-light save"
 							          		ng-if="locationform.$visible && !project.newProject"
 							          		ng-disabled="
 					                  	( ( !project.project_details_valid() ) ||
@@ -198,12 +198,12 @@
 					                    ( !project.submit ) )">
 							            <i class="material-icons">save</i>
 							          </button>
-							          <button type="button" ng-if="locationform.$visible" ng-disabled="locationform.$waiting" ng-click="locationform.$cancel(); project.cancelEdit( 'target_locations', $index )" class="btn blue lighten-1 waves-effect waves-light" title="Cancel Edit">
+							          <button type="button" ng-if="locationform.$visible" ng-disabled="locationform.$waiting" ng-click="locationform.$cancel(); project.cancelEdit( 'target_locations', $index )" class="btn blue lighten-1 waves-effect waves-light" title="{{'cancel_edit'|traslate}}">
 													<i class="material-icons">clear</i>
 							          </button>
 							        </form>
 							        <div class="buttons" ng-if="!locationform.$visible">
-							          <button class="btn waves-effect waves-light" ng-click="locationform.$show(); project.locationEdit( $index )" title="Edit"
+							          <button class="btn waves-effect waves-light" ng-click="locationform.$show(); project.locationEdit( $index )" title="{{'edit'|translate}}"
 							          			ng-disabled="
 							                  	( ( !project.project_details_valid() ) ||
 							                    ( !project.activity_type_valid() ) ||
@@ -213,7 +213,7 @@
 							                    ( !project.submit ) )">
 													<i class="material-icons">create</i>
 							          </button>
-							          <button class="btn red lighten-2 waves-effect waves-light" ng-click="project.removeLocationModal( $index )" title="Remove"
+							          <button class="btn red lighten-2 waves-effect waves-light" ng-click="project.removeLocationModal( $index )" title="{{'remove'|translate}}"
 							          			ng-disabled="
 							                  	( ( !project.project_details_valid() ) ||
 							                    ( !project.activity_type_valid() ) ||
@@ -229,7 +229,7 @@
 							  </table>							      
 
 							  <button class="btn" ng-show="project.definition.project_status !== 'complete'" ng-click="project.addLocation()" style="margin:20px 0px;">
-							  	<i class="material-icons left">add</i>Add Location
+							  	<i class="material-icons left">add</i>{{'add_location' |translate}}
 							  </button>
 
 							</div>

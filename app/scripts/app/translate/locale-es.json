@@ -94,7 +94,10 @@
        "project":"proyecto",
        "go_to" : "Ir a",
        "team" : "Equipo",
+
        "view_team" : "Ver Equipo",
+       "global_team":"Equipo Global",
+
        "back_to_organization":"Regresar a Organización",
        "add_new_project":"Agregar Nuevo Proyecto",
        "projects_for":"proyectos para",
@@ -111,6 +114,8 @@
        "services_to_beneficiaries":"Servicios a Beneficiarios",
        "reset":"Restaurar",
        "back_to_team":"Regresar a Equipo",
+
+       "active_projects":"Completed Projects",
 
        "all_mayus":"TODO",
        "update_project":"Actualización de proyecto",
@@ -134,9 +139,14 @@
         "go_to_project_plan":"Ir a Plan del Proyecto",
         "go_to_monthly_progress":"Ir a Progreso Mensual",
         "monthly_progress":"Progreso Mensual",
+        "documents":"Documentos",
         "project_documents":"Documentos del Proyecto",
+        "download_all_report_documents":"Descargar Todos los Documentos del Reporte",
+
         "go_to_project_documents":"Ir a Documentos del Proyecto",
         "go_to_monthly_progress":"Ir a Progreso Mensual",
+
+
 
 
 
@@ -168,16 +178,20 @@
          "save_project":"Guardar Proyecto",
          "do_you_want_to_save_this_project":"Quieres Guardar este proyecto",
          "yes":"Si",
+         "and":"and",
+
          "cancel_new_project":"Cancelar Nuevo Proyecto",
          "are_you_sure_you_want_to_return_to_projects":"Seguro que quieres regresar a Proyectos",
          "cancel_project_update":"Cancelar Actualización del Proyecto",
          "return_to_project_summary":"Regresar al Resumen del Proyecto",
          "yes_cancel_update":"Si, Cancelar Actualización",
          "remove_people_in_need":"Eliminar Personas con Necesidad",
+         "people_in_need_removed":"Personas con Necesidad Eliminadas!",
+
          "remove_people_in_need_from_project":"Eliminar Personas con Necesidad del Proyecto",
          "yes_remove_people_in_need":"Si, Eliminar Personas con Necesidad",
          "remove_project_location":"Eliminar Ubicación del Proyecto",
-         "this_will_affect_any_existing_monthly_beneficiary_reports":"Esto afectará cualquier informe mensual de beneficiarios existente",
+         "this_will_affect_any_existing_monthly_beneficiary_reports":"Esto afectará cualquier reporte mensual de beneficiarios existente",
          "yes_remove_location":"Si, Eliminar ubicación",
          "back_to_projects":"Volver a Proyectos",
          "last_updated":"Última Actualización",
@@ -268,7 +282,7 @@
          "activity_report":"Reporte de Actividad",
          "download_ocha_hrp_report_as_csv":"Descargar Reporte HRP de OCHA como CSV",
         "download_ocha_financial_report_as_csv":"Descargar Reporte Financiero de OCHA como CSV",
-        "download_training_participants_as_csv":"Descargar Participantes de Entrenamiento como CSV",
+        "download_training_participants_as_csv":"Descargar Participantes de Capacitación como CSV",
          "download_beneficiary_data_as_csv":"Descargar Datos de Beneficiarios como CSV",
          "admin_dashboard_for":"ADMIN Dashboard para",
          "all_clusters":"TODOS los clusters",
@@ -314,6 +328,7 @@
         "women":"Mujer",
         "treatment_same_province":"Tratamiento en la Misma Provincia",
         "edit":"Editar",
+        "remove":"Eliminar",
         "region":"REGIÓN",
         "add_activities":"Agregar Actividad",
 
@@ -328,6 +343,12 @@
         "reporter":"Reportero",
         "implementation":"Implementación",
         "type":"Tipo",
+        "location_type":"Location Type",
+        "camp":"Campamento",
+        "cancel_edit":"Cancelar Edición",
+
+        "location_name":"Nombre de la Ubicación",
+
         "from_list":"Lista de Origenes",
         "site_name":"Nombre del Sitio",
         "save":"Guardar",
@@ -337,6 +358,15 @@
         "cancel_mayus":"Cancelar",
         "active":"Activo",
         "complete":"Completo",
+        "drag_files_here_or_click_button_to_upload":"Arrastre los archivos aquí o haga clic en el botón para cargar",
+
+
+         "cancel_to_upload_file":"Carga de archivo candelada",
+         "error_no_copiado":"Error, No se ha copiado",
+        "copied_beneficiaries":"Beneficiaries copiados",
+
+
+
         "re_directing_to_dashboard":"Re-dirigiendo a dashboard...",
         "data_processing_error_please_check_the":"Error en procesamiento de Datos, por favor revise la ",
         "and_try_again":"e intente de nuevo",
@@ -474,11 +504,11 @@
         "remove_this_accountability_activity_from_your_monthly_progress":"Eliminar esta Actividad de Rendición de Cuentas de su Progreso Mensual",
 
 
-        "remove_training":"Eliminar Entrenamiento",
-        "remove_this_training_from_your_report":"Eliminar este Entrenamiento de su Reporte",
-        "yes_remove_training":"Si, Eliminar Entrenamiento",
+        "remove_training":"Eliminar Capacitación",
+        "remove_this_training_from_your_report":"Eliminar esta Capacitación de su Reporte",
+        "yes_remove_training":"Si, Eliminar Capacitación",
 
-        "remove_this_training_from_your_monthly_progress":"Eliminar este Entrenamiento de su Progreso Mensual",
+        "remove_this_training_from_your_monthly_progress":"Eliminar esta Capacitación de su Progreso Mensual",
 
 
         "submit_monthly_report_for":"Enviar Reporte Mensual para",
@@ -491,6 +521,13 @@
 
 
         "save_monthly_report":"Guardar Reporte Mensual",
+
+        "save_monthly_progress":"Guardar Progreso Mensual",
+        "cancel_monthly_progress":"Cancelar Progreso Mensual",
+
+
+
+
         "do_you_want_to_save":"Quieres Guardar",
         "not_selected":"No Seleccionado",
         "no_selection":"Sin Selección",
@@ -503,8 +540,22 @@
 
         "processing_report":"Procesando Reporte...",
         "please_correct_the_row_and_try_again":"Por favor corrija la FILA y intenta de nuevo",
-        "drag_files_here_or_click_to_upload":"Arrastre los archivos aquí ó haga click para subir",
+        "drag_files_here_or_click_to_upload":"Arrastre los archivos aquí ó haga click para cargar",
         "uploading":"Subiendo...",
+        "upload_canceled":"Carga canceleda",
+        "deleting":"Eliminando...",
+        "file_uploaded":"Archivo Cargado",
+        "too_many_file_to_upload":"Demasiados archivos para cargar",
+         "not_supported_file_type":"Tipo de archivo no soportado",
+         "file_too_large_please_remove_the_file":"Archivo demaisado grande, Por favor elimine el archivo",
+        "exceed_file_upload_please_remove_one_of_your_file":"Carga de archivo excedida, Por favor eliimine uno de sus archivos",
+        "drag_files_here_or_click_button_to_upload":"Arrastre los archivos aquí o haga clic en el botón para subir",
+
+
+
+
+
+
 
          "project_budget_item_removed":"Ítem de Presupuesto del Proyecto Eliminado",
          "project_budget_item_added":"Ítem de Presupuesto del Proyecto Agregado",
@@ -584,10 +635,28 @@
         "saved_mayus1":"Guardado",
         "save_failed_the_project_contains_error":"Guardado fallido! El proyecto contiene errores",
         "project_created":"Projecto Creado",
+
+        "create_project_cancelled":"Creación de Proyecto Cancelado",
+
+        "project_update_cancelled":"Actualización de Proyecto Candelado",
+
+         "people_in_need_saved":"Personas con Necesidades Guardado!",
+         "project_location_saved":"Ubicación de Proyecto Guardado!",
+         "project_location_removed":"Ubicación de Proyecto Eliminada!",
+
+
+
+
+
         "has_been_saved":"ha sido guardado",
 
         "copy_last_month":"Copiar Mes Anterior",
         "beneficiaries_covered":"Beneficiarios Cubiertos",
+        "please_add_at_least_1_kit_item_to_submit":"Por favor agregue al menos 1 kit para enviar!",
+        "please_save_to_commit_changes":"Por favor, guarde para confirmar los cambios!",
+        "minimum_of_1_kit_items_required":"Se requiere un mínimo de 1 artículos del ki!",
+
+
         "stock_report":"Reporte de Stock",
         "donwload_monthly_stock_report_as_csv":"Descargar Reporte Mensual de Stock como CSV",
         "in":"en",
@@ -596,6 +665,10 @@
         "stock_reports_todo":"Reportes de Stock para Realizar",
         "stock_reports_complete":"Reportes de Stock Completos",
         "remove_warehouse_location":"Eliminar Ubicación de Bodega",
+                "warehouse_location_removed":"Ubicación de Bodega Eliminada!",
+
+        "warehouse_location_added":"Ubicación de la Bodega Agregada!",
+
         "are_you_sure_you_want_to_remove_this_warehouse_from_your_organization":"Está seguro que quiere eliminar esta Bodega de su Organización",
         "warehouse_locations":"Ubicaciones de Bodegas",
         "choose":"Seleccionar",
@@ -603,6 +676,10 @@
         "selected_warehouses":"Bodegas Seleccionadas",
         "assessments":"Evaluaciones",
         "assessment":"Evaluación",
+
+        "actual_monthly_progress_report_for":"Actual Reporte de Progreso Mensual para",
+
+
         "please_select_an_assessments_from_the_options_below":"Por favor seleccione una evaluación de las siguientes opciones",
         "view_projects":"Ver Proyectos",
         "nutrition_weekly_assessment":"Evaluación Semanal Nutrición",
@@ -621,6 +698,7 @@
         "reports_mayus1":"Reportes",
         "activities":"Actividades",
         "locations":"Ubicaciones",
+        "location":"ubicación",
         "year_end_totals":"TOTALES DE FIN DE AÑO",
 
         "report_week":"Reporte Semanal",
@@ -638,7 +716,23 @@
         "assessment(s)":"Evaluación(es)",
           "view_briefing_package":"Ver Paquete de Instrucciones",
            "monthly_report":"Reporte Mensual",
-           "trainings":"Entrenamientos",
+           
+           "trainings":"Capacitaciones",
+           "remarks":"Observaciones",
+            "training_workshop_title":"Título Capacitación / Taller ...",
+
+          "please_try_again":"Por favor intente de nuevo",
+
+
+           "copied_training":"Capacitación copiada",
+           "copying":"Copiando ...",
+           "no_previous_report":"Sin reporte previo",
+           "no_data_in_previous_report":"No hay datos en el reporte anterior",
+
+            "save_to_apply_changes":"Guardar para aplicar cambios",
+             "getting_data":"Obteniendo Datos...",
+
+
            "products_mayus1":"Productos",
            "briefing_mayus1":"Instrucciones",
            "add_products":"Agregar Productos",
@@ -684,4 +778,22 @@
           "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"La acción que estás realizando en el momento. Por Ejemplo: 'Agregar un nuevo Beneficiario'",
           "any_error_messages_that_the_reporthub_displayed":"Cualquier mensaje de error que muestre ReportHub",
           "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Cualquier descripción adicional del error que resulte útil. Por Ejemplo: 'Eliminé una ubicación y luego agregué una nueva ubicación"
+        
+          "details_contains_errors":"Los Detalles contienen errores",
+          "project_contains_errors":"El Proyecto contiene errores",
+
+          "sector_partners":"Socios del Sector",
+          "partners_mayus":"Socios",
+
+
+          "file_deleted":"Archivo Eliminado",
+          "error_file_not_deleted":"Error, Archivo No Eliminado",
+          "download_all_document_project":"Descargar todos los documentos del proyecto"
+
+
+
+
+
+
+
         }

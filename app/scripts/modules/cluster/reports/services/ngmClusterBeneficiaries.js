@@ -254,7 +254,7 @@ angular.module( 'ngmReportHub' )
           ngmClusterLists.setDetailList( 'partial_kits', $locationIndex, $beneficiaryIndex, i, d.detail_type_id, $beneficiary.partial_kits );
         });
         if ( $beneficiary.partial_kits.length < 1 ) {
-          Materialize.toast( 'Note: Please add at least 1 kit item to submit!' , 6000, 'note' );
+          Materialize.toast( $filter('translate')('note')+': '+$filter('translate')('please_add_at_least_1_kit_item_to_submit') , 6000, 'note' );
         }
       },
 
@@ -266,9 +266,9 @@ angular.module( 'ngmReportHub' )
           angular.forEach( $beneficiary.partial_kits, function ( d, i ) {
             ngmClusterLists.setDetailList( 'partial_kits', $locationIndex, $beneficiaryIndex, i, d.detail_type_id, $beneficiary.partial_kits );
           });
-          Materialize.toast( 'Please save to commit changes!' , 4000, 'note' );
+          Materialize.toast( $filter('translate')('please_save_to_commit_changes') , 4000, 'note' );
         } else {
-          Materialize.toast( 'Minimum of 1 Kit Items required!' , 4000, 'note' );
+          Materialize.toast( $filter('translate')('minimum_of_1_kit_items_required') , 4000, 'note' );
         }
       },
       
@@ -281,7 +281,7 @@ angular.module( 'ngmReportHub' )
           ngmClusterLists.setDetailList( 'kit_details', $locationIndex, $beneficiaryIndex, i, d.detail_type_id, $beneficiary.kit_details );
         });
         if ( $beneficiary.kit_details.length < 1 ) {
-          Materialize.toast( 'Note: Please add at least 1 kit item to submit!' , 6000, 'note' );
+          Materialize.toast( $filter('translate')('note')+': '+$filter('translate')('please_add_at_least_1_kit_item_to_submit') , 6000, 'note' );
         }
       },
 
@@ -293,9 +293,9 @@ angular.module( 'ngmReportHub' )
           angular.forEach( $beneficiary.kit_details, function ( d, i ) {
             ngmClusterLists.setDetailList( 'kit_details', $locationIndex, $beneficiaryIndex, i, d.detail_type_id, $beneficiary.kit_details );
           });
-          Materialize.toast( 'Please save to commit changes!' , 4000, 'note' );
+          Materialize.toast( $filter('translate')('please_save_to_commit_changes') , 4000, 'note' );
         } else {
-          Materialize.toast( 'Minimum of 1 Kit Items required!' , 4000, 'note' );
+          Materialize.toast( $filter('translate')('minimum_of_1_kit_items_required') , 4000, 'note' );
         }
       },
 
@@ -306,7 +306,7 @@ angular.module( 'ngmReportHub' )
           url: ngmAuth.LOCATION + '/api/cluster/project/removeBeneficiary',
           data: { id: id }
         }).success( function( result ) {
-          Materialize.toast( 'People in Need Removed!' , 4000, 'success' );
+          Materialize.toast( $filter('translate')('people_in_need_removed') , 4000, 'success' );
         }).error( function( err ) {
           Materialize.toast( 'Error!', 6000, 'error' );
         });
@@ -320,7 +320,7 @@ angular.module( 'ngmReportHub' )
             url: ngmAuth.LOCATION + '/api/cluster/report/removeBeneficiary',
             data: { id: id }
         }).success( function( result ){
-          if ( result.err ) { Materialize.toast( 'Error! Please correct the ROW and try again', 6000, 'error' ); }
+          if ( result.err ) { Materialize.toast( 'Error! '+' '+$filter('translate')('please_correct_the_row_and_try_again'), 6000, 'error' ); }
           if ( !result.err ) { project.save( false, false ); }
         }).error(function( err ) {
           Materialize.toast( 'Error!', 6000, 'error' );

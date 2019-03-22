@@ -49,7 +49,7 @@ angular.module( 'ngmReportHub' )
 
         // trainings
         $scope.trainingInserted = {
-          training_title: 'Training / Workshop Title...',
+          training_title: $filter('translate')('training_workshop_title'),
           training_topics: selected.join(', '),
           training_start_date: moment.utc().format('YYYY-MM-DD'),
           training_end_date: moment.utc().add( 3, 'd' ).format('YYYY-MM-DD'),
@@ -145,7 +145,7 @@ angular.module( 'ngmReportHub' )
 
         // set report
         $http( removeTrainingRequest ).success( function( result ){
-          if ( result.err ) { Materialize.toast( 'Error! Please try again', 6000, 'error' ); }
+          if ( result.err ) { Materialize.toast( 'Error! '+ $filter('translate')('please_try_again'), 6000, 'error' ); }
           if ( !result.err ) { ngmClusterTrainings.project.save( false, false ); }
         }).error(function( err ) {
           Materialize.toast( 'Error!', 6000, 'error' );
@@ -170,7 +170,7 @@ angular.module( 'ngmReportHub' )
 
         // set report
         $http( removeTrainingParticipantRequest ).success( function( result ){
-          if ( result.err ) { Materialize.toast( 'Error! Please try again', 6000, 'error' );}
+          if ( result.err ) { Materialize.toast( 'Error! '+$filter('translate')('please_try_again'), 6000, 'error' );}
           if ( !result.err ) {  project.save( false, false ); }
         }).error(function( err ) {
           Materialize.toast( 'Error!', 6000, 'error' );

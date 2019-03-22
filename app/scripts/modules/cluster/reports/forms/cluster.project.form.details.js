@@ -164,7 +164,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
           $timeout(function() {
             // path / msg
             var path = $scope.project.definition.project_status === 'new' ? '/cluster/projects' : '/cluster/projects/summary/' + $scope.project.definition.id;
-            var msg = $scope.project.definition.project_status === 'new' ? 'Create Project Cancelled!' : 'Project Update Cancelled!';
+            var msg = $scope.project.definition.project_status === 'new' ? $filter('translate')('create_project_cancelled') : $filter('translate')('project_update_cancelled');
             // redirect + msg
             $location.path( path );
             $timeout( function() { Materialize.toast( msg, 3000, 'note' ); }, 400 );
@@ -306,7 +306,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
         // save beneficiary
         saveBeneficiary: function() {
-          $scope.project.save( false, 'People in Need Saved!' );
+          $scope.project.save( false, $filter('translate')('people_in_need_saved') );
         },
 
 
@@ -326,7 +326,7 @@ angular.module( 'ngm.widget.project.details', [ 'ngm.provider' ])
 
         // save location
         saveLocation: function() {
-          $scope.project.save( false, 'Project Location Saved!' );
+          $scope.project.save( false, $filter('translate')('project_location_saved') );
         },
 
         // remove location from location list

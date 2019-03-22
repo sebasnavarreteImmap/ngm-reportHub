@@ -56,7 +56,7 @@ angular.module('ngmReportHub')
 				$scope.report.project = data;
 				
 				// add project code to subtitle?
-				var text = 'Actual Monthly Progress Report for ' + $scope.report.project.project_title
+				var text = $filter('translate')('actual_monthly_progress_report_for')+' ' + $scope.report.project.project_title
 				var subtitle = $scope.report.project.project_code ?  $scope.report.project.project_code + ' - ' + $scope.report.project.project_description : $scope.report.project.project_description;
 				
 				// report dashboard model
@@ -133,7 +133,7 @@ angular.module('ngmReportHub')
 									  project.project_status = 'complete';
 
 									  // timeout
-									  $timeout(function(){ Materialize.toast( $filter('translate')('processing')+'...', 3000, 'note'); }, 200 );
+									  $timeout(function(){ Materialize.toast( $filter('translate')('processing'), 3000, 'note'); }, 200 );
 
 									  // Submit project for save
 									  ngmData.get({

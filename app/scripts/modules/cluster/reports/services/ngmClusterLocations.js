@@ -89,7 +89,7 @@ angular.module( 'ngmReportHub' )
           url: ngmAuth.LOCATION + '/api/cluster/project/removeLocation',
           data: { id: id }
         }).success( function( result ) {
-          Materialize.toast( 'Project Location Removed!' , 3000, 'success' )
+          Materialize.toast( $filter('translate')('project_location_removed') , 3000, 'success' )
         }).error( function( err ) {
           Materialize.toast( 'Error!', 6000, 'error' );
         });

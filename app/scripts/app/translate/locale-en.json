@@ -89,6 +89,7 @@
        "go_to" : "Go to",
        "team" : "Team",
        "view_team" : "View Team",
+       "global_team":"Global Team",
        "projects_mayus1":"Projects",
        "project_mayus1":"Project",
        "project":"project",
@@ -97,7 +98,7 @@
        "back_to_organization":"Back to Organization",
        "add_new_project":"Add New Project",
        "projects_for":"projects for",
-       "download_project_summaries_as_CSV":"Download Project Summaries as CSV",
+       "download_project_summaries_as_csv":"Download Project Summaries as CSV",
        "download_dashboard_as_pdf":"Download Dashboard as PDF",
        "download_cluster_contact_list_as_csv":"Download Cluster Contact List as CSV",
        "for":"for",
@@ -119,7 +120,8 @@
        "please_complete_a_project_plan_and_enter_a_summary_description_including_objetives":"Please complete a Project Plan and enter a summary description including objectives...",
 
        "you_have":"You have",
-       "active_sctaff":"Active Staff",
+       "active_staff":"Active Staff",
+       "users_mayus1":"Users",
        "active_users":"Active Users",
         "desactivated_users":"Desactivated Users ",
         "name_mayus":"Name",
@@ -133,7 +135,10 @@
         "go_to_project_plan":"Go to Project Plan",
         "go_to_monthly_progress":"Go to Monthly Progress",
         "monthly_progress":"Monthly Progress",
+        "documents":"Documents",
         "project_documents":"Project Documents",
+        "download_all_report_documents":"Download All Report Documents",
+
         "go_to_project_documents":"Go to Project Documents",
         "go_to_monthly_progress":"Go to Monthly Progress",
 
@@ -163,13 +168,22 @@
 
         "do_you_want_to_save_this_project":"Do you want to Save this project",
         "yes":"Yes",
+        "and":"and",
         "cancel_new_project":"Cancel New Project",
         "are_you_sure_you_want_to_return_to_projects":"Are you sure you want to return to Projects",
         "cancel_project_update":"Cancel Project Update",
         "return_to_project_summary":"Return to Project Summary",
         "yes_cancel_update":"Yes, Cancel Update",
         "remove_people_in_need":"Remove People in Need",
+        "people_in_need_removed":"People in Need Removed!",
         "remove_people_in_need_from_project":"Remove People in Need from Project",
+        "people_in_need_saved":"People in Need Saved!",
+        "project_location_saved":"Project Location Saved!",
+        "project_location_removed":"Project Location Removed!",
+
+
+
+
         "yes_remove_people_in_need":"Yes, Remove People in Need",
         "remove_project_location":"Remove Project Location",
         "this_will_affect_any_existing_monthly_beneficiary_reports":"This will effect any existing monthly beneficiary reports",
@@ -318,6 +332,10 @@
 
         "yes_submit_report":"Yes, Submit report",
         "save_monthly_report":"Save Monthly Report",
+       
+        "save_monthly_progress":"Save Monthly Progress",
+        "cancel_monthly_progress":"Cancel Monthly Progress",
+
         "do_you_want_to_save":"Do you want to Save",
         "not_selected":"Not Selected", 
         "no_selection":"No Selection",
@@ -330,7 +348,17 @@
         "processing_report":"Processing Report...",
         "please_correct_the_row_and_try_again":"Please correct the ROW and try again",
         "drag_files_here_or_click_to_upload":"Drag files here or click to upload",
+        "upload":"Upload",
         "uploading":"Uploading...",
+        "upload_canceled":"Upload canceled",
+        "deleting":"Deleting...",
+        "file_uploaded":"File Uploaded",
+        "too_many_file_to_upload":"Too many file to upload",
+        "not_supported_file_type":"Tipo de archivo no soportado",
+
+        "file_too_large_please_remove_the_file":"File too large, Please remove the file",
+        "exceed_file_upload_please_remove_one_of_your_file":"Exceed file upload, Please remove one of your file",
+        "drag_files_here_or_click_button_to_upload":"Drag files here or click button to upload",
 
         "remarks":"Remarks",
         "add_partial_kits": "Add Partial Kits",
@@ -381,6 +409,7 @@
         "country_mayus":"Country",
         "countries_mayus":"Countries",
          "reports_completed":"Reports Completed",
+        "complete_projects":"Completed Projects",
 
         "organizations":"Organizations",
         "total_projects":"Total Projects",
@@ -418,6 +447,7 @@
         "women":"Women",
         "treatment_same_province":"Treatment Same Province",
         "edit":"Edit",
+        "remove":"Remove",
         "region":"REGION",
 
         "cholera_response":"Cholera Response",
@@ -431,6 +461,10 @@
         "reporter":"Reporter",
         "implementation":"Implementation",
         "type":"Type",
+        "location_type":"Location Type",
+        "location_name":"Location Name",
+        "camp":"Camp",
+        "cancel_edit":"Cancel Edit",
 
         "from_list":"From List",
         "site_name":"Site Name",
@@ -441,6 +475,12 @@
         "save_mayus":"Save",
         "cancel_mayus":"Cancel",
         "complete":"Complete",
+        "drag_files_here_or_click_button_to_upload":"Drag files here or click button to upload",
+
+        "cancel_to_upload_file":"Cancel to upload file",
+        "error_no_copiado":"Error, Not copied",
+        "copied_beneficiaries":"Copied beneficiaries",
+
         "re_directing_to_dashboard":"Re-directing to dashboard...",
         "data_processing_error_please_check_the":"Data processing error, please check the",
         "and_try_again":"and try again",
@@ -474,7 +514,6 @@
         "remove_budget":"Remove Budget",
         "are_you_sure_you_want_remove_this_budget_item_from_your_project":"Are you sure you want to remove this Budget Item from your project",
         "yes_remove":"Yes, remove",
-        "back_to_project_summary":"Back to Project Summary",
         "financial_reports_for":"Financial Reports for",
         "download_project_financial_report_as_csv":"Download Project Financial Report as CSV",
         
@@ -543,8 +582,18 @@
         "saved_mayus1":"Saved",
         "save_failed_the_project_contains_error":"Save failed! The project contains errors",
         "project_created":"Project Created",
+
+        "create_project_cancelled":"Create Project Cancelled",
+
+        "project_update_cancelled":"Project Update Cancelled",
+
         "copy_last_month":"Copy Last Month",
         "beneficiaries_covered":"Beneficiaries Covered",
+
+        "please_add_at_least_1_kit_item_to_submit":"Please add at least 1 kit item to submit!",
+        "please_save_to_commit_changes":"Please save to commit changes!",
+        "minimum_of_1_kit_items_required":"Minimum of 1 Kit Items required!",
+
         "stock_report":"Stock Report",
         "donwload_monthly_stock_report_as_csv":"Download Monthly Stock Report as CSV",
         "in":"in",
@@ -553,6 +602,8 @@
         "stock_reports_todo":"Stock Reports ToDo",
         "stock_reports_complete":"Stock Reports Complete",
         "remove_warehouse_location":"Remove Warehouse Location",
+        "warehouse_location_removed":"Warehouse Location Removed!",
+        "warehouse_location_added":"Warehouse Location Added!",
         "are_you_sure_you_want_to_remove_this_warehouse_from_your_organization":"Are you sure you want to remove this warehouse from your organization",
         "has_been_saved":"has been saved",
         "warehouse_locations":"Warehouse Locations",
@@ -566,6 +617,8 @@
         
         "assessments":"Assessments",
         "assessment":"Assessment",
+        "actual_monthly_progress_report_for":"Actual Monthly Progress Report for",
+
         "please_select_an_assessments_from_the_options_below":"Please select an assessments from the options below",
         "view_projects":"View Projects",
         "nutrition_weekly_assessment":"Nutrition Weekly Assessment",
@@ -584,6 +637,7 @@
         "reports":"Reports",
         "activities":"Activities",
         "locations":"Locations",
+        "location":"Location",
         "report_week":"Report Week",
         "nutrition_mayus":"Nutrition",
         "monitoring_assesment":"Monitoring Assessment",
@@ -598,9 +652,23 @@
         "2017_assessments_timeline":"2017 Assessments Timeline",
         "assessment(s)":"Assessment(s)",
 
+
         "view_briefing_package":"View Briefing Package",
         "monthly_report":"Monthly Report",
         "trainings":"Trainings",
+        "remarks":"Remarks",
+
+        "training_workshop_title":"Training / Workshop Title...",
+        "please_try_again":"Please try again",
+
+        "copied_training":"Copied training",
+        "copying":"Copying ...",
+        "no_previous_report":"No previous report",
+        "no_data_in_previous_report":"No data in previous report",
+
+        "save_to_apply_changes":"Save to apply changes",
+        "getting_data":"Getting Data...",
+
          "products_mayus1":"Products",
          "briefing_mayus1":"Briefing",
          "add_products":"Add Products",
@@ -656,5 +724,15 @@
          "the_action_you_were_performing_at_the_time_ie_adding_a_new_beneficiary":"The action you were performing at the time. i.e. 'Adding a new Beneficiary'",
          "any_error_messages_that_the_reporthub_displayed":"Any error messages that the ReportHub displayed",
          "any_additional_description_of_the_error_that_will_prove_useful_ie_I_removed_a_location_and_then_added_a_new_location":"Any additional description of the error that will prove useful. i.e. 'I removed a location and then added a new location'"
-    
+         
+         "details_contains_errors":"Details contains errors",
+         "project_contains_errors":"Project contains errors",
+
+         "sector_partners":"Sector Partners",
+         "partners_mayus":"Partners",
+
+         "file_deleted":"File Deleted",
+         "error_file_not_deleted":"Error, File Not Deleted",
+         "download_all_document_project":"Download all document project"
+
 }
