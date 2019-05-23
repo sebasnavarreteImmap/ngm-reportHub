@@ -123,11 +123,30 @@ angular.module( 'ngmReportHub' )
 			// fetches request for project list
 			getProjectRequest: function( project_status ) {
 
+				//console.log($scope.report.user.roles,"USUARIO ROLES");
+				//console.log($scope.report, "TODO EL REPORT");
+
 				// filter
+
 				var filter = {
 						organization_id: $scope.report.organization_id,
-						project_status: project_status
+						project_status: project_status,
+						//admin0pcode: $scope.report.user.admin0pcode
+					};
+
+					//console.log($scope.report.user, "datos usuario");
+
+					if( $scope.report.user.roles.find(rol => rol === "COUNTRY") && $scope.report.user.admin0pcode === 'COL' && $scope.report.user.organization === "OCHA"){
+					//	console.log("si tiene COUNTRY ROL");
+						filter = {
+							//organization_id: $scope.report.organization_id,
+						    project_status: project_status,
+						    admin0pcode: $scope.report.user.admin0pcode 
+
+						};
+
 					}
+
 
 				// add cluster
 				if ( $scope.report.cluster_id !== 'all' ) {
