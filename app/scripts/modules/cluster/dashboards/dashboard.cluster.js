@@ -33,6 +33,7 @@ angular.module('ngmReportHub')
 			// init empty model
 			$scope.model = $scope.$parent.ngm.dashboard.model;
 
+
 			// create dews object
 			$scope.dashboard = {
 
@@ -44,6 +45,7 @@ angular.module('ngmReportHub')
 
 				// when 'hq'
 				pageLoadTime: 18900,
+
 
 				// report start
 				startDate: moment( $route.current.params.start ) .format( 'YYYY-MM-DD' ),
@@ -63,6 +65,7 @@ angular.module('ngmReportHub')
 					admin1: localStorage.getObject( 'lists' ) ? localStorage.getObject( 'lists' ).admin1List : [],
 					admin2: localStorage.getObject( 'lists' ) ? localStorage.getObject( 'lists' ).admin2List : [],
 					admin3: localStorage.getObject( 'lists' ) ? localStorage.getObject( 'lists' ).admin3List : []
+				    
 				},
 
 				// filtered data
@@ -118,6 +121,7 @@ angular.module('ngmReportHub')
 				getPath: function( cluster_id, activity_type_id, organization_tag, admin1pcode, admin2pcode ){
 
 					if ( cluster_id !== 'rnr_chapter' ) {
+
 						var path = '/cluster/5w/' + $scope.dashboard.adminRpcode +
 																	'/' + $scope.dashboard.admin0pcode +
 																	'/' + admin1pcode +
@@ -338,7 +342,11 @@ angular.module('ngmReportHub')
 							clusterRows = [],
 							provinceRows = [],
 							districtRows = [],
+							//implementingpartnersRows = [], //imppartnersrows add
+							activitytypesRows = [],
+							projectsDonorsRows = [],
 							request = $scope.dashboard.getRequest( { list: true, indicator: 'organizations' } );
+							//console.log(request, "requestimprimo");
 
 					if ($scope.dashboard.menu_items.includes('adminRpcode')){
 						$scope.model.menu = $scope.dashboard.menu;
@@ -606,6 +614,108 @@ angular.module('ngmReportHub')
 
 						}
 
+						//new filters
+
+						//Activity_type
+						var listageneral = $scope.dashboard.getRequest( { list: true, indicator: 'activitytypes', activity_type_id:'all'} );
+
+
+						ngmData.get( listageneral ).then( function( actividades  ){
+							$scope.dashboard.lists.activities_type = actividades;
+							actividades.forEach(function( d, i ){
+								if ( d ) {
+									//console.log(d, "ACTIVIDAD");
+									var path = $scope.dashboard.getPath( $scope.dashboard.cluster_id, d.activity_type_id, $scope.dashboard.organization_tag, $scope.dashboard.admin1pcode, $scope.dashboard.admin2pcode );
+									activitytypesRows.push({
+										'title': d.activity_type_name,
+										'param': 'activity_type_id',
+										'active': d.activity_type_id,
+										'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
+										'href': '/desk/#' + path
+									});
+
+								}
+							  });
+
+								$scope.model.menu.push({
+								'search': true,
+								'id': 'search-cluster-activitytype',
+								'icon': 'accessibility',
+								'title': $filter('translate')('activity_type'),
+								'class': 'teal lighten-1 white-text',
+								'rows': activitytypesRows
+							});
+
+
+						});
+
+						var listactivitytypes = $scope.dashboard.getRequest( { list: true, indicator: 'activitytypes' } );
+						
+						ngmData.get( listactivitytypes ).then( function( actividades  ){
+
+							// set organization
+							if ( $scope.dashboard.activity_type_id !== 'all' ) {
+
+								var activity = $filter( 'filter' )( actividades, { activity_type_id: $scope.dashboard.activity_type_id } );
+
+								if ( activity.length ) {
+									$scope.dashboard.activity_type_id = activity[0].activity_type_name;
+									$scope.dashboard.setTitle();
+									$scope.dashboard.setSubtitle();
+								}
+							}
+
+
+								
+
+						});
+
+
+						//project donor
+						var projectdonor = $scope.dashboard.getRequest( { list: true, indicator: 'project_donor' } );
+
+						ngmData.get( projectdonor ).then( function( donantes  ){
+
+							console.log(donantes, "DONANTES TRAIDOS");
+							//$scope.dashboard.lists.projects_donors = donantes;
+
+							/*donantes.forEach(function( d, i ){
+								if ( d ) {
+									//console.log(d, "ACTIVIDAD");
+									//var path = $scope.dashboard.getPath( $scope.dashboard.cluster_id, d.activity_type_id, $scope.dashboard.organization_tag, $scope.dashboard.admin1pcode, $scope.dashboard.admin2pcode );
+									projectsDonorsRows.push({
+										'title': d.activity_type_name,
+										'param': 'activity_type_id',
+										'active': d.activity_type_id,
+										'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
+										'href': '/desk/#' + path
+									});
+
+								}
+							  });*/
+							  var path = $scope.dashboard.getPath( $scope.dashboard.cluster_id, $scope.dashboard.activity_type_id, $scope.dashboard.organization_tag, $scope.dashboard.admin1pcode, $scope.dashboard.admin2pcode );
+
+
+							  projectsDonorsRows.push({
+										'title': 'united states agency international development',
+										'param': 'project_donor_id',
+										'active': 'united_states_agency_international_development',
+										'class': 'grey-text text-darken-2 waves-effect waves-teal waves-teal-lighten-4',
+										'href': '/desk/#' + path
+									});
+
+								$scope.model.menu.push({
+								'search': true,
+								'id': 'search-cluster-projectsdonors',
+								'icon': 'attach_money',
+								'title': $filter('translate')('donors'),
+								'class': 'teal lighten-1 white-text',
+								'rows': projectsDonorsRows
+							});
+
+
+						});
+
 					});
 
 				},
@@ -693,7 +803,7 @@ angular.module('ngmReportHub')
 					}
 					// activity
 					if ( $scope.dashboard.activity_type_id !== 'all' ) {
-						$scope.dashboard.subtitle += ', ' + $scope.dashboard.activity_type_id.toUpperCase();
+						$scope.dashboard.subtitle += ', ' + $scope.dashboard.activity_type_id.toUpperCase() + ' '+$filter('translate')('activity_type');
 					}
 					// org
 					if ( $scope.dashboard.organization_tag === 'all' ) {
@@ -704,13 +814,32 @@ angular.module('ngmReportHub')
 					}
 					// admin1
 					if ( $scope.dashboard.admin1pcode === 'all' ) {
+
+						if($scope.dashboard.admin0pcode === 'col'){
+							$scope.dashboard.subtitle += ', '+ $filter('translate')('all_mayus') + ' Departamentos';
+						}
+						else{
 						$scope.dashboard.subtitle += ', '+ $filter('translate')('all_provinces');
+					    }
 					} else {
-						$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin1.admin1name.toUpperCase() + ' '+ $filter('translate')('province');
+						if($scope.dashboard.admin0pcode === 'col'){
+							$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin1.admin1name.toUpperCase() + ' Departamento';
+
+						}else{
+							$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin1.admin1name.toUpperCase() + ' '+ $filter('translate')('province');
+
+						}
+					
 					}
 					// admin2
 					if ( $scope.dashboard.admin2pcode !== 'all' ) {
+						if($scope.dashboard.admin0pcode === 'col'){
+							$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin2.admin2name.toUpperCase() + ' ' + ' Municipio';
+
+						}else{
+						
 						$scope.dashboard.subtitle += ', ' + $scope.dashboard.data.admin2.admin2name.toUpperCase() + ' ' + $filter('translate')('district');
+					    }
 					}
 					// update of rendered title
 					if ( $scope.model.header && $scope.model.header.subtitle ){
@@ -730,6 +859,7 @@ angular.module('ngmReportHub')
 					$scope.dashboard.organization_tag = $route.current.params.organization_tag;
 					$scope.dashboard.beneficiaries = $route.current.params.beneficiaries.split('+');
 					$scope.dashboard.activity_type_id = $route.current.params.activity_type_id;
+					$scope.dashboard.project_donor_id = $route.current.params.projectdonor_id;
 
 					// plus dashboard_visits
 					$scope.dashboard.user.dashboard_visits++;

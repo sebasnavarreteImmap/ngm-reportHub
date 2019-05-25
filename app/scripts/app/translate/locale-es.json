@@ -269,6 +269,7 @@
         "cash_intended_for_even_if_unrestricted":"Efectivo destinado a (incluso si no está restringido)",
         "project_donor":"Donante del Proyecto",
         "list_other_donors":"Lista de Otros Donantes",
+        "donor":"Donante",
         "list_project_partners":"Lista de Socios del Proyecto",
         "project_partners":"Socios del Proyecto",
         "other_implementing_partners":"Socios Implementadores",

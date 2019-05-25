@@ -229,6 +229,7 @@
         "cash_intended_for_even_if_unrestricted":"Cash intended for (even if unrestricted)",
         "project_donor":"Project Donor",
         "list_other_donors":"List Other Donors",
+        "donor":"Donor",
         "list_project_partners":"List Project Partners",
         "project_partners":"Project Partners",
         "project_description_objetives":"Project Description & Objectives",
